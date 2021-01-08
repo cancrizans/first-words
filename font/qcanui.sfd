@@ -1,0 +1,166 @@
+SplineFontDB: 3.2
+FontName: Untitled1
+FullName: Untitled1
+FamilyName: Untitled1
+Weight: Regular
+Copyright: Copyright (c) 2021, ricca
+UComments: "2021-1-4: Created with FontForge (http://fontforge.org)"
+Version: 001.000
+ItalicAngle: 0
+UnderlinePosition: -120
+UnderlineWidth: 60
+Ascent: 1000
+Descent: 200
+InvalidEm: 0
+LayerCount: 2
+Layer: 0 0 "Back" 1
+Layer: 1 0 "Fore" 0
+XUID: [1021 449 -834741842 19555]
+OS2Version: 0
+OS2_WeightWidthSlopeOnly: 0
+OS2_UseTypoMetrics: 1
+CreationTime: 1609723156
+ModificationTime: 1609727423
+OS2TypoAscent: 0
+OS2TypoAOffset: 1
+OS2TypoDescent: 0
+OS2TypoDOffset: 1
+OS2TypoLinegap: 0
+OS2WinAscent: 0
+OS2WinAOffset: 1
+OS2WinDescent: 0
+OS2WinDOffset: 1
+HheadAscent: 0
+HheadAOffset: 1
+HheadDescent: 0
+HheadDOffset: 1
+OS2Vendor: 'PfEd'
+MarkAttachClasses: 1
+DEI: 91125
+Encoding: UnicodeFull
+UnicodeInterp: none
+NameList: AGL For New Fonts
+DisplaySize: -48
+AntiAlias: 1
+FitToEm: 0
+WinInfo: 57120 51 18
+BeginPrivate: 0
+EndPrivate
+Grid
+-1200 333 m 4
+ 2400 333 l 1028
+  Named: "hh"
+-1196 666 m 0
+ 2404 666 l 1024
+  Named: "h1"
+334 1558.79980469 m 0
+ 334 -841.200195312 l 1024
+  Named: "2"
+EndSplineSet
+BeginChars: 1114112 5
+
+StartChar: uniE000
+Encoding: 57344 57344 0
+Width: 662
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+0 1000 m 1
+ 57.6273729761 989.132143446 110.959960938 929.359375 145 886 c 1
+ 192 923.599609375 276 953 378 953 c 7
+ 473.731445312 953 551 924.21484375 583 904 c 1
+ 598.224609375 933.765625 628.133876007 985.78489858 662 1000 c 1
+ 0 1000 l 1
+EndSplineSet
+EndChar
+
+StartChar: uniE001
+Encoding: 57345 57345 1
+Width: 666
+VWidth: 0
+UnlinkRmOvrlpSave: 1
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+308.83984375 999.799804688 m 1
+ 391.33984375 994.51953125 470.923828125 989.083984375 590 914 c 1
+ 610.349609375 947.754882812 638.489257812 980.336914062 671.1796875 1001.77929688 c 1
+ 308.83984375 999.799804688 l 1
+EndSplineSet
+Refer: 0 57344 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: uniE002
+Encoding: 57346 57346 2
+Width: 666
+VWidth: 0
+UnlinkRmOvrlpSave: 1
+Flags: HWO
+LayerCount: 2
+Fore
+SplineSet
+486 959 m 1
+ 386.163085938 964.66015625 90 899.936159438 90 677 c 3
+ 90 603 139.981819684 540 250 540 c 3
+ 394.00390625 540 441.590820312 745 520 745 c 3
+ 544 745 592 770 592 794 c 3
+ 592 814.025390625 579 822 548 822 c 3
+ 431 822 455 641 301 641 c 3
+ 232.882454536 641 187 669 187 728 c 7
+ 187 838.961142339 356.682011354 947.102506407 486 959 c 1
+EndSplineSet
+Refer: 0 57344 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: uniE003
+Encoding: 57347 57347 3
+Width: 666
+VWidth: 0
+UnlinkRmOvrlpSave: 1
+Flags: HWO
+LayerCount: 2
+Fore
+SplineSet
+42 382 m 5
+ 144.93359375 397.368164062 177.248046875 353 279 353 c 7
+ 404.003999936 353 399.819930275 517.305767043 478.288464792 603.000002004 c 4
+ 514 642 577 678 575 686 c 4
+ 572.12002399 697.519904041 511 652 500 644 c 4
+ 399.215777726 570.7023838 384 467 288 467 c 7
+ 227 467 187 495 118 511 c 5
+ 100.8359375 449.442382812 70.4091796875 418.013671875 42 382 c 5
+EndSplineSet
+Refer: 2 57346 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: uniE004
+Encoding: 57348 57348 4
+Width: 666
+VWidth: 0
+UnlinkRmOvrlpSave: 1
+Flags: HWO
+LayerCount: 2
+Fore
+SplineSet
+362 432 m 1
+ 359 327 358 305 358 200 c 3
+ 358 112 441 37 529 37 c 3
+ 613 37 666 118 666 202 c 27
+ 666 208 677 207 677 213 c 27
+ 677 220 673 228 666 228 c 3
+ 606 228 622 145 562 145 c 3
+ 447.960533148 145 430 271 413 519 c 1
+ 362 432 l 1
+167 460 m 1
+ 144 282 100 187 58 106 c 1
+ 133 91 165.137695312 72.21484375 226 32 c 5
+ 207.724156513 129.09480092 221.305316009 173.721486551 250 432 c 5
+ 167 460 l 1
+EndSplineSet
+Refer: 3 57347 N 1 0 0 1 0 0 2
+EndChar
+EndChars
+EndSplineFont

@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<document version="2">
+  <interlinear-text guid="c075d2d2-8082-4da8-b3c7-e9f869e50507">
+    <item type="title" lang="en">Post 2 texts</item>
+    <paragraphs>
+      <paragraph guid="21a88917-c9c3-4951-ab69-7bdd27cc0980">
+        <phrases>
+          <phrase guid="501d650d-0cbb-401e-920d-11d2776a0287">
+            <item type="segnum" lang="en">1</item>
+            <words>
+              <word guid="15580167-0a5f-48df-8a2f-e0527a9246ac">
+                <item type="txt" lang="qaa">uᵑǀã</item>
+                <item type="gls" lang="en">wolf</item>
+              </word>
+              <word guid="de4b2e7e-ac47-4fa7-9363-090f988b1c32">
+                <item type="txt" lang="qaa">ǃˀulu</item>
+                <item type="gls" lang="en">bite</item>
+              </word>
+              <word guid="e002e397-ffb7-4fe9-b569-8c3956574c91">
+                <item type="txt" lang="qaa">cipa</item>
+                <item type="gls" lang="en">hare</item>
+              </word>
+              <word guid="880b0175-3af5-4aca-99bc-0c5486bd067e">
+                <item type="txt" lang="qaa">et͡s̪e</item>
+                <item type="gls" lang="en">when</item>
+              </word>
+              <word>
+                <item type="punct" lang="qaa">,</item>
+              </word>
+              <word guid="bd419fc8-3ef4-4287-a8ed-794fcd66907f">
+                <item type="txt" lang="qaa">ǂãɳi</item>
+                <item type="gls" lang="en">flee</item>
+              </word>
+              <word guid="42f6a6bb-9803-4867-8acb-c5bac6301dd5">
+                <item type="txt" lang="qaa">ǁḛ</item>
+                <item type="gls" lang="en">NEG</item>
+              </word>
+              <word guid="8d28825b-0f0c-4d6e-b21a-d3e9230d7a9b">
+                <item type="txt" lang="qaa">iǀˀi</item>
+                <item type="gls" lang="en">CLF_small animal</item>
+              </word>
+            </words>
+            <item type="gls" lang="en">When the wolf bites the hare, it (the hare) doesn't run away.</item>
+          </phrase>
+        </phrases>
+      </paragraph>
+    </paragraphs>
+    <languages>
+      <language lang="en" font="Charis SIL" />
+      <language lang="qaa" font="Charis SIL" vernacular="true" />
+    </languages>
+  </interlinear-text>
+</document>

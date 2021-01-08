@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<document version="2">
+  <interlinear-text guid="f6f01f45-d287-4539-b8d6-2ab3e3fe9db7">
+    <item type="title" lang="en">1393rd Just Used 5 Minutes of Your Day</item>
+    <item type="comment" lang="en"></item>
+    <paragraphs>
+      <paragraph guid="815d0ee1-c830-4b33-9207-f051cd66a8ee">
+        <phrases>
+          <phrase guid="e8738c27-d76e-46fd-912c-cb1cba6c1b47">
+            <item type="segnum" lang="en">1</item>
+            <words>
+              <word guid="5ac52225-aa6e-43ba-aeaa-a97faa45fe87">
+                <item type="txt" lang="qaa">ɔǃ͡χɔ̰ɟi</item>
+                <item type="gls" lang="en">get stuck</item>
+              </word>
+              <word guid="f193c067-119c-4c73-9055-9877bdc85c23">
+                <item type="txt" lang="qaa">s̪ǀˀe</item>
+                <item type="gls" lang="en">four</item>
+              </word>
+              <word guid="7abeb1e8-db24-45e7-94b9-cb1a58269714">
+                <item type="txt" lang="qaa">ũᵑǂˀa̰ki</item>
+                <item type="gls" lang="en">climb</item>
+              </word>
+              <word guid="1d52a1c6-d66f-42b4-97ac-839db3edf80f">
+                <item type="txt" lang="qaa">n̪ui</item>
+                <item type="gls" lang="en">CLF_person</item>
+              </word>
+              <word guid="22b82b80-6f64-456e-8601-cc97b54b65da">
+                <item type="txt" lang="qaa">pau</item>
+                <item type="gls" lang="en">abundant</item>
+              </word>
+              <word guid="3f08d6fa-875e-4012-9257-97a15eaa0bf1">
+                <item type="txt" lang="qaa">ǃũɲa</item>
+                <item type="gls" lang="en">rain</item>
+              </word>
+              <word guid="9639a409-3298-46e9-a6d6-585fc9b4e3ec">
+                <item type="txt" lang="qaa">ǂṵ̃</item>
+                <item type="gls" lang="en">liquids</item>
+              </word>
+              <word guid="98642a6d-4fbf-4f87-ba9b-9d85fab1944c">
+                <item type="txt" lang="qaa">ǃala</item>
+                <item type="gls" lang="en">under</item>
+              </word>
+              <word>
+                <item type="punct" lang="qaa">,</item>
+              </word>
+              <word guid="4fd5d252-3f9b-48af-8ef2-99f36abf6dcc">
+                <item type="txt" lang="qaa">ʔai</item>
+                <item type="gls" lang="en">and</item>
+              </word>
+              <word guid="30d6941b-6605-4ebb-ab1d-9450f7f2d795">
+                <item type="txt" lang="qaa">ǂepe</item>
+                <item type="gls" lang="en">maybe.not</item>
+              </word>
+              <word guid="5d040cf4-687f-4b0b-a0b9-4fbf9f6ac007">
+                <item type="txt" lang="qaa">uɟi</item>
+                <item type="gls" lang="en">ANTIP</item>
+              </word>
+              <word guid="0e0cb3c9-ccd3-47ad-9545-775a7680dae4">
+                <item type="txt" lang="qaa">ᵑǁˀɔ̃</item>
+                <item type="gls" lang="en">descend</item>
+              </word>
+              <word guid="52377aa2-52bb-411a-b669-36ccf088a69d">
+                <item type="txt" lang="qaa">ᵑǁɔi</item>
+                <item type="gls" lang="en">can</item>
+              </word>
+              <word guid="d72c95ea-54c6-4c8b-a626-dcf071754cbd">
+                <item type="txt" lang="qaa">ǂɔʈ͡ʂi</item>
+                <item type="gls" lang="en">mountain</item>
+              </word>
+              <word guid="8c66c5f7-6263-4d56-9336-4112fe51d509">
+                <item type="txt" lang="qaa">ra</item>
+                <item type="gls" lang="en">INSTR</item>
+              </word>
+              <word>
+                <item type="punct" lang="qaa">.</item>
+              </word>
+            </words>
+            <item type="gls" lang="en">Four climbers got stuck under heavy rain, and possibly they can't descend a mountain.</item>
+          </phrase>
+        </phrases>
+      </paragraph>
+    </paragraphs>
+    <languages>
+      <language lang="en" font="Charis SIL" />
+      <language lang="qaa" font="Charis SIL" vernacular="true" />
+    </languages>
+  </interlinear-text>
+</document>

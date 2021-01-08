@@ -1,0 +1,709 @@
+\documentclass[11pt]{book}
+\immediate\write18{py ../makedictionary.py}
+
+\usepackage{geometry}
+\geometry{margin=1.3in}
+
+\usepackage{fontspec}
+%\setmainfont[Ligatures=TeX]{DejaVu Sans}
+\setmainfont{Charis SIL}
+
+
+\usepackage{vowel}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{multirow}
+\usepackage{setspace}
+\usepackage{enumerate}
+
+\usepackage{hyperref}
+
+\usepackage{gb4e}
+\noautomath
+\usepackage{leipzig}
+
+\usepackage{makecell}
+
+\usepackage{changepage} % adjustwidth
+
+\usepackage{parskip}
+
+
+\renewcommand{\eachwordone}{\bfseries}
+\pretocmd{\glt}{\it}{}{}
+
+\definecolor{CoverTeal}{RGB}{30, 212, 181}
+\definecolor{Black}{RGB}{0,0,0}
+\definecolor{LightGray}{gray}{0.9}
+
+\newcommand{\qcn}[1]{\textbf{#1}}
+\newcommand{\langname}{\qcn{ǂa ṇùĩ}~}
+\newcommand{\transl}[2]{\qcn{#1} \emph{#2}}
+
+\newcommand{\grammsc}[1]{\textsc{#1}}
+\newcommand{\CLF}[1]{\grammsc{CLF}\textsubscript{#1}}
+\newcommand{\ERG}{\grammsc{ERG}}
+\newcommand{\ABL}{\grammsc{ABL}}
+\newcommand{\ACC}{\grammsc{ACC}}
+
+\newcommand{\cmnt}[1]{\textcolor{red}{#1}}
+
+
+
+
+
+\begin{document}
+
+
+\pagestyle{empty}
+%\pagecolor{Black}
+%\color{LightGray}
+
+%\setlength{\parindent}{0pt}
+
+
+
+\begin{center}
+
+	\Huge
+	\resizebox{\textwidth}{!}{THE PRACTICAL}
+
+	\vspace{0.2in}
+
+	\resizebox{0.8\textwidth}{!}{ǂA ṆṴĨ}
+
+	\vspace{1in}
+
+	{\huge OR: ON PHONOLOGY, GRAMMAR, AND THE PREVENTION OF MOUTH INJURIES.}
+
+	\vfill
+
+	{BY CANCRIZANS CANON}
+
+\end{center}
+
+%\nopagecolor
+
+\pagebreak
+
+
+\section{Overview}
+
+\begin{center}
+	\resizebox{1.5\width}{!}{\qcn{ǃuũǃoi!}}\\
+\vspace{1em}
+\emph{(`Hello!')}
+\end{center}
+
+\vspace{2em}
+
+\langname~\emph{(`First words')} is, as much as it pains me to admit it, not a real language, but it does try to be. It is a naturalistic constructed language (conlang) that makes extensive use of complex \textbf{click sounds}, which are strange loud consonants you make by abusing your tongue like a cheapo suction cup. It is \emph{a priori}, meaning it is not based on any real-world language of the present or past. As for the purpose of designing this language, let's keep that a surprise.
+
+While an original creation, the sound of \langname takes inspiration mainly by the beautifully intricate phonologies of the \textbf{Khoisan languages}, a group of many language families indigenous to southern Africa, which feature large inventories of decorated clicks, and strange phonation distinctions in vowels. In addition to that, there are sprinkles of other sound-looks I like, picked from languages such as Basque, Sanskrit, and one of my favourite families: Aboriginal Australian languages. \langname's phonation-tone register system is similar to that of Burmese.
+
+For what concerns grammar, \langname is typologically a mostly isolating language, analogous to Mandarin Chinese. It has a strict SVO (or better, AVP, as will be clear later) word order, it is (split-)ergative, and strongly head-final. It possesses almost no true ``grammatical particles'' in that very often they turn out to also double as regular nouns, like the relational nouns of Mayan languages.
+
+This booklet should hold all information there is on both the phonology and grammar of \langname. However, this document, as all my conlanging stuff, may try to explain things in a bit more pedantic detail than what you'd expect if you're a big linguistics buff. It is definitely aimed more at casual readers that don't remember off the top of their head what a \emph{wh-in-situ} or an \emph{accessibility hierarchy}\footnote{Something to do with power and wheelchair ramps?} is; if you find parts of it make your eyes roll please go ahead and skip what's obvious to you.
+
+This conlang is meant primarily to exist as spoken. Phrases in \langname in this book are presented in its specialised orthography, which is designed to prioritise ease of pronunciation, is explained in the following sections, and are displayed in \qcn{bold}. Instead, phonemic/phonetic transcriptions using the IPA are in /slashes/ and [square brackets] respectively.
+
+
+\chapter{Phonology}
+
+
+
+\langname makes, curiously, no phonemic distinction of voicing. It does, hower, distinguish \textbf{nasality} as a binary feature between oral and nasal, and \textbf{glottalization} from modal, to creaky, to full glottal closure. 
+
+\section{Vowels}
+
+Five vowel qualities are phonemically distinguished:
+
+\begin{center}
+    \begin{vowel}
+        \putcvowel{\qcn{i}}{1}
+        \putcvowel{\qcn{e}}{2}
+        \putcvowel{\qcn{a}}{4}
+	\putcvowel{(ɑ)}{5}
+        \putcvowel{\qcn{o} /ɔ/}{6}
+	\putcvowel{(o)}{7}
+        \putcvowel{\qcn{u}}{8}
+    \end{vowel}
+\end{center}
+
+though, arguably, \qcn{u} alternates between [u] and [o] realisations in somewhat free variation. [ɑ] exist as a ``backened'' version of \qcn{a}, see Section~\ref{sec:backvowelconstraint} on contextual backening. In addition, the following diphthongs are allowed and behave essentially as additional single vowel qualities for the purpose of registers and phonotactics:
+
+\begin{center}
+\qcn{au}, \qcn{ai}, \qcn{oi} /ɔi/, \qcn{ui}
+\end{center}
+
+It should be noted that \qcn{ui} specifically could be seen as a backened or ``pre-backened'' version of \qcn{i}, so that, say, the sequence \qcn{ǃui} ought to be interpreted as the realisation of the phonetically impossible sequence \qcn{ǃi}. A similar but weaker relationship should exist between \qcn{ɔi} and \qcn{e}. This is paralleled in the distribution of open-to-close diphthongs which preferably appear in stressed syllables and frequently following ``backening'' clicks and consonants which wouldn't allow a front vowel in the same position. This rule isn't universal, however.
+
+\subsection{Registers}
+
+We anticipate that \langname has a concept of \emph{stress} or \emph{accent} whereby one syllable in a polysyllabic word (and occasionally in a syntactically close word sequence, like a noun phrase) is marked as \textbf{stress}. This stress is expressed mostly through vowel length and in minor part volume, but not pitch.
+
+Unstressed vowels may only be monophthongs. Stressed vowels, instead, may be a mono- or a diphthong, and in addition they carry one of four different phonations, or more precisely \textbf{four registers}, that is a phonation + tone combination:
+
+\begin{center}
+\begin{tabular}{c c c}
+	Notation & Phonation & Tone\\
+	\qcn{aa} & Oral Modal [a] & ˧\\
+	\qcn{aã} & Nasal Modal [ã] & ˥˦\\
+	\qcn{àa} & Oral Creaky [a̰] & ˨\\
+	\qcn{àã} & Nasal Creaky [ã̰]& ˧\\
+\end{tabular}
+\end{center}
+
+All vowel qualities and the four diphthongs can take any one of the four registers, producing four different phonemes, except for \qcn{e} whose nasal forms merge with those of \qcn{i}. In the case of diphthongs, a single register is applied uniformly and a mid-swipe register change is not allowed (phonemically at least). In the orthography, the creaky voice diacritic is written on the first component and the nasal diacritic on the second. The resulting table of vocalic phonemes is as follows:
+
+\begin{center}
+\renewcommand{\arraystretch}{1.5}
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|c|c|}
+\hline
+Stress & Register & \multicolumn{9}{c|}{Quality}\\ \hline \hline
+Unstressed & (unspecified) & \qcn{a} & \qcn{e} & \qcn{i} & \qcn{o} & \qcn{u} & \multicolumn{4}{c|}{}\\ \hline
+\multirow{4}{*}{Stressed} & Plain  &\qcn{a(a)} & \qcn{e(e)} & \qcn{i(i)} & \qcn{o(o)} & \qcn{u(u)} & \qcn{au} & \qcn{ai} & \qcn{oi} & \qcn{ui}\\ \cline{2-11}
+&Nasal &\qcn{aã} &  \multicolumn{2}{c|}{\qcn{iĩ}} & \qcn{oõ} & \qcn{uũ} & \qcn{aũ} & \qcn{aĩ} & \qcn{oĩ} & \qcn{uĩ}\\ \cline{2-11}
+&Creaky  & \qcn{àa} & \qcn{èe} & \qcn{ìi} & \qcn{òo} & \qcn{ùu} & \qcn{àu} & \qcn{ài} & \qcn{ài} & \qcn{ṵi}\\ \cline{2-11}
+&Nasal Creaky &\qcn{àã} &  \multicolumn{2}{c|}{\qcn{ìĩ}} & \qcn{òõ} & \qcn{ùũ} & \qcn{àũ} & \qcn{àĩ} & \qcn{òĩ} & \qcn{ùĩ}\\ \hline
+\end{tabular}
+\end{center}
+
+A stressed, plain register monophtong may also be \emph{predictably} long or short. Specifically, it will be short if word-final and / or following a glottal(ised) consonant \qcn{ʼ}, and it will be long otherwise. In the orthography, it will be accordingly written with a single or double letter. Instead, all unstressed vowels are short, while all diphthongs and all stressed non-plain vowels are long.
+
+
+\section{Consonants}
+
+
+
+\subsection{Pulmonics}
+
+The pulmonic (i.e., non click) consonant phonemes of \langname are as follows:
+
+\renewcommand{\arraystretch}{2}
+
+
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|}
+\hline 
+ & Labial & Dental & Retroflex & Palatal & Lateral & Velar & Glottal\\ \hline \hline
+Stop & \qcn{p} & \multirow{2}{*}{\qcn{t/ts} /t͡s̪/}  & \qcn{ṭ} /ʈ/ & 	\qcn{j}/ɟ/ & \multirow{2}{*}{\qcn{tł} /t͡ɬ/}	 	&	\multirow{2}{*}{\qcn{k}} &  	\qcn{ʼ}/ʔ/ \\ \cline{1-2} \cline{4-5} \cline{8-8}
+Affricate &  &  & \qcn{tṣ} /ʈ͡ʂ/ & 	\qcn{č} /t͡ʃ/ & 	&  &  	 \\ \hline
+Sonorant & \qcn{m} &  \qcn{n} /n̪/ &\makecell{\qcn{r}/\qcn{rr} /r/,\\ \qcn{ṇ} /ɳ/} & \qcn{ň} /ɲ/ & \qcn{l} & \qcn{ŋ} & \\\hline
+\end{tabular}
+\end{center}
+
+For the purpose of understanding the oral/nasal distinction, it's necessary to imagine that \emph{phonemically} \qcn{l} be the nasal counterpart to \qcn{t͡ɬ}. This allows, for example, to explain sequences such as \transl{lã}{tongue}, whereas anywhere else an oral pulmonic + nasal vowel sequence is forbidden (see Section \ref{sec:syllables}).
+
+\qcn{ŋ}, while rare, is a true phoneme, and may also appear word-initially, see \transl{ŋàã}{woman} vs \transl{nàã}{to laugh}, and it must be seen as the nasal counterpart to \qcn{k}.
+
+In the orthography, \qcn{t} and \qcn{ts} represent the same phoneme, with \qcn{t} appearing before front vowels \qcn{e} and \qcn{i} and \qcn{ts} before \qcn{a,o,u}. No implication about the actual pronunciation is implied (see later on allophony in Section~\ref{sec:allophony})
+
+\subsection{Clicks}
+
+\langname's unique phonetic identity lies in its inventory of click consonants. While we will ultimately analyse each possible click sound as a separate phoneme, resulting in a disproportionately large inventory but simpler phonotactical rules, it must be understood that clicks are complex consonants best decomposed into many semi-independent features. We recall that a click is produced by enclosing a pocket of air in a surface between the tongue and the palate. It is necessary to fully seal this pocket to produce the click sound, and the mouth-palate sealing occurs along a circle passing trough a \textbf{rear point of contact}, laterally, and through a coronal \textbf{front point of contact}. The rear contact is always uvular, while the front contact may be in several positions, similarly to pulmonic consonants. By downward movement of the tongue, the trapped air pocket is rarefied, similarly to a suction cup. Finally, one point in the sealing is opened and air violently rushes into the pocket. The corresponding implosion produces the loud sound of the click. We thus may begin to list some parameters that may change in the production of the click and which may affect the sound:
+
+\begin{itemize}
+	\item The location in the mouth where the sealing is opened; this is what is referred to as the \textbf{point of articulation} of the click.
+	\item The opening of the velum and simultaneous airflow through the nose, i.e. \textbf{nasality} (or better, pre-nasalisation).
+	\item The closure of the glottis simultaneously with the click, i.e. \textbf{glottalisation}.
+	\item The mode of release of the rear closure, after the click sound has been produced. These are called \textbf{contours} or \textbf{effluxes} and can be seen as coarticulation of the click with a uvular pulmonic.
+\end{itemize}
+
+Four points of articulations are distinguished in \langname:
+
+\begin{itemize}
+	\item  /ǀ/, written \qcn{ʇ}, is laminal dental. The sound is noisy and highest in pitch.
+	\item \qcn{ǁ} is lateral. The release is lateral (necessarily on one side) and far back in the mouth. The coronal position of the tongue does not affect the sound, which is noisy but lower than the dental.
+	\item \qcn{!} is the alveolar or alveolo-palatal click, and the essential feature is that the tongue is pulled down (and back), resulting in an extremely sharp, clear and loud sound.
+	 \item \qcn{ǂ} is particular in \langname. The release is coronal, and usually palatal or palato-alveolar [ǂ]; but the important feature is that the tongue is pulled \emph{backwards}, producing something between a duller \emph{pop} than an alveolar click and a slightly noisy sucking sound. Occasionally, the realisation of \qcn{ǂ} may even be more similar to a retroflex click [!!] with subapical tongue position.
+\end{itemize}
+
+Given a point of articulation, the language then distinguishes a total of ten different \textbf{manners of articulations} for each:
+
+\begin{enumerate}[I]
+\item \textbf{Plain} The click is oral, glottis open, and the back-release is tenuis.
+\item \textbf{Oral Glottalized} The glottis is closed, and kept open for a short while after the click sounds. This may appear as the onset of the following vowel being delayed. The click is oral.
+\item \textbf{Fricative-contour} The click is oral, glottis open, and the back release is into a uvular fricative [χ]. These clicks have an ``affricate'' sound.
+\item \textbf{Ejective-contour} The click is oral, glottis open, and the back release is into a uvular ejective [qʼ].
+\item \textbf{Nasal} The click is nasal. Because of the velar/uvular closure, a velar/uvular nasal [ŋ~ɴ] appears to sound throughout the click. The glottis must be open, back-release is tenuis.
+\item \textbf{Nasal Glottalized} The glottis is closed, and kept open for a short while after the click sounds. This may appear as the onset of the following vowel being delayed. The click is nasal.
+\item \textbf{Nasal + Fricative-contour} The click is nasal, glottis open, and the back release is a uvular fricative, marked [ʁ] as nasality is almost always accompanied by voicing.
+\item \textbf{``Pre-fricative''} A compatible fricative is sounded before the click closure. While this is not a true co-articulation, since the fricatives may not occur in \langname without a following click we class this series of clusters as separate consonant phonemes. The clicks are oral, glottis open, back release tenuis. The combinations are /s̪ǀ/, /ʂǂ/, /ʃ!/, /ɬǁ/.
+\item \textbf{Pre-fricative + Glottalized} These clicks have a fricative onset, oral, glottal closure with delayed release of glottal stop.
+\item \textbf{Pre-fricative + Ejective-contour} Fricative onset, oral, back release into [qʼ]
+\end{enumerate}
+
+All in all, the following 40 click phonemes exist:
+
+
+\begin{center}
+
+\begin{tabular}{|c|c|c|c|c|}
+\hline Manner & \multicolumn{4}{c|}{Point of articulation} \\ \hline\hline
+I &  	/ǀ/ &	/ǂ/ &	/!/ &	/ǁ/ \\ \hline
+II &  	/ǀˀ/ &	/ǂˀ/ &	/!ˀ/ &	/ǁˀ/ \\ \hline
+III &  	/ǀ͡χ/ &	/ǂ͡χ/ &	/!͡χ/ &	/ǁ͡χ/ \\ \hline
+IV &  	/ǀ͡qʼ/ &	/ǂ͡qʼ/ &	/!͡qʼ/ &	/ǁ͡qʼ/ \\ \hline
+V &  	/ᵑǀ/ &	/ᵑǂ/ &	/ᵑ!/ &	/ᵑǁ/ \\ \hline
+VI &  	/ᵑǀˀ/ &	/ᵑǂˀ/ &	/ᵑ!ˀ/ &	/ᵑǁˀ/ \\ \hline
+VII &  	/ᵑǀ͡ʁ/ &	/ᵑǂ͡ʁ/ &	/ᵑ!͡ʁ/ &	/ᵑǁ͡ʁ/ \\ \hline
+VIII &  	/s̪ǀ/ &	/ʂǂ/ &	/ʃ!/ &	/ɬǁ/ \\ \hline
+IX &  	/s̪ǀˀ/ &	/ʂǂˀ/ &	/ʃ!ˀ/ &	/ɬǁˀ/ \\ \hline
+X & /s̪ǀ͡qʼ/ &	/ʂǂ͡qʼ/ &	/ʃ!͡qʼ/ &	/ɬǁ͡qʼ/ \\ \hline
+\end{tabular}
+
+\end{center}
+
+
+If we are willing to segment the click even more, a somewhat clearer picture emerges. Among manners, we can distinguish an ``onset'' feature, which may be plain, nasal, or pre-fricative, and a ``release'' feature, which may be tenuis, glottal, fricative, or ejective. The $3\times 4$ table that results makes it clear that all combinations except two are realised:
+
+\begin{center}
+\begin{tabular}{|c|c||c|c|c|c|}
+\hline & &  \multicolumn{4}{c|}{Release}  \\ \hline 
+& & ∅ & ˀ& χ/ʁ &  qʼ \\ \hline\hline
+\multirow{3}{*}{\rotatebox{90}{Onset}} & ∅ & I & II & III & IV  \\ \cline{2-6}
+& ᵑ & V & VI &  VII&  \\  \cline{2-6}
+& F & VIII & IX & & X  \\  \hline
+\end{tabular}
+\end{center}
+
+As for the two unattested manners, their absence may be explained by difficulty of production. The missing nasal-ejective clicks in particular would present the difficulty of switching from voiced to voiceless mid-click, or producing a fully voiceless nasal click, something that is certainly quite alien to \langname speakers.
+
+In the orthography, the clicks are transcribed using the following dictionary:
+
+\begin{center}
+\begin{tabular}{c|c}
+Phonemic & Orthography \\ \hline \hline
+ǀ & \qcn{ʇ}\\
+ᵑ* & \qcn{n*}\\
+s̪ǀ & \qcn{sʇ} \\
+ʂǂ & \qcn{ṣǂ} \\
+ʃ! &	\qcn{š!} \\
+ɬǁ & \qcn{łǁ}\\
+*ˀ & \qcn{*ʼ}\\
+*͡χ / *͡ʁ & \qcn{*x} \\
+*͡qʼ & \qcn{*qʼ}
+\end{tabular}
+\end{center}
+
+\subsection{Allophony}\label{sec:allophony}
+
+There is significant allophonic variance associated with the lack of phonemic value to voicing of consonants. Nevertheless, there are significant irregularities to keep in mind.
+
+\begin{itemize}
+	\item Labial or labiodental fricatives and affricates are unattested.
+	\item The voiced stops [b], [d̪], [ɖ] are allophonic for the nasals /m/ /n̪/ /ɳ/. However, in palatal articulation it is [c] and [ɟ] that are realisation of a single phoneme /ɟ/, with the voiced form more common, while the scope of /ɲ/ is narrower than the other nasals.
+	\item In guttural (velar-glottal) position, curiosly [ɡ] can substitute not only for /ŋ/ but also for the glottal stop /ʔ/. As for /k/, it may often affricate to [k͡x] or even [x] directly, especially before front vowels, while a back vowel may uvularise it to [q].
+	\item /r/ is always a trill, never tapped (a tap is more likely to be perceived as a nasal). It is geminated always in medial position (which we reproduce in the orthography with \qcn{rr}), occasionally even word-initially.
+	\item /t͡s̪/ is only very rarely a simple voiceless stop [t̪], and it almost always is affricate.
+\end{itemize}
+
+
+
+
+
+\section{Phonotactics}
+
+\newcommand{\stress}{ˈ}
+
+Here and in the following, these abbreviations are employed to describe phonotactical rules:
+
+\begin{center}
+\begin{tabular}{cc}
+	(\ldots) & Optional segment (may appear zero or one time)\\
+	. & Syllable boundary \\
+	C & Any consonant phoneme, click or pulmonic.\\
+	Ʞ & Any click consonant. \\
+	P & Any pulmonic consonant. \\
+	M & A sonorant consonant.\\
+	V & Any vowel, mono- or diphthong, stressed or unstressed, in any register \\
+ \stress{} & The following syllable is stressed \\
+	v & An unstressed vowel (monophthong) 
+\end{tabular}
+\end{center}
+
+\subsection{Back vowel constraint}\label{sec:backvowelconstraint}
+
+A fundamental mechanical constraint applies to vowel qualities directly following specific clicks (backening clicks). These clicks cause the tongue to quickly retract on frontal release, and therefore it is impossible to produce directly the sound of a frontal vowel. 
+
+The backening clicks are
+
+\begin{itemize}
+	\item All clicks with uvular contour (fricative-contour and ejective-contour).
+	\item Non-glottalised \qcn{ǃ} and \qcn{ǂ}.
+\end{itemize}
+
+therefore, the non-backening clicks are the complement of this set:
+
+\begin{itemize}
+	\item All glottalized clicks.
+	\item \qcn{ʇ} and \qcn{ǁ} without uvular contours.
+\end{itemize}
+
+A backening click may not be followed by a front vowel \qcn{e} or \qcn{i}. In addition, \qcn{a} becomes [ɑ]. Any vowel, instead, may follow a non-backening click. For a diphthong, the constraint applies to the starting quality of the glide, therefore \qcn{ui} may follow a backening click, as can \qcn{au}, though it will sound as [ɑu].
+
+\subsection{Syllable structure and articulatory constraints}\label{sec:syllables}
+
+\langname features a strict alternation of consonant and vowel, and thus a (C)V syllable structure. Generally, phonotactical restrictions appear as constraints related to the nasality and glottalisation features. The direction of consonant-vowel nasality interference is different for clicks and pulmonics, with the nasality of clicks interacting with that of the previous vowel and that of pulmonics with the following one. The precise rules are
+
+\begin{itemize}
+	\item in a VꞰ sequence, either both are oral or both are nasal.\footnote{Note that since a vowel preceding a click is always unstressed, this nasality will never be reported in the orthography.}
+	\item in a PV sequence, P cannot be oral if V is nasal.
+\end{itemize}
+
+E.g.: the sequences /aǃ-/ and /ãᵑǃ-/ are possible, but /*ãǃ-/, /*aᵑǃ-/ are not possible; while the sequences /pa/, /ma/, /mã/ are allowed but /*pã/ can not occur.
+
+For what concerns glottalisation, 
+
+\begin{itemize}
+\item a CV̰ sequence with a creaky voiced vowel will erase glottalization distinctions in the consonant C. This means that sequences like /ǃˀa̰/ and /ǃa̰/ are not phonemically distinct -- by convention we will transcribe the consonant without glottalisation. 
+\item A glottal stop followed by a creaky vowel ʔV̰ is indistinguishable from the lone vowel V̰. We chose to transcribe both broad IPA and orthography \emph{with} the glottal stop to preserve the simpler CV structure.
+\item A sonorant will become itself creaky before a creaky vowel: MV̰ > M̰V̰, e.g. \qcn{màa} = /ma̰/ > [m̰a̰]. This is not marked at all in the broad transcription.
+\end{itemize}
+
+
+
+\subsection{Word structure and stress}
+
+
+Due to the extremely minimal morphology, the vast majority of words appear uninflected. This uninflected form follows a very rigid scheme:
+
+\begin{center}
+\large (v\textsubscript{0}).\stress{}CV\textsubscript{1}.(Pv\textsubscript{2})
+\end{center}
+
+In other words, we necessarily have a \textbf{main syllable} CV\textsubscript{1} which always stressed, and is composed of either a click or pulmonic, and a vowel which, being stressed, may have any of the four registers, and be a mono- or diphthong. Optionally, one may have an unstressed \textbf{opening vowel} monophthong v\textsubscript{0}, and/or an unstressed \textbf{secundary syllable} with a pulmonic and a monophthong.
+
+The possible word structures are named as follows:
+
+\begin{center}
+\begin{tabular}{cc}
+	Monosyllabic &  CV \\
+	Sesquisyllabic &   v.\stress{}CV \\
+	Disyllabic & \stress{}CV.Pv\\
+	Trisyllabic & v.\stress{}CV.Pv
+\end{tabular}
+\end{center}
+
+The opening and secondary vowels, being unstressed, may not carry registers, and no distinction of phonation is made on them. However, phonetically the nasality of an opening vowel necessarily matches that of a main syllable click which follows as per the rules of Section~\ref{sec:syllables}, and this nasality is accordingly transcribed even if not phonemic.
+
+\subsection{Irregular words and reduplication}\label{sec:redup}
+
+Some special words break the patterns described thus far. A select few are lexicalised idioms and onomatopoeias. Most, however, are produced by one of the very few morphological processes of the language, which is \textbf{first-syllable reduplication}. This self-explanatory operation is used on adjectives and adverbs to mark comparatives, and on verbs to mark the applicative voice. The first syllable of the word is repeated, usually violating the word structure, exceeding the maximum number of syllable, and producing words with multiple clicks:
+
+\begin{center}
+\transl{ʇila}{easily} \textrightarrow \transl{ʇiʇila}{more easily}
+\end{center}
+
+Reduplication is quite irregular on complex clicks. \cmnt{Todo: map out all irregular reduplications.}
+
+\subsection{Sandhi rules}
+
+\cmnt{Todo}
+
+
+
+\section{Notes on Orthography}
+
+The orthography of \langname is designed by prioritizing these guidelines:
+
+\begin{itemize}
+	\item Transparency: pronunciation should be easy and immediate to evince and reproduce. In particular, clicks should be well distinguished from pulmonics.
+	\item Phonemic: it should be unambiguous, i.e. broad transcription should be uniquely determined.
+	\item Clarity: written text should be easily readable, avoiding too similar glyphs, or superscript and subscript glyphs.
+	\item Portability: no combining diacritical marks should be used; only existing precomposed letters may be employed. (This is due to combining glyphs rendering improperly in many contexts). 
+\end{itemize}
+
+With these restrictions and no others, I believe the orthography as presented in the previous sections is a reasonable solution.
+
+The orthography uses conventional punctuation and most typesetting standards\footnote{There is no risk of confusing the alveolar stop glyph ǃ with the identical-looking, but distinct exclamation mark ! because phonotactics prevent clicks in syllable codas anyway.}. For what concerns capitalisation, for starting sentences or for proper names, I employ the typical Khoisan convention where the first \emph{capitalisable} character in the word is capitalised. Capitalisable characters include all latin letters including diacritics, the letter ŋ which becomes Ŋ\footnote{The shape of capital Eng may be widely different in different fonts. Shouldn't be a cause of concern.} the letter \qcn{ʇ} which capitalises as \qcn{Ʇ}; the remaining letters (\qcn{ʼ ǃ ǂ ǁ}) don't capitalise.
+
+\chapter{Grammar}
+
+\section{The Noun Phrase}
+
+A noun phrase in \langname may consist of a single noun:
+
+\begin{exe}
+\ex
+\gll unʇaã\\
+wolf\\
+\glt wolves / a wolf
+\end{exe}
+
+in which case the intended meaning is indeterminate, and of unspecified number (i.e. wolves in general, as one would intend in a phrase like \emph{`wolves are ferocious'}). If instead one would like to talk about one specific wolf, thus introducing determinacy, they would have to say
+
+\begin{exe}
+\ex
+\gll unʇaã ṭàa\\
+wolf \CLF{predatory animal}\\
+\glt the wolf
+\end{exe}
+
+\qcn{ṭàa} is called a \textbf{noun classifier} (CLF), and it is specifically the classifier associated to predatory animals. There are hundreds of classifiers available for various categories of nouns; these categories do not have to be disjoint nor as general as standard noun classes in synthetic languages. When a CLF is used, the CLF is itself the head of the noun phrase, and the noun is a dependent that \emph{specifies} the general meaning of the classifier further (so the example may be translated more literally as \emph{`the predatory animal which is more specifically a wolf'}). This justifies why the CLF always \emph{follows} the classified noun, being that this language is strongly head-final.
+
+Multiple CLFs may apply to the same noun under different circumstances, with subtler or more relevant differences in intended meaning depending on the situation. Rarely, a CLF choice may completely disambiguate a noun:
+
+\begin{exe}
+\ex
+\gll ʇuli tła\\
+mother/breast \CLF{woman}\\
+\glt the mother
+\end{exe}
+
+\begin{exe}
+\ex
+\gll ʇuli ʇùu\\
+mother/breast \CLF{body part}\\
+\glt the breast(s)
+\end{exe}
+
+Proper names are always determined and they \textbf{always} take a classifier. However, the choice of specific classifier is again up to the speaker, and may express some nuances of context, politeness, and relevant information:
+
+\begin{exe}
+\ex
+\gll Nǃupaṇa nui\\
+Nǃupaṇa 	\CLF{person}\\
+\glt Nǃupaṇa (a person of unspecified gender).
+\end{exe}
+
+\begin{exe}
+\ex
+\gll Nǃupaṇa 	tła\\
+Nǃupaṇa 	\CLF{woman}\\
+\glt Nǃupaṇa (the woman).
+\end{exe}
+
+\cmnt{To do all of this}
+
+\subsection{Noun Classifiers}
+
+\subsection{Personal and Demonstrative Pronouns}
+
+\subsection{Possessive and adjectives}
+
+\section{Alignment and Coordination}
+
+\langname is always syntactically ergative. For intransitive clauses, with a verb V and a sole subject S, the verb always precedes the subject. For example
+
+\begin{exe}
+	\ex
+%	\gll ĩᵑǁa̰ ᵑǃUpaɳa t͡ɬa \\
+	\gll inǁàa Nǃupaṇa tła \\
+	sleep Nǃupaṇa \CLF{woman}\\
+	\glt `Nǃupaṇa is sleeping.'
+\end{exe}
+
+In a transitive clause, involving a verb V, an agent A and an object O, the order is \emph{fixed} as AVO:
+
+\begin{exe}
+	\ex
+	\gll Nǃupaṇa 	tła 	iǃòorri 	šǃoiňe \\
+		Nǃupaṇa 	\CLF{woman} 	eat 	meat\\
+	\glt `Nǃupaṇa is eating meat'
+\end{exe}
+
+This rigid syntactical structure invites us to identify S and O as a single type of argument that always follows V, namely the Patient P, contrasting with agents A as a special role marked by preceding V. This syntactical alignment is therefore \textbf{ergative-absolutive} in nature. However, whereas a typical ergative language would provide a morphological way to mark Agents, i.e. an Ergative case, in \langname this does not usually occurr; the optional \ERG{} marker \transl{ʼa}{by, from} (which may equivalently also mark an Ablative) can be employed in special emphatic conditions (see Section~\ref{sec:topiccomment}):
+
+\begin{exe}
+	\ex
+	\gll Nǃupaṇa 	tła  (ʼa)	iǃòorri  	šǃoiňe \\
+		Nǃupaṇa 	\CLF{woman} (\ERG) 	eat 	meat\\
+	\glt `Nǃupaṇa is eating meat'
+\end{exe}
+
+This overt marking is rare and considerably formal sounding; in the modern language it still doesn't allow for changing the word order except in a few idioms.
+
+A transitive verb may be employed intransitively by omitting the Agent.
+
+\begin{exe}
+	\ex
+	\gll iǃòorri 	šǃoiňe\\
+eat 	meat\\
+\glt `The meat is being eaten.'
+\end{exe}
+
+It is, however, ungrammatical to instead omit the Patient. Equivalently, a (lone) sentence may never finish on a verb. If we wanted to express a meaning alongside the lines of \emph{`Nǃupaṇa eats (nothing specific)'}, we would need to perform a valency-changing operation that shifts argument so as to fill the Patient slot. An antipassive, marked by the auxiliary \qcn{uji}, does the job:
+
+\begin{exe}
+	\ex
+	\gll  uji 	iǃòorri Nǃupaṇa 	tła  \\
+	ANTIP eat	Nǃupaṇa 	\CLF{woman} 	\\
+	\glt `Nǃupaṇa is eating (nothing specific)'
+\end{exe}
+
+We shall examine valency-changing operations in greater detail in Section~\ref{sec:valencychanging}.\\
+
+We remark that it is possible to drop a repeated Patient in a coordinated clause, provided it is shared with a previous one. For example:
+
+\begin{exe}
+\ex
+\gll !oono 	ji 	nǂuĩ 	 	ʼutła 	noõ  ǂaãṇi ǂu\\
+boy 	\CLF{child} 	kick 	ball 	\CLF{round tool} 	fly.away  and\\
+\glt `The boy kicked the ball, and it flew away.
+\end{exe}
+
+In cases like these, the post-conjunction \transl{ǂu}{and} is preferred to the (here) equivalent pre-conjunction \transl{ʼai}{and, and then} because it prevents the clause from ending in a verb, though the second option would not be considered ungrammatical:
+
+\begin{exe}
+\ex
+\gll !oono 	ji 	nǂuĩ 	 	ʼutła 	noõ  ʼai ǂaãṇi \\
+boy 	\CLF{child} 	kick 	ball 	\CLF{round tool}   and	fly.away  \\
+\glt `The boy kicked the ball, and it flew away.
+\end{exe}
+
+It is not, however, possible to omit a shared Agent in coordinated clauses, or to omit a Patient to be replaced with another clause's Agent and viceversa. For example, in \emph{`The boy kicked the ball and scored a point'} there is a shared Agent, and it is not possible to drop it in the coordinated clause in \langname like it is in English. A resumptive pronoun is necessary. And in \emph{`The boy kicked the ball and smiled'}, the boy is A in the first clause and P in the second, meaning that the boy's second appearence may not be dropped. (All of these example may of course be expressed with coordination and drop provided the right valency-changing is performed to make sure the coordinated arguments are always two Patients).
+
+This behaviour, which persists under all conditions, concludes the other side of \langname's syntactical ergativity.
+
+\subsection{Secundativity and ditransitives}
+
+\langname lacks a type of complement that may be described as `Dative'. In a phrase involving a verb like \emph{give} (\textbf{ditransitive verb}), which involves some \emph{Donor} D giving a \emph{Theme} T to a \emph{Recipient} R, it is the Recipient which is treated as the direct object, while the Theme is placed in the instrumental (with postposition \qcn{ra}). For example
+
+\begin{exe}
+\ex
+\gll Uǁʼàa ku ʇoã ałǁʼi ra  !oono 	ji\\
+Uǁʼàa \CLF{man} gift money INSTR boy \CLF{child}\\
+\glt Uǁʼàa gifted money to the child. (lit. gifted the child with money.)
+\end{exe}
+
+
+
+\subsection{Causatives}
+
+\cmnt{Todo}
+
+\section{Verbal voices}\label{sec:valencychanging}
+
+Let us reprise, more in detail, the schema of a \langname verb phrase:
+
+\begin{center}
+(Agent) Verb Patient (Oblique(s) + post.)
+\end{center}
+
+with no specific focus, now, on the word order. Used as such, a verb is said to be in \textbf{active voice}. When necessary, it is possible to redirect the arguments of the verb in different argument slots by employing a different verbal voice, marked by an auxiliary which goes before or after the verb. The simplest case, already seen, is the \textbf{antipassive}, only really sensible for a transitive verb, and formed by prepending \qcn{uji}; this is a \emph{demotion} in the agency hierachy, working in this manner:
+
+\begin{center}
+	Causer \textrightarrow Agent \textrightarrow Patient \textrightarrow Theme
+\end{center}
+
+In an antipassive sentence, the argument in agentive position (optional) has the meaning of causer, the one in patientive position (mandatory) has that of agent, and the instrumental oblique is the object. The purposes of this shift are several: it can be used to fill a patient gap, to express a transitive causative, or to relativize an agent (more on this in Section~\ref{sec:relative}).
+
+\cmnt{Some examples needed.}
+
+Antipassives may not be applied typically whenever an instrumental, especially in the role of theme, is present. A way to understand it is that instrumentals are part of the chain of agency described above, and the antipassive is attempting to demote the instrument to a position of lower agency that does not exist. I will describe shortly how to antipassivize a ditransitive, such as \emph{`Uǁʼàa gave money to his mother'} if we want to place \emph{Uǁʼàa} in the Patient position.
+
+Another widely employed voice is the \textbf{applicative}. This is marked by the \textbf{first-syllable reduplication} (see Section~\ref{sec:redup}) of the verb and is used to \emph{promote} an oblique (of various types) to a patient. The chain is
+
+\begin{center}
+	Agent \textleftarrow Patient \textleftarrow Oblique
+\end{center}
+
+The applicative has thus some reminiscence of a passive, but it is restricted in that the original presence of an oblique argument to promote to patient is essential (it is ungrammatical otherwise). The applicative is a sacrifice of the information on the \emph{type} of oblique, since the postposition is lost, in exchange for transitivity of the verb, which may be necessary for relativisation.
+
+Here's an example involving an oblique with the postposition \transl{iňi}{over}:
+
+\begin{exe}
+\ex
+\gll ǁaũpe Uǁʼàa ku utłuʼe iňi\\
+walk Uǁʼàa \CLF{man} path on\\
+\glt Uǁʼàa walks on the path
+\end{exe}
+
+With the applicative, one may produce the \textbf{transitive} verb \transl{ǁaǁaũpe}{to walk on}:
+
+\begin{exe}
+\ex
+\gll Uǁʼàa ku ǁa\textasciitilde{} ǁaũpe utłuʼe \\
+Uǁʼàa \CLF{man} APPL\textasciitilde{} walk path \\
+\glt Uǁʼàa walks on the path
+\end{exe}
+
+The ambiguity inherent in an applicative can be displayed by presenting an example of a different oblique, for example
+
+\section{Relative Clauses}\label{sec:relative}
+
+Being a primarily left-branching, ergative language, \langname is severely restricted in which positions are accessible for relativisation, a limitation that is obviated with the use of the aforementioned voices.
+
+\textbf{Only the patient position may be relativised} -- meaning that the antecedent (the element that the relative clause describes) can only perform the role of patient in a relative clause. For example, amongst all these English examples
+
+\begin{enumerate}
+\item I saw the dog that was sleeping (Patient position)
+\item I saw the dog that bit the cat (Agent position)
+\item I saw the dog that my sister had gifted me (Instrumental position)
+\item I saw the dog whose ears I find funny (Possessor position)
+\end{enumerate}
+
+only the first can be translated \emph{literally} into \langname, since `the dog' is Patient for the verb `sleep' in that case. The other examples have to be reworked with voice changing.
+
+A simple (Patientive) relative clause is not marked with any special grammatical particle. It is simply placed before the antecedent with its own Patient omitted, constituting part of its noun phrase, and thus placing the antecedent itself in Patientive place for the relative clause. This entire noun phrase may then occupy any role in the \emph{main} clause. Here's an example where a main clause Patient is relativized, with the relative clause marked in [square brackets]:
+
+\begin{exe}
+\ex
+\gll ǃa łǁa [ ǃa ǂqʼula ʼùa ] ŋàã (nui) \\
+1S.\ERG{} see [ 1S.\ERG{} before meet ] woman (\CLF{person}) \\
+\glt I saw the woman I had met.
+\end{exe}
+
+Generally such a determinative relative clause may trigger drop of the classifier, and in this case \qcn{nui} may be omitted, as we will do from now on. Determinacy is implied automatically.
+
+We may also have the antecedent as Agent in the main clause:
+
+\begin{exe}
+\ex
+\gll [ ǃa ǂqʼula ʼùa ] ŋàã łǁa eǃuũ \\
+[ 1S.\ERG{} before meet ] woman see 1S.\ACC{} \\
+\glt The woman I had met saw me.
+\end{exe}
+
+\cmnt{Proceed on voice changing and other positions.}
+
+\section{Serial Verb Constructions}
+
+\cmnt{To do}
+
+\section{Imperatives and Polarity}
+
+\cmnt{To doo be doo}
+
+\section{Interrogatives}
+
+\cmnt{To doo be doo}
+
+\section{Topic-Comment}\label{sec:topiccomment}
+
+\cmnt{You guessed it}
+
+\chapter{Corpus}
+
+\cmnt{Copy (future) 5moyds and longer texts}
+
+\chapter{Lexicon}
+
+\section{Numerals}
+
+\section{Dictionary}
+
+%\setlength{\parskip}{2em}
+
+\hyphenation{me-teo-ro-lo-gi-cal}
+\hyphenation{phe-no-me-non}
+
+
+
+\newcommand{\dictentry}[3]{\qcn{#1} - /#2/ \hangindent=0.4cm #3 \par }
+\newcommand{\dictsense}[3]{$\bullet$~\emph{#1}~#2 #3}
+\newcommand{\dictexample}[2]{\qcn{#1} \emph{#2}}
+\newcommand{\dictsensesep}{\,\,}
+
+\begin{multicols}{2}
+\begin{singlespace}
+
+\input{dictionary.tex}
+
+\end{singlespace}
+\end{multicols}
+
+
+\end{document}

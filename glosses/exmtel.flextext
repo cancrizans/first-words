@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<document version="2">
+  <interlinear-text guid="c106aaa8-6d32-4ea0-a4a1-50738f51997d">
+    <item type="title" lang="en">example for telephone game</item>
+    <paragraphs>
+      <paragraph guid="0ff93d41-0eea-49ff-88b6-0c613b68b09e">
+        <phrases>
+          <phrase guid="0ae771e5-7ea9-466c-b8e1-c788ad3b43a8">
+            <item type="segnum" lang="en">1</item>
+            <words>
+              <word guid="601a8275-9823-475a-9a70-164dda222cb6">
+                <item type="txt" lang="qaa">ǃɔɟa</item>
+                <item type="gls" lang="en">IMP.NEG</item>
+              </word>
+              <word guid="58bdb0c9-578c-41cc-9d42-dcf9a664b2e3">
+                <item type="txt" lang="qaa">ᵑǂã</item>
+                <item type="gls" lang="en">complain</item>
+              </word>
+              <word guid="8143bc70-18d8-4e0e-9301-9456d82d5366">
+                <item type="txt" lang="qaa">aᵑǂa̰i</item>
+                <item type="gls" lang="en">every</item>
+              </word>
+              <word guid="c6dd4f24-9a94-43fa-8e38-2273474d6840">
+                <item type="txt" lang="qaa">ᵑǃ͡ʁa̰</item>
+                <item type="gls" lang="en">in</item>
+              </word>
+              <word>
+                <item type="punct" lang="qaa">!</item>
+              </word>
+            </words>
+            <item type="gls" lang="en">Stop complaining all the time! (lit. in every place)</item>
+          </phrase>
+        </phrases>
+      </paragraph>
+    </paragraphs>
+    <languages>
+      <language lang="en" font="Charis SIL" />
+      <language lang="qaa" font="Charis SIL" vernacular="true" />
+    </languages>
+  </interlinear-text>
+</document>

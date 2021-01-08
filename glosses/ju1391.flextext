@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<document version="2">
+  <interlinear-text guid="8faf27a8-613a-456c-a693-b77272b70216">
+    <item type="title" lang="en">1391st Just Used 5 Minutes of Your Day</item>
+    <item type="comment" lang="en"></item>
+    <paragraphs>
+      <paragraph guid="89115b76-3a5d-4fb6-816e-558814916d32">
+        <phrases>
+          <phrase guid="d5bb1d36-6efc-4465-bc7f-8e2c59692bbf">
+            <item type="segnum" lang="en">1</item>
+            <words>
+              <word guid="5edae07e-5657-428a-bc23-7486b393b382">
+                <item type="txt" lang="qaa">ǀ͡qʼa</item>
+                <item type="gls" lang="en">night</item>
+              </word>
+              <word>
+                <item type="punct" lang="qaa">(</item>
+              </word>
+              <word guid="fb238dae-8bde-4bc4-9257-679c6fb68caa">
+                <item type="txt" lang="qaa">ǂa</item>
+                <item type="gls" lang="en">next</item>
+              </word>
+              <word>
+                <item type="punct" lang="qaa">)</item>
+              </word>
+              <word guid="4b94a129-4d1a-4d46-add8-e851872487bd">
+                <item type="txt" lang="qaa">ᵑǃ͡ʁa̰</item>
+                <item type="gls" lang="en">inside</item>
+              </word>
+              <word guid="587852e9-85f0-41d1-ae65-ee7443f40876">
+                <item type="txt" lang="qaa">T͡s̪ãrriʔo</item>
+                <item type="gls" lang="en">Tamrik‘o</item>
+              </word>
+              <word guid="49f32308-4190-4e03-87c8-dddb37943343">
+                <item type="txt" lang="qaa">t͡ɬa</item>
+                <item type="gls" lang="en">CLF_woman</item>
+              </word>
+              <word guid="a047e9e6-f588-4ce0-bff9-712dc731032d">
+                <item type="txt" lang="qaa">ẽǃˀan̪i</item>
+                <item type="gls" lang="en">sing</item>
+              </word>
+              <word guid="07c65f5f-479d-4579-b9b9-b03c8c7555db">
+                <item type="txt" lang="qaa">ɬǁauʔi</item>
+                <item type="gls" lang="en">gracious</item>
+              </word>
+              <word guid="4516def3-0d68-468a-b2df-918fe8a639b3">
+                <item type="txt" lang="qaa">uǂuɳa</item>
+                <item type="gls" lang="en">song</item>
+              </word>
+              <word guid="d07e2c9d-66f6-4cd4-9a48-97638f36280e">
+                <item type="txt" lang="qaa">ṵma</item>
+                <item type="gls" lang="en">1.PL.INCL.ABS</item>
+              </word>
+              <word guid="21ecf6b6-ccfb-4ee0-8bc2-2277ec099d49">
+                <item type="txt" lang="qaa">ǃɔi</item>
+                <item type="gls" lang="en">for</item>
+              </word>
+              <word>
+                <item type="punct" lang="qaa">,</item>
+              </word>
+              <word guid="a0760b62-0c38-449e-9c9d-ca1e7ed3ef81">
+                <item type="txt" lang="qaa">iǃɔ̰rri</item>
+                <item type="gls" lang="en">eat</item>
+              </word>
+              <word guid="5e274b21-20e4-4ebb-a60f-c235419c45e1">
+                <item type="txt" lang="qaa">ᵑǀai</item>
+                <item type="gls" lang="en">behind</item>
+              </word>
+              <word guid="949b4171-698d-40c0-b74a-eff0be1ee0cb">
+                <item type="txt" lang="qaa">ǃuli</item>
+                <item type="gls" lang="en">celebration</item>
+              </word>
+              <word guid="404aed8e-a1ef-4bc0-a65b-d17ae9183b5b">
+                <item type="txt" lang="qaa">ʔurri</item>
+                <item type="gls" lang="en">CLF_timespan</item>
+              </word>
+              <word guid="4b94a129-4d1a-4d46-add8-e851872487bd">
+                <item type="txt" lang="qaa">ᵑǃ͡ʁa̰</item>
+                <item type="gls" lang="en">inside</item>
+              </word>
+            </words>
+            <item type="gls" lang="en">Tonight Tamrik‘o will sing a gracious song for us during the party after the meal."</item>
+          </phrase>
+        </phrases>
+      </paragraph>
+    </paragraphs>
+    <languages>
+      <language lang="en" font="Charis SIL" />
+      <language lang="qaa" font="Charis SIL" vernacular="true" />
+    </languages>
+  </interlinear-text>
+</document>

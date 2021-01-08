@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>ǂa ɳṵĩ Keyboard</title>
+
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/dejavu-sans@1.0.0/css/dejavu-sans.min.css">
+	<style type="text/css">
+		body{
+			font-family: Dejavu Sans;
+		}
+#container{
+	max-width: 600px;
+
+}
+
+		#buttonscontainer {
+			width: 100%;
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+		}
+
+		.button {
+			flex-grow : 1;
+			flex-basis : 3em;
+			align-content: stretch;
+			text-align: center;
+			font-size: 30px;
+		}
+	</style>
+
+	<script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+
+</head>
+<body>
+	<div id="container"> 
+	<textarea id="text"></textarea>
+
+	<div id="buttonscontainer"></div>
+</div>
+
+	<script type="text/javascript">
+		function insertAtCursor(myField, myValue) {
+    //IE support
+    if (document.selection) {
+        myField.focus();
+        sel = document.selection.createRange();
+        sel.text = myValue;
+    }
+    //MOZILLA and others
+    else if (myField.selectionStart || myField.selectionStart == '0') {
+        var startPos = myField.selectionStart;
+        var endPos = myField.selectionEnd;
+        myField.value = myField.value.substring(0, startPos)
+            + myValue
+            + myField.value.substring(endPos, myField.value.length);
+    } else {
+        myField.value += myValue;
+    }
+}
+
+
+		var tarea = $("#text");
+		var buttonscontainer = $("#buttonscontainer");
+
+		let clickarts = ["ǀ","ǃ","ǂ","ǁ"];
+		const str_uaffr = "͡χ";
+		const str_vaffr = "͡ʁ";
+		const str_glott = "ˀ";
+		const str_nas = "ᵑ";
+		const str_ejec = "͡qʼ";
+		let clicks_affricate = clickarts.map(c => c+ str_uaffr);
+		let clicks_glottalized = clickarts.map(c => c+ str_glott);
+		let clicks_ejective = clickarts.map(c => c+ str_ejec);
+		let clicks_nasal = clickarts.map(c => str_nas + c);
+		let clicks_nasal_affricate = clickarts.map(c => str_nas + c + str_vaffr);
+		let clicks_nasal_glottalized = clickarts.map(c => str_nas + c + str_glott);
+
+		let clicksprefric = ["s̪ǀ","ʃǃ","ʂǂ","ɬǁ"];
+		let clicks_prefricative_glottalized = clicksprefric.map(c => c + str_glott);
+		let clicks_prefricative_ejective = clicksprefric.map(c => c + str_ejec);
+
+		let clicks = [].concat.apply([],[
+		                             	clickarts,
+		                             	clicks_affricate,
+		                             	clicks_ejective,
+		                             	clicks_glottalized,
+		                             	clicks_nasal,
+		                             	clicks_nasal_affricate,
+		                             	clicks_nasal_glottalized,
+		                             	clicksprefric,
+		                             	clicks_prefricative_glottalized,
+		                             	clicks_prefricative_ejective
+
+		                             ]);
+
+		let vowels = ["ɔ","̃","̰"];
+
+		let consonants = ["t͡s̪","ʈ","t͡ʃ","ʈ͡ʂ","ʈ͡ɬ","ɲ","ɳ","ŋ","ɟ","ʔ"]
+
+		let chars = clicks.concat(vowels.concat(consonants));
+
+
+
+		let alphabet = "ꞱʇṬṭŇňČčṆṇŊŋʼŁłŠšṢṣÀàÈèÌìÒòÙùÃãĨĩÕõŨũ".split("");
+
+		chars = alphabet.concat(chars);
+
+		for(var c of chars){
+			let button = $(`<div class="button">${c}</div>`);
+
+			button.click(function(c){
+				console.log("hehe"+c);
+				insertAtCursor(tarea[0],c);
+			}.bind(null,c));
+
+			buttonscontainer.append(button);
+		}
+	</script>
+</body>
+</html>
