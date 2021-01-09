@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<document version="2">
+  <interlinear-text guid="ce8a8463-7989-43a4-b4af-a17837925076">
+    <item type="title" lang="en">phoenix text</item>
+    <item type="comment" lang="en"></item>
+    <paragraphs>
+      <paragraph guid="68189c6e-9cd9-4e35-805a-ab3cdbf36ca8">
+        <phrases>
+          <phrase guid="5445d0bc-a6b6-4c53-bc8d-b7df39f6c3f1">
+            <item type="segnum" lang="en">1</item>
+            <words>
+              <word guid="4393ccff-4634-442b-994f-7a8e417e0827">
+                <item type="txt" lang="qaa">nǃàa</item>
+                <item type="gls" lang="en">fire</item>
+              </word>
+              <word guid="38affcad-4c21-4eeb-90dc-5fa2be167b24">
+                <item type="txt" lang="qaa">uṭu</item>
+                <item type="gls" lang="en">CLF_bird</item>
+              </word>
+              <word guid="ca5bf346-663a-4dc4-825d-1087ad0fdde8">
+                <item type="txt" lang="qaa">ǂoǂoĩ</item>
+                <item type="gls" lang="en">APPL~fly</item>
+              </word>
+              <word guid="0d65c408-b2ab-4eca-a94c-b4ededc261ef">
+                <item type="txt" lang="qaa">čèe</item>
+                <item type="gls" lang="en">column</item>
+              </word>
+              <word guid="3eb59f31-dc31-42c1-860c-c9326c61b8a3">
+                <item type="txt" lang="qaa">sʇʼi</item>
+                <item type="gls" lang="en">CLF_slender</item>
+              </word>
+              <word>
+                <item type="punct" lang="qaa">,</item>
+              </word>
+              <word guid="d4c79455-16d4-470e-b2e9-6a74528aa270">
+                <item type="txt" lang="qaa">sʇʼi</item>
+                <item type="gls" lang="en">CLF_slender</item>
+              </word>
+              <word guid="e02b2bce-3404-4581-a1a8-927a4708d9c3">
+                <item type="txt" lang="qaa">jùũ</item>
+                <item type="gls" lang="en">surround</item>
+              </word>
+              <word guid="fe613b0b-b187-4e88-832c-07d870e189d6">
+                <item type="txt" lang="qaa">jùu</item>
+                <item type="gls" lang="en">sun</item>
+              </word>
+              <word guid="2875c5c6-5518-4741-871a-9801545fc423">
+                <item type="txt" lang="qaa">ǃqʼao</item>
+                <item type="gls" lang="en">clock</item>
+              </word>
+              <word guid="3d14641d-eb4e-41c6-b089-06cb767d36e5">
+                <item type="txt" lang="qaa">ǂu</item>
+                <item type="gls" lang="en">and</item>
+              </word>
+              <word>
+                <item type="punct" lang="qaa">,</item>
+              </word>
+              <word guid="834db4a3-aeca-4064-9aa1-5330748ee1e7">
+                <item type="txt" lang="qaa">nǁaʼa</item>
+                <item type="gls" lang="en">gold</item>
+              </word>
+              <word guid="b1b4116d-541e-4c54-96e8-51330463cca8">
+                <item type="txt" lang="qaa">ŋèe</item>
+                <item type="gls" lang="en">sunset</item>
+              </word>
+              <word guid="e4fde4ca-0709-4af4-b4c7-bd104a7dbcd0">
+                <item type="txt" lang="qaa">ʼurri</item>
+                <item type="gls" lang="en">CLF_timespan</item>
+              </word>
+              <word guid="f3816746-4293-4fdc-88e0-690db1e58338">
+                <item type="txt" lang="qaa">nǃxàa</item>
+                <item type="gls" lang="en">inside</item>
+              </word>
+              <word>
+                <item type="punct" lang="qaa">.</item>
+              </word>
+            </words>
+            <item type="gls" lang="en">The phoenix flew over the pillars, and the sundial that the pillars surrounded, during that golden evening</item>
+          </phrase>
+        </phrases>
+      </paragraph>
+    </paragraphs>
+    <languages>
+      <language lang="en" font="Charis SIL" />
+      <language lang="qaa" font="Charis SIL" vernacular="true" />
+    </languages>
+  </interlinear-text>
+</document>

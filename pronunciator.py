@@ -91,4 +91,4 @@ def pronunciate(text, debug=False):
 	return text
 
 
-pronunciate("Ʇila ǃxaje nǁotṣo ǂòõ.",debug=True)
+pronunciate("nǃàa uṭu ǂoǂoĩ čèe sʇʼi, sʇʼi jùũ jùu ǃqʼao ǂu, nǁaʼa ŋèe ʼurri nǃxàa.",debug=True)
