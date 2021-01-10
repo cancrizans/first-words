@@ -71,9 +71,9 @@
 <gloss lang="en"><text>2.INTR</text></gloss>
 </sense>
 </entry>
-<entry dateCreated="2020-12-27T15:14:21Z" dateModified="2021-01-09T11:18:13Z" id="auǃqʼe_08f529f4-e69a-4511-a6bb-a901be7deadd" guid="08f529f4-e69a-4511-a6bb-a901be7deadd">
+<entry dateCreated="2020-12-27T15:14:21Z" dateModified="2021-01-10T13:32:16Z" id="auǃqʼo_08f529f4-e69a-4511-a6bb-a901be7deadd" guid="08f529f4-e69a-4511-a6bb-a901be7deadd">
 <lexical-unit>
-<form lang="qaa"><text>auǃqʼe</text></form>
+<form lang="qaa"><text>auǃqʼo</text></form>
 </lexical-unit>
 <trait  name="morph-type" value="stem"/>
 <sense id="a077504a-feff-435b-85eb-9698b401b611">
@@ -145,9 +145,9 @@
 <gloss lang="en"><text>boat</text></gloss>
 </sense>
 </entry>
-<entry dateCreated="2021-01-02T20:46:49Z" dateModified="2021-01-06T00:48:41Z" id="unǂe_13a0eba6-d40a-41ff-a2e0-e9576111ae08" guid="13a0eba6-d40a-41ff-a2e0-e9576111ae08">
+<entry dateCreated="2021-01-02T20:46:49Z" dateModified="2021-01-10T13:18:50Z" id="unǂoi_13a0eba6-d40a-41ff-a2e0-e9576111ae08" guid="13a0eba6-d40a-41ff-a2e0-e9576111ae08">
 <lexical-unit>
-<form lang="qaa"><text>unǂe</text></form>
+<form lang="qaa"><text>unǂoi</text></form>
 </lexical-unit>
 <trait  name="morph-type" value="stem"/>
 <sense id="652b368c-329a-4816-b685-758787056be6">
@@ -367,7 +367,7 @@
 <gloss lang="en"><text>SUBJ</text></gloss>
 </sense>
 </entry>
-<entry dateCreated="2021-01-09T11:12:16Z" dateModified="2021-01-09T11:12:44Z" id="po_2e171516-2603-4081-865d-ba4eeb3208dd" guid="2e171516-2603-4081-865d-ba4eeb3208dd">
+<entry dateCreated="2021-01-09T11:12:16Z" dateModified="2021-01-10T13:25:31Z" id="po_2e171516-2603-4081-865d-ba4eeb3208dd" guid="2e171516-2603-4081-865d-ba4eeb3208dd">
 <lexical-unit>
 <form lang="qaa"><text>po</text></form>
 </lexical-unit>
@@ -379,6 +379,7 @@
 <definition>
 <form lang="en"><text>lips (of the mouth)</text></form>
 </definition>
+<relation type="Classifier" ref="91404622-4d79-4582-845f-00fddeb93b36"/>
 </sense>
 <sense id="10dd7de0-c199-454b-8992-589f88a71bcd" order="1">
 <grammatical-info value="Noun">
@@ -387,6 +388,7 @@
 <definition>
 <form lang="en"><text>mouth, oral cavity</text></form>
 </definition>
+<relation type="Classifier" ref="ff85b35c-aa23-4f4a-b0c5-262999d76046"/>
 </sense>
 </entry>
 <entry dateCreated="2020-12-30T15:53:53Z" dateModified="2021-01-08T10:40:51Z" id="unʇaã_2e72978b-1bd4-4d10-9630-ba799e12aa9b" guid="2e72978b-1bd4-4d10-9630-ba799e12aa9b">
@@ -409,9 +411,9 @@
 </definition>
 </sense>
 </entry>
-<entry dateCreated="2021-01-04T02:58:27Z" dateModified="2021-01-06T00:41:48Z" id="ǂeepe_2e860f5d-4180-4abb-965e-997eaa371a9f" guid="2e860f5d-4180-4abb-965e-997eaa371a9f">
+<entry dateCreated="2021-01-04T02:58:27Z" dateModified="2021-01-10T13:41:18Z" id="ǂoipe_2e860f5d-4180-4abb-965e-997eaa371a9f" guid="2e860f5d-4180-4abb-965e-997eaa371a9f">
 <lexical-unit>
-<form lang="qaa"><text>ǂeepe</text></form>
+<form lang="qaa"><text>ǂoipe</text></form>
 </lexical-unit>
 <trait  name="morph-type" value="stem"/>
 <sense id="69f4c372-3a9a-4268-9650-4fe03bd6ecad">
@@ -563,7 +565,7 @@
 <gloss lang="en"><text>meat</text></gloss>
 </sense>
 </entry>
-<entry dateCreated="2021-01-01T15:43:20Z" dateModified="2021-01-06T00:27:19Z" id="ʼurri_4130b7bb-6dad-4c64-8bd8-b8c55d3554d2" guid="4130b7bb-6dad-4c64-8bd8-b8c55d3554d2">
+<entry dateCreated="2021-01-01T15:43:20Z" dateModified="2021-01-10T13:21:42Z" id="ʼurri_4130b7bb-6dad-4c64-8bd8-b8c55d3554d2" guid="4130b7bb-6dad-4c64-8bd8-b8c55d3554d2">
 <lexical-unit>
 <form lang="qaa"><text>ʼurri</text></form>
 </lexical-unit>
@@ -572,6 +574,10 @@
 <grammatical-info value="Noun classifier">
 </grammatical-info>
 <gloss lang="en"><text>CLF_timespan</text></gloss>
+<definition>
+<form lang="en"><text>timespans, events in time, occurrences, dates, appointments</text></form>
+</definition>
+<relation type="Classified Noun" ref="67f2a2aa-b0d4-41dc-b429-b62dea887a69"/>
 </sense>
 </entry>
 <entry dateCreated="2021-01-08T19:32:58Z" dateModified="2021-01-08T19:32:58Z" id="nǃàa_41b60446-262f-4dec-a29d-d7d41c899959" guid="41b60446-262f-4dec-a29d-d7d41c899959">
@@ -621,9 +627,9 @@
 <gloss lang="en"><text>chicken</text></gloss>
 </sense>
 </entry>
-<entry dateCreated="2020-12-30T15:55:23Z" dateModified="2021-01-06T00:41:29Z" id="ǁèe_4b09ebc8-a566-4fae-af19-340453a2445f" guid="4b09ebc8-a566-4fae-af19-340453a2445f">
+<entry dateCreated="2020-12-30T15:55:23Z" dateModified="2021-01-10T13:40:58Z" id="ǁòi_4b09ebc8-a566-4fae-af19-340453a2445f" guid="4b09ebc8-a566-4fae-af19-340453a2445f">
 <lexical-unit>
-<form lang="qaa"><text>ǁèe</text></form>
+<form lang="qaa"><text>ǁòi</text></form>
 </lexical-unit>
 <trait  name="morph-type" value="stem"/>
 <sense id="37465d51-99f3-4035-86dd-73d10bb0640f">
@@ -973,9 +979,9 @@
 <relation type="Classifier" ref="39cd8ce3-3cf4-4f57-b6e7-047375f6460f"/>
 </sense>
 </entry>
-<entry dateCreated="2021-01-02T20:44:21Z" dateModified="2021-01-06T14:26:24Z" id="‖qʼooňa_76e9d90d-213f-4166-82a0-59cf27bce778" guid="76e9d90d-213f-4166-82a0-59cf27bce778">
+<entry dateCreated="2021-01-02T20:44:21Z" dateModified="2021-01-09T18:25:19Z" id="ǁqʼooňa_76e9d90d-213f-4166-82a0-59cf27bce778" guid="76e9d90d-213f-4166-82a0-59cf27bce778">
 <lexical-unit>
-<form lang="qaa"><text>‖qʼooňa</text></form>
+<form lang="qaa"><text>ǁqʼooňa</text></form>
 </lexical-unit>
 <trait  name="morph-type" value="stem"/>
 <sense id="4ffe261a-baef-42e7-a85f-9eff1a50528e" order="0">
@@ -1241,9 +1247,9 @@
 <gloss lang="en"><text>kick</text></gloss>
 </sense>
 </entry>
-<entry dateCreated="2021-01-04T02:59:19Z" dateModified="2021-01-06T00:51:34Z" id="nǁʼòõ_8f9a2e5e-223b-42f4-9143-2e8484106bd5" guid="8f9a2e5e-223b-42f4-9143-2e8484106bd5">
+<entry dateCreated="2021-01-04T02:59:19Z" dateModified="2021-01-10T13:55:39Z" id="nǁòõ_8f9a2e5e-223b-42f4-9143-2e8484106bd5" guid="8f9a2e5e-223b-42f4-9143-2e8484106bd5">
 <lexical-unit>
-<form lang="qaa"><text>nǁʼòõ</text></form>
+<form lang="qaa"><text>nǁòõ</text></form>
 </lexical-unit>
 <trait  name="morph-type" value="stem"/>
 <sense id="7c482e85-3a82-4571-b63f-5b42e5aa5f96">
@@ -1280,15 +1286,27 @@
 </definition>
 </sense>
 </entry>
-<entry dateCreated="2021-01-08T19:36:53Z" dateModified="2021-01-08T19:36:53Z" id="ŋèe_92292ab2-4e96-4bf0-bd8d-b1ff41823e7d" guid="92292ab2-4e96-4bf0-bd8d-b1ff41823e7d">
+<entry dateCreated="2021-01-08T19:36:53Z" dateModified="2021-01-10T13:22:22Z" id="ŋèe_92292ab2-4e96-4bf0-bd8d-b1ff41823e7d" guid="92292ab2-4e96-4bf0-bd8d-b1ff41823e7d">
 <lexical-unit>
 <form lang="qaa"><text>ŋèe</text></form>
 </lexical-unit>
 <trait  name="morph-type" value="stem"/>
-<sense id="67f2a2aa-b0d4-41dc-b429-b62dea887a69">
+<sense id="67f2a2aa-b0d4-41dc-b429-b62dea887a69" order="0">
 <grammatical-info value="Noun">
 </grammatical-info>
 <gloss lang="en"><text>sunset</text></gloss>
+<definition>
+<form lang="en"><text>evening, time of sunset</text></form>
+</definition>
+<relation type="Classifier" ref="6d3c7868-b597-4693-9a22-5049d6e58a28"/>
+</sense>
+<sense id="c82c478c-025d-400a-833d-71824470c65a" order="1">
+<grammatical-info value="Noun">
+</grammatical-info>
+<gloss lang="en"><text>sunset</text></gloss>
+<definition>
+<form lang="en"><text>sunset (the process of sun setting)</text></form>
+</definition>
 </sense>
 </entry>
 <entry dateCreated="2020-12-25T18:15:37Z" dateModified="2021-01-07T14:06:21Z" id="šǃo_96d3690d-633b-497c-acdc-0e55f8f3e391" guid="96d3690d-633b-497c-acdc-0e55f8f3e391">
@@ -1305,7 +1323,7 @@
 </definition>
 </sense>
 </entry>
-<entry dateCreated="2020-12-31T17:10:21Z" dateModified="2021-01-06T00:38:56Z" id="noõ_9b833b29-4a25-40fc-ba09-686a9ad388ca" guid="9b833b29-4a25-40fc-ba09-686a9ad388ca">
+<entry dateCreated="2020-12-31T17:10:21Z" dateModified="2021-01-10T13:20:00Z" id="noõ_9b833b29-4a25-40fc-ba09-686a9ad388ca" guid="9b833b29-4a25-40fc-ba09-686a9ad388ca">
 <lexical-unit>
 <form lang="qaa"><text>noõ</text></form>
 </lexical-unit>
@@ -1314,6 +1332,10 @@
 <grammatical-info value="Noun classifier">
 </grammatical-info>
 <gloss lang="en"><text>CLF_round tool</text></gloss>
+<definition>
+<form lang="en"><text>round tools, round instruments, artificial balls, spheres, globes, round toys</text></form>
+</definition>
+<relation type="Classified Noun" ref="e13729b5-e35c-403a-a9bf-4e51bce62506"/>
 </sense>
 </entry>
 <entry dateCreated="2021-01-07T14:09:20Z" dateModified="2021-01-07T14:21:30Z" id="šǃo ... iňi_9d1195f6-1842-40cb-9205-95c443227612" guid="9d1195f6-1842-40cb-9205-95c443227612">
@@ -1359,7 +1381,7 @@
 </example>
 </sense>
 </entry>
-<entry dateCreated="2021-01-04T13:49:27Z" dateModified="2021-01-06T14:24:22Z" id="ǃòotło_9dbfd3ab-7410-48b1-b126-cf4d7aa36f6c" guid="9dbfd3ab-7410-48b1-b126-cf4d7aa36f6c">
+<entry dateCreated="2021-01-04T13:49:27Z" dateModified="2021-01-10T13:26:03Z" id="ǃòotło_9dbfd3ab-7410-48b1-b126-cf4d7aa36f6c" guid="9dbfd3ab-7410-48b1-b126-cf4d7aa36f6c">
 <lexical-unit>
 <form lang="qaa"><text>ǃòotło</text></form>
 </lexical-unit>
@@ -1563,7 +1585,7 @@
 <gloss lang="en"><text>flee</text></gloss>
 </sense>
 </entry>
-<entry dateCreated="2020-12-31T17:10:04Z" dateModified="2021-01-06T00:27:19Z" id="ʼutła_b6672438-392f-4a44-b9c8-7912f2b40e56" guid="b6672438-392f-4a44-b9c8-7912f2b40e56">
+<entry dateCreated="2020-12-31T17:10:04Z" dateModified="2021-01-10T13:20:14Z" id="ʼutła_b6672438-392f-4a44-b9c8-7912f2b40e56" guid="b6672438-392f-4a44-b9c8-7912f2b40e56">
 <lexical-unit>
 <form lang="qaa"><text>ʼutła</text></form>
 </lexical-unit>
@@ -1572,6 +1594,10 @@
 <grammatical-info value="Noun">
 </grammatical-info>
 <gloss lang="en"><text>ball</text></gloss>
+<definition>
+<form lang="en"><text>playing ball</text></form>
+</definition>
+<relation type="Classifier" ref="c0835c51-5359-4436-ba00-892bee80b162"/>
 </sense>
 </entry>
 <entry dateCreated="2020-12-31T17:07:53Z" dateModified="2021-01-06T22:12:39Z" id="inǁàa_b8c4d843-f317-44a7-abec-b01dd4b6eca6" guid="b8c4d843-f317-44a7-abec-b01dd4b6eca6">
@@ -1585,9 +1611,9 @@
 <gloss lang="en"><text>sleep</text></gloss>
 </sense>
 </entry>
-<entry dateCreated="2021-01-01T15:43:03Z" dateModified="2021-01-06T14:26:20Z" id="ǀqʼa_b97bcde0-d03c-4591-b263-7ccc0ad8c808" guid="b97bcde0-d03c-4591-b263-7ccc0ad8c808">
+<entry dateCreated="2021-01-01T15:43:03Z" dateModified="2021-01-10T13:50:28Z" id="ʇqʼa_b97bcde0-d03c-4591-b263-7ccc0ad8c808" guid="b97bcde0-d03c-4591-b263-7ccc0ad8c808">
 <lexical-unit>
-<form lang="qaa"><text>ǀqʼa</text></form>
+<form lang="qaa"><text>ʇqʼa</text></form>
 </lexical-unit>
 <trait  name="morph-type" value="stem"/>
 <sense id="56f8f0ba-2004-4bc5-9659-c44c25bda2fd">
@@ -1643,6 +1669,7 @@
 </definition>
 <relation type="Classified Noun" ref="05a8b395-a28b-4fb0-9835-c395f15eaa89"/>
 <relation type="Classified Noun" ref="b01ef57d-bde5-4b35-b470-01fb28f0ea59"/>
+<relation type="Classified Noun" ref="d3e5634c-f97f-4b44-bd54-dda26e674e44"/>
 </sense>
 </entry>
 <entry dateCreated="2020-12-25T11:38:16Z" dateModified="2021-01-06T22:06:06Z" id="ǃòo_bf279469-e7e8-41a7-9268-cf42464b09ac" guid="bf279469-e7e8-41a7-9268-cf42464b09ac">
@@ -1772,7 +1799,7 @@
 </definition>
 </sense>
 </entry>
-<entry dateCreated="2020-12-31T17:09:20Z" dateModified="2021-01-06T00:22:57Z" id="ji_cfae08b4-ba86-493f-9837-953c045441f1" guid="cfae08b4-ba86-493f-9837-953c045441f1">
+<entry dateCreated="2020-12-31T17:09:20Z" dateModified="2021-01-10T11:50:39Z" id="ji_cfae08b4-ba86-493f-9837-953c045441f1" guid="cfae08b4-ba86-493f-9837-953c045441f1">
 <lexical-unit>
 <form lang="qaa"><text>ji</text></form>
 </lexical-unit>
@@ -1781,6 +1808,7 @@
 <grammatical-info value="Noun classifier">
 </grammatical-info>
 <gloss lang="en"><text>CLF_child</text></gloss>
+<relation type="Classified Noun" ref="f72f4100-a231-427c-beb6-01cf22d4c318"/>
 </sense>
 </entry>
 <entry dateCreated="2020-12-27T15:05:01Z" dateModified="2021-01-06T00:46:48Z" id="ṣǂqʼo_d05e957b-1a40-439f-8632-f56c19783fd5" guid="d05e957b-1a40-439f-8632-f56c19783fd5">
@@ -1925,7 +1953,7 @@
 <gloss lang="en"><text>head</text></gloss>
 </sense>
 </entry>
-<entry dateCreated="2021-01-04T02:57:55Z" dateModified="2021-01-08T10:17:15Z" id="ǂùũ_e8d93e52-8eed-45f3-9860-285384a4267a" guid="e8d93e52-8eed-45f3-9860-285384a4267a">
+<entry dateCreated="2021-01-04T02:57:55Z" dateModified="2021-01-10T13:26:20Z" id="ǂùũ_e8d93e52-8eed-45f3-9860-285384a4267a" guid="e8d93e52-8eed-45f3-9860-285384a4267a">
 <lexical-unit>
 <form lang="qaa"><text>ǂùũ</text></form>
 </lexical-unit>
@@ -1933,11 +1961,13 @@
 <sense id="ca14cde0-71c7-4f8d-85a4-018a71fac6af">
 <grammatical-info value="Noun classifier">
 </grammatical-info>
-<gloss lang="en"><text>CLF_liquids</text></gloss>
+<gloss lang="en"><text>liquids</text></gloss>
 <definition>
 <form lang="en"><text>liquids, drops, rain, beverages</text></form>
 </definition>
 <relation type="Classified Noun" ref="5aa01b71-95ca-40e2-be2d-35dc7ec00bc8"/>
+<relation type="Classified Noun" ref="0d210d34-82bc-40ac-8729-4f447f3d501f"/>
+<relation type="Classified Noun" ref="57debae3-6e0d-4a1d-8ecc-5ff08f7d06f1"/>
 </sense>
 </entry>
 <entry dateCreated="2021-01-09T11:19:21Z" dateModified="2021-01-09T11:19:29Z" id="ǃuũǃoi_e8ecc989-8404-4420-953b-9871435cfe12" guid="e8ecc989-8404-4420-953b-9871435cfe12">
@@ -1963,7 +1993,7 @@
 <gloss lang="en"><text>CLF_lid</text></gloss>
 </sense>
 </entry>
-<entry dateCreated="2020-12-31T17:08:59Z" dateModified="2021-01-06T00:39:42Z" id="ǃoono_e9f6438d-0032-4a95-a590-f1a582e531e5" guid="e9f6438d-0032-4a95-a590-f1a582e531e5">
+<entry dateCreated="2020-12-31T17:08:59Z" dateModified="2021-01-10T11:51:04Z" id="ǃoono_e9f6438d-0032-4a95-a590-f1a582e531e5" guid="e9f6438d-0032-4a95-a590-f1a582e531e5">
 <lexical-unit>
 <form lang="qaa"><text>ǃoono</text></form>
 </lexical-unit>
@@ -1972,6 +2002,8 @@
 <grammatical-info value="Noun">
 </grammatical-info>
 <gloss lang="en"><text>boy</text></gloss>
+<relation type="Classifier" ref="d777c666-c1ca-4e67-8a13-a5838469fea8"/>
+<relation type="Classifier" ref="b4de7c68-af90-477c-ad1e-681b006996b5"/>
 </sense>
 </entry>
 <entry dateCreated="2020-12-26T00:12:55Z" dateModified="2021-01-06T00:49:12Z" id="ʼèe_eadc4978-ea95-4183-8025-e2f0d988fe77" guid="eadc4978-ea95-4183-8025-e2f0d988fe77">
@@ -2177,7 +2209,7 @@
 <gloss lang="en"><text>ten</text></gloss>
 </sense>
 </entry>
-<entry dateCreated="2020-12-25T18:44:15Z" dateModified="2021-01-07T11:25:47Z" id="nui_fbfd4218-7ca3-47aa-bc7b-c40967c43548" guid="fbfd4218-7ca3-47aa-bc7b-c40967c43548">
+<entry dateCreated="2020-12-25T18:44:15Z" dateModified="2021-01-10T11:51:04Z" id="nui_fbfd4218-7ca3-47aa-bc7b-c40967c43548" guid="fbfd4218-7ca3-47aa-bc7b-c40967c43548">
 <lexical-unit>
 <form lang="qaa"><text>nui</text></form>
 </lexical-unit>
@@ -2189,6 +2221,7 @@
 <definition>
 <form lang="en"><text>persons, people, humans, personified entities, individuals, animate</text></form>
 </definition>
+<relation type="Classified Noun" ref="f72f4100-a231-427c-beb6-01cf22d4c318"/>
 </sense>
 </entry>
 <entry dateCreated="2020-12-30T15:54:25Z" dateModified="2021-01-06T22:08:30Z" id="ǃʼuulu_fd7c9d6a-bcf5-4e3f-b733-43ee53eeb85c" guid="fd7c9d6a-bcf5-4e3f-b733-43ee53eeb85c">
@@ -2221,7 +2254,7 @@
 <gloss lang="en"><text>CLF_bird</text></gloss>
 </sense>
 </entry>
-<entry dateCreated="2020-12-28T23:59:19Z" dateModified="2021-01-09T17:49:55Z" id="iłǁui_ff796f4e-ac19-4ee8-8571-5cec6503c876" guid="ff796f4e-ac19-4ee8-8571-5cec6503c876">
+<entry dateCreated="2020-12-28T23:59:19Z" dateModified="2021-01-10T13:26:45Z" id="iłǁui_ff796f4e-ac19-4ee8-8571-5cec6503c876" guid="ff796f4e-ac19-4ee8-8571-5cec6503c876">
 <lexical-unit>
 <form lang="qaa"><text>iłǁui</text></form>
 </lexical-unit>
@@ -2230,6 +2263,34 @@
 <grammatical-info value="Noun">
 </grammatical-info>
 <gloss lang="en"><text>milk</text></gloss>
+<relation type="Classifier" ref="ca14cde0-71c7-4f8d-85a4-018a71fac6af"/>
+</sense>
+</entry>
+<entry dateCreated="2021-01-10T13:24:43Z" dateModified="2021-01-10T13:26:03Z" id="ʇaõ_0c901ec9-6088-4d6b-9528-fa163ae2c027" guid="0c901ec9-6088-4d6b-9528-fa163ae2c027">
+<lexical-unit>
+<form lang="qaa"><text>ʇaõ</text></form>
+</lexical-unit>
+<trait  name="morph-type" value="stem"/>
+<sense id="ff85b35c-aa23-4f4a-b0c5-262999d76046">
+<grammatical-info value="Noun classifier">
+</grammatical-info>
+<gloss lang="en"><text>orifice</text></gloss>
+<definition>
+<form lang="en"><text>orifices, bodily holes, openings, wounds</text></form>
+</definition>
+<relation type="Classified Noun" ref="10dd7de0-c199-454b-8992-589f88a71bcd"/>
+</sense>
+</entry>
+<entry dateCreated="2021-01-10T13:28:12Z" dateModified="2021-01-10T13:28:34Z" id="ʼào_807a2747-da2c-4f81-bb71-a2d24180ea3c" guid="807a2747-da2c-4f81-bb71-a2d24180ea3c">
+<lexical-unit>
+<form lang="qaa"><text>ʼào</text></form>
+</lexical-unit>
+<trait  name="morph-type" value="stem"/>
+<sense id="57debae3-6e0d-4a1d-8ecc-5ff08f7d06f1">
+<grammatical-info value="Noun">
+</grammatical-info>
+<gloss lang="en"><text>water</text></gloss>
+<relation type="Classifier" ref="ca14cde0-71c7-4f8d-85a4-018a71fac6af"/>
 </sense>
 </entry>
 </lift>

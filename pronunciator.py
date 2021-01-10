@@ -72,11 +72,13 @@ def superLowerCase(text):
 		text = text.replace(patt, lowercase_subs[patt])
 	return text
 
-def log(s):
-	with open("pronunciatorlog.txt",'a',encoding="utf-8") as f:
+def log(s,resetLog=False):
+	with open("pronunciatorlog.txt",'w' if resetLog else 'a',encoding="utf-8") as f:
 		f.write(s+"\n")
 
 def pronunciate(text, debug=False):
+	if debug:
+		log("",True)
 	text = superLowerCase(text)
 
 	for patt in IPAsubs:
@@ -91,4 +93,11 @@ def pronunciate(text, debug=False):
 	return text
 
 
-pronunciate("nǃàa uṭu ǂoǂoĩ čèe sʇʼi, sʇʼi jùũ jùu ǃqʼao ǂu, nǁaʼa ŋèe ʼurri nǃxàa.",debug=True)
+import argparse
+parser = argparse.ArgumentParser()
+parser.add_argument("--test", help="input text for pronunciation")
+
+args = parser.parse_args()
+
+if(args.test):
+	pronunciate(args.test,True)

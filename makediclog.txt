@@ -1,0 +1,5 @@
+ERROR: entry ǂeepe violates bwc
+ERROR: entry ǁèe violates bwc
+ERROR: entry ʇila violates bwc
+ERROR: entry ǂeepe violates bwc
+ERROR: entry ǁèe violates bwc

@@ -1,0 +1,6 @@
+__pycache__/
+re/
+*.aux
+*.log
+*.out
+*log.txt
