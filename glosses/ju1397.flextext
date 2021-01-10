@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<document version="2">
+  <interlinear-text guid="8c8fe535-bf39-4ac6-a2d9-c38c60c92190">
+    <item type="title" lang="en">1397th Just Used 5 Minutes of Your Day</item>
+    <item type="comment" lang="en"></item>
+    <paragraphs>
+      <paragraph guid="cc371442-03e5-4d53-b740-60add0ed424c">
+        <phrases>
+          <phrase guid="729743ca-2625-4c8f-acc5-7aec5779a5a4">
+            <item type="segnum" lang="en">1</item>
+            <words>
+              <word guid="f84de386-f598-488c-bf87-e5c195fdb8b8">
+                <item type="txt" lang="qaa">oǃao</item>
+                <item type="gls" lang="en">old</item>
+              </word>
+              <word guid="66ac91fd-3959-4334-b0ff-11909074f477">
+                <item type="txt" lang="qaa">ku</item>
+                <item type="gls" lang="en">CLF_adult_male</item>
+              </word>
+              <word guid="3fc478d6-6138-4057-88b7-7c7ebc14afef">
+                <item type="txt" lang="qaa">ʼa</item>
+                <item type="gls" lang="en">ABL</item>
+              </word>
+              <word guid="2e376607-31b9-49b1-95d3-b278b49297c0">
+                <item type="txt" lang="qaa">Pajirri</item>
+                <item type="gls" lang="en">Bajïr</item>
+              </word>
+              <word guid="d46bdb83-eb0b-42b9-8ce9-2ad6deaa3537">
+                <item type="txt" lang="qaa">nui</item>
+                <item type="gls" lang="en">people</item>
+              </word>
+              <word guid="ebabf53f-c812-4311-9816-66d32ee157aa">
+                <item type="txt" lang="qaa">ǁʼu</item>
+                <item type="gls" lang="en">provide, give</item>
+              </word>
+              <word guid="f0122256-9b93-49a8-bbbc-6f82a2ecc0d0">
+                <item type="txt" lang="qaa">ṣǂuũ</item>
+                <item type="gls" lang="en">knife</item>
+              </word>
+              <word guid="4df194dd-6a35-4add-ae8d-8bcb5587f04c">
+                <item type="txt" lang="qaa">ǃxatłe</item>
+                <item type="gls" lang="en">blades</item>
+              </word>
+              <word guid="8c66c5f7-6263-4d56-9336-4112fe51d509">
+                <item type="txt" lang="qaa">ra</item>
+                <item type="gls" lang="en">INSTR</item>
+              </word>
+              <word guid="a776cde0-3868-4660-9466-6b813419f9c4">
+                <item type="txt" lang="qaa">ǃoono</item>
+                <item type="gls" lang="en">boy</item>
+              </word>
+              <word guid="d5ee954e-1b3a-4a31-a7ad-137dddeea03f">
+                <item type="txt" lang="qaa">ji</item>
+                <item type="gls" lang="en">CLF_child</item>
+              </word>
+            </words>
+            <item type="gls" lang="en">The old man made Bajïr provide the boy with the knife.</item>
+          </phrase>
+        </phrases>
+      </paragraph>
+    </paragraphs>
+    <languages>
+      <language lang="en" font="Charis SIL" />
+      <language lang="qaa" font="Charis SIL" vernacular="true" />
+    </languages>
+  </interlinear-text>
+</document>

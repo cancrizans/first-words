@@ -133,6 +133,18 @@
 </description>
 <trait name="catalog-source-id" value="Copulative"/>
 </range-element>
+<range-element id="Ditransitive verb" guid="efadf1d3-580a-4e4b-a94c-3f1d6e59c5fc" parent="Verb">
+<label>
+<form lang="en"><text>Ditransitive verb</text></form>
+</label>
+<abbrev>
+<form lang="en"><text>vd</text></form>
+</abbrev>
+<description>
+<form lang="en"><text>A ditransitive verb is a verb that takes two objects.</text></form>
+</description>
+<trait name="catalog-source-id" value="DitransitiveVerb"/>
+</range-element>
 <range-element id="Cardinal numeral" guid="a5311f3b-ff98-47d2-8ece-b1aca03a8bbd">
 <label>
 <form lang="en"><text>Cardinal numeral</text></form>
@@ -20398,6 +20410,18 @@
 <form lang="en"><text>A verb which has little independent meaning, and whose main function is to relate other elements of clause structure, especially subject and complement (e.g. "seem", "appear").</text></form>
 </description>
 <trait name="catalog-source-id" value="Copulative"/>
+</range-element>
+<range-element id="Ditransitive verb" guid="efadf1d3-580a-4e4b-a94c-3f1d6e59c5fc" parent="Verb">
+<label>
+<form lang="en"><text>Ditransitive verb</text></form>
+</label>
+<abbrev>
+<form lang="en"><text>vd</text></form>
+</abbrev>
+<description>
+<form lang="en"><text>A ditransitive verb is a verb that takes two objects.</text></form>
+</description>
+<trait name="catalog-source-id" value="DitransitiveVerb"/>
 </range-element>
 <range-element id="Cardinal numeral" guid="a5311f3b-ff98-47d2-8ece-b1aca03a8bbd">
 <label>

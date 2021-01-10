@@ -96,6 +96,21 @@
 <gloss lang="en"><text>re-organize</text></gloss>
 </sense>
 </entry>
+<entry dateCreated="2021-01-10T13:24:43Z" dateModified="2021-01-10T13:26:03Z" id="ʇaõ_0c901ec9-6088-4d6b-9528-fa163ae2c027" guid="0c901ec9-6088-4d6b-9528-fa163ae2c027">
+<lexical-unit>
+<form lang="qaa"><text>ʇaõ</text></form>
+</lexical-unit>
+<trait  name="morph-type" value="stem"/>
+<sense id="ff85b35c-aa23-4f4a-b0c5-262999d76046">
+<grammatical-info value="Noun classifier">
+</grammatical-info>
+<gloss lang="en"><text>orifice</text></gloss>
+<definition>
+<form lang="en"><text>orifices, bodily holes, openings, wounds</text></form>
+</definition>
+<relation type="Classified Noun" ref="10dd7de0-c199-454b-8992-589f88a71bcd"/>
+</sense>
+</entry>
 <entry dateCreated="2020-12-25T11:37:16Z" dateModified="2021-01-06T00:37:17Z" id="nʇuũna_0fa66e9f-192f-4c4f-971e-23e3057e5d19" guid="0fa66e9f-192f-4c4f-971e-23e3057e5d19">
 <lexical-unit>
 <form lang="qaa"><text>nʇuũna</text></form>
@@ -647,15 +662,18 @@
 <gloss lang="en"><text>North</text></gloss>
 </sense>
 </entry>
-<entry dateCreated="2020-12-25T14:19:13Z" dateModified="2021-01-06T00:29:23Z" id="ǁʼu_4b75e03a-e39b-4afe-a330-d01644127a47" guid="4b75e03a-e39b-4afe-a330-d01644127a47">
+<entry dateCreated="2020-12-25T14:19:13Z" dateModified="2021-01-10T22:51:11Z" id="ǁʼu_4b75e03a-e39b-4afe-a330-d01644127a47" guid="4b75e03a-e39b-4afe-a330-d01644127a47">
 <lexical-unit>
 <form lang="qaa"><text>ǁʼu</text></form>
 </lexical-unit>
 <trait  name="morph-type" value="stem"/>
 <sense id="00c6b921-f939-4f40-8444-a3e1d0937a82">
-<grammatical-info value="Verb">
+<grammatical-info value="Ditransitive verb">
 </grammatical-info>
-<gloss lang="en"><text>provide, give</text></gloss>
+<gloss lang="en"><text>give</text></gloss>
+<definition>
+<form lang="en"><text>give, provide, (A) give (T) to (P)</text></form>
+</definition>
 </sense>
 </entry>
 <entry dateCreated="2020-12-27T15:04:51Z" dateModified="2021-01-06T22:12:07Z" id="eňa_4e2e4b84-8cbd-4642-bca2-eb14cd5a7413" guid="4e2e4b84-8cbd-4642-bca2-eb14cd5a7413">
@@ -1051,6 +1069,18 @@
 <grammatical-info value="Intransitive verb">
 </grammatical-info>
 <gloss lang="en"><text>fly</text></gloss>
+</sense>
+</entry>
+<entry dateCreated="2021-01-10T13:28:12Z" dateModified="2021-01-10T13:28:34Z" id="ʼào_807a2747-da2c-4f81-bb71-a2d24180ea3c" guid="807a2747-da2c-4f81-bb71-a2d24180ea3c">
+<lexical-unit>
+<form lang="qaa"><text>ʼào</text></form>
+</lexical-unit>
+<trait  name="morph-type" value="stem"/>
+<sense id="57debae3-6e0d-4a1d-8ecc-5ff08f7d06f1">
+<grammatical-info value="Noun">
+</grammatical-info>
+<gloss lang="en"><text>water</text></gloss>
+<relation type="Classifier" ref="ca14cde0-71c7-4f8d-85a4-018a71fac6af"/>
 </sense>
 </entry>
 <entry dateCreated="2020-12-28T10:37:49Z" dateModified="2021-01-06T15:48:17Z" id="anǃxòo_8107e2a7-2349-4888-83cf-42617bbd4744" guid="8107e2a7-2349-4888-83cf-42617bbd4744">
@@ -2002,8 +2032,8 @@
 <grammatical-info value="Noun">
 </grammatical-info>
 <gloss lang="en"><text>boy</text></gloss>
-<relation type="Classifier" ref="d777c666-c1ca-4e67-8a13-a5838469fea8"/>
 <relation type="Classifier" ref="b4de7c68-af90-477c-ad1e-681b006996b5"/>
+<relation type="Classifier" ref="d777c666-c1ca-4e67-8a13-a5838469fea8"/>
 </sense>
 </entry>
 <entry dateCreated="2020-12-26T00:12:55Z" dateModified="2021-01-06T00:49:12Z" id="ʼèe_eadc4978-ea95-4183-8025-e2f0d988fe77" guid="eadc4978-ea95-4183-8025-e2f0d988fe77">
@@ -2266,31 +2296,67 @@
 <relation type="Classifier" ref="ca14cde0-71c7-4f8d-85a4-018a71fac6af"/>
 </sense>
 </entry>
-<entry dateCreated="2021-01-10T13:24:43Z" dateModified="2021-01-10T13:26:03Z" id="ʇaõ_0c901ec9-6088-4d6b-9528-fa163ae2c027" guid="0c901ec9-6088-4d6b-9528-fa163ae2c027">
+<entry dateCreated="2021-01-10T22:36:46Z" dateModified="2021-01-10T22:37:04Z" id="ʇoã_d8aedddb-99f8-41ed-bb0f-972d6db668e7" guid="d8aedddb-99f8-41ed-bb0f-972d6db668e7">
 <lexical-unit>
-<form lang="qaa"><text>ʇaõ</text></form>
+<form lang="qaa"><text>ʇoã</text></form>
 </lexical-unit>
 <trait  name="morph-type" value="stem"/>
-<sense id="ff85b35c-aa23-4f4a-b0c5-262999d76046">
-<grammatical-info value="Noun classifier">
+<sense id="e894a8c8-12fa-4fbb-97ae-a530f005afba">
+<grammatical-info value="Ditransitive verb">
 </grammatical-info>
-<gloss lang="en"><text>orifice</text></gloss>
+<gloss lang="en"><text>gift</text></gloss>
 <definition>
-<form lang="en"><text>orifices, bodily holes, openings, wounds</text></form>
+<form lang="en"><text>(A) gift (T) to (P)</text></form>
 </definition>
-<relation type="Classified Noun" ref="10dd7de0-c199-454b-8992-589f88a71bcd"/>
 </sense>
 </entry>
-<entry dateCreated="2021-01-10T13:28:12Z" dateModified="2021-01-10T13:28:34Z" id="ʼào_807a2747-da2c-4f81-bb71-a2d24180ea3c" guid="807a2747-da2c-4f81-bb71-a2d24180ea3c">
+<entry dateCreated="2021-01-10T22:37:53Z" dateModified="2021-01-10T22:37:53Z" id="ałǁʼi_5180e69a-a534-4e3e-b309-de4cb8c6e622" guid="5180e69a-a534-4e3e-b309-de4cb8c6e622">
 <lexical-unit>
-<form lang="qaa"><text>ʼào</text></form>
+<form lang="qaa"><text>ałǁʼi</text></form>
 </lexical-unit>
 <trait  name="morph-type" value="stem"/>
-<sense id="57debae3-6e0d-4a1d-8ecc-5ff08f7d06f1">
+<sense id="55fe3964-7d4a-4250-aa5a-6174c36124ab">
 <grammatical-info value="Noun">
 </grammatical-info>
-<gloss lang="en"><text>water</text></gloss>
-<relation type="Classifier" ref="ca14cde0-71c7-4f8d-85a4-018a71fac6af"/>
+<gloss lang="en"><text>money</text></gloss>
+</sense>
+</entry>
+<entry dateCreated="2021-01-10T22:45:34Z" dateModified="2021-01-10T22:45:34Z" id="oǃao_4c31490b-0d2e-45dc-b33f-2d7f3fbf4569" guid="4c31490b-0d2e-45dc-b33f-2d7f3fbf4569">
+<lexical-unit>
+<form lang="qaa"><text>oǃao</text></form>
+</lexical-unit>
+<trait  name="morph-type" value="stem"/>
+<sense id="e33ad83e-bc06-42a8-909b-ce67ae0205c3">
+<grammatical-info value="Adjective">
+</grammatical-info>
+<gloss lang="en"><text>old</text></gloss>
+</sense>
+</entry>
+<entry dateCreated="2021-01-10T22:46:22Z" dateModified="2021-01-10T22:52:15Z" id="ṣǂuũ_6964b738-d2ac-4a81-8077-18039a8e5858" guid="6964b738-d2ac-4a81-8077-18039a8e5858">
+<lexical-unit>
+<form lang="qaa"><text>ṣǂuũ</text></form>
+</lexical-unit>
+<trait  name="morph-type" value="stem"/>
+<sense id="80851816-fc5c-471c-acd9-42f2c9630093">
+<grammatical-info value="Noun">
+</grammatical-info>
+<gloss lang="en"><text>knife</text></gloss>
+<definition>
+<form lang="en"><text>knife</text></form>
+</definition>
+<relation type="Classifier" ref="0ded4fde-8c3a-4942-a8c8-08630d0cd9a8"/>
+</sense>
+</entry>
+<entry dateCreated="2021-01-10T22:47:21Z" dateModified="2021-01-10T22:52:02Z" id="ǃxatłe_c4d9ecbf-4ca5-4bec-ab58-3bf73b4a893f" guid="c4d9ecbf-4ca5-4bec-ab58-3bf73b4a893f">
+<lexical-unit>
+<form lang="qaa"><text>ǃxatłe</text></form>
+</lexical-unit>
+<trait  name="morph-type" value="stem"/>
+<sense id="0ded4fde-8c3a-4942-a8c8-08630d0cd9a8">
+<grammatical-info value="Noun classifier">
+</grammatical-info>
+<gloss lang="en"><text>blades, things with a sharp edge, teeth</text></gloss>
+<relation type="Classified Noun" ref="80851816-fc5c-471c-acd9-42f2c9630093"/>
 </sense>
 </entry>
 </lift>
