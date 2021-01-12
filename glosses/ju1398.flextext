@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<document version="2">
+  <interlinear-text guid="bdb2e3da-465c-4284-9c3e-218d8994b8cc">
+    <item type="title" lang="en">1398th Just Used 5 Minutes of Your Day</item>
+    <item type="comment" lang="en"></item>
+    <paragraphs>
+      <paragraph guid="9ef2dcf9-85a5-4f0e-89b0-a7f8f1a9cb67">
+        <phrases>
+          <phrase guid="d6970e51-a391-45ab-9f16-cb4d54660f30">
+            <item type="segnum" lang="en">1</item>
+            <words>
+              <word guid="1bcfdb37-3987-43fb-98ed-3e3f14321674">
+                <item type="txt" lang="qaa">Iǃòorri</item>
+                <item type="gls" lang="en">eat</item>
+              </word>
+              <word guid="8d1c12e2-675d-42c3-924c-daf767c9537c">
+                <item type="txt" lang="qaa">ʼurri</item>
+                <item type="gls" lang="en">timespans</item>
+              </word>
+              <word guid="422c3fad-8767-467b-9765-1303eca27c3d">
+                <item type="txt" lang="qaa">ǃʼoã</item>
+                <item type="gls" lang="en">end</item>
+              </word>
+              <word guid="29145989-eb7c-4f85-af02-454baae995c3">
+                <item type="txt" lang="qaa">nʇai</item>
+                <item type="gls" lang="en">behind</item>
+              </word>
+              <word>
+                <item type="punct" lang="qaa">,</item>
+              </word>
+              <word guid="5c8e2bfc-7a9c-4475-b4a0-bed420eb5dfa">
+                <item type="txt" lang="qaa">oǃʼo</item>
+                <item type="gls" lang="en">walk.into</item>
+              </word>
+              <word guid="9506f55b-d5f3-4066-a0f6-d95d8c0ecc99">
+                <item type="txt" lang="qaa">ǁaa</item>
+                <item type="gls" lang="en">few</item>
+              </word>
+              <word guid="d46bdb83-eb0b-42b9-8ce9-2ad6deaa3537">
+                <item type="txt" lang="qaa">nui</item>
+                <item type="gls" lang="en">people</item>
+              </word>
+              <word guid="4e452aa4-32d2-4b6d-b0c7-9f922c027d5c">
+                <item type="txt" lang="qaa">ełǁxa</item>
+                <item type="gls" lang="en">discussion</item>
+              </word>
+              <word guid="442a9f44-dd59-405e-83d5-957687f23b46">
+                <item type="txt" lang="qaa">iňi</item>
+                <item type="gls" lang="en">over</item>
+              </word>
+              <word>
+                <item type="punct" lang="qaa">.</item>
+              </word>
+            </words>
+            <item type="gls" lang="en">After the end of the meal, the few people got themselves into a discussion.</item>
+          </phrase>
+        </phrases>
+      </paragraph>
+    </paragraphs>
+    <languages>
+      <language lang="en" font="Charis SIL" />
+      <language lang="qaa" font="Charis SIL" vernacular="true" />
+    </languages>
+  </interlinear-text>
+</document>

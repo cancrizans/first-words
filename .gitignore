@@ -4,3 +4,7 @@ re/
 *.log
 *.out
 *log.txt
+output.md
+*.toc
+*synctex.gz
+book/dictionary.tex

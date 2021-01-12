@@ -1,4 +1,7 @@
 IPAsubs = {
+#	Syllabic m
+	"mm"				:"uũ",
+	r"([aàeèiìoòuù])m([^aàeèiìoòuùm]|$)"	:r"\1ũ\2" ,
 #	Clicks
 	"ʇ"					:"ǀ"	,
 	r"n([ǀǁǂǃ])x"		:r"ᵑ\1͡ʁ" ,
@@ -45,6 +48,8 @@ IPAsubs = {
 	"ːN"				:"Nː"	,
 #	Pre-nasal click nasality
 	r"([aeiɔu])ᵑ"		:r"\1Nᵑ",
+#	Dupe for diphthongs
+	r"(C?)([aeiɔu])([aeiɔu])(N?)" : r"\1\2\4\1\3\4",
 #	Creaky-Nasal fix
 	r"C([aeiɔu]N)"		:r"\1̰",
 #	Nasalize
@@ -52,7 +57,7 @@ IPAsubs = {
 	"eN"				:"ẽ"	,
 	"ɔN"				:"ɔ̃"	,
 	"iN"				:"ĩ"	,
-	"uN"				:"ũ"	,
+	"uN"				:"m"	,
 #	Creaky
 	r"C([aeiɔu])"		:r"\1̰" 	,
 
