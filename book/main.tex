@@ -45,6 +45,8 @@
 \newcommand{\ERG}{\grammsc{ERG}}
 \newcommand{\ABL}{\grammsc{ABL}}
 \newcommand{\ACC}{\grammsc{ACC}}
+\newcommand{\INTR}{\grammsc{INTR}}
+\newcommand{\INSTR}{\grammsc{INSTR}}
 
 \newcommand{\cmnt}[1]{\textcolor{red}{#1}}
 
@@ -429,7 +431,25 @@ Some special words break the patterns described thus far. A select few are lexic
 
 Reduplication is quite irregular on complex clicks. \cmnt{Todo: map out all irregular reduplications.}
 
-\subsection{Sandhi rules}
+\subsection{Sandhi Rules}
+
+Adjacent words that are syntactically close (generally, they are part of the same noun phrase, they are a noun-classifier pair, a dependant-postposition pair, an auxiliary-main verb pair, or simply part of a very short clause) are usually pronounced with no gap between them and are affected by \textbf{syntactical sandhi rules}.  These are assimilatory processes involving the vowel V that ends the preceding word, and the first sound of the following word. Depending on the latter, one may have vowel-click (VꞰ), vowel-vowel (VV), and vowel-pulmonic (VP) sandhi. Sandhi processes are never written in the orthography.
+
+\textbf{VꞰ sandhi} consists simply in V assimilating to the nasality of Ʞ, similarly to what would happen mid-word. This nasality will only be triggered if V is unstressed.
+
+In \textbf{VV sandhi}, the second vowel is an opening vowel and therefore always unstressed. Quality assimilation occurs according to the following scheme:
+
+\begin{itemize}
+\item if the first vowel is a diphthong, there is no assimilation and an epenthetic \qcn{ʼ} is inserted.
+\item if the sequence VV describes a valid diphthong, assimilate to that diphthong.
+\item \qcn{a-e} and \qcn{o-e} assimilate to \qcn{ai} and \qcn{oi} respectively.
+\item \qcn{o-u} assimilates to \qcn{oo}
+\item In all remaining cases (e.g. \qcn{u-a}) there is no assimilation and \qcn{ʼ} is inserted.
+\end{itemize}
+
+If there is assimilation, then the first vowel determines the register.
+
+In 
 
 \cmnt{Todo}
 
@@ -448,7 +468,21 @@ The orthography of \langname is designed by prioritizing these guidelines:
 
 With these restrictions and no others, I believe the orthography as presented in the previous sections is a reasonable solution.
 
-The orthography uses conventional punctuation and most typesetting standards\footnote{There is no risk of confusing the alveolar stop glyph ǃ with the identical-looking, but distinct exclamation mark ! because phonotactics prevent clicks in syllable codas anyway.}. For what concerns capitalisation, for starting sentences or for proper names, I employ the typical Khoisan convention where the first \emph{capitalisable} character in the word is capitalised. Capitalisable characters include all latin letters including diacritics, the letter ŋ which becomes Ŋ\footnote{The shape of capital Eng may be widely different in different fonts. Shouldn't be a cause of concern.} the letter \qcn{ʇ} which capitalises as \qcn{Ʇ}; the remaining letters (\qcn{ʼ ǃ ǂ ǁ}) don't capitalise.
+The orthography uses conventional punctuation and most typesetting standards\footnote{There is no risk of confusing the alveolar stop glyph ǃ with the identical-looking, but distinct exclamation mark ! because phonotactics prevent clicks in syllable codas anyway.}. For what concerns capitalisation, for starting sentences or for proper names, I employ the typical Khoisan convention where the first \emph{capitalisable} character in the word is capitalised. Capitalisable characters include all latin letters including diacritics, the letter ŋ which becomes Ŋ\footnote{The shape of capital Eng may be widely different in different fonts. Shouldn't be a cause of concern.} the letter \qcn{ʇ} which capitalises as \qcn{Ʇ}; the remaining letters (\qcn{ʼ ǃ ǂ ǁ}) don't capitalise. Finally, the alphabetical order employed is as in the following table:
+
+\begin{center}
+\begin{tabular}{*{22}{|c}|}
+\hline
+Lowercase & \qcn{ʇ}&\multirow{2}{*}{\qcn{ǃ}}&\multirow{2}{*}{\qcn{ǂ}}&\multirow{2}{*}{\qcn{ǁ}}&\multirow{2}{*}{\qcn{ʼ}}&\qcn{a}&\qcn{ã}&\qcn{à}&\qcn{b}&
+\qcn{č}&\qcn{d}&\qcn{e}&\qcn{ẽ}&\qcn{è}&\qcn{i}&\qcn{ĩ}&\qcn{ì}&\qcn{j}&\qcn{k} &\qcn{l}&\qcn{ł}\\
+Uppercase & \qcn{Ʇ}& & & & &\qcn{A}&\qcn{Ã}&\qcn{À}&\qcn{B}&
+                    \qcn{Č}&\qcn{D}&\qcn{E}&\qcn{Ẽ}&\qcn{È}&\qcn{I}&\qcn{Ĩ}&\qcn{Ì}&\qcn{J}&\qcn{K} &\qcn{L}&\qcn{Ł}\\ \hline \hline
+Lowercase & \qcn{m}&\qcn{n}&\qcn{ṇ}&\qcn{ň}&\qcn{ŋ}&\qcn{o}&\qcn{õ}&\qcn{ò}&\qcn{p}&\qcn{q}&\qcn{r}&\qcn{s}&
+                    \qcn{š}&\qcn{ṣ}&\qcn{t}&\qcn{ṭ}&\qcn{u}&\qcn{ũ}&\qcn{ù}&\qcn{x}\\ 
+Uppercase & \qcn{M}&\qcn{N}&\qcn{Ṇ}&\qcn{Ň}&\qcn{Ŋ}&\qcn{O}&\qcn{Õ}&\qcn{Ò}&\qcn{P}&\qcn{Q}&\qcn{R}&\qcn{S}&
+                    \qcn{Š}&\qcn{Ṣ}&\qcn{Ṭ}&\qcn{ṭ}&\qcn{U}&\qcn{Ũ}&\qcn{Ù}&\qcn{X}\\ \hline
+\end{tabular}
+\end{center}
 
 \chapter{Grammar}
 
@@ -526,9 +560,14 @@ mother/breast \CLF{woman} one\\
 
 \cmnt{To do all of this}
 
-\subsection{Personal and Demonstrative Pronouns}
 
-\subsection{Possessive and adjectives}
+
+
+
+
+\subsection{Possession and adjectives}
+
+\subsection{Nominalisation}
 
 \section{Alignment and Coordination}
 
@@ -669,6 +708,38 @@ Uǁʼàa \CLF{man} APPL\textasciitilde{} walk path \\
 
 The ambiguity inherent in an applicative can be displayed by presenting an example of a different oblique, for example
 
+\cmnt{examples}
+
+\section{Pronouns}
+
+
+\subsection{Personal Pronouns}
+
+Exceptional within the language, the 1st and 2nd person pronouns are inflected, simultaneously for role (case), number, and clusivity.
+
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+PNC & Refers to & \ERG & \INTR & \ACC \\ \hline \hline
+1SG & Just the speaker &\qcn{ǃa} & \qcn{ja} & \qcn{eǃuũ}\\ \hline
+2SG & Only one addressee &\qcn{uǃʼui} & \qcn{uči} & \qcn{ǃuũňi}\\ \hline
+1DU & The speaker + one addressee & \multicolumn{2}{c|}{\qcn{ǃxòo}} & \qcn{anǃxòo} \\ \hline
+1PL.INCL & Speaker + addressee + others & \qcn{ʇùupa} & \multicolumn{2}{c|}{\qcn{ùuma}} \\ \hline
+1PL.EXCL & Speaker + others (no addressee) &\qcn{ǃauṭa} & \qcn{jaṭa} & \qcn{eǃuũṭa}\\ \hline
+2PL & Addressee(s) (+ others) & \qcn{uǃʼui} & \qcn{uči} & \qcn{ǃuũṭa}\\\hline
+\end{tabular}
+\end{center}
+
+When used as the argument of an intransitive clause or a copular clause, a personal pronoun takes the \INTR{} case. If it's the agent of a transitive clause or the dependant of the proposition \qcn{ʼa} it takes the \ERG{}. In all other situations, meaning when used as the object of a transitive clause or as dependant to any other postposition, it takes \ACC{}. This implies that morphologically the language effectively has \textbf{tripartite alignment} in the first and second person (and, more precisely, nominative-accusative for 1DU and ergative-absolutive for the 1PL.INCL). Since the optional causative-ergative marker \qcn{ʼa} can be seen as a kind of (weak) morphological ergative marker that can instead be used on the 3rd person, one could argue that \langname is morphologically split-ergative, with the split occurring between the 2nd and 3rd person, while remaining always syntactically ergative\footnote{Minus the unnecessity of explicit case-marking, this is analogous to the alignment system of Dyirbal.}.
+
+Noun classifiers double as 3rd person pronouns. These are uninflected by case and number (though they may be optionally specified by an explicit numeral, identically to noun phrases). However, if one wants to reference a previously introduced noun that was determined by a classifier, one ought to use the same identical classifier as a pronoun. For example, if we refer through the noun phrase \transl{Nǃupaṇa nui}{Nǃupaṇa \CLF{woman}}, it would be considered ungrammatical then to later employ \transl{tła}{\CLF{woman}} with the same referent.
+
+\cmnt{example}
+
+\subsection{Demonstrative Pronouns}
+
+\cmnt{todo}
+
 \section{Relative Clauses}\label{sec:relative}
 
 Being a primarily left-branching, ergative language, \langname is severely restricted in which positions are accessible for relativisation, a limitation that is obviated with the use of the aforementioned voices.
@@ -708,7 +779,78 @@ We may also have the antecedent as Agent in the main clause:
 
 \section{Serial Verb Constructions}
 
-\cmnt{To do}
+\langname allows some kinds of \textbf{Serial Verb Constructions} (SVCs), whereby two or more verbs are chained together with no linking element in a single clause. Some of them are lexicalised (for example \qcn{uji ...} for the antipassive), in which case they can be understood better as auxiliary verbs, though fundamentally the spirit is that of SVCs, which are more pervasive.
+
+In the simplest kind of SVC, two intransitive verbs are chained together, called \textbf{intransitive patientive SVC}. The resulting combined intransitive verb has the meaning of performing the first action so that the second action may \emph{follow}, either just temporally or also causally. While not necessary, the first verb is usually one of motion. A practical example:
+
+\begin{exe}
+\ex
+\gll ǂaã inǁàa ṇàã ǂʼa \\
+go sleep eland \CLF{large herbivores}\\
+\glt The eland went to sleep (went so it could sleep / goes and sleeps)
+\end{exe}
+
+This construction may also help express TAM (Tense, Aspect, Mood) for intransitive verbs, using particular preceeding verbs, for example:
+
+\begin{center}
+\begin{tabular}{|l|c|}
+\hline
+Preceding Verb  & Translation of V. + ...\\ \hline\hline
+ \transl{uʇum}{stand up} & be about to ..., will ..., be likely to...\\ \hline
+\transl{ǁarra}{close (their) eyes} & refuse to ..., not intend to...\\ \hline
+\transl{ǂaã}{go} & begin ..., go to do..., go there and ..., \\ \hline
+\transl{tłoi}{exit, leave} & stop ..., finish ..., \\ \hline
+\end{tabular}
+\end{center}
+
+We may not, however, serialize such intransitive verbs with a transitive verb, with the same types of meaning. For example, the following (with the presented intended meaning) is ungrammatical:
+
+\begin{exe}
+\ex
+\gll *ṣǂxa ku ǂaã ǃope ṇàã ǂʼa \\
+human \CLF{man} go kill eland \CLF{large herbivores}\\
+\glt *The man went to kill the eland.
+\end{exe}
+
+because this construction would appear to attempt to share arguments between the patientive and agentive verbs in the SVC, which is not allowed by ergativity. You \emph{could} see the example as grammatical and translate it in the purely ergative sense as \transl{}{The eland went and got killed by the man}, but this \textbf{intransitive-first patientive SVC} construction is extremely uncommon, due to the unpleasant distance between the agent and the transitive verb it modifies. 
+
+To communicate the meaning we originally wanted, which is \emph{`the man went to kill the eland'}, an astounding feature only possible thanks to \langname's lack of ergative morphology is given by \textbf{chain SVCs}\footnote{The name serial verb construction is improper in this case since the verbs are not literally adjacent, but it still constitutes a monoclausal, polyverbal setup.}. In a chain SVC, an argument is placed, unmarked, \emph{inbetween} an intransitive and a transitive verb, in that order, followed by the object of the latter. The sandwiched argument acts as the patient to the first verb (given that it follows it), and as agent of the second (coming before it)\footnote{When a 1st or 2nd person pronoun is infixed as part of a chain SVC, as when translating \emph{`I went to kill the eland'}, the \ERG{} form is commonly employed.}. This quite readily fixes the previous example:
+
+\begin{exe}
+\ex
+\gll ǂaã ṣǂxa ku  ǃope ṇàã ǂʼa \\
+go human \CLF{man} kill eland \CLF{large herbivores}\\
+\glt The man went to kill the eland.
+\end{exe}
+
+Finally, we may also much more easily have regular SVCs where the first verb is transitive. If the second one is intransitive, then we have a \textbf{transitive-first patientive SVC}, where the transitive action causes the intransitive action:
+
+\begin{exe}
+\ex
+\gll ǃXaoʼaã ku nǁxape tsui Nǃupaṇa  tła\\
+ǃXaoʼaã \CLF{man} insult cry Nǃupaṇa \CLF{woman}\\
+\glt ǃXaoʼaã insulted Nǃupaṇa and she cried (made her cry).
+\end{exe}
+
+If both are transitive, we have a \textbf{binary SVC}, where both agent and patient are shared. The meaning is more likely of temporal consecution than of causality, though this is not an absolute. Example:
+
+\begin{exe}
+\ex
+\gll ǃXaoʼaã ku ǃope auǃqʼo ṇàã ǂʼa\\
+ǃXaoʼaã \CLF{man} kill skin eland \CLF{large herbivores}\\
+\glt ǃXaoʼaã killed and then skinned the eland.
+\end{exe}
+
+In summary, the following kinds of SVCs are possible:
+
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+\textbf{SVC type} & \textbf{Verb 1} & \textbf{Verb 2} & \textbf{Shared argument} & \textbf{Likely translation}\\\hline \hline
+Intr. Patientive & intr. & intr. & Patient & Tense/Aspectual \\ \hline
+Chain & intr. & tr. &\makecell{One infixed argument acting as\\ Patient and Agent respectively} & Tense/Aspectual \\\hline
+Trans. Patientive & tr. & intr. & Patient & Causal \\\hline
+Binary & tr. & tr. & Both Patient and Agent separately & Consecution \\  \hline
+\end{tabular}
 
 \section{Imperatives and Polarity}
 
@@ -727,6 +869,14 @@ We may also have the antecedent as Agent in the main clause:
 \cmnt{For texts}
 
 \chapter{Lexicon}
+
+\section{Basic Classifier Taxonomy}
+
+\cmnt{todopdeedoo}
+
+\section{Greetings and idioms}
+
+\cmnt{to do as well}
 
 \section{Numerals}
 
