@@ -253,6 +253,18 @@
 </description>
 <trait name="catalog-source-id" value="ReflexivePronoun"/>
 </range-element>
+<range-element id="Resumptive marker" guid="5265412b-3202-4d63-a8f4-8e0db46b2c52">
+<label>
+<form lang="en"><text>Resumptive marker</text></form>
+</label>
+<abbrev>
+<form lang="en"><text>res</text></form>
+</abbrev>
+<description>
+<form lang="en"><text>A marker placed before a classifier used as a pronoun to mark it as a resumptive pronoun.</text></form>
+</description>
+<trait name="catalog-source-id" value=""/>
+</range-element>
 </range>
 <range id="lexical-relation">
 <!--The following range elements were added by FieldWorks Language Explorer. -->
@@ -20530,6 +20542,18 @@
 <form lang="en"><text>A reflexive pronoun is a pronoun that has coreference with the subject.</text></form>
 </description>
 <trait name="catalog-source-id" value="ReflexivePronoun"/>
+</range-element>
+<range-element id="Resumptive marker" guid="5265412b-3202-4d63-a8f4-8e0db46b2c52">
+<label>
+<form lang="en"><text>Resumptive marker</text></form>
+</label>
+<abbrev>
+<form lang="en"><text>res</text></form>
+</abbrev>
+<description>
+<form lang="en"><text>A marker placed before a classifier used as a pronoun to mark it as a resumptive pronoun.</text></form>
+</description>
+<trait name="catalog-source-id" value=""/>
 </range-element>
 </range>
 <range id="morph-type">

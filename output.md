@@ -1,5 +1,5 @@
-||||||||||||
-|:-|:-|:-|:-|:-|:-|:-|:-|:-|:-|:-|
-|**Iǃòorri**|**ʼurri**|**ǃʼoã**|**nʇai**|**,**|**oǃʼo**|**ǁaa**|**nui**|**ełǁxa**|**iňi**|**.**|
-|eat|timespans|end|behind||walk.into|few|people|discussion|over||
-*After the end of the meal, the few people got themselves into a discussion.*
+|||||||||
+|:-|:-|:-|:-|:-|:-|:-|:-|
+|**ǃa**|**ǁàa**|**uči**|**iňi**|**,**|**nǂoa**|**ǃxape**|**ja**|
+|1S.ERG|hold|2.INTR|over||discover|happy|1S.INTR|
+*Provided I hold you, I discover I am happy.*

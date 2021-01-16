@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<document version="2">
+  <interlinear-text guid="141784fb-6f74-483a-aa42-e227bb0e8256">
+    <item type="title" lang="en">1400th Just Used 5 Minutes of Your Day</item>
+    <item type="comment" lang="en"></item>
+    <paragraphs>
+      <paragraph guid="fe3e0be2-c129-4147-81d3-4f47ef931cc3">
+        <phrases>
+          <phrase guid="3128bf9f-9a47-43dd-9ce1-afe582a0ed44">
+            <item type="segnum" lang="en">1</item>
+            <words>
+              <word guid="c4d4ba7c-8bf6-4f67-a0d2-45201c5a38f1">
+                <item type="txt" lang="qaa">ǃa</item>
+                <item type="gls" lang="en">1S.ERG</item>
+              </word>
+              <word guid="acc287ec-3b39-4b3e-962a-dae01b1c2474">
+                <item type="txt" lang="qaa">ǁàa</item>
+                <item type="gls" lang="en">hold</item>
+              </word>
+              <word guid="2154a1b9-87fb-4582-bdfa-1a6e8afb33bf">
+                <item type="txt" lang="qaa">uči</item>
+                <item type="gls" lang="en">2.INTR</item>
+              </word>
+              <word guid="442a9f44-dd59-405e-83d5-957687f23b46">
+                <item type="txt" lang="qaa">iňi</item>
+                <item type="gls" lang="en">over</item>
+              </word>
+              <word>
+                <item type="punct" lang="qaa">,</item>
+              </word>
+              <word guid="91459378-632e-4ad7-a7a0-9165b0858b99">
+                <item type="txt" lang="qaa">nǂoa</item>
+                <item type="gls" lang="en">discover</item>
+              </word>
+              <word guid="8e798f7c-3378-42b8-ba14-99a4a4e4f285">
+                <item type="txt" lang="qaa">ǃxape</item>
+                <item type="gls" lang="en">happy</item>
+              </word>
+              <word guid="5531ff39-1ea8-4f38-8d1e-2ba5d4c8ac8c">
+                <item type="txt" lang="qaa">ja</item>
+                <item type="gls" lang="en">1S.INTR</item>
+              </word>
+            </words>
+            <item type="gls" lang="en">Provided I hold you, I discover I am happy.</item>
+          </phrase>
+        </phrases>
+      </paragraph>
+    </paragraphs>
+    <languages>
+      <language lang="en" font="Charis SIL" />
+      <language lang="qaa" font="Charis SIL" vernacular="true" />
+    </languages>
+  </interlinear-text>
+</document>

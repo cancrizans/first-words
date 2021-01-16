@@ -26,7 +26,7 @@ grammatical_abbreviation = {
 import xml.etree.ElementTree as ET
 
 import re
-bwc_pattern = re.compile(r"(ǃ|ǂ|ǁ|qʼ|x)[eièì]")
+bwc_pattern = re.compile(r"(ʘ|ǃ|ǂ|ǁ|qʼ|x)[eièì]")
 
 root = ET.parse(fname).getroot()
 
@@ -158,7 +158,7 @@ for entrytag in root.findall('entry'):
 
 # sort time
  
-sorting_alphabet = "ʇǃǂǁʼaãàbčdeẽèiĩìjklłmnṇňŋoõòpqrsšṣtṭuũùx"
+sorting_alphabet = "ʇʘǃǂǁʼaãàbčdeẽèiĩìjklłmnṇňŋoõòpqrsšṣtṭuũùx"
 
 
 def sortingKey(entry):
