@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<document version="2">
+  <interlinear-text guid="3e425691-42cf-45ad-bf8b-bab1fcd4a9aa">
+    <item type="comment" lang="en"></item>
+    <paragraphs>
+      <paragraph guid="72c1ea24-126c-4a52-8144-1e16480145c6">
+        <phrases>
+          <phrase guid="4e1e3462-3d09-4a5f-b5ef-88cfbd9d1d9f">
+            <item type="segnum" lang="en">1</item>
+            <words>
+              <word guid="ae7c0a31-d4ad-466b-a49e-a12002c14176">
+                <item type="txt" lang="qaa">Tła</item>
+                <item type="gls" lang="en">CLF_woman</item>
+              </word>
+              <word guid="76b5627e-5a54-4283-93ef-4a2c59ba1839">
+                <item type="txt" lang="qaa">tsùu</item>
+                <item type="gls" lang="en">throw</item>
+              </word>
+              <word guid="df563abe-b0d8-4d95-a391-dfdf3672d4f3">
+                <item type="txt" lang="qaa">iʇaã</item>
+                <item type="gls" lang="en">lie.down</item>
+              </word>
+              <word guid="f43e66bc-7f4c-4989-ae81-baefe02b5bc5">
+                <item type="txt" lang="qaa">ṭèe</item>
+                <item type="gls" lang="en">clothing</item>
+              </word>
+              <word>
+                <item type="punct" lang="qaa">,</item>
+              </word>
+              <word guid="36e37186-8a4a-41fb-bfe7-2850daecf933">
+                <item type="txt" lang="qaa">ʼai</item>
+                <item type="gls" lang="en">and</item>
+              </word>
+              <word guid="f43e66bc-7f4c-4989-ae81-baefe02b5bc5">
+                <item type="txt" lang="qaa">ṭèe</item>
+                <item type="gls" lang="en">clothing</item>
+              </word>
+              <word guid="ac79dfa0-b2c6-4caa-a028-64a223e81542">
+                <item type="txt" lang="qaa">iñi</item>
+                <item type="gls" lang="en">over</item>
+              </word>
+              <word guid="8932a6cc-7e49-433b-82c4-c83304a58d87">
+                <item type="txt" lang="qaa">nǁui</item>
+                <item type="gls" lang="en">jump</item>
+              </word>
+              <word guid="ff9df441-116f-4d74-8a17-0af84e1e17ae">
+                <item type="txt" lang="qaa">tła</item>
+                <item type="gls" lang="en">CLF_woman</item>
+              </word>
+              <word>
+                <item type="punct" lang="qaa">;</item>
+              </word>
+            </words>
+            <item type="gls" lang="en">She threw the piece of clothing down, and jumped over it;</item>
+          </phrase>
+        </phrases>
+      </paragraph>
+      <paragraph guid="9645ab7c-2e78-409b-984b-96749fc4e4d9">
+        <phrases>
+          <phrase guid="c65326af-deec-48f7-8717-68126ec68fec">
+            <item type="segnum" lang="en">2</item>
+            <words>
+              <word guid="f74aec57-6305-45d8-9a83-5dc3119a0e0e">
+                <item type="txt" lang="qaa">unʇu</item>
+                <item type="gls" lang="en">truly</item>
+              </word>
+              <word guid="fd69d758-b233-4aea-9b06-d96b616762eb">
+                <item type="txt" lang="qaa">ŋàã</item>
+                <item type="gls" lang="en">woman</item>
+              </word>
+              <word guid="ff9df441-116f-4d74-8a17-0af84e1e17ae">
+                <item type="txt" lang="qaa">tła</item>
+                <item type="gls" lang="en">CLF_woman</item>
+              </word>
+              <word guid="126abb17-e46a-4fb4-bdcc-bc7464d8bd2a">
+                <item type="txt" lang="qaa">ʘui</item>
+                <item type="gls" lang="en">want</item>
+              </word>
+              <word guid="69b97e8b-d987-4641-8387-002155eb0ecf">
+                <item type="txt" lang="qaa">nǂùu</item>
+                <item type="gls" lang="en">die</item>
+              </word>
+              <word guid="9ecfe0d8-4bb0-4486-80ec-8e0e6e0139d8">
+                <item type="txt" lang="qaa">sʇui</item>
+                <item type="gls" lang="en">snake</item>
+              </word>
+              <word guid="a474aac3-9415-428a-9798-22e2e187680a">
+                <item type="txt" lang="qaa">ʼìi</item>
+                <item type="gls" lang="en">slithering.animals</item>
+              </word>
+              <word>
+                <item type="punct" lang="qaa">.</item>
+              </word>
+            </words>
+            <item type="gls" lang="en">truly the woman wanted the snake dead.</item>
+          </phrase>
+        </phrases>
+      </paragraph>
+    </paragraphs>
+    <languages>
+      <language lang="en" font="Charis SIL" />
+      <language lang="qaa" font="Charis SIL" vernacular="true" />
+    </languages>
+  </interlinear-text>
+</document>

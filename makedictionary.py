@@ -158,7 +158,7 @@ for entrytag in root.findall('entry'):
 
 # sort time
  
-sorting_alphabet = "ʇʘǃǂǁʼaãàbčdeẽèiĩìjklłmnṇňŋoõòpqrsšṣtṭuũùx"
+sorting_alphabet = "ʇʘǃǂǁʼaãàbčdeẽèiĩìjklłmnṇñŋoõòpqrsšṣtṭuũùx"
 
 
 def sortingKey(entry):

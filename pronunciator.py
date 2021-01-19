@@ -21,6 +21,7 @@ IPAsubs = {
 	"ṇ"					:"ɳ"	,
 	"n"					:"n̪"	,
 	"ň"					:"ɲ"	,
+	"ñ"					:"ɲ"	,
 	"č"					:"C"	,
 	"ts"				:"D"	,
 	"tṣ"				:"ʈ͡ʂ"	,
@@ -99,14 +100,16 @@ def pronunciate(text, debug=False):
 	return text
 
 
-import argparse
-parser = argparse.ArgumentParser()
-parser.add_argument("--test", help="input text for pronunciation")
-#parser.add_argument("--silent",  help="input text for pronunciation")
+if __name__ == "__main__":
 
-args = parser.parse_args()
+	import argparse
+	parser = argparse.ArgumentParser()
+	parser.add_argument("--test", help="input text for pronunciation")
+	#parser.add_argument("--silent",  help="input text for pronunciation")
 
-if(args.test):
-	pron = pronunciate(args.test,False)
-	print(pron)
+	args = parser.parse_args()
+
+	if(args.test):
+		pron = pronunciate(args.test,False)
+		print(pron)
 

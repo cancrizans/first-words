@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<KeymanDeveloperProjectUser>
+  <ViewState>
+    <tab>1</tab>
+    <showhelp>1</showhelp>
+    <path>C:\Users\ricca\prog\parall\keyboard\_qca\_qca.kpj</path>
+    <file ID="id_3628a85a4dab7126ca6e62ade751ecd8" Expanded="1"/>
+  </ViewState>
+  <FileStates>
+    <FileState>
+      <ID>id_3628a85a4dab7126ca6e62ade751ecd8</ID>
+      <FullPath>C:\Users\ricca\prog\parall\keyboard\_qca\source\_qca.kmn</FullPath>
+      <IDEState>
+        <LayoutDisplay102Key>0</LayoutDisplay102Key>
+        <DebugDefaultFont>1</DebugDefaultFont>
+        <DebugFont>MS Sans Serif|8|   |1</DebugFont>
+        <CodeFont>Consolas|-9|   |0</CodeFont>
+        <CharFont>Consolas|-9|   |0</CharFont>
+      </IDEState>
+      <Debug>False</Debug>
+    </FileState>
+    <FileState>
+      <ID>id_0a0b551258f79846fc5f00354effe5db</ID>
+      <FullPath>C:\Users\ricca\prog\parall\keyboard\_qca\source\_qca.kps</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_ede98e4633e239f933cbfd1f4e1b766c</ID>
+      <FullPath>C:\Users\ricca\prog\parall\keyboard\_qca\HISTORY.md</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_53e892b8b41cc4caece1cfd5ef21d6e7</ID>
+      <FullPath>C:\Users\ricca\prog\parall\keyboard\_qca\LICENSE.md</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_0730bb7c2e8f9ea2438b52e419dd86c9</ID>
+      <FullPath>C:\Users\ricca\prog\parall\keyboard\_qca\README.md</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_e4d24c80e46649202099a832845eda1f</ID>
+      <FullPath>C:\Users\ricca\prog\parall\keyboard\_qca\_qca.keyboard_info</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_9ed3286b70ba0de4620d5e884809853e</ID>
+      <FullPath>C:\Users\ricca\prog\parall\keyboard\_qca\source\..\build\_qca.kmx</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_5106817597efa1e5345246e5010a1b1b</ID>
+      <FullPath>C:\Users\ricca\prog\parall\keyboard\_qca\source\..\build\_qca.js</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_9f12b078bd28b388ee10bbbdbf7f3fe6</ID>
+      <FullPath>C:\Users\ricca\prog\parall\keyboard\_qca\source\..\build\_qca.kvk</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_356e5d149c1e539356d72698c1e401a6</ID>
+      <FullPath>C:\Users\ricca\prog\parall\keyboard\_qca\source\welcome.htm</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_8da344c4cea6f467013357fe099006f5</ID>
+      <FullPath>C:\Users\ricca\prog\parall\keyboard\_qca\source\readme.htm</FullPath>
+    </FileState>
+  </FileStates>
+  <MRU>
+    <File>
+      <ID>id_MRU0</ID>
+      <Filename>_qca.kmn</Filename>
+      <FileType>.kmn</FileType>
+      <FullPath>C:\Users\ricca\prog\parall\keyboard\_qca\source\_qca.kmn</FullPath>
+    </File>
+  </MRU>
+</KeymanDeveloperProjectUser>
