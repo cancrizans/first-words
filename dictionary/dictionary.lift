@@ -122,9 +122,9 @@
 <gloss lang="en"><text>once.upon.a.time</text></gloss>
 </sense>
 </entry>
-<entry dateCreated="2020-12-25T11:37:16Z" dateModified="2021-01-12T20:22:44Z" id="nʇumna_0fa66e9f-192f-4c4f-971e-23e3057e5d19" guid="0fa66e9f-192f-4c4f-971e-23e3057e5d19">
+<entry dateCreated="2020-12-25T11:37:16Z" dateModified="2021-01-17T10:40:35Z" id="nʇum_0fa66e9f-192f-4c4f-971e-23e3057e5d19" guid="0fa66e9f-192f-4c4f-971e-23e3057e5d19">
 <lexical-unit>
-<form lang="qaa"><text>nʇumna</text></form>
+<form lang="qaa"><text>nʇum</text></form>
 </lexical-unit>
 <trait  name="morph-type" value="stem"/>
 <sense id="a3b5b244-fc28-47cb-98e1-8d8157e56f9b">
@@ -648,6 +648,17 @@
 <definition>
 <form lang="en"><text>me (ACC), to me</text></form>
 </definition>
+</sense>
+</entry>
+<entry dateCreated="2021-01-16T21:10:09Z" dateModified="2021-01-16T21:10:09Z" id="ǁàa_4647bfbb-a5af-46fe-9ada-262db4a1f912" guid="4647bfbb-a5af-46fe-9ada-262db4a1f912">
+<lexical-unit>
+<form lang="qaa"><text>ǁàa</text></form>
+</lexical-unit>
+<trait  name="morph-type" value="stem"/>
+<sense id="4b3764a5-d4be-47ad-b1a5-eae336b44035">
+<grammatical-info value="Transitive verb">
+</grammatical-info>
+<gloss lang="en"><text>hold</text></gloss>
 </sense>
 </entry>
 <entry dateCreated="2020-12-27T15:13:43Z" dateModified="2021-01-06T00:47:12Z" id="čìiči_47753dac-24ec-4512-8161-1b6600ecca9d" guid="47753dac-24ec-4512-8161-1b6600ecca9d">
@@ -1304,6 +1315,17 @@
 <relation type="Classifier" ref="1173ba4d-c7e5-4527-826b-6a2424c737bd"/>
 </sense>
 </entry>
+<entry dateCreated="2021-01-16T21:10:56Z" dateModified="2021-01-16T21:10:56Z" id="ǃxape_8750d99f-db3d-423b-98b7-edb216049d79" guid="8750d99f-db3d-423b-98b7-edb216049d79">
+<lexical-unit>
+<form lang="qaa"><text>ǃxape</text></form>
+</lexical-unit>
+<trait  name="morph-type" value="stem"/>
+<sense id="fed99b3c-4055-4802-90f0-1b02fe1b0851">
+<grammatical-info value="Adjective">
+</grammatical-info>
+<gloss lang="en"><text>happy</text></gloss>
+</sense>
+</entry>
 <entry dateCreated="2020-12-30T15:55:40Z" dateModified="2021-01-06T00:44:46Z" id="iʇʼi_89586b61-a4ca-421d-a63f-f4aae9e47b3d" guid="89586b61-a4ca-421d-a63f-f4aae9e47b3d">
 <lexical-unit>
 <form lang="qaa"><text>iʇʼi</text></form>
@@ -1821,9 +1843,9 @@
 <gloss lang="en"><text>nose</text></gloss>
 </sense>
 </entry>
-<entry dateCreated="2021-01-05T01:53:19Z" dateModified="2021-01-12T20:25:45Z" id="aňum_bbb3ff1b-08de-45d8-ae1b-7edae65827eb" guid="bbb3ff1b-08de-45d8-ae1b-7edae65827eb">
+<entry dateCreated="2021-01-05T01:53:19Z" dateModified="2021-01-17T10:41:07Z" id="aǁum_bbb3ff1b-08de-45d8-ae1b-7edae65827eb" guid="bbb3ff1b-08de-45d8-ae1b-7edae65827eb">
 <lexical-unit>
-<form lang="qaa"><text>aňum</text></form>
+<form lang="qaa"><text>aǁum</text></form>
 </lexical-unit>
 <trait  name="morph-type" value="stem"/>
 <sense id="796e7a16-dc2b-49b2-a176-c80b6c4e37db">
@@ -2271,6 +2293,17 @@
 <gloss lang="en"><text>clock</text></gloss>
 </sense>
 </entry>
+<entry dateCreated="2021-01-16T21:10:22Z" dateModified="2021-01-16T21:10:22Z" id="nǂoa_eb45b32f-fe9f-42a8-a813-40622ae2e451" guid="eb45b32f-fe9f-42a8-a813-40622ae2e451">
+<lexical-unit>
+<form lang="qaa"><text>nǂoa</text></form>
+</lexical-unit>
+<trait  name="morph-type" value="stem"/>
+<sense id="dd1b7a42-c51f-4beb-8157-b8a8771aca2f">
+<grammatical-info value="Intransitive verb">
+</grammatical-info>
+<gloss lang="en"><text>discover</text></gloss>
+</sense>
+</entry>
 <entry dateCreated="2021-01-01T15:45:51Z" dateModified="2021-01-06T00:43:48Z" id="eǃʼani_eba7e09f-2de0-49c6-965a-fa95908c2f31" guid="eba7e09f-2de0-49c6-965a-fa95908c2f31">
 <lexical-unit>
 <form lang="qaa"><text>eǃʼani</text></form>
@@ -2520,37 +2553,24 @@
 <gloss lang="en"><text>few</text></gloss>
 </sense>
 </entry>
-<entry dateCreated="2021-01-16T21:10:09Z" dateModified="2021-01-16T21:10:09Z" id="ǁàa_4647bfbb-a5af-46fe-9ada-262db4a1f912" guid="4647bfbb-a5af-46fe-9ada-262db4a1f912">
+<entry dateCreated="2021-01-19T08:49:10Z" dateModified="2021-01-19T08:49:36Z" id="uǃòi_283fa673-bd53-4bf2-806f-a5cd2bac4d06" guid="283fa673-bd53-4bf2-806f-a5cd2bac4d06">
 <lexical-unit>
-<form lang="qaa"><text>ǁàa</text></form>
+<form lang="qaa"><text>uǃòi</text></form>
 </lexical-unit>
 <trait  name="morph-type" value="stem"/>
-<sense id="4b3764a5-d4be-47ad-b1a5-eae336b44035">
-<grammatical-info value="Transitive verb">
-</grammatical-info>
-<gloss lang="en"><text>hold</text></gloss>
-</sense>
-</entry>
-<entry dateCreated="2021-01-16T21:10:22Z" dateModified="2021-01-16T21:10:22Z" id="nǂoa_eb45b32f-fe9f-42a8-a813-40622ae2e451" guid="eb45b32f-fe9f-42a8-a813-40622ae2e451">
-<lexical-unit>
-<form lang="qaa"><text>nǂoa</text></form>
-</lexical-unit>
-<trait  name="morph-type" value="stem"/>
-<sense id="dd1b7a42-c51f-4beb-8157-b8a8771aca2f">
-<grammatical-info value="Intransitive verb">
-</grammatical-info>
-<gloss lang="en"><text>discover</text></gloss>
-</sense>
-</entry>
-<entry dateCreated="2021-01-16T21:10:56Z" dateModified="2021-01-16T21:10:56Z" id="ǃxape_8750d99f-db3d-423b-98b7-edb216049d79" guid="8750d99f-db3d-423b-98b7-edb216049d79">
-<lexical-unit>
-<form lang="qaa"><text>ǃxape</text></form>
-</lexical-unit>
-<trait  name="morph-type" value="stem"/>
-<sense id="fed99b3c-4055-4802-90f0-1b02fe1b0851">
+<sense id="9b8c9bf1-5705-4f15-a804-5d3bb294f38a">
 <grammatical-info value="Adjective">
 </grammatical-info>
-<gloss lang="en"><text>happy</text></gloss>
+<gloss lang="en"><text>startled</text></gloss>
+<definition>
+<form lang="en"><text>jittery, irritable, violent, uneasy, startled</text></form>
+</definition>
+<example>
+<form lang="qaa"><text>Uǃʼui ʼa uǃòi ṇàã ǂʼa!</text></form>
+<translation type="Free translation">
+<form lang="en"><text>You startled the eland!</text></form>
+</translation>
+</example>
 </sense>
 </entry>
 </lift>

@@ -1,3 +1,4 @@
+# -*- coding: UTF-8 -*-
 IPAsubs = {
 #	Syllabic m
 	"mm"				:"uũ",
@@ -101,8 +102,11 @@ def pronunciate(text, debug=False):
 import argparse
 parser = argparse.ArgumentParser()
 parser.add_argument("--test", help="input text for pronunciation")
+#parser.add_argument("--silent",  help="input text for pronunciation")
 
 args = parser.parse_args()
 
 if(args.test):
-	pronunciate(args.test,True)
+	pron = pronunciate(args.test,False)
+	print(pron)
+
