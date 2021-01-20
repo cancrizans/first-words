@@ -1,7 +1,7 @@
 \begin{exe}
  \ex 
-\gll Ʇaula Nǃòõ Uǃqʼa maã Jùu aʇe ǂu ełǁxa iñi\\ 
-once.upon.a.time North wind \CLF{weather} sun \CLF{celestial object} and discussion over\\ 
+\gll Ʇaula Nǃòõ Uǃqʼa maã Jùu aje ǂu ełǁa iñi\\ 
+once.upon.a.time North wind \CLF{weather} sun \CLF{celestial object} and conflict over\\ 
 \glt Once upon a time, the North Wind and the Sun were discussing
 \end{exe}
 
@@ -14,14 +14,14 @@ two \CLF{people} PTV COMP\textasciitilde{}strong about {}\\
 
 \begin{exe}
  \ex 
-\gll Ṭurra , loõṇi ʇxoi onʇʼa oǃʼo ṣǂaañi .\\ 
+\gll Ṭurra , loõṇi ʇxoi onʇʼa oǃʼo qʼañi .\\ 
 suddenly {} warm cloak envelop walk.into vagabond {}\\ 
 \glt Suddenly, a vagabond wrapped in a warm cloak arrived to them.
 \end{exe}
 
 \begin{exe}
  \ex 
-\gll Maã aʇe ǂu nǃʼoirre nui ʼèe ǂa ʼa ṣǂaañi ku nǁxòi upa ʇxoi ṭèe ,\\ 
+\gll Maã aje ǂu ɴǃʼoirre nui ʼèe ǂa ʼa qʼañi ku ɴǁxòi upa ʇxoi ṭèe ,\\ 
 \CLF{weather} \CLF{celestial object} and decide \CLF{people} PTV first ABL vagabond \CLF{man} remove SUBJ cloak \CLF{clothing} {}\\ 
 \glt The Wind and the Sun decided that the first of them that would make the vagabond take off the cloak,
 \end{exe}
@@ -35,14 +35,14 @@ truly COMP\textasciitilde{}strong COND RES \CLF{people} {}\\
 
 \begin{exe}
  \ex 
-\gll Nǃòõ Uǃqʼa maã ǂxàuʼa tṣe ra tsùu nʘaã ,\\ 
+\gll Nǃòõ Uǃqʼa maã ǂxàuʼa tṣe ra tsùu ɴʘaã ,\\ 
 North wind \CLF{weather} strain peak INSTR throw air {}\\ 
 \glt The North Wind blew as strong as he could,
 \end{exe}
 
 \begin{exe}
  \ex 
-\gll ṇam ča uji tsùu maã , ṣǂaañi ku ʼa ṭèe onʇʼa ǃqʼati nǃxùu .\\ 
+\gll ṇam ča uji tsùu maã , qʼañi ku ʼa ṭèe onʇʼa ǃqʼati ɴǃxùu .\\ 
 but while ANTIP throw \CLF{weather} {} vagabond \CLF{man} ABL \CLF{clothing} envelop self.ACC more {}\\ 
 \glt but as the wind blew, the vagabond enveloped themselves in the cloak ever more.
 \end{exe}
@@ -56,14 +56,14 @@ and wind \CLF{weather} surrender neck {}\\
 
 \begin{exe}
  \ex 
-\gll ʼai ʼai , loõṇi ra čìiči Jùu aʇe , ʼai ǂu ku uǃqʼo ʇxoi ṭèe .\\ 
+\gll ʼai ʼai , loõṇi ra čìiči Jùu aje , ʼai ǂu ku uǃqʼo ʇxoi ṭèe .\\ 
 and.then {} warm INSTR shine sun \CLF{celestial object} {} and and \CLF{man} peel off cloak \CLF{clothing} {}\\ 
 \glt But then, the Sun shone warmly, and so the vagabond took off their cloak.
 \end{exe}
 
 \begin{exe}
  \ex 
-\gll Nǃòõ Uǃqʼa maã łǁa sʇaʇau Jùu aʇe .\\ 
+\gll Nǃòõ Uǃqʼa maã łǁa sʇaʇau Jùu aje .\\ 
 North wind \CLF{weather} see COMP\textasciitilde{}strong sun \CLF{celestial object} {}\\ 
 \glt Thus, the North Wind saw that the Sun was stronger.
 \end{exe}

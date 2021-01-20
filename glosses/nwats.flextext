@@ -2,7 +2,7 @@
 <document version="2">
   <interlinear-text guid="2e6447ca-bb66-4020-b680-1288fae860d3">
     <item type="title" lang="en">The North Wind and the Sun</item>
-    <item type="title" lang="qaa">Nǃòõ Uǃqʼa maã Jùu aʇe ǂu</item>
+    <item type="title" lang="qaa">Nǃòõ Uǃqʼa maã Jùu aje ǂu</item>
     <item type="comment" lang="en"></item>
     <paragraphs>
       <paragraph guid="4116dbf2-5326-43c6-bcfc-561512b59e19">
@@ -55,8 +55,8 @@
                   </morph>
                 </morphemes>
               </word>
-              <word guid="9d1bb432-299d-4ce1-9d3f-48bc9d3c8445">
-                <item type="txt" lang="qaa">aʇe</item>
+              <word guid="d719e638-9380-447e-9164-53245ab9b3e8">
+                <item type="txt" lang="qaa">aje</item>
                 <item type="gls" lang="en">celestial object</item>
                 <morphemes>
                   <morph type="stem" guid="d7f713e8-e8cf-11d3-9764-00c04f186933">
@@ -73,9 +73,9 @@
                   </morph>
                 </morphemes>
               </word>
-              <word guid="ef118f6d-94bd-41ad-8b33-6e8ac75fd2fc">
-                <item type="txt" lang="qaa">ełǁxa</item>
-                <item type="gls" lang="en">discussion</item>
+              <word guid="634cfbdf-c8e5-421e-bd65-93a32ef2a52f">
+                <item type="txt" lang="qaa">ełǁa</item>
+                <item type="gls" lang="en">conflict</item>
                 <morphemes>
                   <morph type="stem" guid="d7f713e8-e8cf-11d3-9764-00c04f186933">
                     <item type="msa" lang="en">n</item>
@@ -208,8 +208,8 @@
                   </morph>
                 </morphemes>
               </word>
-              <word guid="b39df674-6589-4ef1-b604-5b50cadefc24">
-                <item type="txt" lang="qaa">ṣǂaañi</item>
+              <word guid="60f95bae-f44f-4b61-a275-f3319415b0f8">
+                <item type="txt" lang="qaa">qʼañi</item>
                 <item type="gls" lang="en">vagabond</item>
                 <morphemes>
                   <morph type="stem" guid="d7f713e8-e8cf-11d3-9764-00c04f186933">
@@ -239,8 +239,8 @@
                   </morph>
                 </morphemes>
               </word>
-              <word guid="9d1bb432-299d-4ce1-9d3f-48bc9d3c8445">
-                <item type="txt" lang="qaa">aʇe</item>
+              <word guid="d719e638-9380-447e-9164-53245ab9b3e8">
+                <item type="txt" lang="qaa">aje</item>
                 <item type="gls" lang="en">celestial object</item>
                 <morphemes>
                   <morph type="stem" guid="d7f713e8-e8cf-11d3-9764-00c04f186933">
@@ -257,8 +257,8 @@
                   </morph>
                 </morphemes>
               </word>
-              <word guid="6f16140b-baf5-4cf3-b2b7-84857d841192">
-                <item type="txt" lang="qaa">nǃʼoirre</item>
+              <word guid="41b339d4-ea89-4829-9430-e42c32cb4fab">
+                <item type="txt" lang="qaa">ɴǃʼoirre</item>
                 <item type="gls" lang="en">decide</item>
                 <morphemes>
                   <morph type="stem" guid="d7f713e8-e8cf-11d3-9764-00c04f186933">
@@ -302,8 +302,8 @@
                   </morph>
                 </morphemes>
               </word>
-              <word guid="b39df674-6589-4ef1-b604-5b50cadefc24">
-                <item type="txt" lang="qaa">ṣǂaañi</item>
+              <word guid="60f95bae-f44f-4b61-a275-f3319415b0f8">
+                <item type="txt" lang="qaa">qʼañi</item>
                 <item type="gls" lang="en">vagabond</item>
                 <morphemes>
                   <morph type="stem" guid="d7f713e8-e8cf-11d3-9764-00c04f186933">
@@ -320,8 +320,8 @@
                   </morph>
                 </morphemes>
               </word>
-              <word guid="65c312db-6a80-486b-9870-cd75814391cc">
-                <item type="txt" lang="qaa">nǁxòi</item>
+              <word guid="93b27039-a56d-465f-ba32-89e9c08d95ac">
+                <item type="txt" lang="qaa">ɴǁxòi</item>
                 <item type="gls" lang="en">remove</item>
                 <morphemes>
                   <morph type="stem" guid="d7f713e8-e8cf-11d3-9764-00c04f186933">
@@ -491,8 +491,8 @@
                   </morph>
                 </morphemes>
               </word>
-              <word guid="5bf17281-29d1-47d7-a34c-7bd4fa8a0f11">
-                <item type="txt" lang="qaa">nʘaã</item>
+              <word guid="3e46b368-e168-4ed4-8720-34fdf8f51616">
+                <item type="txt" lang="qaa">ɴʘaã</item>
                 <item type="gls" lang="en">air</item>
                 <morphemes>
                   <morph type="stem" guid="d7f713e8-e8cf-11d3-9764-00c04f186933">
@@ -561,8 +561,8 @@
               <word>
                 <item type="punct" lang="qaa">,</item>
               </word>
-              <word guid="b39df674-6589-4ef1-b604-5b50cadefc24">
-                <item type="txt" lang="qaa">ṣǂaañi</item>
+              <word guid="60f95bae-f44f-4b61-a275-f3319415b0f8">
+                <item type="txt" lang="qaa">qʼañi</item>
                 <item type="gls" lang="en">vagabond</item>
                 <morphemes>
                   <morph type="stem" guid="d7f713e8-e8cf-11d3-9764-00c04f186933">
@@ -615,8 +615,8 @@
                   </morph>
                 </morphemes>
               </word>
-              <word guid="6ccfedb2-d603-4e9e-aeaa-e6f996b63c97">
-                <item type="txt" lang="qaa">nǃxùu</item>
+              <word guid="93239cb0-43fc-4042-acac-121965042dc4">
+                <item type="txt" lang="qaa">ɴǃxùu</item>
                 <item type="gls" lang="en">more</item>
                 <morphemes>
                   <morph type="stem" guid="d7f713e8-e8cf-11d3-9764-00c04f186933">
@@ -743,8 +743,8 @@
                   </morph>
                 </morphemes>
               </word>
-              <word guid="9d1bb432-299d-4ce1-9d3f-48bc9d3c8445">
-                <item type="txt" lang="qaa">aʇe</item>
+              <word guid="d719e638-9380-447e-9164-53245ab9b3e8">
+                <item type="txt" lang="qaa">aje</item>
                 <item type="gls" lang="en">celestial object</item>
                 <morphemes>
                   <morph type="stem" guid="d7f713e8-e8cf-11d3-9764-00c04f186933">
@@ -877,8 +877,8 @@
                   </morph>
                 </morphemes>
               </word>
-              <word guid="9d1bb432-299d-4ce1-9d3f-48bc9d3c8445">
-                <item type="txt" lang="qaa">aʇe</item>
+              <word guid="d719e638-9380-447e-9164-53245ab9b3e8">
+                <item type="txt" lang="qaa">aje</item>
                 <item type="gls" lang="en">celestial object</item>
                 <morphemes>
                   <morph type="stem" guid="d7f713e8-e8cf-11d3-9764-00c04f186933">

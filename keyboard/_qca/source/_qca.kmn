@@ -11,6 +11,10 @@ store(&LAYOUTFILE) '_qca.keyman-touch-layout'
 begin Unicode > use(main)
 
 group(main) using keys
++ [K_G] > 'ǂ'
++ [K_Q] > 'ɴ'
++ [SHIFT K_Z] > 'Ʇ'
++ [K_Z] > 'ʇ'
 + [SHIFT ALT K_H] > 'Ŋ'
 + [ALT K_H] > 'ŋ'
 + [SHIFT K_EQUAL] > 'Ì'
