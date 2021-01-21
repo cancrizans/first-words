@@ -171,7 +171,7 @@
 <gloss lang="en"><text>boat</text></gloss>
 </sense>
 </entry>
-<entry dateCreated="2021-01-02T20:46:49Z" dateModified="2021-01-20T17:45:12Z" id="uɴǂoi_13a0eba6-d40a-41ff-a2e0-e9576111ae08" guid="13a0eba6-d40a-41ff-a2e0-e9576111ae08">
+<entry dateCreated="2021-01-02T20:46:49Z" dateModified="2021-01-21T14:50:08Z" id="uɴǂoi_13a0eba6-d40a-41ff-a2e0-e9576111ae08" guid="13a0eba6-d40a-41ff-a2e0-e9576111ae08">
 <lexical-unit>
 <form lang="qaa"><text>uɴǂoi</text></form>
 </lexical-unit>
@@ -183,6 +183,7 @@
 <definition>
 <form lang="en"><text>language, way of speaking</text></form>
 </definition>
+<relation type="Classifier" ref="18d05d6e-8bd6-4d53-8214-9a89a2c60fbe"/>
 </sense>
 </entry>
 <entry dateCreated="2020-12-25T16:10:02Z" dateModified="2021-01-06T22:30:34Z" id="uǃqʼa_15279644-db5e-44a3-b4a6-8528ba591fc4" guid="15279644-db5e-44a3-b4a6-8528ba591fc4">
@@ -206,6 +207,42 @@
 <grammatical-info value="Postposition">
 </grammatical-info>
 <gloss lang="en"><text>INSTR</text></gloss>
+</sense>
+</entry>
+<entry dateCreated="2021-01-21T14:53:42Z" dateModified="2021-01-21T15:29:06Z" id="ɴʘùm_1618cfe4-fb9e-457c-b73f-3c79fecb13e1" guid="1618cfe4-fb9e-457c-b73f-3c79fecb13e1">
+<lexical-unit>
+<form lang="qaa"><text>ɴʘùm</text></form>
+</lexical-unit>
+<trait  name="morph-type" value="stem"/>
+<sense id="6361ca19-b762-47b4-aaa7-2fd21bc2b84a" order="0">
+<grammatical-info value="Ditransitive verb">
+</grammatical-info>
+<gloss lang="en"><text>suck.on</text></gloss>
+<definition>
+<form lang="en"><text>(A) suck (substance (T)) from (P), (A) suck on (P)</text></form>
+</definition>
+</sense>
+<sense id="6f437082-5cae-4ec7-9048-abc1aafae2e9" order="1">
+<grammatical-info value="Transitive verb">
+</grammatical-info>
+<gloss lang="en"><text>be.breastfed.by</text></gloss>
+<definition>
+<form lang="en"><text>suckle on, (A) be breastfed by (P)</text></form>
+</definition>
+<example>
+<form lang="qaa"><text>ɴʘùm Qʼoaʇùu ǁàa</text></form>
+<translation type="Free translation">
+<form lang="en"><text>Young Qʼoaʇùu is breastfeeding (her child).</text></form>
+</translation>
+</example>
+</sense>
+<sense id="5965532d-a776-4578-b0be-1e1005eecbe3" order="2">
+<grammatical-info value="Transitive verb">
+</grammatical-info>
+<gloss lang="en"><text>kiss</text></gloss>
+<definition>
+<form lang="en"><text>kiss (on the lips or otherwise)</text></form>
+</definition>
 </sense>
 </entry>
 <entry dateCreated="2020-12-26T01:11:37Z" dateModified="2021-01-06T00:47:02Z" id="tłìi_165e7909-e7fb-4ea5-be28-11e609627c8b" guid="165e7909-e7fb-4ea5-be28-11e609627c8b">
@@ -239,6 +276,30 @@
 <grammatical-info value="Noun">
 </grammatical-info>
 <gloss lang="en"><text>year</text></gloss>
+</sense>
+</entry>
+<entry dateCreated="2021-01-21T14:47:42Z" dateModified="2021-01-21T14:49:01Z" id="cʼaã_1859401b-360c-4f4f-9c86-cb7aeef18949" guid="1859401b-360c-4f4f-9c86-cb7aeef18949">
+<lexical-unit>
+<form lang="qaa"><text>cʼaã</text></form>
+</lexical-unit>
+<trait  name="morph-type" value="stem"/>
+<sense id="55c4c60e-0b10-4453-bd9c-9010e21c9ba4" order="0">
+<grammatical-info value="Noun">
+</grammatical-info>
+<gloss lang="en"><text>arm</text></gloss>
+<definition>
+<form lang="en"><text>arm</text></form>
+</definition>
+<relation type="Classifier" ref="91404622-4d79-4582-845f-00fddeb93b36"/>
+</sense>
+<sense id="ea4bf7ce-4845-426f-b77d-76ac8e57c855" order="1">
+<grammatical-info value="Noun">
+</grammatical-info>
+<gloss lang="en"><text>wing</text></gloss>
+<definition>
+<form lang="en"><text>wing (of bird)</text></form>
+</definition>
+<relation type="Classifier" ref="91404622-4d79-4582-845f-00fddeb93b36"/>
 </sense>
 </entry>
 <entry dateCreated="2021-01-12T20:36:45Z" dateModified="2021-01-12T20:37:59Z" id="ǃʼoã_19235435-b504-44d1-9ae5-b3c2dcb21a54" guid="19235435-b504-44d1-9ae5-b3c2dcb21a54">
@@ -460,6 +521,22 @@
 <gloss lang="en"><text>die</text></gloss>
 </sense>
 </entry>
+<entry dateCreated="2021-01-21T14:42:40Z" dateModified="2021-01-21T14:45:40Z" id="làa_29ee2086-a78f-4310-af18-226f7a4382f7" guid="29ee2086-a78f-4310-af18-226f7a4382f7">
+<lexical-unit>
+<form lang="qaa"><text>làa</text></form>
+</lexical-unit>
+<trait  name="morph-type" value="stem"/>
+<sense id="fbeb121e-557c-4143-921b-803b1eb12232">
+<grammatical-info value="Noun classifier">
+</grammatical-info>
+<gloss lang="en"><text>foul-smelling</text></gloss>
+<definition>
+<form lang="en"><text>foul-smelling objects, rotting matter, feces, waste, corpses, infections, pus, diseases, the severely diseased</text></form>
+</definition>
+<relation type="Classified Noun" ref="548e143b-5df9-4a3d-a4b0-09a5f974c810"/>
+<relation type="Classified Noun" ref="92450ee7-038f-43ba-bf4e-5119db047289"/>
+</sense>
+</entry>
 <entry dateCreated="2021-01-09T11:12:16Z" dateModified="2021-01-10T13:25:31Z" id="po_2e171516-2603-4081-865d-ba4eeb3208dd" guid="2e171516-2603-4081-865d-ba4eeb3208dd">
 <lexical-unit>
 <form lang="qaa"><text>po</text></form>
@@ -644,7 +721,7 @@
 <relation type="Classified Noun" ref="2a50df9d-92c1-4bb5-a42c-579f86819b45"/>
 </sense>
 </entry>
-<entry dateCreated="2020-12-31T17:08:38Z" dateModified="2021-01-19T12:03:54Z" id="šǃoiñe_3b85b26f-d3b4-4236-8dd6-9216f53c6f4d" guid="3b85b26f-d3b4-4236-8dd6-9216f53c6f4d">
+<entry dateCreated="2020-12-31T17:08:38Z" dateModified="2021-01-21T14:42:58Z" id="šǃoiñe_3b85b26f-d3b4-4236-8dd6-9216f53c6f4d" guid="3b85b26f-d3b4-4236-8dd6-9216f53c6f4d">
 <lexical-unit>
 <form lang="qaa"><text>šǃoiñe</text></form>
 </lexical-unit>
@@ -653,6 +730,29 @@
 <grammatical-info value="Noun">
 </grammatical-info>
 <gloss lang="en"><text>meat</text></gloss>
+<relation type="Classifier" ref="fbeb121e-557c-4143-921b-803b1eb12232"/>
+</sense>
+</entry>
+<entry dateCreated="2021-01-21T14:32:29Z" dateModified="2021-01-21T14:33:39Z" id="tłʼoi_3e706479-fa01-40da-b488-1888228cfee8" guid="3e706479-fa01-40da-b488-1888228cfee8">
+<lexical-unit>
+<form lang="qaa"><text>tłʼoi</text></form>
+</lexical-unit>
+<trait  name="morph-type" value="stem"/>
+<sense id="cdd5c677-46d3-4ef4-8fcd-508a140e2a4d" order="0">
+<grammatical-info value="Intransitive verb">
+</grammatical-info>
+<gloss lang="en"><text>leave</text></gloss>
+<definition>
+<form lang="en"><text>leave, abandon (ABL), exit</text></form>
+</definition>
+</sense>
+<sense id="7fbe31f9-ed36-4e78-96f0-6fcc5dc219d2" order="1">
+<grammatical-info value="Intransitive verb">
+</grammatical-info>
+<gloss lang="en"><text>stop</text></gloss>
+<definition>
+<form lang="en"><text>(in SVC) stop, interrupt ..., finish, conclude ...</text></form>
+</definition>
 </sense>
 </entry>
 <entry dateCreated="2021-01-01T15:43:20Z" dateModified="2021-01-12T20:41:58Z" id="ʼurri_4130b7bb-6dad-4c64-8bd8-b8c55d3554d2" guid="4130b7bb-6dad-4c64-8bd8-b8c55d3554d2">
@@ -706,15 +806,23 @@
 </definition>
 </sense>
 </entry>
-<entry dateCreated="2021-01-16T21:10:09Z" dateModified="2021-01-16T21:10:09Z" id="ǁàa_4647bfbb-a5af-46fe-9ada-262db4a1f912" guid="4647bfbb-a5af-46fe-9ada-262db4a1f912">
+<entry dateCreated="2021-01-16T21:10:09Z" dateModified="2021-01-21T15:05:59Z" id="ǁàa_4647bfbb-a5af-46fe-9ada-262db4a1f912" guid="4647bfbb-a5af-46fe-9ada-262db4a1f912">
 <lexical-unit>
 <form lang="qaa"><text>ǁàa</text></form>
 </lexical-unit>
 <trait  name="morph-type" value="stem"/>
-<sense id="4b3764a5-d4be-47ad-b1a5-eae336b44035">
+<sense id="4b3764a5-d4be-47ad-b1a5-eae336b44035" order="0">
 <grammatical-info value="Transitive verb">
 </grammatical-info>
 <gloss lang="en"><text>hold</text></gloss>
+</sense>
+<sense id="424c2875-f185-49f2-86ec-98d06f9b3641" order="1">
+<grammatical-info value="Noun classifier">
+</grammatical-info>
+<gloss lang="en"><text>young women</text></gloss>
+<definition>
+<form lang="en"><text>young women, recent mothers</text></form>
+</definition>
 </sense>
 </entry>
 <entry dateCreated="2020-12-27T15:13:43Z" dateModified="2021-01-06T00:47:12Z" id="čìiči_47753dac-24ec-4512-8161-1b6600ecca9d" guid="47753dac-24ec-4512-8161-1b6600ecca9d">
@@ -824,6 +932,28 @@
 </definition>
 </sense>
 </entry>
+<entry dateCreated="2021-01-21T14:30:19Z" dateModified="2021-01-21T14:31:30Z" id="ǁarra_4e845ef2-2daa-4845-9a33-c597d41697cf" guid="4e845ef2-2daa-4845-9a33-c597d41697cf">
+<lexical-unit>
+<form lang="qaa"><text>ǁarra</text></form>
+</lexical-unit>
+<trait  name="morph-type" value="stem"/>
+<sense id="2303a112-8166-4c17-b717-e702943dd2f3" order="0">
+<grammatical-info value="Intransitive verb">
+</grammatical-info>
+<gloss lang="en"><text>close.eyes</text></gloss>
+<definition>
+<form lang="en"><text>close one's eyes, not see, refuse to look</text></form>
+</definition>
+</sense>
+<sense id="00449928-0266-42eb-b8c7-ea551371e271" order="1">
+<grammatical-info value="Intransitive verb">
+</grammatical-info>
+<gloss lang="en"><text>refuse</text></gloss>
+<definition>
+<form lang="en"><text>(in SVC) refuse to ..., not intend to ..., resist ...</text></form>
+</definition>
+</sense>
+</entry>
 <entry dateCreated="2021-01-01T15:48:16Z" dateModified="2021-01-20T17:58:00Z" id="ɴʇai_4f63f9ae-f6e6-41a5-bbda-cb4bd0f4b78c" guid="4f63f9ae-f6e6-41a5-bbda-cb4bd0f4b78c">
 <lexical-unit>
 <form lang="qaa"><text>ɴʇai</text></form>
@@ -869,9 +999,9 @@
 <relation type="Classifier" ref="9799d5bc-3336-40dd-8668-896e82f6ff5e"/>
 </sense>
 </entry>
-<entry dateCreated="2021-01-07T23:05:10Z" dateModified="2021-01-20T23:05:27Z" id="ʇala_52ad71a8-50b3-4e49-add1-c26213a915f0" guid="52ad71a8-50b3-4e49-add1-c26213a915f0">
+<entry dateCreated="2021-01-07T23:05:10Z" dateModified="2021-01-21T23:05:46Z" id="ʇaala_52ad71a8-50b3-4e49-add1-c26213a915f0" guid="52ad71a8-50b3-4e49-add1-c26213a915f0">
 <lexical-unit>
-<form lang="qaa"><text>ʇala</text></form>
+<form lang="qaa"><text>ʇaala</text></form>
 </lexical-unit>
 <trait  name="morph-type" value="stem"/>
 <sense id="c60a2f37-44db-42fa-a2ac-09ddf0bbcf7d">
@@ -1004,6 +1134,28 @@
 </definition>
 </sense>
 </entry>
+<entry dateCreated="2021-01-21T14:26:55Z" dateModified="2021-01-21T14:28:28Z" id="uʇum_5be36ec1-dd66-4086-bd12-2369b02cd61b" guid="5be36ec1-dd66-4086-bd12-2369b02cd61b">
+<lexical-unit>
+<form lang="qaa"><text>uʇum</text></form>
+</lexical-unit>
+<trait  name="morph-type" value="stem"/>
+<sense id="56bd72b5-fa56-4ede-85f5-6385d9f9ddce" order="0">
+<grammatical-info value="Intransitive verb">
+</grammatical-info>
+<gloss lang="en"><text>stand.up</text></gloss>
+<definition>
+<form lang="en"><text>stand up, stand up straight, get up</text></form>
+</definition>
+</sense>
+<sense id="bf0416e2-126e-4f11-afb5-8c231d1f8b8d" order="1">
+<grammatical-info value="Intransitive verb">
+</grammatical-info>
+<gloss lang="en"><text>be.about.to</text></gloss>
+<definition>
+<form lang="en"><text>(in SVC) be about to ..., will ..., be likely to ..., plan to ..., intend to ...</text></form>
+</definition>
+</sense>
+</entry>
 <entry dateCreated="2021-01-12T20:03:48Z" dateModified="2021-01-12T20:04:26Z" id="ǂʼa_607e9d14-8fe5-4ab6-885b-8b6391c435a0" guid="607e9d14-8fe5-4ab6-885b-8b6391c435a0">
 <lexical-unit>
 <form lang="qaa"><text>ǂʼa</text></form>
@@ -1081,9 +1233,9 @@
 <relation type="Classifier" ref="0ded4fde-8c3a-4942-a8c8-08630d0cd9a8"/>
 </sense>
 </entry>
-<entry dateCreated="2021-01-07T17:58:33Z" dateModified="2021-01-07T18:02:05Z" id="utłuʼe_6abead2a-3864-4040-a511-161caedd9c75" guid="6abead2a-3864-4040-a511-161caedd9c75">
+<entry dateCreated="2021-01-07T17:58:33Z" dateModified="2021-01-21T14:24:04Z" id="utłʼe_6abead2a-3864-4040-a511-161caedd9c75" guid="6abead2a-3864-4040-a511-161caedd9c75">
 <lexical-unit>
-<form lang="qaa"><text>utłuʼe</text></form>
+<form lang="qaa"><text>utłʼe</text></form>
 </lexical-unit>
 <trait  name="morph-type" value="stem"/>
 <sense id="307a235c-92d4-4ec1-acca-bbcc0846b56c" order="0">
@@ -1337,7 +1489,7 @@
 <gloss lang="en"><text>five</text></gloss>
 </sense>
 </entry>
-<entry dateCreated="2020-12-25T18:26:46Z" dateModified="2021-01-16T16:50:24Z" id="ṇùĩ_837e5eae-8f4a-423e-9626-77b0599dc1be" guid="837e5eae-8f4a-423e-9626-77b0599dc1be">
+<entry dateCreated="2020-12-25T18:26:46Z" dateModified="2021-01-21T14:50:08Z" id="ṇùĩ_837e5eae-8f4a-423e-9626-77b0599dc1be" guid="837e5eae-8f4a-423e-9626-77b0599dc1be">
 <lexical-unit>
 <form lang="qaa"><text>ṇùĩ</text></form>
 </lexical-unit>
@@ -1349,17 +1501,29 @@
 <definition>
 <form lang="en"><text>spoken word, utterances, phrases, languages, words, voices, thoughts, reasonings</text></form>
 </definition>
+<relation type="Classified Noun" ref="652b368c-329a-4816-b685-758787056be6"/>
 </sense>
 </entry>
-<entry dateCreated="2021-01-14T15:18:21Z" dateModified="2021-01-14T15:18:21Z" id="ǂaã_85248216-396e-4b28-ab36-c13362077413" guid="85248216-396e-4b28-ab36-c13362077413">
+<entry dateCreated="2021-01-14T15:18:21Z" dateModified="2021-01-21T14:29:51Z" id="ǂaã_85248216-396e-4b28-ab36-c13362077413" guid="85248216-396e-4b28-ab36-c13362077413">
 <lexical-unit>
 <form lang="qaa"><text>ǂaã</text></form>
 </lexical-unit>
 <trait  name="morph-type" value="stem"/>
-<sense id="1aaf09c2-1f81-4d9f-aab3-0c89653d1d58">
+<sense id="1aaf09c2-1f81-4d9f-aab3-0c89653d1d58" order="0">
 <grammatical-info value="Intransitive verb">
 </grammatical-info>
 <gloss lang="en"><text>go</text></gloss>
+<definition>
+<form lang="en"><text>go, travel, move</text></form>
+</definition>
+</sense>
+<sense id="0bb5a2c5-edbd-4cb6-92d5-06cfb0b28894" order="1">
+<grammatical-info value="Intransitive verb">
+</grammatical-info>
+<gloss lang="en"><text>begin</text></gloss>
+<definition>
+<form lang="en"><text>(in SVC) begin ..., go to do..., go there and ...,</text></form>
+</definition>
 </sense>
 </entry>
 <entry dateCreated="2021-01-04T02:56:38Z" dateModified="2021-01-06T15:55:51Z" id="sʇʼe_856a24c4-ffd2-4957-b5e8-74c177d3c326" guid="856a24c4-ffd2-4957-b5e8-74c177d3c326">
@@ -1962,6 +2126,8 @@
 <relation type="Classified Noun" ref="b01ef57d-bde5-4b35-b470-01fb28f0ea59"/>
 <relation type="Classified Noun" ref="d3e5634c-f97f-4b44-bd54-dda26e674e44"/>
 <relation type="Classified Noun" ref="018eac8e-0fbe-41e5-aef3-c00e4119e754"/>
+<relation type="Classified Noun" ref="55c4c60e-0b10-4453-bd9c-9010e21c9ba4"/>
+<relation type="Classified Noun" ref="ea4bf7ce-4845-426f-b77d-76ac8e57c855"/>
 </sense>
 </entry>
 <entry dateCreated="2020-12-25T11:38:16Z" dateModified="2021-01-06T22:06:06Z" id="ǃòo_bf279469-e7e8-41a7-9268-cf42464b09ac" guid="bf279469-e7e8-41a7-9268-cf42464b09ac">
@@ -2194,9 +2360,9 @@
 <gloss lang="en"><text>the very same</text></gloss>
 </sense>
 </entry>
-<entry dateCreated="2020-12-25T14:18:40Z" dateModified="2021-01-06T00:46:51Z" id="ṣǂxa_d86cdb9b-4c65-45f8-b9ee-2fe59e532fcb" guid="d86cdb9b-4c65-45f8-b9ee-2fe59e532fcb">
+<entry dateCreated="2020-12-25T14:18:40Z" dateModified="2021-01-21T22:32:14Z" id="ṣǂa_d86cdb9b-4c65-45f8-b9ee-2fe59e532fcb" guid="d86cdb9b-4c65-45f8-b9ee-2fe59e532fcb">
 <lexical-unit>
-<form lang="qaa"><text>ṣǂxa</text></form>
+<form lang="qaa"><text>ṣǂa</text></form>
 </lexical-unit>
 <trait  name="morph-type" value="stem"/>
 <sense id="32a19327-8517-4d5f-a8f4-ef315aae93d9">
@@ -2251,6 +2417,21 @@
 <grammatical-info value="Personal pronoun">
 </grammatical-info>
 <gloss lang="en"><text>2.PL.ACC</text></gloss>
+</sense>
+</entry>
+<entry dateCreated="2021-01-21T14:38:38Z" dateModified="2021-01-21T14:43:17Z" id="ṭʼoa_dd76ef9b-4a13-4b31-b6aa-6defc3017c4e" guid="dd76ef9b-4a13-4b31-b6aa-6defc3017c4e">
+<lexical-unit>
+<form lang="qaa"><text>ṭʼoa</text></form>
+</lexical-unit>
+<trait  name="morph-type" value="stem"/>
+<sense id="548e143b-5df9-4a3d-a4b0-09a5f974c810">
+<grammatical-info value="Noun">
+</grammatical-info>
+<gloss lang="en"><text>corpse</text></gloss>
+<definition>
+<form lang="en"><text>corpse, cadaver, carcass (human or animal)</text></form>
+</definition>
+<relation type="Classifier" ref="fbeb121e-557c-4143-921b-803b1eb12232"/>
 </sense>
 </entry>
 <entry dateCreated="2021-01-09T10:35:42Z" dateModified="2021-01-12T20:21:53Z" id="ŋum_e11a5b3d-9a31-41b8-a927-e1f590654552" guid="e11a5b3d-9a31-41b8-a927-e1f590654552">
@@ -2657,6 +2838,64 @@
 <grammatical-info value="Cardinal numeral">
 </grammatical-info>
 <gloss lang="en"><text>few</text></gloss>
+</sense>
+</entry>
+<entry dateCreated="2021-01-21T22:35:47Z" dateModified="2021-01-21T22:36:07Z" id="ɴǁxape_01cdd7c4-ef8d-42f8-851c-c6689b731394" guid="01cdd7c4-ef8d-42f8-851c-c6689b731394">
+<lexical-unit>
+<form lang="qaa"><text>ɴǁxape</text></form>
+</lexical-unit>
+<trait  name="morph-type" value="stem"/>
+<sense id="7dafa21c-9d4f-4756-9c78-ab70d8a5a54d">
+<grammatical-info value="Transitive verb">
+</grammatical-info>
+<gloss lang="en"><text>insult</text></gloss>
+<definition>
+<form lang="en"><text>insult, berate, scold</text></form>
+</definition>
+</sense>
+</entry>
+<entry dateCreated="2021-01-21T22:36:43Z" dateModified="2021-01-21T22:36:43Z" id="tsui_1b7e559d-7785-4714-a279-4e445377f0e0" guid="1b7e559d-7785-4714-a279-4e445377f0e0">
+<lexical-unit>
+<form lang="qaa"><text>tsui</text></form>
+</lexical-unit>
+<trait  name="morph-type" value="stem"/>
+<sense id="761ac7df-001f-49d0-b7a9-b86d184c99f4">
+<grammatical-info value="Intransitive verb">
+</grammatical-info>
+<gloss lang="en"><text>cry</text></gloss>
+</sense>
+</entry>
+<entry dateCreated="2021-01-21T22:50:52Z" dateModified="2021-01-21T22:50:52Z" id="cʼiĩ_2fc6b3d7-d9e1-4ccf-9c9a-016cce50e78a" guid="2fc6b3d7-d9e1-4ccf-9c9a-016cce50e78a">
+<lexical-unit>
+<form lang="qaa"><text>cʼiĩ</text></form>
+</lexical-unit>
+<trait  name="morph-type" value="stem"/>
+<sense id="8f2687b1-4cb3-4191-85af-ce77fd0933c7">
+<grammatical-info value="Adjective">
+</grammatical-info>
+<gloss lang="en"><text>similar</text></gloss>
+</sense>
+</entry>
+<entry dateCreated="2021-01-21T22:52:41Z" dateModified="2021-01-21T22:52:41Z" id="uǃàama_bfea399b-ab5c-43f8-bcfb-cf806824be35" guid="bfea399b-ab5c-43f8-bcfb-cf806824be35">
+<lexical-unit>
+<form lang="qaa"><text>uǃàama</text></form>
+</lexical-unit>
+<trait  name="morph-type" value="stem"/>
+<sense id="cb93d11b-a1b8-4b9b-ada1-f6d07cefebd3">
+<grammatical-info value="Noun">
+</grammatical-info>
+<gloss lang="en"><text>misstep</text></gloss>
+</sense>
+</entry>
+<entry dateCreated="2021-01-21T22:53:35Z" dateModified="2021-01-21T22:53:35Z" id="ɴǂʼi_fddcbc9d-c369-439e-8c50-d799609c445d" guid="fddcbc9d-c369-439e-8c50-d799609c445d">
+<lexical-unit>
+<form lang="qaa"><text>ɴǂʼi</text></form>
+</lexical-unit>
+<trait  name="morph-type" value="stem"/>
+<sense id="0ee2055b-96dc-4042-8c0d-acfdfb147179">
+<grammatical-info value="Adverb">
+</grammatical-info>
+<gloss lang="en"><text>NEG</text></gloss>
 </sense>
 </entry>
 </lift>

@@ -6,128 +6,138 @@ import pronunciator
 
 from texescape import escape as esc
 
-parser = argparse.ArgumentParser()
-parser.add_argument("file")
-parser.add_argument("--mode", default="reddit")
-args = parser.parse_args()
 
 
+def FormatInterlinear(filename,mode="reddit"):
 
-input_text_filename = args.file
-
-
-text = ET.parse(input_text_filename).getroot()[0]
-
-mode = args.mode
-
-class InterlinearParsingException:
-	pass
-
-if not (mode in ["reddit","tex","beamer"]):
-	raise InterlinearParsingException("Error: unrecognized mode.")
-
-phrases = []
+	text = ET.parse(filename).getroot()[0]
 
 
-for paragraph in text.iter('paragraph'):
-	
-	phrases += paragraph[0].findall('phrase')
+	class InterlinearParsingException:
+		pass
+
+	if not (mode in ["reddit","tex","beamer"]):
+		raise InterlinearParsingException("Error: unrecognized mode.")
+
+	phrases = []
 
 
-
-if mode == "reddit":
-	blank_gloss = "" 
-elif mode in ["tex","beamer"]:
-	blank_gloss = "{}"
-
-def FormatPhrase(phrase):
+	for paragraph in text.iter('paragraph'):
+		
+		phrases += paragraph[0].findall('phrase')
 
 
-	words = phrase.find('words').findall('word')
-	N = len(words)
-
-	if(mode == "reddit"):
-		output = "|"*(N+1)+"\n"
-		output += "|:-"*N+"|\n"
-	elif (mode =="beamer"):
-		output = "\\interlinearslide{" 
-	elif (mode == "tex"):
-		output = "\\begin{exe}\n \\ex \n"
-
-	original_words = []
-	gloss_words = []
-
-	original_run = ""
-
-	for w in words:
-		punct  = w.find(".item/[@type='punct']")
-		if not (punct is None):
-			original_words.append(punct.text)
-			gloss_words.append(blank_gloss)
-
-			original_run += punct.text
-		else:
-
-			isclf = False
-			morphemes =  w.find("./morphemes")
-			if morphemes:
-				for morpheme in morphemes.findall("./morph"):
-					msa = morpheme.find("./item[@type='msa']")
-					if not msa is None:
-						
-						if msa.text.strip() == 'nclf':
-							
-							isclf = True
-
-
-
-			try:
-				original_word = w.find("./item[@type='txt']").text
-				original_words.append(original_word)
-
-				gloss_word = w.find("./item[@type='gls']").text
-
-				if mode == "reddit" and isclf:
-					gloss_word = "CLF^(%s)"%gloss_word
-				if mode in ["tex","beamer"]:
-					gloss_word = esc(gloss_word)
-					if isclf:
-						gloss_word = "\\CLF{%s}"%gloss_word
-
-				
-
-				gloss_words.append(gloss_word)
-
-				original_run += " "+ original_word
-			except AttributeError:
-				print("Err",w.tag,w.attrib)
-
-
-	translation = phrase.find("./item[@type='gls']").text.strip()
 
 	if mode == "reddit":
-		output += "|" + "|".join(map(lambda ow : "**"+ow+"**" ,original_words)) + "|\n"
+		blank_gloss = "" 
+	elif mode in ["tex","beamer"]:
+		blank_gloss = "{}"
+
+	def FormatPhrase(phrase):
+
+
+		words = phrase.find('words').findall('word')
+		N = len(words)
+
+		if(mode == "reddit"):
+			output = "|"*(N+1)+"\n"
+			output += "|:-"*N+"|\n"
+		elif (mode =="beamer"):
+			output = "\\interlinearslide{" 
+		elif (mode == "tex"):
+			output = "\\begin{exe}\n \\ex \n"
+
+		original_words = []
+		gloss_words = []
+
+		original_run = ""
+
+		for w in words:
+			punct  = w.find(".item/[@type='punct']")
+			if not (punct is None):
+				original_words.append(punct.text)
+				gloss_words.append(blank_gloss)
+
+				original_run += punct.text
+			else:
+
+				isclf = False
+				morphemes =  w.find("./morphemes")
+				if morphemes:
+					for morpheme in morphemes.findall("./morph"):
+						msa = morpheme.find("./item[@type='msa']")
+						if not msa is None:
+							
+							if msa.text.strip() == 'nclf':
+								
+								isclf = True
 
 
 
-		output += "|" + "|".join(map(lambda gw : gw ,gloss_words)) + "|\n"
+				try:
+					original_word = w.find("./item[@type='txt']").text
+					if mode in ["tex","beamer"]:
+						original_word = "{"+esc(original_word)+"}"
+					original_words.append(original_word)
 
-		output += "*" +  translation + "*"
-	elif mode == "beamer":
-		output += original_run.strip() + "}{"
-		output += esc(pronunciator.pronunciate(original_run)) + "}{"
-		output += esc(translation) + "}"
-	elif mode == "tex":
-		output += "\\gll " + " ".join(map(lambda ow : esc(ow) ,original_words)) + "\\\\ \n"
-		output += " ".join(map(lambda gw : gw ,gloss_words)) + "\\\\ \n"
-		output += "\\glt " + translation + "\n"
-		output += "\\end{exe}"
+					gloss_word = w.find("./item[@type='gls']").text
+
+					if mode == "reddit" and isclf:
+						gloss_word = "CLF^(%s)"%gloss_word
+					if mode in ["tex","beamer"]:
+						gloss_word = esc(gloss_word)
+						if isclf:
+							gloss_word = "\\CLF{%s}"%gloss_word
+						else:
+							gloss_word = gloss_word.replace(" ",".")
+
+					
+
+					gloss_words.append(gloss_word)
+
+					original_run += " "+ original_word
+				except AttributeError:
+					print("Err",w.tag,w.attrib)
 
 
-	return output
+		translation = phrase.find("./item[@type='gls']").text.strip()
+
+		if mode == "reddit":
+			output += "|" + "|".join(map(lambda ow : "**"+ow+"**" ,original_words)) + "|\n"
 
 
-formatOutput = "\n\n".join(map(FormatPhrase,phrases))
 
-with open('output.md','w',encoding="utf-8") as f:
-	f.write(formatOutput)
+			output += "|" + "|".join(map(lambda gw : gw ,gloss_words)) + "|\n"
+
+			output += "*" +  translation + "*"
+		elif mode == "beamer":
+			output += original_run.strip() + "}{"
+			output += esc(pronunciator.pronunciate(original_run)) + "}{"
+			output += esc(translation) + "}"
+		elif mode == "tex":
+			output += "\\gll " + " ".join(original_words) + "\\\\ \n"
+			output += " ".join(map(lambda gw : gw ,gloss_words)) + "\\\\ \n"
+			output += "\\glt " + translation + "\n"
+			output += "\\end{exe}"
+
+
+		return output
+
+
+	formatOutput = "\n\n".join(map(FormatPhrase,phrases))
+	return formatOutput
+
+
+
+if __name__ == "__main__":
+
+	parser = argparse.ArgumentParser()
+	parser.add_argument("file")
+	parser.add_argument("--mode", default="reddit")
+	args = parser.parse_args()
+
+
+
+	input_text_filename = args.file
+	with open('output.md','w',encoding="utf-8") as f:
+		f.write(FormatInterlinear(input_text_filename,args.mode))

@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<document version="2">
+  <interlinear-text guid="7702d4da-03b3-4368-ba93-bc0c40763f2d">
+    <item type="title" lang="en">1403rd Just Used 5 Minutes of Your Day</item>
+    <item type="comment" lang="en"></item>
+    <paragraphs>
+      <paragraph guid="a9dfdb36-942f-4b5b-8469-db70d9f16e14">
+        <phrases>
+          <phrase guid="a8a2cb61-1dd0-4cd8-9338-f110e1459210">
+            <item type="segnum" lang="en">1</item>
+            <words>
+              <word guid="9dcd4ec3-1b0f-4b68-9826-d77c3b0248f2">
+                <item type="txt" lang="qaa">Łǁa</item>
+                <item type="gls" lang="en">see</item>
+                <morphemes>
+                  <morph type="stem" guid="d7f713e8-e8cf-11d3-9764-00c04f186933">
+                    <item type="msa" lang="en">vt</item>
+                  </morph>
+                </morphemes>
+              </word>
+              <word guid="e198c08d-6d15-40ce-b9fe-4d58bd7ed9cd">
+                <item type="txt" lang="qaa">cʼiĩ</item>
+                <item type="gls" lang="en">similar</item>
+                <morphemes>
+                  <morph type="stem" guid="d7f713e8-e8cf-11d3-9764-00c04f186933">
+                    <item type="msa" lang="en">adj</item>
+                  </morph>
+                </morphemes>
+              </word>
+              <word guid="2a5318b3-664c-4059-b490-387baead2543">
+                <item type="txt" lang="qaa">uǃàama</item>
+                <item type="gls" lang="en">misstep</item>
+                <morphemes>
+                  <morph type="stem" guid="d7f713e8-e8cf-11d3-9764-00c04f186933">
+                    <item type="msa" lang="en">n</item>
+                  </morph>
+                </morphemes>
+              </word>
+              <word guid="82643f41-f8a8-4c50-99fa-9430455ad789">
+                <item type="txt" lang="qaa">ʇala</item>
+                <item type="gls" lang="en">easily</item>
+                <morphemes>
+                  <morph type="stem" guid="d7f713e8-e8cf-11d3-9764-00c04f186933">
+                    <item type="msa" lang="en">adv</item>
+                  </morph>
+                </morphemes>
+              </word>
+              <word guid="4a84572e-e747-43bc-ad52-7f7925f7fc31">
+                <item type="txt" lang="qaa">ɴǂʼi</item>
+                <item type="gls" lang="en">NEG</item>
+                <morphemes>
+                  <morph type="stem" guid="d7f713e8-e8cf-11d3-9764-00c04f186933">
+                    <item type="msa" lang="en">adv</item>
+                  </morph>
+                </morphemes>
+              </word>
+            </words>
+            <item type="gls" lang="en">Missteps such as these are not easily spotted.</item>
+          </phrase>
+        </phrases>
+      </paragraph>
+    </paragraphs>
+    <languages>
+      <language lang="en" font="Charis SIL" />
+      <language lang="qaa" font="Charis SIL" vernacular="true" />
+    </languages>
+  </interlinear-text>
+</document>
