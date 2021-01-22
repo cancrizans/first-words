@@ -49,6 +49,20 @@
 </field>
 </fields>
 </header>
+<entry dateCreated="2021-01-21T22:35:47Z" dateModified="2021-01-21T22:36:07Z" id="ɴǁxape_01cdd7c4-ef8d-42f8-851c-c6689b731394" guid="01cdd7c4-ef8d-42f8-851c-c6689b731394">
+<lexical-unit>
+<form lang="qaa"><text>ɴǁxape</text></form>
+</lexical-unit>
+<trait  name="morph-type" value="stem"/>
+<sense id="7dafa21c-9d4f-4756-9c78-ab70d8a5a54d">
+<grammatical-info value="Transitive verb">
+</grammatical-info>
+<gloss lang="en"><text>insult</text></gloss>
+<definition>
+<form lang="en"><text>insult, berate, scold</text></form>
+</definition>
+</sense>
+</entry>
 <entry dateCreated="2021-01-07T23:05:39Z" dateModified="2021-01-20T17:43:03Z" id="ɴǁotṣo_025bd734-b008-46b0-868e-42faa78430b0" guid="025bd734-b008-46b0-868e-42faa78430b0">
 <lexical-unit>
 <form lang="qaa"><text>ɴǁotṣo</text></form>
@@ -349,6 +363,17 @@
 <gloss lang="en"><text>remove</text></gloss>
 </sense>
 </entry>
+<entry dateCreated="2021-01-21T22:36:43Z" dateModified="2021-01-21T22:36:43Z" id="tsui_1b7e559d-7785-4714-a279-4e445377f0e0" guid="1b7e559d-7785-4714-a279-4e445377f0e0">
+<lexical-unit>
+<form lang="qaa"><text>tsui</text></form>
+</lexical-unit>
+<trait  name="morph-type" value="stem"/>
+<sense id="761ac7df-001f-49d0-b7a9-b86d184c99f4">
+<grammatical-info value="Intransitive verb">
+</grammatical-info>
+<gloss lang="en"><text>cry</text></gloss>
+</sense>
+</entry>
 <entry dateCreated="2020-12-31T17:06:06Z" dateModified="2021-01-06T00:29:23Z" id="aǂʼui_1d3bc309-3a5b-4d37-9acf-bedc4330aebf" guid="1d3bc309-3a5b-4d37-9acf-bedc4330aebf">
 <lexical-unit>
 <form lang="qaa"><text>aǂʼui</text></form>
@@ -590,6 +615,17 @@
 <grammatical-info value="Adverb">
 </grammatical-info>
 <gloss lang="en"><text>maybe.not</text></gloss>
+</sense>
+</entry>
+<entry dateCreated="2021-01-21T22:50:52Z" dateModified="2021-01-21T22:50:52Z" id="cʼiĩ_2fc6b3d7-d9e1-4ccf-9c9a-016cce50e78a" guid="2fc6b3d7-d9e1-4ccf-9c9a-016cce50e78a">
+<lexical-unit>
+<form lang="qaa"><text>cʼiĩ</text></form>
+</lexical-unit>
+<trait  name="morph-type" value="stem"/>
+<sense id="8f2687b1-4cb3-4191-85af-ce77fd0933c7">
+<grammatical-info value="Adjective">
+</grammatical-info>
+<gloss lang="en"><text>similar</text></gloss>
 </sense>
 </entry>
 <entry dateCreated="2020-12-25T19:08:01Z" dateModified="2021-01-06T00:41:22Z" id="ʇxoi_32a11e2f-dcfa-4e6f-b148-89e649993a86" guid="32a11e2f-dcfa-4e6f-b148-89e649993a86">
@@ -1467,9 +1503,9 @@
 <gloss lang="en"><text>abundant</text></gloss>
 </sense>
 </entry>
-<entry dateCreated="2020-12-25T19:04:06Z" dateModified="2021-01-15T15:06:20Z" id="onʇʼa_82839521-3db5-4d39-88f4-25b9d6c374d2" guid="82839521-3db5-4d39-88f4-25b9d6c374d2">
+<entry dateCreated="2020-12-25T19:04:06Z" dateModified="2021-01-22T16:48:26Z" id="oɴʇʼa_82839521-3db5-4d39-88f4-25b9d6c374d2" guid="82839521-3db5-4d39-88f4-25b9d6c374d2">
 <lexical-unit>
-<form lang="qaa"><text>onʇʼa</text></form>
+<form lang="qaa"><text>oɴʇʼa</text></form>
 </lexical-unit>
 <trait  name="morph-type" value="stem"/>
 <sense id="7193eb4e-55bd-4a37-8ee7-a83906b42c2b">
@@ -1489,7 +1525,7 @@
 <gloss lang="en"><text>five</text></gloss>
 </sense>
 </entry>
-<entry dateCreated="2020-12-25T18:26:46Z" dateModified="2021-01-21T14:50:08Z" id="ṇùĩ_837e5eae-8f4a-423e-9626-77b0599dc1be" guid="837e5eae-8f4a-423e-9626-77b0599dc1be">
+<entry dateCreated="2020-12-25T18:26:46Z" dateModified="2021-01-22T22:10:21Z" id="ṇùĩ_837e5eae-8f4a-423e-9626-77b0599dc1be" guid="837e5eae-8f4a-423e-9626-77b0599dc1be">
 <lexical-unit>
 <form lang="qaa"><text>ṇùĩ</text></form>
 </lexical-unit>
@@ -1499,9 +1535,10 @@
 </grammatical-info>
 <gloss lang="en"><text>spoken word</text></gloss>
 <definition>
-<form lang="en"><text>spoken word, utterances, phrases, languages, words, voices, thoughts, reasonings</text></form>
+<form lang="en"><text>spoken word, utterances, phrases, languages, words, voices, thoughts, reasonings, stories</text></form>
 </definition>
 <relation type="Classified Noun" ref="652b368c-329a-4816-b685-758787056be6"/>
+<relation type="Classified Noun" ref="c014a3a7-b645-427d-b4c9-31464b095e26"/>
 </sense>
 </entry>
 <entry dateCreated="2021-01-14T15:18:21Z" dateModified="2021-01-21T14:29:51Z" id="ǂaã_85248216-396e-4b28-ab36-c13362077413" guid="85248216-396e-4b28-ab36-c13362077413">
@@ -2150,6 +2187,17 @@
 <definition>
 <form lang="en"><text>lone, alone, unaccompained, unpaired</text></form>
 </definition>
+</sense>
+</entry>
+<entry dateCreated="2021-01-21T22:52:41Z" dateModified="2021-01-21T22:52:41Z" id="uǃàama_bfea399b-ab5c-43f8-bcfb-cf806824be35" guid="bfea399b-ab5c-43f8-bcfb-cf806824be35">
+<lexical-unit>
+<form lang="qaa"><text>uǃàama</text></form>
+</lexical-unit>
+<trait  name="morph-type" value="stem"/>
+<sense id="cb93d11b-a1b8-4b9b-ada1-f6d07cefebd3">
+<grammatical-info value="Noun">
+</grammatical-info>
+<gloss lang="en"><text>misstep</text></gloss>
 </sense>
 </entry>
 <entry dateCreated="2020-12-28T10:39:12Z" dateModified="2021-01-06T00:48:19Z" id="uma_c285b0da-2cd8-425e-b0b6-28b66e8711bb" guid="c285b0da-2cd8-425e-b0b6-28b66e8711bb">
@@ -2806,6 +2854,17 @@
 </definition>
 </sense>
 </entry>
+<entry dateCreated="2021-01-21T22:53:35Z" dateModified="2021-01-21T22:53:35Z" id="ɴǂʼi_fddcbc9d-c369-439e-8c50-d799609c445d" guid="fddcbc9d-c369-439e-8c50-d799609c445d">
+<lexical-unit>
+<form lang="qaa"><text>ɴǂʼi</text></form>
+</lexical-unit>
+<trait  name="morph-type" value="stem"/>
+<sense id="0ee2055b-96dc-4042-8c0d-acfdfb147179">
+<grammatical-info value="Adverb">
+</grammatical-info>
+<gloss lang="en"><text>NEG</text></gloss>
+</sense>
+</entry>
 <entry dateCreated="2021-01-08T19:33:12Z" dateModified="2021-01-08T19:33:12Z" id="uṭu_fe9a1152-e157-409a-a6be-f0dec32f212b" guid="fe9a1152-e157-409a-a6be-f0dec32f212b">
 <lexical-unit>
 <form lang="qaa"><text>uṭu</text></form>
@@ -2840,62 +2899,90 @@
 <gloss lang="en"><text>few</text></gloss>
 </sense>
 </entry>
-<entry dateCreated="2021-01-21T22:35:47Z" dateModified="2021-01-21T22:36:07Z" id="ɴǁxape_01cdd7c4-ef8d-42f8-851c-c6689b731394" guid="01cdd7c4-ef8d-42f8-851c-c6689b731394">
+<entry dateCreated="2021-01-22T22:06:55Z" dateModified="2021-01-22T22:08:13Z" id="ǃam_9ff253fa-05ec-4694-84fa-06c753053dd7" guid="9ff253fa-05ec-4694-84fa-06c753053dd7">
 <lexical-unit>
-<form lang="qaa"><text>ɴǁxape</text></form>
+<form lang="qaa"><text>ǃam</text></form>
 </lexical-unit>
 <trait  name="morph-type" value="stem"/>
-<sense id="7dafa21c-9d4f-4756-9c78-ab70d8a5a54d">
-<grammatical-info value="Transitive verb">
+<sense id="813580bc-7f82-4657-925d-79ccb9ac98a9" order="0">
+<grammatical-info value="Noun classifier">
 </grammatical-info>
-<gloss lang="en"><text>insult</text></gloss>
+<gloss lang="en"><text>spirits</text></gloss>
 <definition>
-<form lang="en"><text>insult, berate, scold</text></form>
+<form lang="en"><text>spirits, ghosts, ancestors, the dead</text></form>
+</definition>
+</sense>
+<sense id="93b1a153-ba29-4c29-9159-8499134e7b9b" order="1">
+<grammatical-info value="Noun classifier">
+</grammatical-info>
+<gloss lang="en"><text>trees</text></gloss>
+<definition>
+<form lang="en"><text>trees</text></form>
 </definition>
 </sense>
 </entry>
-<entry dateCreated="2021-01-21T22:36:43Z" dateModified="2021-01-21T22:36:43Z" id="tsui_1b7e559d-7785-4714-a279-4e445377f0e0" guid="1b7e559d-7785-4714-a279-4e445377f0e0">
+<entry dateCreated="2021-01-22T22:08:37Z" dateModified="2021-01-22T22:08:58Z" id="ɴǁañe_f77ae656-ec2c-4ce1-afed-ab4693606550" guid="f77ae656-ec2c-4ce1-afed-ab4693606550">
 <lexical-unit>
-<form lang="qaa"><text>tsui</text></form>
+<form lang="qaa"><text>ɴǁañe</text></form>
 </lexical-unit>
 <trait  name="morph-type" value="stem"/>
-<sense id="761ac7df-001f-49d0-b7a9-b86d184c99f4">
-<grammatical-info value="Intransitive verb">
+<sense id="89489ffe-9bd6-43b2-8292-8e928d6c50c3">
+<grammatical-info value="Ditransitive verb">
 </grammatical-info>
-<gloss lang="en"><text>cry</text></gloss>
+<gloss lang="en"><text>tell</text></gloss>
+<definition>
+<form lang="en"><text>(A) tell, recount, say (T) to (P)</text></form>
+</definition>
 </sense>
 </entry>
-<entry dateCreated="2021-01-21T22:50:52Z" dateModified="2021-01-21T22:50:52Z" id="cʼiĩ_2fc6b3d7-d9e1-4ccf-9c9a-016cce50e78a" guid="2fc6b3d7-d9e1-4ccf-9c9a-016cce50e78a">
+<entry dateCreated="2021-01-22T22:09:21Z" dateModified="2021-01-22T22:09:28Z" id="ñèe_072ec94c-c64f-41b7-b928-cf24ec789158" guid="072ec94c-c64f-41b7-b928-cf24ec789158">
 <lexical-unit>
-<form lang="qaa"><text>cʼiĩ</text></form>
+<form lang="qaa"><text>ñèe</text></form>
 </lexical-unit>
 <trait  name="morph-type" value="stem"/>
-<sense id="8f2687b1-4cb3-4191-85af-ce77fd0933c7">
-<grammatical-info value="Adjective">
+<sense id="25db4df1-edaa-40d2-9e5e-87106aeff17f">
+<grammatical-info value="Noun classifier">
 </grammatical-info>
-<gloss lang="en"><text>similar</text></gloss>
+<gloss lang="en"><text>elder.men</text></gloss>
+<definition>
+<form lang="en"><text>elder men</text></form>
+</definition>
 </sense>
 </entry>
-<entry dateCreated="2021-01-21T22:52:41Z" dateModified="2021-01-21T22:52:41Z" id="uǃàama_bfea399b-ab5c-43f8-bcfb-cf806824be35" guid="bfea399b-ab5c-43f8-bcfb-cf806824be35">
+<entry dateCreated="2021-01-22T22:09:50Z" dateModified="2021-01-22T22:10:10Z" id="ɴǁʼam_4876b5c9-ae64-440e-be3c-1dd5868511c2" guid="4876b5c9-ae64-440e-be3c-1dd5868511c2">
 <lexical-unit>
-<form lang="qaa"><text>uǃàama</text></form>
+<form lang="qaa"><text>ɴǁʼam</text></form>
 </lexical-unit>
 <trait  name="morph-type" value="stem"/>
-<sense id="cb93d11b-a1b8-4b9b-ada1-f6d07cefebd3">
+<sense id="c014a3a7-b645-427d-b4c9-31464b095e26">
 <grammatical-info value="Noun">
 </grammatical-info>
-<gloss lang="en"><text>misstep</text></gloss>
+<gloss lang="en"><text>story</text></gloss>
+<definition>
+<form lang="en"><text>story, tale</text></form>
+</definition>
+<relation type="Classifier" ref="18d05d6e-8bd6-4d53-8214-9a89a2c60fbe"/>
 </sense>
 </entry>
-<entry dateCreated="2021-01-21T22:53:35Z" dateModified="2021-01-21T22:53:35Z" id="ɴǂʼi_fddcbc9d-c369-439e-8c50-d799609c445d" guid="fddcbc9d-c369-439e-8c50-d799609c445d">
+<entry dateCreated="2021-01-22T22:13:12Z" dateModified="2021-01-22T22:15:59Z" id="eña ṣǂqʼo_e4943f0e-0584-4bbc-aee9-760befa45919" guid="e4943f0e-0584-4bbc-aee9-760befa45919">
 <lexical-unit>
-<form lang="qaa"><text>ɴǂʼi</text></form>
+<form lang="qaa"><text>eña ṣǂqʼo</text></form>
 </lexical-unit>
-<trait  name="morph-type" value="stem"/>
-<sense id="0ee2055b-96dc-4042-8c0d-acfdfb147179">
-<grammatical-info value="Adverb">
+<trait  name="morph-type" value="phrase"/>
+<relation type="_component-lexeme" ref="eña_4e2e4b84-8cbd-4642-bca2-eb14cd5a7413" order="0">
+<trait name="is-primary" value="true"/>
+<trait  name="complex-form-type" value="Idiom"/>
+</relation>
+<relation type="_component-lexeme" ref="ṣǂqʼo_d05e957b-1a40-439f-8632-f56c19783fd5" order="1">
+<trait  name="complex-form-type" value="Idiom"/>
+</relation>
+<sense id="d024cb04-5abb-450a-8e0c-350b92b0c45b">
+<grammatical-info value="Transitive verb">
 </grammatical-info>
-<gloss lang="en"><text>NEG</text></gloss>
+<gloss lang="en"><text>surrender</text></gloss>
+<definition>
+<form lang="en"><text>(A) surrender oneself, give up (lit. offer neck)</text></form>
+</definition>
 </sense>
 </entry>
 </lift>

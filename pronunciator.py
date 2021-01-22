@@ -14,6 +14,8 @@ IPAsubs = {
 	r"[sṣ]ǂ"			:"ʂǂ"	,
 	r"[sš]!"			:"ʃ!"	,
 	r"[sšł]ǁ"			:"ɬǁ"	,
+#	Ejectives
+	r"([ṭłqc])ʼ"		:r"\1E" ,
 #	Pulmonics unaffected
 	"ṭ"					:"ʈ"    ,
 	"tł"				:"L"	,

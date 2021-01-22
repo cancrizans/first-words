@@ -28,6 +28,10 @@ import xml.etree.ElementTree as ET
 import re
 bwc_pattern = re.compile(r"(ʘ|ǃ|ǂ|ǁ|qʼ|x)[eièì]")
 
+
+
+
+
 root = ET.parse(fname).getroot()
 
 
@@ -160,24 +164,61 @@ for entrytag in root.findall('entry'):
  
 sorting_alphabet = "ʇʘǃǂǁʼaãàbčdeẽèiĩìjklłmnṇñŋoõòpqrsšṣtṭuũùx"
 
+click_regex = re.compile(r"[ʘʇǃǂǁ]")
 
-def sortingKey(entry):
-	word = entry.local
+def rank_consonant(c):
 
-	output = []
-	for c in word:
-		try:
-			output.append(sorting_alphabet.index(c))
-		except ValueError:
-			output.append(len(sorting_alphabet))
-	return output
+	click_match = click_regex.search(c)
+	if click_match:
+		leading = 0
+		click = click_match.group(0)
 
+		before,after = click_regex.split(c,maxsplit=1)
 
-lexicon.sort(key=sortingKey)
-
-texout = "\n".join(map(lambda x:x.Format(),lexicon))
+		return [0, click, before, after]
 
 
+	else:
+		#not a click
+		return [10,c]
+
+
+
+vowel_regex = re.compile(r"[aeiouàèìòù]")
+
+
+
+keyed_lexicon = {}
+
+for entry in lexicon:
+	consonants = vowel_regex.split(entry.local,maxsplit=2)
+	if len(consonants)>1:
+		consonant = consonants[1] if consonants[0] == "" else consonants[0]
+	else:
+		raise ValueError
+
+	if not (consonant in keyed_lexicon):
+		keyed_lexicon[consonant] = []
+	keyed_lexicon[consonant].append(entry)
+
+
+for consonant in keyed_lexicon:
+	keyed_lexicon[consonant].sort(key = lambda entry : entry.local)
+
+
+
+
+def formatLetterSec(letter):
+	return "\\lettersection{%s}"%letter + \
+		"\n".join(map(lambda x:x.Format(),keyed_lexicon[letter]))
+
+sortedkeys =  list(keyed_lexicon.keys())
+sortedkeys.sort(key = rank_consonant)
+
+
+
+
+texout = "\n".join(map(formatLetterSec,sortedkeys))
 
 with open("book/dictionary.tex","w",encoding='utf-8') as f:
 	f.write(texout)

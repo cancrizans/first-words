@@ -23,6 +23,7 @@
 \usepackage{leipzig}
 
 \usepackage{makecell}
+\usepackage{tabularx}
 
 \usepackage{changepage} % adjustwidth
 
@@ -120,7 +121,19 @@ This conlang is meant primarily to exist as spoken. Phrases in \langname in this
 
 \chapter{Phonology}
 
-\langname makes, curiously, no phonemic distinction of voicing. It does, hower, distinguish \textbf{nasality} as a binary feature between oral and nasal, and \textbf{glottalization} from modal, to glottalic (creaky, glottalised, or ejective), to full glottal closure. 
+\langname makes, curiously, no phonemic distinction of voicing. It does, hower, distinguish \textbf{nasality} as a binary feature between oral and nasal, and \textbf{glottalization} from modal, to ``glottalic'', to full glottal closure. Glottalic phones involve some form of glottal intervention (as in ejectives or creaky-voiced sonorants) or coarticulated glottal closure. This structure can help navigate the oversized phonological inventory, from vowels to click consonants to non-click consonants, by elucidating these overarching symmetries:
+
+\begin{center}
+\renewcommand{\arraystretch}{2}
+\begin{tabular}{|c|c|c|c|c|c|}
+\hline
+\multirow{2}{*}{\makecell{Phonation\textrightarrow\\Type \textdownarrow}} & \multicolumn{2}{c|}{Modal} & \multicolumn{2}{c|}{Glottalic} &  \multirow{2}{*}{\makecell{Full\\ glottal\\ closure}} \\ \cline{2-5}
+  & Oral & Nasal & Oral & Nasal & \\ \hline \hline   
+Vowels & \makecell{Plain vowels\\ /a/} & \makecell{Nasal vowels \\/ã/} & \makecell{~\\Creaky-voiced\\ (laryngealised)\\ vowels -- /a̰/\\~} & \makecell{Creaky-voiced\\nasal vowels\\/ã̰/} & \multirow{4}{*}{\makecell{Glottal \\ stop \\ /ʔ/}}\\\cline{1-5}
+Clicks & \makecell{Oral clicks \\/ǃ/} & \makecell{Nasal clicks\\/ᶰǃ/} & \makecell{Glottalized clicks\\/ǃˀ/} & \makecell{~\\Pre-nasal\\glottalized\\clicks /ᶰǃˀ/\\~} &  \\  \cline{1-5}
+Non-Clicks & \makecell{Oral\\pulmonics \\/p/} & \makecell{Nasal\\ pulmonics \\ /m/} & Ejectives /qʼ/ & \makecell{~\\ Creaky-voiced \\ nasals {[m̰]} \\(only allopho-\\nically) \\~  } & \\ \hline
+\end{tabular}
+\end{center}
 
 \section{Vowels}
 
@@ -161,6 +174,8 @@ Unstressed vowels may only be monophthongs. Stressed vowels, instead, may be a m
 	\qcn{àã} & Nasal Creaky [ã̰]& ˧\\
 \end{tabular}
 \end{center}
+
+Creaky voice is realized as laryngealisation (creaky voice proper) or even pharyngealisation (``strident'' or ``sphyncteric''), with no phonemic distinction. Front vowels are more likely to be sphyncteric than proper creaky.
 
 All vowel qualities and the four diphthongs can take any one of the four registers, producing four different phonemes, except for \qcn{e} whose nasal forms merge with those of \qcn{i}. The nasal forms of \qcn{u} are special in that the nasalisation and lip closure are strong enough that they are better transcribed as a syllabic /m/:
 
@@ -999,6 +1014,7 @@ In the following dictionary, we report words in the standard orthography and in 
 	\item For nouns, we make suggestion of the most commonly used classifiers in [CLF \ldots].
 	\item Some phrasal verbs are circumfixal, usually because they involve a lexicalized combination of a verb and a postposition. These are entered with dots \qcn{\ldots} to mark the space in which the Patient \emph{and} the oblique must be inserted.
 	\item The subtler syntax of some verbs is clarified by expressing the action in terms of explicit arguments, namely (A) for agent, (P) for patient, (T) for theme (instrumental), and (ABL) for ablative/causer.
+	\item For a language such as this one, alphabetical sorting is useless and cumbersome. I find it more practical and meaningful to present entries classified primarily by the main, i.e. first consonant instead.
 \end{itemize}
 
 %\setlength{\parskip}{2em}
@@ -1007,6 +1023,13 @@ In the following dictionary, we report words in the standard orthography and in 
 \hyphenation{phe-no-me-non}
 
 
+\newcommand{\lettersection}[1]{
+	\vspace{0.5em}
+	\begin{center}
+		\Large #1
+	\end{center}
+ 	\par
+}
 
 \newcommand{\dictentry}[3]{\qcn{#1} - /#2/ \hangindent=0.4cm #3 \par }
 \newcommand{\dictsense}[3]{$\bullet$~\emph{#1} #2 #3 }
@@ -1014,6 +1037,8 @@ In the following dictionary, we report words in the standard orthography and in 
 \newcommand{\dictclassifiers}[1]{\begin{scriptsize}[CLF #1] \end{scriptsize}}
 \newcommand{\dictref}[1]{\qcn{#1}}
 \newcommand{\dictsensesep}{\,\,}
+
+\newpage
 
 \begin{multicols}{2}
 \begin{singlespace}
