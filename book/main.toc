@@ -11,7 +11,7 @@
 \contentsline {subsection}{\numberline {1.3.2}Syllable structure and articulatory constraints}{14}{subsection.1.3.2}% 
 \contentsline {subsection}{\numberline {1.3.3}Word structure and stress}{14}{subsection.1.3.3}% 
 \contentsline {subsection}{\numberline {1.3.4}Irregular words and reduplication}{15}{subsection.1.3.4}% 
-\contentsline {subsection}{\numberline {1.3.5}Sandhi Rules}{15}{subsection.1.3.5}% 
+\contentsline {subsection}{\numberline {1.3.5}Sandhi Rules}{16}{subsection.1.3.5}% 
 \contentsline {section}{\numberline {1.4}Notes on Orthography}{16}{section.1.4}% 
 \contentsline {chapter}{\numberline {2}Grammar}{19}{chapter.2}% 
 \contentsline {section}{\numberline {2.1}The Noun Phrase}{19}{section.2.1}% 
@@ -19,21 +19,21 @@
 \contentsline {subsection}{\numberline {2.1.2}Nominalisation}{20}{subsection.2.1.2}% 
 \contentsline {section}{\numberline {2.2}Alignment and Coordination}{20}{section.2.2}% 
 \contentsline {subsection}{\numberline {2.2.1}Secundativity and ditransitives}{22}{subsection.2.2.1}% 
-\contentsline {subsection}{\numberline {2.2.2}Causatives}{22}{subsection.2.2.2}% 
+\contentsline {subsection}{\numberline {2.2.2}Causatives}{23}{subsection.2.2.2}% 
 \contentsline {section}{\numberline {2.3}Verbal voices}{23}{section.2.3}% 
-\contentsline {section}{\numberline {2.4}Pronouns}{24}{section.2.4}% 
-\contentsline {subsection}{\numberline {2.4.1}Personal Pronouns}{24}{subsection.2.4.1}% 
+\contentsline {section}{\numberline {2.4}Pronouns}{25}{section.2.4}% 
+\contentsline {subsection}{\numberline {2.4.1}Personal Pronouns}{25}{subsection.2.4.1}% 
 \contentsline {subsubsection}{Classifiers are the 3rd person pronouns}{25}{section*.2}% 
-\contentsline {subsection}{\numberline {2.4.2}Demonstrative Pronouns}{25}{subsection.2.4.2}% 
-\contentsline {section}{\numberline {2.5}Relative Clauses}{25}{section.2.5}% 
-\contentsline {section}{\numberline {2.6}Serial Verb Constructions}{26}{section.2.6}% 
-\contentsline {section}{\numberline {2.7}Imperatives and Polarity}{28}{section.2.7}% 
-\contentsline {section}{\numberline {2.8}Interrogatives}{28}{section.2.8}% 
-\contentsline {section}{\numberline {2.9}Topic-Comment}{28}{section.2.9}% 
-\contentsline {chapter}{\numberline {3}Corpus}{29}{chapter.3}% 
-\contentsline {section}{\numberline {3.1}The North Wind and the Sun -- \textbf {ɴǃòõ Uǃqʼa maã Jùu aʇe ǂu}}{29}{section.3.1}% 
-\contentsline {chapter}{\numberline {4}Lexicon}{31}{chapter.4}% 
-\contentsline {section}{\numberline {4.1}Basic Classifier Taxonomy}{31}{section.4.1}% 
-\contentsline {section}{\numberline {4.2}Greetings and idioms}{31}{section.4.2}% 
-\contentsline {section}{\numberline {4.3}Numerals}{31}{section.4.3}% 
-\contentsline {section}{\numberline {4.4}Dictionary}{32}{section.4.4}% 
+\contentsline {subsection}{\numberline {2.4.2}Demonstrative Pronouns}{26}{subsection.2.4.2}% 
+\contentsline {section}{\numberline {2.5}Relative Clauses}{26}{section.2.5}% 
+\contentsline {section}{\numberline {2.6}Serial Verb Constructions}{27}{section.2.6}% 
+\contentsline {section}{\numberline {2.7}Imperatives and Polarity}{29}{section.2.7}% 
+\contentsline {section}{\numberline {2.8}Interrogatives}{29}{section.2.8}% 
+\contentsline {section}{\numberline {2.9}Topic-Comment}{29}{section.2.9}% 
+\contentsline {chapter}{\numberline {3}Corpus}{31}{chapter.3}% 
+\contentsline {section}{\numberline {3.1}The North Wind and the Sun -- \textbf {ɴǃòõ Uǃqʼa maã Jùu aʇe ǂu}}{31}{section.3.1}% 
+\contentsline {chapter}{\numberline {4}Lexicon}{33}{chapter.4}% 
+\contentsline {section}{\numberline {4.1}Basic Classifier Taxonomy}{33}{section.4.1}% 
+\contentsline {section}{\numberline {4.2}Greetings and idioms}{33}{section.4.2}% 
+\contentsline {section}{\numberline {4.3}Numerals}{33}{section.4.3}% 
+\contentsline {section}{\numberline {4.4}Dictionary}{34}{section.4.4}% 

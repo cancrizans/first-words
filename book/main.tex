@@ -442,13 +442,20 @@ The opening and secondary vowels, being unstressed, may not carry registers, and
 
 \subsection{Irregular words and reduplication}\label{sec:redup}
 
-Some special words break the patterns described thus far. A select few are lexicalised idioms and onomatopoeias. Most, however, are produced by one of the very few morphological processes of the language, which is \textbf{first-syllable reduplication}. This self-explanatory operation is used on adjectives and adverbs to mark comparatives, and on verbs to mark the applicative voice. The first syllable of the word is repeated, usually violating the word structure, exceeding the maximum number of syllable, and producing words with multiple clicks:
+Some special words break the patterns described thus far. A select few are lexicalised idioms and onomatopoeias. Most, however, are produced by one of the very few morphological processes of the language, which is \textbf{main-syllable reduplication}. This self-explanatory operation is used on adjectives and adverbs to mark comparatives, and on verbs to mark the applicative voice. The main syllable of the word is repeated, usually violating the word structure, exceeding the maximum number of syllable, and producing words with multiple clicks:
 
 \begin{center}
 \transl{ʇaala}{easily} \textrightarrow \transl{ʇaʇaala}{more easily}
 \end{center}
 
-Reduplication is quite irregular on complex clicks. \cmnt{Todo: map out all irregular reduplications.}
+More accurately it can be described as a reduplication C \textrightarrow C\textsubscript{1}vC\textsubscript{2} of the main consonant only, with the insertion of the epenthetic vowel v. Here is the full list of rules for reduplication:
+
+\begin{itemize}
+	\item v is always short / unstressed; the quality is the same as that of the main vowel if a monophthong and its starting quality if a diphthong. In pronunciation, and especially when C is a click or ejective v may be very short if not fully elided (voiceless or glottalised)
+	\item if C is a pre-fricative click, only C\textsubscript{1} is pre-fricated.
+	\item if C is nasal and/or glottalized, the nasality and/or glottal closure persist throughout the C\textsubscript{1}vC\textsubscript{2} sequence. Example: \transl{ɴǁui}{to jump} \textrightarrow \transl{ɴǁuɴǁui}{to jump on}, the vowel v (\qcn{u}) is nasal, though this is unmarked. In \transl{sʇʼi}{slender} \textrightarrow \transl{sʇʼʇʼi}{more slender}, the glottal closure is kept throughout and correspondingly the vowel is simply not written. This also applies to ejective C.
+	\item if C has a uvular contour, then only C\textsubscript{2} gets the contour. Example: \transl{ǂxoiṭa}{strange} \textrightarrow \transl{ǂoǂxoiṭa}{more strange}
+\end{itemize}
 
 \subsection{Sandhi Rules}
 
@@ -671,6 +678,23 @@ Uǁàa \CLF{man} gift money INSTR boy \CLF{child}\\
 \glt Uǁàa gifted money to the child. (lit. gifted the child with money.)
 \end{exe}
 
+Into this category of ditransitives fall not only verbs relating to giving, but also verbs concerning speaking, talking and telling -- the said thing is the Theme, and the addressee is the Recipient:
+
+\begin{exe}
+\ex
+\gll Iǂxaaṇe ǃam ɴǁañe Aǃàuje ñèe ɴǁʼam ra.\\
+ancestor \CLF{spirit} tell Aǃàuje \CLF{elder man} story  \INSTR \\
+\glt The ancestor told Aǃàuje a story.
+\end{exe}
+
+A construction is also possible where one employs a monotransitive verb as a ditransitive with the meaning of possession -- specifically the Theme is the original Patient, while the Recipient role is filled by the possessor of the original Patient. For example
+
+\begin{exe}
+	\ex
+	\gll Nǃupaṇa 	tła ɴǁxape tłùm ra  Aǃàuje ñèe 	 \\
+		Nǃupaṇa 	\CLF{woman} 	scold son \INSTR{} Aǃàuje \CLF{elder man}\\
+	\glt Nǃupaṇa scolded Aǃàuje's son  (lit.: she scolded a son to him / he is getting his son scolded by her)
+\end{exe}
 
 
 \subsection{Causatives}
@@ -722,7 +746,7 @@ In an antipassive sentence, the argument in agentive position (optional) has the
 
 Antipassives may not be applied typically whenever an instrumental, especially in the role of theme, is present. A way to understand it is that instrumentals are part of the chain of agency described above, and the antipassive is attempting to demote the instrument to a position of lower agency that does not exist. I will describe shortly how to antipassivize a ditransitive, such as \emph{`Uǁʼàa gave money to his mother'} if we want to place \emph{Uǁʼàa} in the Patient position.
 
-Another widely employed voice is the \textbf{applicative}. This is marked by the \textbf{first-syllable reduplication} (see Section~\ref{sec:redup}) of the verb and is used to \emph{promote} an oblique (of various types) to a patient. The chain is
+Another widely employed voice is the \textbf{applicative}. This is marked by the \textbf{main-syllable reduplication} (see Section~\ref{sec:redup}) of the verb and is used to \emph{promote} an oblique (of various types) to a patient. The chain is
 
 \begin{center}
 	Agent \textleftarrow Patient \textleftarrow Oblique
@@ -942,7 +966,7 @@ Nǃòõ Uǃqʼa maã łǁa sʇaʇau Jùu aʇe.}}
 
 \section{Numerals}
 
-\langname doesn't have a consistent way of expressing cardinal numbers larger than 24, and ordinals are even more severely under-developed, only rarely ever going as far as \emph{third}. The stable numerals are reported as follows, with * marking rare forms. The derivational patterns that can be evinced from many of these numerals are varied and chaotic. The constructions \transl{- ʼa ǃòo}{one from} and \transl{- ǂa}{next after} are used to create cardinals respectively one or more less than one with a simpler name, first-syllable reduplication may produce a number twice or thrice the original, and the almost unattested form of 22 seems to attempt a `second after' construction from 20, which itself is unstable to being represented either as \transl{pèe}{digit} or \emph{`double ten'}, where 10 itself is \transl{aǃùuma}{hand} (instead of it being assigned, more logically, to 5).
+\langname doesn't have a consistent way of expressing cardinal numbers larger than 24, and ordinals are even more severely under-developed, only rarely ever going as far as \emph{third}. The stable numerals are reported as follows, with * marking rare forms. The derivational patterns that can be evinced from many of these numerals are varied and chaotic. The constructions \transl{- ʼa ǃòo}{one from} and \transl{- ǂa}{next after} are used to create cardinals respectively one or more less than one with a simpler name, main-syllable reduplication may produce a number twice or thrice the original, and the almost unattested form of 22 seems to attempt a `second after' construction from 20, which itself is unstable to being represented either as \transl{pèe}{digit} or \emph{`double ten'}, where 10 itself is \transl{aǃùuma}{hand} (instead of it being assigned, more logically, to 5).
 
 \begin{center}
 
