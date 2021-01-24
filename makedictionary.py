@@ -198,6 +198,12 @@ sorting_alphabet = "ʇʘǃǂǁʼaãàbčdeẽèiĩìjklłmnṇñŋoõòpqrsšṣ
 
 click_regex = re.compile(r"[ʘʇǃǂǁ]")
 
+def rank_click_befores(bef):
+	return ["","ɴ","s","š","ṣ","ł"].index(bef)
+
+def rank_click_afters(aft):
+	return ["","ʼ","x","qʼ","ʛ"].index(aft)
+
 def rank_consonant(c):
 
 	click_match = click_regex.search(c)
@@ -207,7 +213,9 @@ def rank_consonant(c):
 
 		before,after = click_regex.split(c,maxsplit=1)
 
-		return [0, click, before, after]
+		
+
+		return [0, click, rank_click_befores(before), rank_click_afters(after)]
 
 
 	else:
@@ -247,6 +255,13 @@ def formatLetterSec(letter):
 sortedkeys =  list(keyed_lexicon.keys())
 sortedkeys.sort(key = rank_consonant)
 
+totalcount = 0
+for k in sortedkeys:
+	count = len(keyed_lexicon[k])
+	print("%s - %d entries"%(k,count))
+	totalcount += count
+
+print("total entries %s"%totalcount)
 
 
 

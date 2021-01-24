@@ -124,6 +124,33 @@
 <gloss lang="en"><text>re-organize</text></gloss>
 </sense>
 </entry>
+<entry dateCreated="2021-01-24T12:03:17Z" dateModified="2021-01-24T12:04:53Z" id="na_095a7c28-50f9-443a-a1da-a87e9b08cdf8" guid="095a7c28-50f9-443a-a1da-a87e9b08cdf8">
+<lexical-unit>
+<form lang="qaa"><text>na</text></form>
+</lexical-unit>
+<trait  name="morph-type" value="stem"/>
+<sense id="cde4281a-895c-46bb-8735-83a6a7a7277f" order="0">
+<grammatical-info value="Noun">
+</grammatical-info>
+<gloss lang="en"><text>grass</text></gloss>
+</sense>
+<sense id="5f340487-cc4d-4fe7-8355-4a724f5688f9" order="1">
+<grammatical-info value="Noun">
+</grammatical-info>
+<gloss lang="en"><text>hair</text></gloss>
+<definition>
+<form lang="en"><text>hair, head hair, facial hair, body hair</text></form>
+</definition>
+</sense>
+<sense id="5dde9e41-c7b6-48a9-82dc-190e591aaa70" order="2">
+<grammatical-info value="Noun">
+</grammatical-info>
+<gloss lang="en"><text>fur</text></gloss>
+<definition>
+<form lang="en"><text>(of animal) fur</text></form>
+</definition>
+</sense>
+</entry>
 <entry dateCreated="2021-01-10T13:24:43Z" dateModified="2021-01-10T13:26:03Z" id="ʇaõ_0c901ec9-6088-4d6b-9528-fa163ae2c027" guid="0c901ec9-6088-4d6b-9528-fa163ae2c027">
 <lexical-unit>
 <form lang="qaa"><text>ʇaõ</text></form>
@@ -399,6 +426,18 @@
 <gloss lang="en"><text>CLF_wooden</text></gloss>
 </sense>
 </entry>
+<entry dateCreated="2021-01-24T11:50:52Z" dateModified="2021-01-24T11:51:06Z" id="ǁxa_200b8131-131a-4ee5-9e6e-ebbfadfc368b" guid="200b8131-131a-4ee5-9e6e-ebbfadfc368b">
+<lexical-unit>
+<form lang="qaa"><text>ǁxa</text></form>
+</lexical-unit>
+<trait  name="morph-type" value="stem"/>
+<sense id="58af465e-242c-4853-a517-55c5ad246c2d">
+<grammatical-info value="Noun">
+</grammatical-info>
+<gloss lang="en"><text>penis</text></gloss>
+<relation type="Classifier" ref="91404622-4d79-4582-845f-00fddeb93b36"/>
+</sense>
+</entry>
 <entry dateCreated="2020-12-28T10:42:18Z" dateModified="2021-01-12T20:23:34Z" id="eǃumṭa_2034b03e-c554-4866-b5e4-922e910b36f8" guid="2034b03e-c554-4866-b5e4-922e910b36f8">
 <lexical-unit>
 <form lang="qaa"><text>eǃumṭa</text></form>
@@ -572,8 +611,8 @@
 <definition>
 <form lang="en"><text>foul-smelling objects, rotting matter, feces, waste, corpses, infections, pus, diseases, the severely diseased</text></form>
 </definition>
-<relation type="Classified Noun" ref="92450ee7-038f-43ba-bf4e-5119db047289"/>
 <relation type="Classified Noun" ref="548e143b-5df9-4a3d-a4b0-09a5f974c810"/>
+<relation type="Classified Noun" ref="92450ee7-038f-43ba-bf4e-5119db047289"/>
 </sense>
 </entry>
 <entry dateCreated="2021-01-09T11:12:16Z" dateModified="2021-01-10T13:25:31Z" id="po_2e171516-2603-4081-865d-ba4eeb3208dd" guid="2e171516-2603-4081-865d-ba4eeb3208dd">
@@ -1020,6 +1059,17 @@
 <definition>
 <form lang="en"><text>(in SVC) refuse to ..., not intend to ..., resist ...</text></form>
 </definition>
+</sense>
+</entry>
+<entry dateCreated="2021-01-24T11:14:46Z" dateModified="2021-01-24T11:21:20Z" id="ǃoa_4ec9e593-a3b7-4781-aca0-f5b12021e93e" guid="4ec9e593-a3b7-4781-aca0-f5b12021e93e">
+<lexical-unit>
+<form lang="qaa"><text>ǃoa</text></form>
+</lexical-unit>
+<trait  name="morph-type" value="stem"/>
+<sense id="91aa563e-c89e-47d1-83b6-03c2ead1a31c">
+<grammatical-info value="Adjective">
+</grammatical-info>
+<gloss lang="en"><text>idiot</text></gloss>
 </sense>
 </entry>
 <entry dateCreated="2021-01-01T15:48:16Z" dateModified="2021-01-20T17:58:00Z" id="ɴʇai_4f63f9ae-f6e6-41a5-bbda-cb4bd0f4b78c" guid="4f63f9ae-f6e6-41a5-bbda-cb4bd0f4b78c">
@@ -1804,6 +1854,28 @@
 </definition>
 </sense>
 </entry>
+<entry dateCreated="2021-01-24T11:57:42Z" dateModified="2021-01-24T11:59:45Z" id="ǃʼa_94dbc452-f174-453d-af75-16dfcc99fdcb" guid="94dbc452-f174-453d-af75-16dfcc99fdcb">
+<lexical-unit>
+<form lang="qaa"><text>ǃʼa</text></form>
+</lexical-unit>
+<trait  name="morph-type" value="stem"/>
+<sense id="4c674d85-b449-48b8-bc38-15e6c1d15e93" order="0">
+<grammatical-info value="Postposition">
+</grammatical-info>
+<gloss lang="en"><text>besides</text></gloss>
+<definition>
+<form lang="en"><text>besides, to the side of, near</text></form>
+</definition>
+</sense>
+<sense id="b57ca1b0-23da-435a-bcf8-0f9d39ff88ff" order="1">
+<grammatical-info value="Noun">
+</grammatical-info>
+<definition>
+<form lang="en"><text>hips, iliac crests</text></form>
+</definition>
+<relation type="Classifier" ref="91404622-4d79-4582-845f-00fddeb93b36"/>
+</sense>
+</entry>
 <entry dateCreated="2020-12-25T18:15:37Z" dateModified="2021-01-07T14:06:21Z" id="šǃo_96d3690d-633b-497c-acdc-0e55f8f3e391" guid="96d3690d-633b-497c-acdc-0e55f8f3e391">
 <lexical-unit>
 <form lang="qaa"><text>šǃo</text></form>
@@ -2016,6 +2088,19 @@
 <definition>
 <form lang="en"><text>graceful, delicately beautiful</text></form>
 </definition>
+</sense>
+</entry>
+<entry dateCreated="2021-01-24T12:07:40Z" dateModified="2021-01-24T12:08:35Z" id="šǃʼa_a886f316-37b8-4c81-9375-62eebe657901" guid="a886f316-37b8-4c81-9375-62eebe657901">
+<lexical-unit>
+<form lang="qaa"><text>šǃʼa</text></form>
+</lexical-unit>
+<trait  name="morph-type" value="stem"/>
+<sense id="bef27fa1-a910-4bdf-b5f5-d6847d7fca84">
+<grammatical-info value="Noun">
+</grammatical-info>
+<gloss lang="en"><text>tooth</text></gloss>
+<relation type="Classifier" ref="0ded4fde-8c3a-4942-a8c8-08630d0cd9a8"/>
+<relation type="Classifier" ref="91404622-4d79-4582-845f-00fddeb93b36"/>
 </sense>
 </entry>
 <entry dateCreated="2020-12-31T17:05:36Z" dateModified="2021-01-06T00:43:31Z" id="oǃxu_ac6d21f6-7694-40ac-9a6e-2c844e2d03bb" guid="ac6d21f6-7694-40ac-9a6e-2c844e2d03bb">
@@ -2463,6 +2548,29 @@
 <gloss lang="en"><text>liver</text></gloss>
 </sense>
 </entry>
+<entry dateCreated="2021-01-24T11:54:43Z" dateModified="2021-01-24T11:56:29Z" id="ǃxàa_d6b919f0-9645-45b2-a028-9fa1944a20c4" guid="d6b919f0-9645-45b2-a028-9fa1944a20c4">
+<lexical-unit>
+<form lang="qaa"><text>ǃxàa</text></form>
+</lexical-unit>
+<trait  name="morph-type" value="stem"/>
+<sense id="4aac93e9-7bcf-4d0b-bb5f-86f50f0df3e4" order="0">
+<grammatical-info value="Noun">
+</grammatical-info>
+<gloss lang="en"><text>house</text></gloss>
+<definition>
+<form lang="en"><text>house, hut</text></form>
+</definition>
+</sense>
+<sense id="6dd99fe9-afde-4560-a0eb-f040725010cc" order="1">
+<grammatical-info value="Noun">
+</grammatical-info>
+<gloss lang="en"><text>roof</text></gloss>
+<definition>
+<form lang="en"><text>roof</text></form>
+</definition>
+<relation type="Classifier" ref="13a9601b-448d-487f-92ae-9f7803c620c5"/>
+</sense>
+</entry>
 <entry dateCreated="2020-12-26T01:12:07Z" dateModified="2021-01-06T00:34:54Z" id="išǃuka_d7efe192-c3ff-403e-9f96-6cc3911a4f95" guid="d7efe192-c3ff-403e-9f96-6cc3911a4f95">
 <lexical-unit>
 <form lang="qaa"><text>išǃuka</text></form>
@@ -2518,6 +2626,17 @@
 <trait  name="morph-type" value="stem"/>
 <sense id="ea09b346-bbbc-4f4e-a142-9cb5c38a9f13">
 <gloss lang="en"><text>this</text></gloss>
+</sense>
+</entry>
+<entry dateCreated="2021-01-24T11:21:44Z" dateModified="2021-01-24T11:22:01Z" id="ǃʛoa_db0fa699-53f5-491f-a104-f4b6cbccdd8a" guid="db0fa699-53f5-491f-a104-f4b6cbccdd8a">
+<lexical-unit>
+<form lang="qaa"><text>ǃʛoa</text></form>
+</lexical-unit>
+<trait  name="morph-type" value="stem"/>
+<relation type="_component-lexeme" ref="ǃoa_4ec9e593-a3b7-4781-aca0-f5b12021e93e" order="0">
+<trait  name="variant-type" value="Unspecified Variant"/>
+</relation>
+<sense id="49bb385a-9bc7-42ec-8728-f0aef5cc9a25">
 </sense>
 </entry>
 <entry dateCreated="2020-12-28T10:43:40Z" dateModified="2021-01-12T20:23:15Z" id="ǃumṭa_db50483d-06a0-4870-92d3-0f8bc160c7c3" guid="db50483d-06a0-4870-92d3-0f8bc160c7c3">
@@ -2677,8 +2796,8 @@
 <grammatical-info value="Noun">
 </grammatical-info>
 <gloss lang="en"><text>boy</text></gloss>
-<relation type="Classifier" ref="b4de7c68-af90-477c-ad1e-681b006996b5"/>
 <relation type="Classifier" ref="d777c666-c1ca-4e67-8a13-a5838469fea8"/>
+<relation type="Classifier" ref="b4de7c68-af90-477c-ad1e-681b006996b5"/>
 </sense>
 </entry>
 <entry dateCreated="2021-01-19T18:23:04Z" dateModified="2021-01-19T18:23:04Z" id="ʼìi_ea625f31-8559-4660-b1d5-5487c4f7da49" guid="ea625f31-8559-4660-b1d5-5487c4f7da49">
@@ -2935,6 +3054,21 @@
 <relation type="Classified Noun" ref="f72f4100-a231-427c-beb6-01cf22d4c318"/>
 </sense>
 </entry>
+<entry dateCreated="2021-01-24T12:01:38Z" dateModified="2021-01-24T14:04:57Z" id="ʇa_fd7bfef5-e094-40ef-91b5-16465f75e01c" guid="fd7bfef5-e094-40ef-91b5-16465f75e01c">
+<lexical-unit>
+<form lang="qaa"><text>ʇa</text></form>
+</lexical-unit>
+<trait  name="morph-type" value="stem"/>
+<sense id="50393909-cbbc-4321-b73c-5ec92cad2766">
+<grammatical-info value="Noun classifier">
+</grammatical-info>
+<gloss lang="en"><text>feelings</text></gloss>
+<definition>
+<form lang="en"><text>feelings, emotions, relationships, mental states</text></form>
+</definition>
+<relation type="Classified Noun" ref="9bb7cf59-b543-4a1e-b5e3-a365e8e1ea9a"/>
+</sense>
+</entry>
 <entry dateCreated="2020-12-30T15:54:25Z" dateModified="2021-01-06T22:08:30Z" id="ǃʼuulu_fd7c9d6a-bcf5-4e3f-b733-43ee53eeb85c" guid="fd7c9d6a-bcf5-4e3f-b733-43ee53eeb85c">
 <lexical-unit>
 <form lang="qaa"><text>ǃʼuulu</text></form>
@@ -3002,137 +3136,27 @@
 <gloss lang="en"><text>few</text></gloss>
 </sense>
 </entry>
-<entry dateCreated="2021-01-24T11:21:44Z" dateModified="2021-01-24T11:22:01Z" id="ǃʛoa_db0fa699-53f5-491f-a104-f4b6cbccdd8a" guid="db0fa699-53f5-491f-a104-f4b6cbccdd8a">
+<entry dateCreated="2021-01-24T14:03:55Z" dateModified="2021-01-24T14:04:57Z" id="ǁʛa_8f632552-b813-42d8-b7ed-e4118ab254e9" guid="8f632552-b813-42d8-b7ed-e4118ab254e9">
 <lexical-unit>
-<form lang="qaa"><text>ǃʛoa</text></form>
+<form lang="qaa"><text>ǁʛa</text></form>
 </lexical-unit>
 <trait  name="morph-type" value="stem"/>
-<relation type="_component-lexeme" ref="ǃoa_4ec9e593-a3b7-4781-aca0-f5b12021e93e" order="0">
-<trait  name="variant-type" value="Unspecified Variant"/>
-</relation>
-<sense id="49bb385a-9bc7-42ec-8728-f0aef5cc9a25">
-</sense>
-</entry>
-<entry dateCreated="2021-01-24T11:14:46Z" dateModified="2021-01-24T11:21:20Z" id="ǃoa_4ec9e593-a3b7-4781-aca0-f5b12021e93e" guid="4ec9e593-a3b7-4781-aca0-f5b12021e93e">
-<lexical-unit>
-<form lang="qaa"><text>ǃoa</text></form>
-</lexical-unit>
-<trait  name="morph-type" value="stem"/>
-<sense id="91aa563e-c89e-47d1-83b6-03c2ead1a31c">
-<grammatical-info value="Adjective">
+<sense id="7ef3c531-d752-410e-998c-fe856c263f18" order="0">
+<grammatical-info value="Transitive verb">
 </grammatical-info>
-<gloss lang="en"><text>idiot</text></gloss>
-</sense>
-</entry>
-<entry dateCreated="2021-01-24T11:50:52Z" dateModified="2021-01-24T11:51:06Z" id="ǁxa_200b8131-131a-4ee5-9e6e-ebbfadfc368b" guid="200b8131-131a-4ee5-9e6e-ebbfadfc368b">
-<lexical-unit>
-<form lang="qaa"><text>ǁxa</text></form>
-</lexical-unit>
-<trait  name="morph-type" value="stem"/>
-<sense id="58af465e-242c-4853-a517-55c5ad246c2d">
-<grammatical-info value="Noun">
-</grammatical-info>
-<gloss lang="en"><text>penis</text></gloss>
-<relation type="Classifier" ref="91404622-4d79-4582-845f-00fddeb93b36"/>
-</sense>
-</entry>
-<entry dateCreated="2021-01-24T11:54:43Z" dateModified="2021-01-24T11:56:29Z" id="ǃxàa_d6b919f0-9645-45b2-a028-9fa1944a20c4" guid="d6b919f0-9645-45b2-a028-9fa1944a20c4">
-<lexical-unit>
-<form lang="qaa"><text>ǃxàa</text></form>
-</lexical-unit>
-<trait  name="morph-type" value="stem"/>
-<sense id="4aac93e9-7bcf-4d0b-bb5f-86f50f0df3e4" order="0">
-<grammatical-info value="Noun">
-</grammatical-info>
-<gloss lang="en"><text>house</text></gloss>
+<gloss lang="en"><text>scare</text></gloss>
 <definition>
-<form lang="en"><text>house, hut</text></form>
+<form lang="en"><text>scare, (P) be afraid of (A),</text></form>
 </definition>
 </sense>
-<sense id="6dd99fe9-afde-4560-a0eb-f040725010cc" order="1">
+<sense id="9bb7cf59-b543-4a1e-b5e3-a365e8e1ea9a" order="1">
 <grammatical-info value="Noun">
 </grammatical-info>
-<gloss lang="en"><text>roof</text></gloss>
+<gloss lang="en"><text>fear</text></gloss>
 <definition>
-<form lang="en"><text>roof</text></form>
+<form lang="en"><text>fear</text></form>
 </definition>
-<relation type="Classifier" ref="13a9601b-448d-487f-92ae-9f7803c620c5"/>
-</sense>
-</entry>
-<entry dateCreated="2021-01-24T11:57:42Z" dateModified="2021-01-24T11:59:45Z" id="ǃʼa_94dbc452-f174-453d-af75-16dfcc99fdcb" guid="94dbc452-f174-453d-af75-16dfcc99fdcb">
-<lexical-unit>
-<form lang="qaa"><text>ǃʼa</text></form>
-</lexical-unit>
-<trait  name="morph-type" value="stem"/>
-<sense id="4c674d85-b449-48b8-bc38-15e6c1d15e93" order="0">
-<grammatical-info value="Postposition">
-</grammatical-info>
-<gloss lang="en"><text>besides</text></gloss>
-<definition>
-<form lang="en"><text>besides, to the side of, near</text></form>
-</definition>
-</sense>
-<sense id="b57ca1b0-23da-435a-bcf8-0f9d39ff88ff" order="1">
-<grammatical-info value="Noun">
-</grammatical-info>
-<definition>
-<form lang="en"><text>hips, iliac crests</text></form>
-</definition>
-<relation type="Classifier" ref="91404622-4d79-4582-845f-00fddeb93b36"/>
-</sense>
-</entry>
-<entry dateCreated="2021-01-24T12:01:38Z" dateModified="2021-01-24T12:02:12Z" id="ʇa_fd7bfef5-e094-40ef-91b5-16465f75e01c" guid="fd7bfef5-e094-40ef-91b5-16465f75e01c">
-<lexical-unit>
-<form lang="qaa"><text>ʇa</text></form>
-</lexical-unit>
-<trait  name="morph-type" value="stem"/>
-<sense id="50393909-cbbc-4321-b73c-5ec92cad2766">
-<grammatical-info value="Noun classifier">
-</grammatical-info>
-<gloss lang="en"><text>feelings</text></gloss>
-<definition>
-<form lang="en"><text>feelings, emotions, relationships, mental states</text></form>
-</definition>
-</sense>
-</entry>
-<entry dateCreated="2021-01-24T12:03:17Z" dateModified="2021-01-24T12:04:53Z" id="na_095a7c28-50f9-443a-a1da-a87e9b08cdf8" guid="095a7c28-50f9-443a-a1da-a87e9b08cdf8">
-<lexical-unit>
-<form lang="qaa"><text>na</text></form>
-</lexical-unit>
-<trait  name="morph-type" value="stem"/>
-<sense id="cde4281a-895c-46bb-8735-83a6a7a7277f" order="0">
-<grammatical-info value="Noun">
-</grammatical-info>
-<gloss lang="en"><text>grass</text></gloss>
-</sense>
-<sense id="5f340487-cc4d-4fe7-8355-4a724f5688f9" order="1">
-<grammatical-info value="Noun">
-</grammatical-info>
-<gloss lang="en"><text>hair</text></gloss>
-<definition>
-<form lang="en"><text>hair, head hair, facial hair, body hair</text></form>
-</definition>
-</sense>
-<sense id="5dde9e41-c7b6-48a9-82dc-190e591aaa70" order="2">
-<grammatical-info value="Noun">
-</grammatical-info>
-<gloss lang="en"><text>fur</text></gloss>
-<definition>
-<form lang="en"><text>(of animal) fur</text></form>
-</definition>
-</sense>
-</entry>
-<entry dateCreated="2021-01-24T12:07:40Z" dateModified="2021-01-24T12:08:35Z" id="šǃʼa_a886f316-37b8-4c81-9375-62eebe657901" guid="a886f316-37b8-4c81-9375-62eebe657901">
-<lexical-unit>
-<form lang="qaa"><text>šǃʼa</text></form>
-</lexical-unit>
-<trait  name="morph-type" value="stem"/>
-<sense id="bef27fa1-a910-4bdf-b5f5-d6847d7fca84">
-<grammatical-info value="Noun">
-</grammatical-info>
-<gloss lang="en"><text>tooth</text></gloss>
-<relation type="Classifier" ref="0ded4fde-8c3a-4942-a8c8-08630d0cd9a8"/>
-<relation type="Classifier" ref="91404622-4d79-4582-845f-00fddeb93b36"/>
+<relation type="Classifier" ref="50393909-cbbc-4321-b73c-5ec92cad2766"/>
 </sense>
 </entry>
 </lift>
