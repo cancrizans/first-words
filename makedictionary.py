@@ -35,6 +35,7 @@ bwc_pattern = re.compile(r"(ʘ|ǃ|ǂ|ǁ|qʼ|x)[eièì]")
 root = ET.parse(fname).getroot()
 
 
+entryrefs = {}
 refs = {}
 
 
@@ -42,11 +43,16 @@ texstrings = []
 
 
 class Entry():
-	def __init__(self,local):
+	def __init__(self,local,entryid):
 		self.local = local
 		self.senses = []
 
 		self.ipa = pronunciator.pronunciate(local)
+
+		self.variantOf = None
+		self.id = entryid
+
+		entryrefs[self.id] = self
 
 		self.TestConstraints()
 
@@ -59,9 +65,12 @@ class Entry():
 			print(errorstr.encode("ascii","ignore"))
 
 	def Format(self):
-		sensesstring = "\\dictsensesep".join(map(lambda x:x.Format(), self.senses))
+		if self.variantOf:
+			contentstring = "\\dictvariantof{%s}"%entryrefs[self.variantOf].FormatRef()
+		else:
+			contentstring = "\\dictsensesep".join(map(lambda x:x.Format(), self.senses))
 
-		return '\\dictentry{%s}{%s}{%s}'%(self.local,self.ipa,sensesstring)
+		return '\\dictentry{%s}{%s}{%s}'%(self.local,self.ipa,contentstring)
 
 	def FormatRef(self):
 		return "\\dictref{%s}"%self.local
@@ -71,6 +80,7 @@ class Sense():
 		self.examples = []
 		self.clfs = []
 		self.parent = parent
+
 
 
 	def Format(self):
@@ -99,11 +109,27 @@ for entrytag in root.findall('entry'):
 	lex = entrytag.find('lexical-unit')
 
 	local = lex.find('form/text').text
+	entryid = entrytag.attrib['id']
 
-	entry = Entry(local)
+	entry = Entry(local,entryid)
+
+
+
+	# determine if variant
+
+	
+	for relationtag in entrytag.findall("relation"):
+
+		traittag = relationtag.find("trait[@name='variant-type']")
+
+		if not (traittag is None):
+			entry.variantOf = relationtag.attrib['ref']
 
 
 	for sensetag in entrytag.findall('sense'):
+		if entry.variantOf:
+			break
+
 		# make sense
 
 		sense = Sense(entry)
@@ -121,8 +147,14 @@ for entrytag in root.findall('entry'):
 		sense.gramm = gramm
 
 		# extract definition (use default gloss if definition empty)
-
-		gloss = esc(sensetag.find('gloss/text').text.replace("CLF_","").replace("_"," "))
+		glosstag = sensetag.find('gloss/text')
+		if glosstag is None:
+			#print(ET.tostring(entrytag,encoding='utf-8'))
+			#print(ET.tostring(sensetag,encoding='utf-8'))
+			#raise ValueError
+			gloss = ""
+		else:
+			gloss = esc(glosstag.text.replace("CLF_","").replace("_"," "))
 
 		defintag = sensetag.find('definition')
 		definition = gloss

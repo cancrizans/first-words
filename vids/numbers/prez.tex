@@ -1,5 +1,5 @@
-\documentclass{beamer}
-\usetheme{focus}
+\documentclass[12pt,aspectratio=169]{beamer}
+\usetheme{default}
 
 \usefonttheme{serif}
 
@@ -7,7 +7,13 @@
 %\setmainfont[Ligatures=TeX]{DejaVu Sans}
 \setmainfont{Charis SIL}
 
-\usepackage{pythontex}
+\beamertemplatenavigationsymbolsempty
+
+\usepackage{xcolor}
+\definecolor{backgroundcol}{gray}{0.5}
+\definecolor{textcol}{gray}{0.2}
+\setbeamercolor{normal text}{fg=textcol}
+
 
 \newcommand{\slide}[4]{
 \begin{frame}
@@ -41,43 +47,59 @@
 		
 		\vfill
 		
-		{\large #2}
+		{\large \texttt{#2}}
 		
 		\vfill
 		
-		{\huge #3}
+		{\textit{\large #3}}
 		
 		
 	\end{center}
 \end{frame}
 }
 
+\newcommand{\CLF}[1]{CLF\textsubscript{#1}}
+
 \begin{document}
+
 
 \begin{frame}
 
+\begin{center}
+{\Huge \textbf{ǂA Samples 1}}\\
+\vspace{1.5cm}
+{\LARGE Sample phrases \\
+in ǂA Ṇùĩ}
+\end{center}
+
 \end{frame}
 
+\interlinearslide{Uǃʼui ʼa uǃòi ṇàã ǂʼa!}{2.ERG ABL be.startled eland \CLF{large herbivores}}{You startled the eland!}
+\interlinearslide{Łǁa cʼi uǃàama ʇaala ɴǂʼi}{see 	similar 	misstep 	easily 	NEG}{Missteps such as these are not easily spotted.}
+\interlinearslide{Uɴʇu ŋàã tła ʘui ɴǂùu sʇui ʼìi.}{truly 	woman 	\CLF{woman} 	want 	die 	snake 	\CLF{slithering animals} }{The woman really wanted the snake dead.}
+\interlinearslide{Nǂxa iʇaã ǃXaoʼaã ku.}{often be.slacking !Xao'aã \CLF{man}}{ǃXaoʼaã is always slacking.}
+\interlinearslide{ǃA ǁàa ǃumňi iňi, ɴǂoa ǃxape ja.}{1S.ERG 	hold 	2.ACC 	over,		discover 	happy 	1S.INTR}{As long as I hold you, I find that I'm happy.}
 
-\interlinearslide{Ʇaula Nǃòõ Uǃqʼa maã Jùu aʇe ǂu ełǁxa iñi}{ ǀaula ᵑǃɔ̰̃ː uǃ͡qʼa mãː ɟṵː aǀe ǂu eɬǁ͡χa iɲi}{Once upon a time, the North Wind and the Sun were discussing}
 
-\interlinearslide{nʇum nui ʼèe sʇaʇau ǁùuṇa.}{ ᵑǀmː n̪ui ʔḛː s̪ǀaǀau ǁṵːɳa.}{over which one of them two was stronger.}
-
-\interlinearslide{Ṭurra, loõṇi ʇxoi onʇʼa oǃʼo ṣǂaañi.}{ ʈurra, lɔ̃ːɳi ǀ͡χɔi ɔ̃ᵑǀˀa ɔǃˀɔ ʂǂaːɲi.}{Suddenly, a vagabond wrapped in a warm cloak arrived to them.}
-
-\interlinearslide{Maã aʇe ǂu nǃʼoirre nui ʼèe ǂa ʼa ṣǂaañi ku nǁxòi upa ʇxoi ṭèe,}{ mãː aǀe ǂu ᵑǃˀɔirre n̪ui ʔḛː ǂa ʔa ʂǂaːɲi ku ᵑǁ͡ʁɔ̰ḭ upa ǀ͡χɔi ʈḛː,}{The Wind and the Sun decided that the first of them that would make the vagabond take off the cloak,}
-
-\interlinearslide{unʇu sʇaʇau tłìi šǃu nui.}{ mᵑǀu s̪ǀaǀau t͡ɬḭː šǃu n̪ui.}{truly that one would have been stronger.}
-
-\interlinearslide{Nǃòõ Uǃqʼa maã ǂxàuʼa tṣe ra tsùu nʘaã,}{ ᵑǃɔ̰̃ː uǃ͡qʼa mãː ǂ͡χa̰ṵʔa ʈ͡ʂe ra t͡s̪ṵː ᵑʘãː,}{The North Wind blew as strong as he could,}
-
-\interlinearslide{ṇam ča uji tsùu maã, ṣǂaañi ku ʼa ṭèe onʇʼa ǃqʼati nǃxùu.}{ ɳãm t͡ʃa uɟi t͡s̪ṵː mãː, ʂǂaːɲi ku ʔa ʈḛː ɔ̃ᵑǀˀa ǃ͡qʼat͡s̪i ᵑǃ͡ʁṵː.}{but as the wind blew, the vagabond enveloped themselves in the cloak ever more.}
-
-\interlinearslide{ʼai Uǃqʼa maã eña ṣǂqʼo.}{ ʔai uǃ͡qʼa mãː eɲa ʂǂ͡qʼɔ.}{And so, the Wind gave up.}
-
-\interlinearslide{ʼai ʼai, loõṇi ra čìiči Jùu aʇe, ʼai ǂu ku uǃqʼo ʇxoi ṭèe.}{ ʔai ʔai, lɔ̃ːɳi ra t͡ʃḭːt͡ʃi ɟṵː aǀe, ʔai ǂu ku uǃ͡qʼɔ ǀ͡χɔi ʈḛː.}{But then, the Sun shone warmly, and so the vagabond took off their cloak.}
-
-\interlinearslide{Nǃòõ Uǃqʼa maã łǁa sʇaʇau Jùu aʇe.}{ ᵑǃɔ̰̃ː uǃ͡qʼa mãː ɬǁa s̪ǀaǀau ɟṵː aǀe.}{Thus, the North Wind saw that the Sun was stronger.}
+%\interlinearslide{Ʇaula Nǃòõ Uǃqʼa maã Jùu aʇe ǂu ełǁxa iñi}{ ǀaula ᵑǃɔ̰̃ː uǃ͡qʼa mãː ɟṵː aǀe ǂu eɬǁ͡χa iɲi}{Once upon a time, the North Wind and the Sun were discussing}
+%
+%\interlinearslide{nʇum nui ʼèe sʇaʇau ǁùuṇa.}{ ᵑǀmː n̪ui ʔḛː s̪ǀaǀau ǁṵːɳa.}{over which one of them two was stronger.}
+%
+%\interlinearslide{Ṭurra, loõṇi ʇxoi onʇʼa oǃʼo ṣǂaañi.}{ ʈurra, lɔ̃ːɳi ǀ͡χɔi ɔ̃ᵑǀˀa ɔǃˀɔ ʂǂaːɲi.}{Suddenly, a vagabond wrapped in a warm cloak arrived to them.}
+%
+%\interlinearslide{Maã aʇe ǂu nǃʼoirre nui ʼèe ǂa ʼa ṣǂaañi ku nǁxòi upa ʇxoi ṭèe,}{ mãː aǀe ǂu ᵑǃˀɔirre n̪ui ʔḛː ǂa ʔa ʂǂaːɲi ku ᵑǁ͡ʁɔ̰ḭ upa ǀ͡χɔi ʈḛː,}{The Wind and the Sun decided that the first of them that would make the vagabond take off the cloak,}
+%
+%\interlinearslide{unʇu sʇaʇau tłìi šǃu nui.}{ mᵑǀu s̪ǀaǀau t͡ɬḭː šǃu n̪ui.}{truly that one would have been stronger.}
+%
+%\interlinearslide{Nǃòõ Uǃqʼa maã ǂxàuʼa tṣe ra tsùu nʘaã,}{ ᵑǃɔ̰̃ː uǃ͡qʼa mãː ǂ͡χa̰ṵʔa ʈ͡ʂe ra t͡s̪ṵː ᵑʘãː,}{The North Wind blew as strong as he could,}
+%
+%\interlinearslide{ṇam ča uji tsùu maã, ṣǂaañi ku ʼa ṭèe onʇʼa ǃqʼati nǃxùu.}{ ɳãm t͡ʃa uɟi t͡s̪ṵː mãː, ʂǂaːɲi ku ʔa ʈḛː ɔ̃ᵑǀˀa ǃ͡qʼat͡s̪i ᵑǃ͡ʁṵː.}{but as the wind blew, the vagabond enveloped themselves in the cloak ever more.}
+%
+%\interlinearslide{ʼai Uǃqʼa maã eña ṣǂqʼo.}{ ʔai uǃ͡qʼa mãː eɲa ʂǂ͡qʼɔ.}{And so, the Wind gave up.}
+%
+%\interlinearslide{ʼai ʼai, loõṇi ra čìiči Jùu aʇe, ʼai ǂu ku uǃqʼo ʇxoi ṭèe.}{ ʔai ʔai, lɔ̃ːɳi ra t͡ʃḭːt͡ʃi ɟṵː aǀe, ʔai ǂu ku uǃ͡qʼɔ ǀ͡χɔi ʈḛː.}{But then, the Sun shone warmly, and so the vagabond took off their cloak.}
+%
+%\interlinearslide{Nǃòõ Uǃqʼa maã łǁa sʇaʇau Jùu aʇe.}{ ᵑǃɔ̰̃ː uǃ͡qʼa mãː ɬǁa s̪ǀaǀau ɟṵː aǀe.}{Thus, the North Wind saw that the Sun was stronger.}
 
 %
 %

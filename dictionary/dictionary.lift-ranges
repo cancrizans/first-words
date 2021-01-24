@@ -265,6 +265,21 @@
 </description>
 <trait name="catalog-source-id" value=""/>
 </range-element>
+<range-element id="***" guid="00c71f5e-76aa-4e5a-8d2c-b011a043504d">
+<trait name="catalog-source-id" value=""/>
+</range-element>
+<range-element id="Particle" guid="6e758bbc-2b40-427d-b79f-bf14a7c96c6a">
+<label>
+<form lang="en"><text>Particle</text></form>
+</label>
+<abbrev>
+<form lang="en"><text>prt</text></form>
+</abbrev>
+<description>
+<form lang="en"><text>A particle is a part of speech whose members do not belong to one of the main classes of words, is invariable, and typically has grammatical or pragmatic meaning.</text></form>
+</description>
+<trait name="catalog-source-id" value="Particle"/>
+</range-element>
 </range>
 <range id="lexical-relation">
 <!--The following range elements were added by FieldWorks Language Explorer. -->
@@ -20554,6 +20569,21 @@
 <form lang="en"><text>A marker placed before a classifier used as a pronoun to mark it as a resumptive pronoun.</text></form>
 </description>
 <trait name="catalog-source-id" value=""/>
+</range-element>
+<range-element id="***" guid="00c71f5e-76aa-4e5a-8d2c-b011a043504d">
+<trait name="catalog-source-id" value=""/>
+</range-element>
+<range-element id="Particle" guid="6e758bbc-2b40-427d-b79f-bf14a7c96c6a">
+<label>
+<form lang="en"><text>Particle</text></form>
+</label>
+<abbrev>
+<form lang="en"><text>prt</text></form>
+</abbrev>
+<description>
+<form lang="en"><text>A particle is a part of speech whose members do not belong to one of the main classes of words, is invariable, and typically has grammatical or pragmatic meaning.</text></form>
+</description>
+<trait name="catalog-source-id" value="Particle"/>
 </range-element>
 </range>
 <range id="morph-type">
