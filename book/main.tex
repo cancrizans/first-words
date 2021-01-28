@@ -1,12 +1,14 @@
-\documentclass[11pt]{book}
+\documentclass[11pt,a5paper]{book}
 \immediate\write18{cd .. && py makedictionary.py && py makeinterlinears.py}
 
 \usepackage{geometry}
-\geometry{margin=1.3in}
+\geometry{margin=0.7in,a5paper}
 
 \usepackage{fontspec}
 %\setmainfont[Ligatures=TeX]{DejaVu Sans}
-\setmainfont{Charis SIL}
+%\setmainfont{Charis SIL}
+\setmainfont[BoldFont={Gentium Basic Bold}]{Gentium Plus}
+\setmonofont{DejaVu Sans Mono}
 
 
 \usepackage{vowel}
@@ -30,14 +32,37 @@
 \usepackage{parskip}
 
 
-\renewcommand{\eachwordone}{\bfseries}
-\pretocmd{\glt}{\it}{}{}
 
 \definecolor{CoverTeal}{RGB}{30, 212, 181}
 \definecolor{Black}{RGB}{0,0,0}
 \definecolor{LightGray}{gray}{0.9}
+\definecolor{AccentText}{RGB}{102, 0, 59}
+\definecolor{GlobalTextColor}{gray}{0.1}
 
-\newcommand{\qcn}[1]{\textbf{#1}}
+\makeatletter
+\newcommand{\globalcolor}[1]{%
+  \color{#1}\global\let\default@color\current@color
+}
+\makeatother
+
+
+
+\AtBeginDocument{\globalcolor{GlobalTextColor}}
+
+
+
+
+
+\renewcommand{\eachwordone}{\addfontfeature{Color=AccentText}\large}
+\renewcommand{\eachwordtwo}{\tt\scriptsize}
+\pretocmd{\glt}{\it}{}{}
+
+
+
+
+\newcommand{\qcn}[1]{\textcolor{AccentText}{\large#1}}
+
+
 \newcommand{\langname}{\qcn{ǂA}}
 \newcommand{\langnamelong}{\qcn{ǂA Ṇṵĩ}}
 \newcommand{\transl}[2]{\qcn{#1} \emph{#2}}
@@ -55,7 +80,7 @@
 
 \usepackage{colortbl}
 
-\newcommand{\voidcell}{\cellcolor[gray]{.8}}
+\newcommand{\voidcell}{\cellcolor[gray]{.9}}
 
 
 
@@ -75,7 +100,7 @@
 \begin{center}
 
 	\Huge
-	\resizebox{0.6\textwidth}{!}{THE PRACTICAL}
+	\resizebox{0.6\textwidth}{!}{\textsc{THE PRACTICAL}}
 
 	\vspace{0.2in}
 
@@ -83,11 +108,11 @@
 
 	\vspace{1in}
 
-	{\Large ON PHONOLOGY, GRAMMAR,\\AND THE PREVENTION OF MOUTH INJURIES.}
+	{\Large \textsc{ON PHONOLOGY, GRAMMAR,\\AND THE PREVENTION OF MOUTH INJURIES.}}
 
 	\vfill
 
-	{BY CANCRIZANS CANON}
+	{\textsc{BY CANCRIZANS CANON}}
 
 \end{center}
 
@@ -106,32 +131,49 @@
 
 \vspace{2em}
 
-\langnamelong~([ǂɑ ɳ̰m̩̰ḭ̃˧], \emph{`first words'} or \emph{`first language'}), or also just \langname, is, as much as it pains me to admit it, not a real language, but it does try to be. It is a naturalistic constructed language (conlang) that makes extensive use of complex \textbf{click sounds}, which are strange loud consonants you make by abusing your tongue like a cheapo suction cup. It is \emph{a priori}, meaning it is not based on any real-world language of the present or past. As for the purpose of designing this language, let's keep that a surprise.
+\langnamelong~([ǂɑː ɳ̰m̩̰ḭ̃˧], \emph{`first words'} or \emph{`first language'}), or also just \langname, is, as much as it pains me to admit it, not a real language, but it does try to be. It is a naturalistic constructed language (conlang) that makes extensive use of complex \textbf{click sounds}, which are strange loud consonants you make by abusing your tongue like a cheapo suction cup. It is \emph{a priori}, meaning it is not based on any real-world language of the present or past. As for the purpose of designing this language, let's keep that a surprise.
 
 While an original creation, the sound of \langname{} takes inspiration mainly by the beautifully intricate phonologies of the \textbf{Khoisan languages}, a group of many language families indigenous to southern Africa, which feature large inventories of decorated clicks, and strange phonation distinctions in vowels. In addition to that, there are sprinkles of other sound-looks I like, picked from languages such as Basque, Sanskrit, and one of my favourite families: Aboriginal Australian languages. \langname{}'s phonation-tone register system is similar to that of Burmese.
 
-For what concerns grammar, \langname{} is typologically a mostly isolating language, analogous to Mandarin Chinese. It has a strict SVO (or better, AVP, as will be clear later) word order, it is (split-)ergative, and strongly head-final. It possesses almost no true ``grammatical particles'' in that very often they turn out to also double as regular nouns, like the relational nouns of Mayan languages.
+For what concerns grammar, \langname{} is typologically a mostly isolating language, analogous to Mandarin Chinese. It has a strict SVO (or better, AVP, as will be clear later) word order, it is \mbox{(split-)ergative}, and strongly head-final. It possesses almost no true ``grammatical particles'' in that very often they turn out to also double as regular nouns, like the relational nouns of Mayan languages.
 
 This booklet should hold all information there is on both the phonology and grammar of \langname{}. However, this document, as all my conlanging stuff, may try to explain things in a bit more pedantic detail than what you'd expect if you're a big linguistics buff. It is definitely aimed more at casual readers that don't remember off the top of their head what a \emph{wh-in-situ} or an \emph{accessibility hierarchy}\footnote{Something to do with power and wheelchair ramps?} is; if you find parts of it make your eyes roll please go ahead and skip what's obvious to you.
 
-This conlang is meant primarily to exist as spoken. Phrases in \langname{} in this book are presented in its specialised orthography, which is designed to prioritise ease of pronunciation, is explained in the following sections, and are displayed in \qcn{bold}. Instead, phonemic/phonetic transcriptions using the IPA are in /slashes/ and [square brackets] respectively.
+This conlang is meant primarily to exist as spoken. Phrases in \langname{} in this book are presented in its specialised orthography, which is designed to prioritise ease of pronunciation, is explained in the following sections, and are displayed \qcn{like this	}. Instead, phonemic/phonetic transcriptions using the IPA are in /slashes/ and [square brackets] respectively.
 
 
 \tableofcontents
 
 \chapter{Phonology}
 
-\langname{} makes, curiously, no phonemic distinction of voicing. It does, hower, distinguish \textbf{nasality} as a binary feature between oral and nasal, and \textbf{glottalization} from modal, to ``glottalic'', to full glottal closure. Glottalic phones involve some form of glottal intervention (as in ejectives or creaky-voiced sonorants) or coarticulated glottal closure. This structure can help navigate the oversized phonological inventory, from vowels to click consonants to non-click consonants, by elucidating these overarching symmetries:
+\langname{} makes, curiously, no phonemic distinction of voicing. It does, hower, distinguish \textbf{nasality} as a binary feature between oral and nasal, and \textbf{glottalization} from modal, to ``glottalic'', to full glottal closure. Glot\-talic phones involve some form of glot\-tal in\-ter\-ven\-tion (as in ejec\-tives or crea\-ky-voiced so\-no\-rants), while fully glottal sounds involve some (coarticulated) glottal closure. 
+
+This structure can help navigate the oversized phonological inventory, from vowels to click consonants to non-click consonants, by elucidating these overarching symmetries:
+
+%\begin{center}
+%\renewcommand{\arraystretch}{2}
+%\begin{tabular}{|c|c|c|c|c|c|c|}
+%\hline
+%\multirow{2}{*}{\makecell{Phonation\textrightarrow\\Type \textdownarrow}} & \multicolumn{2}{c|}{Modal} & \multicolumn{2}{c|}{Glottalic} & \multicolumn{2}{c|}{Full Glottal} \\ \hline
+%  & Oral & Nasal & Oral & Nasal & Oral & Nasal\\ \hline \hline   
+%Vowels & \makecell{Plain vowels\\ /a/} & \makecell{Nasal vowels \\/ã/} & \makecell{~\\Creaky-voiced\\ (laryngealised)\\ vowels -- /a̰/\\~} & \makecell{Creaky-voiced\\nasal vowels\\/ã̰/} & \\\hline
+%Clicks & \makecell{Oral clicks \\/ǃ/} & \makecell{Nasal clicks\\/ᶰǃ/} & \makecell{Glottalized clicks\\/ǃˀ/} & \makecell{~\\Pre-nasal\\glottalized\\clicks /ᶰǃˀ/\\~} &  \\  \hline
+%Non-Clicks & \makecell{Oral\\pulmonics \\/p/} & \makecell{Nasal\\ pulmonics \\ /m/} & Ejectives /qʼ/ & \makecell{~\\ Creaky-voiced \\ nasals {[m̰]} \\(only allopho-\\nically) \\~  } &\makecell{Glottal \\ stop \\ /ʔ/} \\ \hline
+%\end{tabular}
+%\end{center}
+
 
 \begin{center}
-\renewcommand{\arraystretch}{2}
-\begin{tabular}{|c|c|c|c|c|c|}
-\hline
-\multirow{2}{*}{\makecell{Phonation\textrightarrow\\Type \textdownarrow}} & \multicolumn{2}{c|}{Modal} & \multicolumn{2}{c|}{Glottalic} &  \multirow{2}{*}{\makecell{Full\\ glottal\\ closure}} \\ \cline{2-5}
-  & Oral & Nasal & Oral & Nasal & \\ \hline \hline   
-Vowels & \makecell{Plain vowels\\ /a/} & \makecell{Nasal vowels \\/ã/} & \makecell{~\\Creaky-voiced\\ (laryngealised)\\ vowels -- /a̰/\\~} & \makecell{Creaky-voiced\\nasal vowels\\/ã̰/} & \multirow{4}{*}{\makecell{Glottal \\ stop \\ /ʔ/}}\\\cline{1-5}
-Clicks & \makecell{Oral clicks \\/ǃ/} & \makecell{Nasal clicks\\/ᶰǃ/} & \makecell{Glottalized clicks\\/ǃˀ/} & \makecell{~\\Pre-nasal\\glottalized\\clicks /ᶰǃˀ/\\~} &  \\  \cline{1-5}
-Non-Clicks & \makecell{Oral\\pulmonics \\/p/} & \makecell{Nasal\\ pulmonics \\ /m/} & Ejectives /qʼ/ & \makecell{~\\ Creaky-voiced \\ nasals {[m̰]} \\(only allopho-\\nically) \\~  } & \\ \hline
+\renewcommand{\arraystretch}{3}
+\setlength\tabcolsep{1.8pt}
+\begin{tabular}{c|ccc}
+\makecell{Sound Type\textrightarrow\\ Phonation\textdownarrow} & Vowels & Clicks & Non-Clicks \\ \hline \hline
+Modal Oral &  \makecell{Plain vowels\\ /a/} & \makecell{Oral clicks \\/ǃ/} & \makecell{Oral\\pulmonics \\/p/} \\
+Modal Nasal &  \makecell{Nasal vowels \\/ã/} &  \makecell{Nasal clicks\\/ᶰǃ/} & \makecell{Nasal\\ pulmonics \\ /m/} \\ \hline
+Glottalic Oral & \makecell{~\\Creaky-voiced\\ (laryngealised)\\ vowels -- /a̰/\\~} & \makecell{Ejective-contour\\Clicks\\/ǃqʼ/} & Ejectives /qʼ/ \\
+Glottalic Nasal &  \makecell{Creaky-voiced\\nasal vowels\\/ã̰/} & \voidcell & \makecell{Creaky-voiced nasals\\ (only allophonic)\\{[m̰]} \\~  } \\ \hline
+Full Glottal Oral & \makecell{``Broken''\\vowels\\/a̰ʔa/} &  \makecell{Glottalized clicks\\/ǃˀ/} & \multirow{2}{*}{\makecell{Glottal \\ stop \\ /ʔ/} } \\
+Full Glottal Nasal & \makecell{Nasal broken\\vowels\\/ã̰ʔã/} &  \makecell{~\\Pre-nasal\\glottalized\\clicks /ᶰǃˀ/\\~} & \\
 \end{tabular}
 \end{center}
 
@@ -151,10 +193,10 @@ Five vowel qualities are phonemically distinguished:
     \end{vowel}
 \end{center}
 
-though, arguably, \qcn{u} alternates between [u] and [o] realisations in somewhat free variation. [ɑ] exist as a ``backened'' version of \qcn{a}, see Section~\ref{sec:backvowelconstraint} on contextual backening. In addition, the following diphthongs are allowed and behave essentially as additional single vowel qualities for the purpose of registers and phonotactics:
+though, arguably, \qcn{u} alternates between [u] and [o] realisations in somewhat free variation. [ɑ] exist as a ``backened'' version of \qcn{a} (see for example Section~\ref{sec:backvowelconstraint} on contextual backening). In addition, the following diphthongs are allowed and behave essentially as additional single vowel qualities for the purpose of registers and phonotactics:
 
 \begin{center}
-\qcn{au}, \qcn{ao} /aɔ/, \qcn{ai}, \qcn{oi} /ɔi/, \qcn{ui}, \qcn{oa} /oɔ/
+\qcn{au}, \qcn{ao} /aɔ/, \qcn{ai}, \qcn{oi} /ɔi/, \qcn{ui}, \qcn{oa} /ɔa/\footnote{Diphthongs are preponderantly closing; the only opening diphthong /ɔa/ is barely so.}
 \end{center}
 
 It should be noted that \qcn{ui} specifically could be seen as a backened or ``pre-backened'' version of \qcn{i}, so that, say, the sequence \qcn{ǃui} ought to be interpreted as the realisation of the phonetically impossible sequence \qcn{ǃi}. A similar but weaker relationship should exist between \qcn{ɔi} and \qcn{e}. This is paralleled in the distribution of open-to-close diphthongs which preferably appear in stressed syllables and frequently following ``backening'' clicks and consonants which wouldn't allow a front vowel in the same position. This rule isn't universal, however.
@@ -163,25 +205,32 @@ It should be noted that \qcn{ui} specifically could be seen as a backened or ``p
 
 We anticipate that \langname{} has a concept of \emph{stress} or \emph{accent} whereby one syllable in a polysyllabic word (and occasionally in a syntactically close word sequence, like a noun phrase) is marked as \textbf{stressed}. This stress is expressed mostly through vowel length and in minor part volume, but not pitch.
 
-Unstressed vowels may only be monophthongs. Stressed vowels, instead, may be a mono- or a diphthong, and in addition they carry one of four different phonations, or more precisely \textbf{four registers}, that is a phonation + tone combination:
+Unstressed vowels may only be monophthongs. Stressed vowels, instead, may be a mono- or a diphthong, and in addition they carry one of six different phonations, or more precisely \textbf{six registers}, that is a phonation + tone combination:
 
 \begin{center}
 \begin{tabular}{c c c}
 	Notation & Phonation & Tone\\
 	\qcn{aa} & Oral Modal [a] & ˧\\
 	\qcn{aã} & Nasal Modal [ã] & ˥˦\\
-	\qcn{a̰a} & Oral Creaky [a̰] & ˨\\
+	\qcn{a̰a} & Oral Creaky [a̰] & ˨ (on back vowels) ˦ (on front vowels)\\
 	\qcn{a̰ã} & Nasal Creaky [ã̰]& ˧\\
+	\qcn{a̰ʼa} & Oral Broken [a̰ʔa] & ˨ (on back vowels) ˦ (on front vowels)\\
+	\qcn{a̰ʼã} & Nasal Broken [ã̰ʔã] & ˥˦ \\
 \end{tabular}
 \end{center}
 
-Creaky voice is realized as laryngealisation (creaky voice proper) or even pharyngealisation (``strident'' or ``sphyncteric''), with no phonemic distinction. Front vowels are more likely to be sphyncteric than proper creaky. As a variant on the orthography, creaky voice may be marked with a grave accent \qcn{a̰a} \textrightarrow{}\qcn{àa} if combining diacritics are not allowed or unsupported.
+Creaky voice is realized as laryngealisation (creaky voice proper) or even pharyngealisation (``strident'' or ``sphyncteric''), with no phonemic distinction. Front vowels \qcn{ḛ ḭ} are more likely to be sphyncteric than proper creaky, and back vowels \qcn{o̰ ṵ} are more likely creaky than sphincteric. \qcn{a̰} is either, consistently with the frontness of its realisation. As a variant on the orthography, creaky voice may be marked with a grave accent \qcn{a̰a} \textrightarrow{}\qcn{àa} if combining diacritics are not allowed or unsupported.
 
-All vowel qualities and the four diphthongs can take any one of the four registers, producing four different phonemes, except for \qcn{e} whose nasal forms merge with those of \qcn{i}. The nasal forms of \qcn{u} are special in that the nasalisation and lip closure are strong enough that they are better transcribed as a syllabic /m/:
+The ``Broken'' register is classed as a type of phonation rather than a cluster of pre-existing sounds. It consists of a crescendo of glottalisation up to a glottal stop that ``breaks'' the vowel. An off-glide of the same vowel quality escapes right after. This produces a characteristic stuttered sound, which one could imagine as the phonation equivalent of a contour tone. The off-glide is truly an inseparable part of the pattern; it is impossible to have broken diphthongs like \qcn{*a̰ʼi} and nasality is consistent across the glottal stop.
+
+All of the vowel \qcn{e}'s nasal forms merge with those of \qcn{i}, so that there is no \qcn{*ẽ}.
+
+The nasal forms of \qcn{u} are special in that the nasalisation and lip closure are strong enough that they are better transcribed as a syllabic /m/:
 
 \begin{center}
 	\qcn{*uũ} \textrightarrow \qcn{um} \textrightarrow /m/ [m̩˥˦] \\
 	\qcn{*ṵũ} \textrightarrow \qcn{ṵm} \textrightarrow /m̰/ [m̩̰˧]\\
+	\qcn{*ṵʼũ} \textrightarrow \qcn{mʼm} \textrightarrow /m̰ʔm/ [m̩̰ʔm˧]\\
 \end{center}
 
 Degrees of rounding of such syllabic /m/ are usually inconsequential.
@@ -204,22 +253,27 @@ Degrees of rounding of such syllabic /m/ are usually inconsequential.
 
 \begin{center}
 \renewcommand{\arraystretch}{1.5}
-\begin{tabular}{|c|c|c|c|c|}
+\begin{tabular}{ccccc}
 \hline
 \multicolumn{5}{|c|}{Unstressed (always short)}\\ \hline 
-\qcn{a} /a/ & \qcn{e} /e/&\qcn{i} /i/&\qcn{o} /ɔ/&\qcn{u} /u/ \\ \hline \hline
-\multicolumn{5}{|c|}{Stressed}\\ \hline
-\multicolumn{2}{|c|}{Plain} & \multirow{2}{*}{Nasal} & \multirow{2}{*}{Creaky} & \multirow{2}{*}{Nasal Creaky}\\ \cline{1-2}
+\qcn{a} /a/ & \qcn{e} /e/&\qcn{i} /i/&\qcn{o} /ɔ/&\qcn{u} /u/ \\ \hline 
+\end{tabular}
+
+\setlength\tabcolsep{3pt}
+\begin{tabular}{ccccccc}
+\hline
+\multicolumn{7}{|c|}{Stressed}\\ \hline
+\multicolumn{2}{c}{Plain} & \multirow{2}{*}{Nasal} & \multirow{2}{*}{Creaky} & \multirow{2}{*}{\makecell{Nasal\\Creaky}}& \multirow{2}{*}{Broken}& \multirow{2}{*}{\makecell{Nasal\\Broken}}\\
 Short & Long &&& \\ \hline
-\qcn{a} /a/&\qcn{aa} /aː/ & \qcn{aã} /ãː/ & \qcn{a̰a} /a̰ː/ & \qcn{a̰ã} /ã̰ː/ \\ \hline
-\qcn{e} /e/&\qcn{ee} /eː/ & \multirow{2}{*}{\qcn{iĩ} /ĩː/} & \qcn{ḛe} /ḛː/ & \multirow{2}{*}{\qcn{ḭĩ} /ḭ̃ː/}  \\ \cline{1-2} \cline{4-4}
-\qcn{i} /i/&\qcn{ii} /iː/ &  & \qcn{ḭi} /ḭː/ & \\ \hline
-\qcn{o} /ɔ/&\qcn{oo} /ɔː/ & \qcn{oõ} /ɔ̃ː/ & \qcn{o̰o} /ɔ̰ː/ & \qcn{o̰õ} /ɔ̰̃ː/ \\ \hline
-\qcn{u} /u/&\qcn{uu} /uː/ & \qcn{um} /mː/ & \qcn{a̰a} /ṵː/ & \qcn{ṵm} /m̰ː/ \\ \hline
-&\qcn{au} /au/ & \qcn{am} /ãm/ & \qcn{àu} /a̰ṵ/ & \qcn{a̰m} /ã̰m̰/ \\ \hline
-&\qcn{ui} /ui/ & \qcn{uĩ} /mĩ/ & \qcn{ṵi} /ṵḭ/ & \qcn{ṵĩ} /m̰ḭ̃/ \\ \hline
-&\qcn{oi} /ɔi/ & \qcn{oĩ} /ɔ̃ĩ/ & \qcn{o̰i} /ɔ̰ḭ/ & \qcn{o̰ĩ} /ɔ̰̃ḭ̃/ \\ \hline
-&\multicolumn{4}{c|}{\emph{(same for all remaining diphthongs without \qcn{u} )} } \\ \hline 
+\qcn{a} /a/&\qcn{aa} /aː/ & \qcn{aã} /ãː/ & \qcn{a̰a} /a̰ː/ & \qcn{a̰ã} /ã̰ː/  & \qcn{a̰ʼa} /a̰ː/ & \qcn{a̰ʼã} /ã̰ː/ \\ \hline
+\qcn{e} /e/&\qcn{ee} /eː/ & \multirow{2}{*}{\qcn{iĩ} /ĩː/} & \qcn{ḛe} /ḛː/ & \multirow{2}{*}{\qcn{ḭĩ} /ḭ̃ː/}  & \qcn{ḛʼe} /ḛː/ & \multirow{2}{*}{\qcn{ḭʼĩ} /ḭ̃ː/}  \\ \cline{1-2} \cline{4-4}
+\qcn{i} /i/&\qcn{ii} /iː/ &  & \qcn{ḭi} /ḭː/ &   & \qcn{ḭʼi} /ḭː/ &\\ \hline
+\qcn{o} /ɔ/&\qcn{oo} /ɔː/ & \qcn{oõ} /ɔ̃ː/ & \qcn{o̰o} /ɔ̰ː/ & \qcn{o̰õ} /ɔ̰̃ː/& \qcn{o̰ʼo} /ɔ̰ː/ & \qcn{o̰ʼõ} /ɔ̰̃ː/ \\ \hline
+\qcn{u} /u/&\qcn{uu} /uː/ & \qcn{um} /mː/ & \qcn{ṵu} /ṵː/ & \qcn{ṵm} /m̰ː/  & \qcn{ṵʼu} /ṵː/ & \qcn{mʼm} /m̰ː/\\ \hline
+&\qcn{au} /au/ & \qcn{am} /ãm/ & \qcn{a̰u} /a̰ṵ/ & \qcn{a̰m} /ã̰m̰/ \\ \cline{2-5}
+&\qcn{ui} /ui/ & \qcn{uĩ} /mĩ/ & \qcn{ṵi} /ṵḭ/ & \qcn{ṵĩ} /m̰ḭ̃/ \\ \cline{2-5}
+&\qcn{oi} /ɔi/ & \qcn{oĩ} /ɔ̃ĩ/ & \qcn{o̰i} /ɔ̰ḭ/ & \qcn{o̰ĩ} /ɔ̰̃ḭ̃/ \\ \cline{2-5}
+&\multicolumn{4}{c}{\emph{(etc. for remaining diphthongs)} } \\ \cline{2-5}
 \end{tabular}
 \end{center}
 
@@ -235,16 +289,16 @@ Cells in grey are unattested in \langname{} or impossible. Cells spanning multip
 
 \begin{center}
 \renewcommand{\arraystretch}{1.9}
-\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|}
-\cline{3-9}
-\multicolumn{2}{c|}{} & Labial & Dental & Apical & Palatal & Lateral & Velar & Uvular\\ \hline 
-\multicolumn{2}{|c|}{Ejective} &\voidcell & \voidcell & \qcn{ṭʼ}  /ʈʼ/ & \qcn{cʼ} &  	 \qcn{tłʼ} /t͡ɬʼ/ & \voidcell &\qcn{qʼ}  \\ \hline 
-\multirow{5}{*}{Pulmonic} & Stop & \qcn{p} & \multirow{2}{*}{\makecell{\qcn{ṯ}\\[.5em]/t͡s̪/}}  & \qcn{ṭ} /ʈ/ & 	\qcn{j}/ɟ/ & \multirow{2}{*}{\makecell{\qcn{tł}\\[.5em]/t͡ɬ/}}	 	&	\multirow{2}{*}{\qcn{k}} & \multirow{2}{*}{\voidcell}  \\ \cline{2-3} \cline{5-6} 
+\setlength\tabcolsep{1.5pt}
+\begin{tabular}{cc|cccccccc}
+\multicolumn{2}{c}{} & Labial & Dental & Apical & Palatal & Lateral & Velar & Uvul. & Glott.\\ \hline 
+\multicolumn{2}{c|}{Ejective} &\voidcell & \voidcell & \qcn{ṭʼ}  /ʈʼ/ & \qcn{cʼ} &  	 \qcn{tłʼ} /t͡ɬʼ/ & \voidcell & \qcn{qʼ} &  \\ \hline \hline
+\multirow{5}{*}{\rotatebox[origin=c]{90}{Pulmonics}} & Stop & \qcn{p} & \multirow{2}{*}{\makecell{\qcn{ṯ}\\[.5em]/t͡s̪/}}  & \qcn{ṭ} /ʈ/ & 	\qcn{j}/ɟ/ & \multirow{2}{*}{\makecell{\qcn{tł}\\[.5em]/t͡ɬ/}}	 	&	\multirow{2}{*}{\qcn{k}} & \multirow{2}{*}{\voidcell} & \multirow{4}{*}{\makecell{\qcn{ʼ}\\/ʔ/}}  \\ \cline{2-3} \cline{5-6} 
 & Affricate & \voidcell &  & \qcn{tṣ} /ʈ͡ʂ/ & 	\qcn{tš} /t͡ʃ/ & 	&  & \voidcell  	 \\ \cline{2-9}
 & Trill & \voidcell & \voidcell & \qcn{r} /r/ & \voidcell & \voidcell & \voidcell & \voidcell \\  \cline{2-9}
-& Nasal & \qcn{m} &  \qcn{ṉ} /n̪/ & \qcn{ṇ} /ɳ/ & \qcn{ñ} /ɲ/ & \qcn{l} & \multicolumn{2}{c|}{\qcn{ŋ} /ŋ \textasciitilde ɴ/}  \\ \cline{2-9}
-& Glot. Stop & \multicolumn{7}{c|}{\qcn{ʼ}/ʔ/} \\ \hline
-\multirow{11}{*}{Click} & Plain & \qcn{ʘ}  & \qcn{ʇ} & \qcn{ǃ} & \qcn{ǂ} & \qcn{ǁ}  \\ \cline{2-7}
+& Nasal & \qcn{m} &  \makecell{\qcn{ṉ}\\ /n̪/} & \makecell{\qcn{ṇ}\\/ɳ/} & \makecell{\qcn{ñ}\\/ɲ/} & \qcn{l} & \multicolumn{2}{c}{\makecell{\qcn{ŋ}\\/ŋ \textasciitilde ɴ/}}  \\ \hline \hline
+%& Glot. Stop & & & & & & &  \\ \hline \hline
+\multirow{11}{*}{\rotatebox[origin=c]{90}{Clicks}} & Plain & \qcn{ʘ}  & \qcn{ʇ} & \qcn{ǃ} & \qcn{ǂ} & \qcn{ǁ}  \\ \cline{2-7}
  & Glottalised & \voidcell & \qcn{ʇʼ} &\qcn{ǃ} & \qcn{ǂʼ} & \qcn{ǁʼ}  \\ \cline{2-7}
  & Fric.-release & \voidcell  & \qcn{ʇx} &\qcn{ǃx} &\qcn{ǂx} & \qcn{ǁx}  \\ \cline{2-7}
  & Ejec.-release & \voidcell & \qcn{ʇqʼ} &\qcn{ǃqʼ} &\qcn{ǂqʼ} & \qcn{ǁqʼ}  \\ \cline{2-7}
@@ -283,7 +337,7 @@ There is significant allophonic variance associated specifically with the lack o
 
 \begin{itemize}
 	\item Labial or labiodental fricatives and affricates are unattested.
-	\item The voiced stops [b], [d̪], [ɖ] are allophonic for the nasals /m/ /n̪/ /ɳ/. However, in palatal articulation it is [c] and [ɟ] that are realisation of a single phoneme /ɟ/, with the voiced form more common, while the scope of /ɲ/ is narrower than the other nasals.
+	\item Because of the phonemic distinction of nasality, the voiced stops [b], [d̪\textasciitilde{}ð], [ɖ] are allophonic for the voiceless stops /p/ /t͡s̪/ /ʈ/, instead of the nasals /m/ /n̪/ /ɳ/ as would be more typical. The same holds in palatal articulation where [c] and [ɟ] are the same phoneme, but in this case the voiced form is more common realization, and so it is marked as /ɟ/, or \qcn{j}.
 	\item In guttural (velar-glottal) position, curiosly [ɡ] can substitute not only for /ŋ/ but also for the glottal stop /ʔ/. As for /k/, it may often affricate to [k͡x] or even [x] directly, especially before front vowels, while a back vowel may uvularise it to [q].
 	\item /r/ is always a trill, never tapped (a tap is more likely to be perceived as a nasal). It is geminated always in medial position (which we reproduce in the orthography with \qcn{rr}), occasionally even word-initially.
 \end{itemize}
@@ -398,7 +452,7 @@ Here and in the following, these abbreviations are employed to describe phonotac
 	P & Any pulmonic consonant. \\
 	E & Any ejective consonant.\\
 	M & A sonorant consonant (nasal or trill).\\
-	V & Any vowel, mono- or diphthong, stressed or unstressed, in any register \\
+	V & \makecell{Any vowel, mono- or diphthong, \\stressed or unstressed, in any register} \\
  \stress{} & The following syllable is stressed \\
 	v & An unstressed vowel (monophthong) 
 \end{tabular}
@@ -484,11 +538,11 @@ More accurately it can be described as a reduplication C \textrightarrow C\texts
 
 \subsection{Sandhi Rules}
 
-Adjacent words that are syntactically close (generally, they are part of the same noun phrase, they are a noun-classifier pair, a dependant-postposition pair, an auxiliary-main verb pair, or simply part of a very short clause) are usually pronounced with no gap between them and are affected by \textbf{syntactical sandhi rules}.  These are assimilatory processes involving the vowel V that ends the preceding word, and the first sound of the following word. Depending on the latter, one may have vowel-click (VꞰ), vowel-vowel (VV), and vowel-pulmonic (VP) sandhi. Sandhi processes are never written in the orthography.
+Adjacent words that are syntactically close (generally, they are part of the same noun phrase, they are a noun-classifier pair, a de\-pen\-dant-post\-po\-si\-tion pair, an auxiliary-main verb pair, or simply part of a very short clause) are usually pronounced with no gap between them and are affected by \textbf{syntactical sandhi rules}.  These are assimilatory processes involving the vowel V that ends the preceding word, and the first sound of the following word. Depending on the latter, one may have vowel-click (VꞰ), vowel-vowel (VV), and vowel-pulmonic (VP) sandhi. Sandhi processes are never written in the orthography.
 
-\textbf{VꞰ sandhi} consists simply in V assimilating to the nasality of Ʞ, similarly to what would happen mid-word. This nasality will only be triggered if V is unstressed.
+\emph{VꞰ sandhi} consists simply in V assimilating to the nasality of Ʞ, similarly to what would happen mid-word. This nasality will only be triggered if V is unstressed.
 
-In \textbf{VV sandhi}, the second vowel is an opening vowel and therefore always unstressed. Quality assimilation occurs according to the following scheme:
+In \emph{VV sandhi}, the second vowel is an opening vowel and therefore always unstressed. Quality assimilation occurs according to the following scheme:
 
 \begin{itemize}
 \item if the first vowel is a diphthong, there is no assimilation and an epenthetic \qcn{ʼ} is inserted.
@@ -500,9 +554,28 @@ In \textbf{VV sandhi}, the second vowel is an opening vowel and therefore always
 
 If there is assimilation, then the first vowel determines the register.
 
-\cmnt{Todo}
+\subsection{Click-Pulmonic Harmony}
 
+\textbf{Click-Pulmonic Harmony} is a specific kind of consonantal harmony that occurs in words that contain both a click and a secondary pulmonic, (v)ꞰVPv. At present, Ʞ-P harmony is mostly a phonological constraint on roots rather than a dynamic phenomenon given that there is no real morphology to speak of. Therefore, a speaker or a potential learner of the language need not worry about this restriction.
 
+Ʞ-P harmony only concerns the four lingual clicks \qcn{ʇ ǃ ǂ ǁ}, and restricts the possible points of articulation of P, provided that P is coronal (i.e. labial and dorsals are unaffected). This is due to the difficulty of transitioning between certain too different articulations, especially with the added momentum from the click release. The pulmonic consonants that may follow each of the clicks are as follows:
+
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+Preceding Ʞ & \qcn{ʇ} & \qcn{ǃ} & \qcn{ǂ} & \qcn{ǁ} \\ \hline \hline
+Bidental & Yes & No & No & No \\\hline
+Apical/Retroflex & No & Yes & No & Yes \\\hline
+Laminal/Palatal & No & Yes & Yes & Rarely \\\hline
+Lateral & Yes & Yes & Rarely & Yes \\ \hline
+\end{tabular}
+\end{center}
+
+The occasional word violates the constraint -- for example \qcn{ǂxoiṭa} is Palatal \textrightarrow{} Retroflex, which is strange, coherently with the fact that it means \emph{strange}. 
+
+Usually disharmonic tension is less likely to be problematic if a long vowel, especially a diphthong, separates the two offending consonants. Harmony does not usually act across word boundaries (likely because it would create too many ambiguities), but short vowels may lengthen to reduce strain, in particular if the words are syntactically close. For example, in the very name of the language, \langnamelong{}, the two adjacent words are syntactically related as a determiner-classifier pair, and the nominally short vowel \qcn{a} separates the disharmonic \qcn{ǂ} and \qcn{ṇ}. Therefore the vowel is usually lengthened in pronunciation, to ease the difficult movement. Hence the final pronunciation [ǂɑː ɳ̰m̩̰ḭ̃˧].
+
+While weaker, a form of more general consonantal harmony applies when the main consonant is not a click. In particular bidentals are never followed by non-bidentals.
 
 \section{Notes on Orthography}
 
@@ -510,7 +583,7 @@ The orthography of \langname{} is designed by prioritizing these guidelines:
 
 \begin{itemize}
 	\item Transparency: pronunciation should be easy and immediate to evince and reproduce. In particular, clicks should be well distinguished from pulmonics.
-	\item Phonemic: it should be unambiguous, i.e. broad transcription should be uniquely determined.
+	\item Phonemic: it should be unambiguous, i.e. broad transcrip\-tion should be uniquely determined.
 	\item Clarity: written text should be easily readable, avoiding too similar glyphs, or superscript and subscript glyphs.
 	\item Portability: no combining diacritical marks should be used; only existing precomposed letters may be employed. (This is due to combining glyphs rendering improperly in many contexts). 
 \end{itemize}
@@ -600,7 +673,7 @@ chicken \CLF{bird} seven\\
 \glt seven chickens.
 \end{exe}
 
-As it happens in many languages, the numeral \transl{ǃòo}{one} can be used to mark indeterminacy in situations where the presence of the classifier would be triggered anyway. For example:
+The explicit numeral \transl{ǃo̰o}{one} can be used to mark indeterminacy in situations where the presence of the classifier would be triggered anyway. For example:
 
 \begin{exe}
 \ex
@@ -609,16 +682,46 @@ mother/breast \CLF{woman} one\\
 \glt a mother (but \textbf{not} a breast)
 \end{exe}
 
-\cmnt{To do all of this}
-
-
 
 
 
 
 \subsection{Possession and adjectives}
 
+Dependants of a noun phrase precede the noun / pronoun they modify. This occurs always, independently of whether the dependant is used as a determiner or not\footnote{In general, there is no specific syntactic nor morphological marking for determiner phrases.}. Adjectives are always uninflected:
+
+\begin{exe}
+\ex
+\gll ǁqʼa uɴʇaã ṭa̰a\\
+big wolf \CLF{predatory animal}\\
+\glt the big wolf
+\end{exe}
+
+Because of the effect of zero-copula, and the VS word order in intransitive clauses, there is no true distinction between an adjective and an intransitive/copular verb meaning to be that adjective (see Section~\ref{sec:copula}).
+
+If a \emph{determined} noun phrase is placed as a dependant for another noun phrase, it marks an inalienable possessive. For example
+
+\begin{exe}
+\ex
+\gll ŋa̰ã tła šǃʼa\\
+woman \CLF{woman} teeth\\
+\glt The woman's teeth
+\end{exe}
+
+Note that the classifier ensures \qcn{ŋa̰ã tła} is determined. If it was not, we would open ourselves to ambiguity:
+
+\begin{exe}
+\ex
+\gll ŋa̰ã šǃʼa\\
+woman teeth\\
+\glt Teeth of a woman / *Female teeth
+\end{exe}
+
+Clearly, often context will be able to disambiguate. 
+
 \subsection{Nominalisation}
+
+\cmnt{todo}
 
 \section{Alignment and Coordination}
 
@@ -739,7 +842,7 @@ However, in the absence of another true agent, the distinction between agent and
 
 \begin{exe}
 \ex
-\gll Uǁa̰a ku iɴǁàa Qʼoaʇṵu tła\\
+\gll Uǁa̰a ku iɴǁa̰a Qʼoaʇṵu tła\\
 Uǁa̰a \CLF{man} sleep Qʼoaʇṵu \CLF{young woman}\\
 \glt Uǁa̰a made Qʼoaʇṵu sleep. (lit. he slept her)
 \end{exe}
@@ -752,6 +855,10 @@ and, as seen before, forcing the argument into ablative position marks either a 
  sleep Qʼoaʇṵu \CLF{young woman} Uǁa̰a \CLF{man} ABL\\
 \glt It was Uǁa̰a that made Qʼoaʇṵu sleep / Qʼoaʇṵu slept because of Uǁa̰a
 \end{exe}
+
+\section{Copula}\label{sec:copula}
+
+
 
 \section{Verbal voices}\label{sec:valencychanging}
 
@@ -815,10 +922,10 @@ Exceptional within the language, the 1st and 2nd person pronouns are inflected, 
 \hline
 PNC & Refers to & \ERG & \INTR & \ACC \\ \hline \hline
 1SG & Just the speaker &\qcn{ǃa} & \qcn{ja} & \qcn{eǃuũ}\\ \hline
-1DU & The speaker + one addressee & \multicolumn{2}{c|}{\qcn{ǃxòo}} & \qcn{aɴǃxòo} \\ \hline
-1PL.INCL & Speaker + addressee + others & \qcn{ʇùupa} & \multicolumn{2}{c|}{\qcn{ùuma}} \\ \hline
+1DU & The speaker + one addressee & \multicolumn{2}{c|}{\qcn{ǃxo̰o}} & \qcn{aɴǃxo̰o} \\ \hline
+1PL.INCL & Speaker + addressee + others & \qcn{ʇṵupa} & \multicolumn{2}{c|}{\qcn{ṵuma}} \\ \hline
 1PL.EXCL & Speaker + others (no addressee) &\qcn{ǃauṭa} & \qcn{jaṭa} & \qcn{eǃuũṭa}\\ \hline
-2SG & Only one addressee &\multirow{2}{*}{\qcn{uǃʼui}} & \multirow{2}{*}{\qcn{uči}} & \qcn{ǃuũñi}\\ \cline{1-2} \cline{5-5}
+2SG & Only one addressee &\multirow{2}{*}{\qcn{uǃʼui}} & \multirow{2}{*}{\qcn{utši}} & \qcn{ǃuũñi}\\ \cline{1-2} \cline{5-5}
 2PL & Addressee(s) (+ others) &  &  & \qcn{ǃuũṭa}\\\hline
 \end{tabular}
 \end{center}
@@ -854,7 +961,7 @@ A simple (Patientive) relative clause is not marked with any special grammatical
 
 \begin{exe}
 \ex
-\gll ǃa łǁa [ ǃa ǂqʼula ʼṵa ] ŋa̰ã (nui) \\
+\gll ǃa łǁa [ ǃa ǂqʼula ʼṵa ] ŋa̰ã (ṉui) \\
 1S.\ERG{} see [ 1S.\ERG{} before meet ] woman (\CLF{person}) \\
 \glt I saw the woman I had met.
 \end{exe}
@@ -922,7 +1029,7 @@ Finally, we may also much more easily have regular SVCs where the first verb is 
 
 \begin{exe}
 \ex
-\gll ǃXaoʼaã ku ɴǁxape tsui ɴǃupaṇa  tła\\
+\gll ǃXaoʼaã ku ɴǁxape ṯui ɴǃupaṇa  tła\\
 ǃXaoʼaã \CLF{man} insult cry ɴǃupaṇa \CLF{woman}\\
 \glt ǃXaoʼaã insulted ɴǃupaṇa and she cried (made her cry).
 \end{exe}
@@ -938,14 +1045,18 @@ If both are transitive, we have a \textbf{binary SVC}, where both agent and pati
 
 In summary, the following kinds of SVCs are possible:
 
-\begin{tabular}{|c|c|c|c|c|}
+\begin{center}
+\renewcommand{\arraystretch}{2}
+\setlength\tabcolsep{1.3pt}
+\begin{tabular}{ccccc}
 \hline
-\textbf{SVC type} & \textbf{Verb 1} & \textbf{Verb 2} & \textbf{Shared argument} & \textbf{Likely translation}\\\hline \hline
+\textbf{SVC type} & \textbf{V. 1} & \textbf{V. 2} & \textbf{Shared argument} & \textbf{Likely translation}\\\hline \hline
 Intr. Patientive & intr. & intr. & Patient & Tense/Aspectual \\ \hline
-Chain & intr. & tr. &\makecell{One infixed argument acting as\\ Patient and Agent respectively} & Tense/Aspectual \\\hline
-Trans. Patientive & tr. & intr. & Patient & Causal \\\hline
-Binary & tr. & tr. & Both Patient and Agent separately & Consecution \\  \hline
+Chain & intr. & tr. &\makecell{One infixed argument\\ acting as Patient\\and Agent respectively} & Tense/Aspectual \\\hline
+Tr. Patientive & tr. & intr. & Patient & Causal \\\hline
+Binary & tr. & tr. & \makecell{Both Patient and\\Agent separately} & Consecution \\  \hline
 \end{tabular}
+\end{center}
 
 \section{Imperatives and Polarity}
 
@@ -961,7 +1072,7 @@ Binary & tr. & tr. & Both Patient and Agent separately & Consecution \\  \hline
 
 \chapter{Corpus}
 
-\section{The North Wind and the Sun -- \qcn{ɴǃòõ Uǃqʼa maã Jùu aʇe ǂu}}
+\section{The North Wind and the Sun}
 
 \newcommand{\prose}[1]{\begin{center}\begin{minipage}{0.8\textwidth}\large #1\end{minipage}\end{center}}
 

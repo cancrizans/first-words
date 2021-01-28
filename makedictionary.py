@@ -224,7 +224,7 @@ def rank_consonant(c):
 
 
 
-vowel_regex = re.compile(r"[aeiouàèìòù]")
+vowel_regex = re.compile(r"[aeiouàèìòùṵḭḛ]")
 
 
 
@@ -258,10 +258,10 @@ sortedkeys.sort(key = rank_consonant)
 totalcount = 0
 for k in sortedkeys:
 	count = len(keyed_lexicon[k])
-	print("%s - %d entries"%(k,count))
+#	print("%s - %d entries"%(k,count))
 	totalcount += count
 
-print("total entries %s"%totalcount)
+#print("total entries %s"%totalcount)
 
 
 

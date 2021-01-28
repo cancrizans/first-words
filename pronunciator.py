@@ -10,14 +10,15 @@ IPAsubs = {
 	r"[nɴ]([ʘǀǁǂǃ])"		:r"ᵑ\1" ,
 	r"([ʘǀǁǂǃ])qʼ"		:r"\1͡qE",
 	r"([ʘǀǁǂǃ])ʼ"		:r"\1ˀ" ,
-	r"ʛ"				:r"͡ɢ"	,
+	r"ʛ"				:r"͡ʛ6"	,
 	"sǀ"				:"s̪ǀ"	,
 	r"[sṣ]ǂ"			:"ʂǂ"	,
-	r"[sš]!"			:"ʃ!"	,
+	r"[sš]ǃ"			:"ʃǃ"	,
 	r"[sšł]ǁ"			:"ɬǁ"	,
 #	Ejectives
 	r"([ṭłqc])ʼ"		:r"\1E" ,
 #	Pulmonics unaffected
+	"tš"				:"č"	,
 	"ṭ"					:"ʈ"    ,
 	"tł"				:"L"	,
 	"ʼ"					:"ʔ"	,
@@ -27,6 +28,7 @@ IPAsubs = {
 	"ñ"					:"ɲ"	,
 	"č"					:"C"	,
 	"ts"				:"D"	,
+	"ṯ"					:"D"	,
 	"tṣ"				:"ʈ͡ʂ"	,
 	"t"					:"D"	,
 	"j"					:"ɟ"	,
@@ -36,6 +38,10 @@ IPAsubs = {
 	"C"					:"t͡ʃ"	,
 	"L"					:"t͡ɬ"	,
 # 	Vowel segment unrolling
+	"([aeiou])̰"			:r"C\1" ,
+	"ḛ"					:r"Ce"	,
+	"ḭ"					:r"Ci"	,
+	"ṵ"					:r"Cu"	,
 	"à"					:"Ca"	,
 	"è"					:"Ce"	,
 	"ì"					:"Ci"	,
@@ -47,6 +53,9 @@ IPAsubs = {
 	"õ"					:"ɔN"	,
 	"ũ"					:"uN"	,
 	"o"					:"ɔ"	,
+#	syllabic m detection
+	r"m([^aeiɔouC]|\b)"	:"uN"	,
+
 #	Monophthongize
 	r"([aeiɔu])\1"		:r"\1ː"	,
 #	Bring nasal in
