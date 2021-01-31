@@ -280,6 +280,18 @@
 </description>
 <trait name="catalog-source-id" value="Particle"/>
 </range-element>
+<range-element id="Postverb" guid="37d177c0-82fe-4a28-87be-19d93a636f3a">
+<label>
+<form lang="en"><text>Postverb</text></form>
+</label>
+<abbrev>
+<form lang="en"><text>postverb</text></form>
+</abbrev>
+<description>
+<form lang="en"><text>An element which may be compounded after a verb, to signal information such as tense, direction, etc..</text></form>
+</description>
+<trait name="catalog-source-id" value=""/>
+</range-element>
 </range>
 <range id="lexical-relation">
 <!--The following range elements were added by FieldWorks Language Explorer. -->
@@ -20584,6 +20596,18 @@
 <form lang="en"><text>A particle is a part of speech whose members do not belong to one of the main classes of words, is invariable, and typically has grammatical or pragmatic meaning.</text></form>
 </description>
 <trait name="catalog-source-id" value="Particle"/>
+</range-element>
+<range-element id="Postverb" guid="37d177c0-82fe-4a28-87be-19d93a636f3a">
+<label>
+<form lang="en"><text>Postverb</text></form>
+</label>
+<abbrev>
+<form lang="en"><text>postverb</text></form>
+</abbrev>
+<description>
+<form lang="en"><text>An element which may be compounded after a verb, to signal information such as tense, direction, etc..</text></form>
+</description>
+<trait name="catalog-source-id" value=""/>
 </range-element>
 </range>
 <range id="morph-type">

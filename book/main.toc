@@ -5,15 +5,15 @@
 \contentsline {section}{\numberline {1.2}Consonants}{12}{section.1.2}% 
 \contentsline {subsection}{\numberline {1.2.1}Ejectives}{14}{subsection.1.2.1}% 
 \contentsline {subsection}{\numberline {1.2.2}Pulmonics}{14}{subsection.1.2.2}% 
-\contentsline {subsection}{\numberline {1.2.3}Clicks}{15}{subsection.1.2.3}% 
-\contentsline {section}{\numberline {1.3}Phonotactics}{20}{section.1.3}% 
+\contentsline {subsection}{\numberline {1.2.3}Clicks}{16}{subsection.1.2.3}% 
+\contentsline {section}{\numberline {1.3}Phonotactics}{21}{section.1.3}% 
 \contentsline {subsection}{\numberline {1.3.1}Back vowel constraint}{21}{subsection.1.3.1}% 
 \contentsline {subsection}{\numberline {1.3.2}Syllable structure and articulatory constraints}{22}{subsection.1.3.2}% 
 \contentsline {subsection}{\numberline {1.3.3}Word structure and stress}{23}{subsection.1.3.3}% 
-\contentsline {subsection}{\numberline {1.3.4}Irregular words and reduplication}{23}{subsection.1.3.4}% 
+\contentsline {subsection}{\numberline {1.3.4}Irregular words and reduplication}{24}{subsection.1.3.4}% 
 \contentsline {subsection}{\numberline {1.3.5}Sandhi Rules}{24}{subsection.1.3.5}% 
 \contentsline {subsection}{\numberline {1.3.6}Click-Pulmonic Harmony}{25}{subsection.1.3.6}% 
-\contentsline {section}{\numberline {1.4}Notes on Orthography}{26}{section.1.4}% 
+\contentsline {section}{\numberline {1.4}Notes on Orthography}{27}{section.1.4}% 
 \contentsline {chapter}{\numberline {2}Grammar}{29}{chapter.2}% 
 \contentsline {section}{\numberline {2.1}The Noun Phrase}{29}{section.2.1}% 
 \contentsline {subsection}{\numberline {2.1.1}Possession and adjectives}{31}{subsection.2.1.1}% 
@@ -28,7 +28,7 @@
 \contentsline {subsubsection}{Classifiers are the 3rd person pronouns}{39}{section*.2}% 
 \contentsline {subsection}{\numberline {2.5.2}Demonstrative Pronouns}{39}{subsection.2.5.2}% 
 \contentsline {section}{\numberline {2.6}Relative Clauses}{39}{section.2.6}% 
-\contentsline {section}{\numberline {2.7}Serial Verb Constructions}{40}{section.2.7}% 
+\contentsline {section}{\numberline {2.7}Serial Verb Constructions}{41}{section.2.7}% 
 \contentsline {section}{\numberline {2.8}Imperatives and Polarity}{43}{section.2.8}% 
 \contentsline {section}{\numberline {2.9}Interrogatives}{43}{section.2.9}% 
 \contentsline {section}{\numberline {2.10}Topic-Comment}{43}{section.2.10}% 

@@ -224,7 +224,7 @@ def rank_consonant(c):
 
 
 
-vowel_regex = re.compile(r"[aeiouàèìòùṵḭḛ]")
+vowel_regex = re.compile(r"[aeiouàèìòùṵḭḛ]|aʼa|eʼe|iʼi|oʼo|mʼm|aʼã|iʼĩ|oʼõ")
 
 
 
@@ -235,6 +235,7 @@ for entry in lexicon:
 	if len(consonants)>1:
 		consonant = consonants[1] if consonants[0] == "" else consonants[0]
 	else:
+		print(entry.local)
 		raise ValueError
 
 	if not (consonant in keyed_lexicon):

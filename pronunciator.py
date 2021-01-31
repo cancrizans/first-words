@@ -2,6 +2,7 @@
 IPAsubs = {
 #	Syllabic m
 	"mm"				:"uũ",
+	"mʼm"				:"ṵʼũ",
 	r"([aàeèiìoòuù])m([^aàeèiìoòuùm]|$)"	:r"\1ũ\2" ,
 #	Clicks
 	"ʇ"					:"ǀ"	,
@@ -55,6 +56,9 @@ IPAsubs = {
 	"o"					:"ɔ"	,
 #	syllabic m detection
 	r"m([^aeiɔouC]|\b)"	:"uN"	,
+
+# 	broken nasal phonation
+	r"C([aeiɔou])ʔ\1N" 	:r"C\1Nʔ\1N",
 
 #	Monophthongize
 	r"([aeiɔu])\1"		:r"\1ː"	,

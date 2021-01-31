@@ -1,0 +1,1 @@
+One day, ǂṴʼulaã awoke because of the distant howl of a hurt beast. B
