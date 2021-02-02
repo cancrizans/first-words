@@ -28,14 +28,15 @@
 \contentsline {subsubsection}{Classifiers are the 3rd person pronouns}{39}{section*.2}% 
 \contentsline {subsection}{\numberline {2.5.2}Demonstrative Pronouns}{39}{subsection.2.5.2}% 
 \contentsline {section}{\numberline {2.6}Relative Clauses}{39}{section.2.6}% 
-\contentsline {section}{\numberline {2.7}Serial Verb Constructions}{41}{section.2.7}% 
+\contentsline {section}{\numberline {2.7}Serial Verb Constructions}{40}{section.2.7}% 
 \contentsline {section}{\numberline {2.8}Imperatives and Polarity}{43}{section.2.8}% 
 \contentsline {section}{\numberline {2.9}Interrogatives}{43}{section.2.9}% 
 \contentsline {section}{\numberline {2.10}Topic-Comment}{43}{section.2.10}% 
 \contentsline {chapter}{\numberline {3}Corpus}{45}{chapter.3}% 
-\contentsline {section}{\numberline {3.1}The North Wind and the Sun}{45}{section.3.1}% 
+\contentsline {section}{\numberline {3.1}Sun-Tongue and the Night}{45}{section.3.1}% 
+\contentsline {section}{\numberline {3.2}The North Wind and the Sun}{46}{section.3.2}% 
 \contentsline {chapter}{\numberline {4}Lexicon}{49}{chapter.4}% 
 \contentsline {section}{\numberline {4.1}Basic Classifier Taxonomy}{49}{section.4.1}% 
-\contentsline {section}{\numberline {4.2}Greetings and idioms}{49}{section.4.2}% 
-\contentsline {section}{\numberline {4.3}Numerals}{49}{section.4.3}% 
-\contentsline {section}{\numberline {4.4}Dictionary}{50}{section.4.4}% 
+\contentsline {section}{\numberline {4.2}Greetings and idioms}{50}{section.4.2}% 
+\contentsline {section}{\numberline {4.3}Numerals}{51}{section.4.3}% 
+\contentsline {section}{\numberline {4.4}Dictionary}{52}{section.4.4}% 

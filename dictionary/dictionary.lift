@@ -265,6 +265,26 @@
 <gloss lang="en"><text>INSTR</text></gloss>
 </sense>
 </entry>
+<entry dateCreated="2021-01-31T22:23:08Z" dateModified="2021-01-31T22:25:17Z" id="ñiĩ_158cd5fa-a287-495e-bb50-21c8993f4708" guid="158cd5fa-a287-495e-bb50-21c8993f4708">
+<lexical-unit>
+<form lang="qaa"><text>ñiĩ</text></form>
+</lexical-unit>
+<trait  name="morph-type" value="stem"/>
+<sense id="9f2424d5-810c-4e6e-bf9d-231a64174a26">
+<grammatical-info value="Adverb">
+</grammatical-info>
+<gloss lang="en"><text>yes.instead</text></gloss>
+<definition>
+<form lang="en"><text>instead, yes instead, but ... yes; marks that the clause holds despite or in opposition to an example previously given.</text></form>
+</definition>
+<example>
+<form lang="qaa"><text>Uǃuuji ʼmʼm ɴǁoi ǁo̰i ǁqʼoṯe, ṇam ṣǂa ñiĩ.</text></form>
+<translation type="Free translation">
+<form lang="en"><text>Prey can't run for a whole day, but a human can.</text></form>
+</translation>
+</example>
+</sense>
+</entry>
 <entry dateCreated="2021-01-28T12:42:46Z" dateModified="2021-01-28T12:43:07Z" id="ɴǃali_15b62c32-e3d7-4738-841c-64ac9974d60a" guid="15b62c32-e3d7-4738-841c-64ac9974d60a">
 <lexical-unit>
 <form lang="qaa"><text>ɴǃali</text></form>
@@ -635,8 +655,8 @@
 <definition>
 <form lang="en"><text>foul-smelling objects, rotting matter, feces, waste, corpses, infections, pus, diseases, the severely diseased</text></form>
 </definition>
-<relation type="Classified Noun" ref="548e143b-5df9-4a3d-a4b0-09a5f974c810"/>
 <relation type="Classified Noun" ref="92450ee7-038f-43ba-bf4e-5119db047289"/>
+<relation type="Classified Noun" ref="548e143b-5df9-4a3d-a4b0-09a5f974c810"/>
 </sense>
 </entry>
 <entry dateCreated="2021-01-09T11:12:16Z" dateModified="2021-01-10T13:25:31Z" id="po_2e171516-2603-4081-865d-ba4eeb3208dd" guid="2e171516-2603-4081-865d-ba4eeb3208dd">
@@ -692,6 +712,21 @@
 <grammatical-info value="Adverb">
 </grammatical-info>
 <gloss lang="en"><text>maybe.not</text></gloss>
+</sense>
+</entry>
+<entry dateCreated="2021-01-31T22:21:23Z" dateModified="2021-01-31T22:22:14Z" id="ǁqʼoṯe_2f597665-4bab-4b39-9764-c2876609b70f" guid="2f597665-4bab-4b39-9764-c2876609b70f">
+<lexical-unit>
+<form lang="qaa"><text>ǁqʼoṯe</text></form>
+</lexical-unit>
+<trait  name="morph-type" value="stem"/>
+<sense id="f976cb2e-6e1b-4aea-b573-d3183da13752">
+<grammatical-info value="Noun">
+</grammatical-info>
+<gloss lang="en"><text>game</text></gloss>
+<definition>
+<form lang="en"><text>game, animals to be hunted, especially larger herbivores</text></form>
+</definition>
+<relation type="Classifier" ref="9799d5bc-3336-40dd-8668-896e82f6ff5e"/>
 </sense>
 </entry>
 <entry dateCreated="2021-01-21T22:50:52Z" dateModified="2021-01-24T11:01:05Z" id="cʼi_2fc6b3d7-d9e1-4ccf-9c9a-016cce50e78a" guid="2fc6b3d7-d9e1-4ccf-9c9a-016cce50e78a">
@@ -801,6 +836,17 @@
 <relation type="Classifier" ref="aa58ed4e-0b45-431d-8acc-14753d316dbb"/>
 </sense>
 </entry>
+<entry dateCreated="2021-02-02T10:44:05Z" dateModified="2021-02-02T10:44:05Z" id="ʇqʼaãṭa_3b13e784-3aa6-44d7-bf41-c9819d72940f" guid="3b13e784-3aa6-44d7-bf41-c9819d72940f">
+<lexical-unit>
+<form lang="qaa"><text>ʇqʼaãṭa</text></form>
+</lexical-unit>
+<trait  name="morph-type" value="stem"/>
+<sense id="e491488e-0bfb-4935-addd-e124d612ae44">
+<grammatical-info value="Adverb">
+</grammatical-info>
+<gloss lang="en"><text>at.nighttime</text></gloss>
+</sense>
+</entry>
 <entry dateCreated="2020-12-31T17:08:23Z" dateModified="2021-01-25T17:46:36Z" id="iǃo̰orri_3b44b335-8021-4dba-b737-6cc1f9e3c516" guid="3b44b335-8021-4dba-b737-6cc1f9e3c516">
 <lexical-unit>
 <form lang="qaa"><text>iǃo̰orri</text></form>
@@ -848,6 +894,17 @@
 </grammatical-info>
 <gloss lang="en"><text>meat</text></gloss>
 <relation type="Classifier" ref="fbeb121e-557c-4143-921b-803b1eb12232"/>
+</sense>
+</entry>
+<entry dateCreated="2021-01-31T22:17:35Z" dateModified="2021-01-31T22:17:35Z" id="ʼmʼm_3c5cd3a4-b8a9-4238-8580-18b89b3cefb4" guid="3c5cd3a4-b8a9-4238-8580-18b89b3cefb4">
+<lexical-unit>
+<form lang="qaa"><text>ʼmʼm</text></form>
+</lexical-unit>
+<trait  name="morph-type" value="stem"/>
+<sense id="df408149-d793-4cd9-b21a-8991fbdd8508">
+<grammatical-info value="Intransitive verb">
+</grammatical-info>
+<gloss lang="en"><text>run</text></gloss>
 </sense>
 </entry>
 <entry dateCreated="2021-01-28T08:10:08Z" dateModified="2021-01-28T08:10:39Z" id="ṣǂʼo_3caf87d4-325f-4be0-ad08-ca0e3deb1d8f" guid="3caf87d4-325f-4be0-ad08-ca0e3deb1d8f">
@@ -1545,6 +1602,17 @@
 <gloss lang="en"><text>lobster</text></gloss>
 </sense>
 </entry>
+<entry dateCreated="2021-02-02T10:45:45Z" dateModified="2021-02-02T10:45:45Z" id="paala_77fa3c61-3d5d-4365-b265-32678a21789e" guid="77fa3c61-3d5d-4365-b265-32678a21789e">
+<lexical-unit>
+<form lang="qaa"><text>paala</text></form>
+</lexical-unit>
+<trait  name="morph-type" value="stem"/>
+<sense id="3138bd79-1fba-4d99-bf12-e2458e928a45">
+<grammatical-info value="Noun">
+</grammatical-info>
+<gloss lang="en"><text>wail</text></gloss>
+</sense>
+</entry>
 <entry dateCreated="2020-12-26T00:42:12Z" dateModified="2020-12-30T15:15:15Z" id="ǂa_7926bc23-c0c1-412b-ae96-2dcc9e2bd571" guid="7926bc23-c0c1-412b-ae96-2dcc9e2bd571">
 <lexical-unit>
 <form lang="qaa"><text>ǂa</text></form>
@@ -1634,16 +1702,24 @@
 <gloss lang="en"><text>fly</text></gloss>
 </sense>
 </entry>
-<entry dateCreated="2021-01-10T13:28:12Z" dateModified="2021-01-25T17:46:56Z" id="ʼa̰o_807a2747-da2c-4f81-bb71-a2d24180ea3c" guid="807a2747-da2c-4f81-bb71-a2d24180ea3c">
+<entry dateCreated="2021-01-10T13:28:12Z" dateModified="2021-02-02T13:51:11Z" id="ʼa̰o_807a2747-da2c-4f81-bb71-a2d24180ea3c" guid="807a2747-da2c-4f81-bb71-a2d24180ea3c">
 <lexical-unit>
 <form lang="qaa"><text>ʼa̰o</text></form>
 </lexical-unit>
 <trait  name="morph-type" value="stem"/>
-<sense id="57debae3-6e0d-4a1d-8ecc-5ff08f7d06f1">
+<sense id="57debae3-6e0d-4a1d-8ecc-5ff08f7d06f1" order="0">
 <grammatical-info value="Noun">
 </grammatical-info>
 <gloss lang="en"><text>water</text></gloss>
 <relation type="Classifier" ref="ca14cde0-71c7-4f8d-85a4-018a71fac6af"/>
+</sense>
+<sense id="2104c3b6-0163-44f4-85fc-ab902ac583ea" order="1">
+<grammatical-info value="Transitive verb">
+</grammatical-info>
+<gloss lang="en"><text>fill.with.water</text></gloss>
+<definition>
+<form lang="en"><text>fill up with water</text></form>
+</definition>
 </sense>
 </entry>
 <entry dateCreated="2020-12-28T10:37:49Z" dateModified="2021-01-25T17:46:36Z" id="aɴǃxo̰o_8107e2a7-2349-4888-83cf-42617bbd4744" guid="8107e2a7-2349-4888-83cf-42617bbd4744">
@@ -1765,7 +1841,7 @@
 <gloss lang="en"><text>happy</text></gloss>
 </sense>
 </entry>
-<entry dateCreated="2020-12-30T15:55:40Z" dateModified="2021-01-06T00:44:46Z" id="iʇʼi_89586b61-a4ca-421d-a63f-f4aae9e47b3d" guid="89586b61-a4ca-421d-a63f-f4aae9e47b3d">
+<entry dateCreated="2020-12-30T15:55:40Z" dateModified="2021-02-02T13:53:21Z" id="iʇʼi_89586b61-a4ca-421d-a63f-f4aae9e47b3d" guid="89586b61-a4ca-421d-a63f-f4aae9e47b3d">
 <lexical-unit>
 <form lang="qaa"><text>iʇʼi</text></form>
 </lexical-unit>
@@ -1773,7 +1849,10 @@
 <sense id="b1df9563-80e5-4c3f-affa-f2170b65fa23">
 <grammatical-info value="Noun classifier">
 </grammatical-info>
-<gloss lang="en"><text>CLF_small animal</text></gloss>
+<gloss lang="en"><text>small.animals</text></gloss>
+<definition>
+<form lang="en"><text>small or medium-sized animals, especially smaller mammals</text></form>
+</definition>
 </sense>
 </entry>
 <entry dateCreated="2020-12-25T19:02:12Z" dateModified="2021-01-15T15:05:30Z" id="ṭurra_89849e73-c82e-45ce-a203-faced3641542" guid="89849e73-c82e-45ce-a203-faced3641542">
@@ -1985,7 +2064,7 @@
 <relation type="Classifier" ref="91404622-4d79-4582-845f-00fddeb93b36"/>
 </sense>
 </entry>
-<entry dateCreated="2020-12-25T18:15:37Z" dateModified="2021-01-07T14:06:21Z" id="šǃo_96d3690d-633b-497c-acdc-0e55f8f3e391" guid="96d3690d-633b-497c-acdc-0e55f8f3e391">
+<entry dateCreated="2020-12-25T18:15:37Z" dateModified="2021-02-02T13:38:42Z" id="šǃo_96d3690d-633b-497c-acdc-0e55f8f3e391" guid="96d3690d-633b-497c-acdc-0e55f8f3e391">
 <lexical-unit>
 <form lang="qaa"><text>šǃo</text></form>
 </lexical-unit>
@@ -1993,9 +2072,9 @@
 <sense id="d5d39163-de62-4ce4-bb1a-4a6ef1fa9f36">
 <grammatical-info value="Copulative verb">
 </grammatical-info>
-<gloss lang="en"><text>be</text></gloss>
+<gloss lang="en"><text>be.there</text></gloss>
 <definition>
-<form lang="en"><text>be temporarily, be contingentially</text></form>
+<form lang="en"><text>be temporarily, be contingentially, there be, be present</text></form>
 </definition>
 </sense>
 </entry>
@@ -2363,6 +2442,22 @@
 <relation type="Classifier" ref="c0835c51-5359-4436-ba00-892bee80b162"/>
 </sense>
 </entry>
+<entry dateCreated="2021-01-31T22:25:43Z" dateModified="2021-01-31T22:27:02Z" id="ṇam ... ñiĩ_b6d42fc5-d215-4ec7-bc4e-16a7b7d0c33d" guid="b6d42fc5-d215-4ec7-bc4e-16a7b7d0c33d">
+<lexical-unit>
+<form lang="qaa"><text>ṇam ... ñiĩ</text></form>
+</lexical-unit>
+<trait  name="morph-type" value="phrase"/>
+<relation type="_component-lexeme" ref="">
+<trait  name="complex-form-type" value="Unspecified Complex Form"/>
+</relation>
+<relation type="_component-lexeme" ref="ñiĩ_158cd5fa-a287-495e-bb50-21c8993f4708" order="0">
+<trait  name="variant-type" value="Unspecified Variant"/>
+</relation>
+<sense id="1e949c10-8dd9-4c5c-80ee-4c18497d4834">
+<grammatical-info value="Coordinating connective">
+</grammatical-info>
+</sense>
+</entry>
 <entry dateCreated="2020-12-31T17:07:53Z" dateModified="2021-01-25T17:46:56Z" id="iɴǁa̰a_b8c4d843-f317-44a7-abec-b01dd4b6eca6" guid="b8c4d843-f317-44a7-abec-b01dd4b6eca6">
 <lexical-unit>
 <form lang="qaa"><text>iɴǁa̰a</text></form>
@@ -2416,6 +2511,20 @@
 <grammatical-info value="Adjective">
 </grammatical-info>
 <gloss lang="en"><text>every</text></gloss>
+</sense>
+</entry>
+<entry dateCreated="2021-01-31T22:12:40Z" dateModified="2021-01-31T22:13:42Z" id="šǃaʼa_bd699cbf-ae04-46ea-a36b-d62ef1d26346" guid="bd699cbf-ae04-46ea-a36b-d62ef1d26346">
+<lexical-unit>
+<form lang="qaa"><text>šǃaʼa</text></form>
+</lexical-unit>
+<trait  name="morph-type" value="stem"/>
+<sense id="a0def7cf-d013-4496-a74a-d34f4a5c4a6a">
+<grammatical-info value="Transitive verb">
+</grammatical-info>
+<gloss lang="en"><text>memorize</text></gloss>
+<definition>
+<form lang="en"><text>memorize, either by practice or through an intense experience resulting in a vivid memory</text></form>
+</definition>
 </sense>
 </entry>
 <entry dateCreated="2020-12-31T17:06:40Z" dateModified="2021-01-25T17:44:40Z" id="ʇṵu_be75bc02-9a34-4dd8-81ba-65db3ed50c7c" guid="be75bc02-9a34-4dd8-81ba-65db3ed50c7c">
@@ -2514,17 +2623,17 @@
 </definition>
 </sense>
 </entry>
-<entry dateCreated="2021-01-10T22:47:21Z" dateModified="2021-01-24T12:08:03Z" id="ǃxatłe_c4d9ecbf-4ca5-4bec-ab58-3bf73b4a893f" guid="c4d9ecbf-4ca5-4bec-ab58-3bf73b4a893f">
+<entry dateCreated="2021-01-10T22:47:21Z" dateModified="2021-02-02T13:52:20Z" id="ǃxa_c4d9ecbf-4ca5-4bec-ab58-3bf73b4a893f" guid="c4d9ecbf-4ca5-4bec-ab58-3bf73b4a893f">
 <lexical-unit>
-<form lang="qaa"><text>ǃxatłe</text></form>
+<form lang="qaa"><text>ǃxa</text></form>
 </lexical-unit>
 <trait  name="morph-type" value="stem"/>
 <sense id="0ded4fde-8c3a-4942-a8c8-08630d0cd9a8">
 <grammatical-info value="Noun classifier">
 </grammatical-info>
-<gloss lang="en"><text>blades</text></gloss>
+<gloss lang="en"><text>sharp.tools</text></gloss>
 <definition>
-<form lang="en"><text>blades, things with a sharp edge, teeth</text></form>
+<form lang="en"><text>blades, things with a sharp edge or point, arrows, spears, teeth</text></form>
 </definition>
 <relation type="Classified Noun" ref="80851816-fc5c-471c-acd9-42f2c9630093"/>
 <relation type="Classified Noun" ref="bef27fa1-a910-4bdf-b5f5-d6847d7fca84"/>
@@ -2920,6 +3029,29 @@
 <gloss lang="en"><text>head</text></gloss>
 </sense>
 </entry>
+<entry dateCreated="2021-01-31T22:09:51Z" dateModified="2021-01-31T22:11:36Z" id="ʘa̰a_e6f729a3-4ccd-4719-8c02-17b723f7b201" guid="e6f729a3-4ccd-4719-8c02-17b723f7b201">
+<lexical-unit>
+<form lang="qaa"><text>ʘa̰a</text></form>
+</lexical-unit>
+<trait  name="morph-type" value="stem"/>
+<sense id="aa58ed4e-0b45-431d-8acc-14753d316dbb" order="0">
+<grammatical-info value="Noun classifier">
+</grammatical-info>
+<gloss lang="en"><text>singing</text></gloss>
+<definition>
+<form lang="en"><text>songs, music, singing, sung phrases, rhythmic noises, birdsong</text></form>
+</definition>
+<relation type="Classified Noun" ref="a70ab00f-45e5-45ac-895c-acaf197d825d"/>
+</sense>
+<sense id="424b7a5c-516d-4edd-a7ed-7358c3152bf6" order="1">
+<grammatical-info value="Noun classifier">
+</grammatical-info>
+<gloss lang="en"><text>dancing</text></gloss>
+<definition>
+<form lang="en"><text>dances, dancing, dance moves, rhythmic movements</text></form>
+</definition>
+</sense>
+</entry>
 <entry dateCreated="2021-01-28T08:12:11Z" dateModified="2021-01-28T08:12:45Z" id="ɴʇa̰ʼã_e7f97c38-5c28-46fc-ab32-e02bb159ff43" guid="e7f97c38-5c28-46fc-ab32-e02bb159ff43">
 <lexical-unit>
 <form lang="qaa"><text>ɴʇa̰ʼã</text></form>
@@ -3197,6 +3329,21 @@
 <gloss lang="en"><text>inside</text></gloss>
 </sense>
 </entry>
+<entry dateCreated="2021-01-31T22:12:02Z" dateModified="2021-01-31T22:12:21Z" id="ǂxoõ_f95a7de0-cc8f-407b-84a7-d8f95550887b" guid="f95a7de0-cc8f-407b-84a7-d8f95550887b">
+<lexical-unit>
+<form lang="qaa"><text>ǂxoõ</text></form>
+</lexical-unit>
+<trait  name="morph-type" value="stem"/>
+<sense id="189d852c-b88e-4d39-a10c-19f9f8ea21a4">
+<grammatical-info value="Noun">
+</grammatical-info>
+<gloss lang="en"><text>young.child</text></gloss>
+<definition>
+<form lang="en"><text>young child</text></form>
+</definition>
+<relation type="Classifier" ref="d777c666-c1ca-4e67-8a13-a5838469fea8"/>
+</sense>
+</entry>
 <entry dateCreated="2020-12-26T14:44:29Z" dateModified="2021-01-06T00:25:13Z" id="tṣe_f9a91716-6d0c-4ff9-bae0-9b7c558ade0f" guid="f9a91716-6d0c-4ff9-bae0-9b7c558ade0f">
 <lexical-unit>
 <form lang="qaa"><text>tṣe</text></form>
@@ -3217,6 +3364,29 @@
 <grammatical-info value="Noun classifier">
 </grammatical-info>
 <gloss lang="en"><text>CLF_slender</text></gloss>
+</sense>
+</entry>
+<entry dateCreated="2021-01-31T22:14:32Z" dateModified="2021-01-31T22:17:11Z" id="uǃuuji_fb7aa3b5-2b65-4302-aff8-a6ef420415e8" guid="fb7aa3b5-2b65-4302-aff8-a6ef420415e8">
+<lexical-unit>
+<form lang="qaa"><text>uǃuuji</text></form>
+</lexical-unit>
+<trait  name="morph-type" value="stem"/>
+<sense id="a158e96c-47b2-4731-88de-f00be3ad676a" order="0">
+<grammatical-info value="Adverb">
+</grammatical-info>
+<gloss lang="en"><text>for.a.whole.day</text></gloss>
+<definition>
+<form lang="en"><text>for the duration / over the course of a whole day, starting in the morning and ending in the evening, possibly repeating over multiple days each occupied completely by the action</text></form>
+</definition>
+</sense>
+<sense id="64363150-bffd-4c40-bcac-db71862973b5" order="1">
+<grammatical-info value="Noun">
+</grammatical-info>
+<gloss lang="en"><text>day.span</text></gloss>
+<definition>
+<form lang="en"><text>day, span of a day, time duration between sunrise and sunset</text></form>
+</definition>
+<relation type="Classifier" ref="6d3c7868-b597-4693-9a22-5049d6e58a28"/>
 </sense>
 </entry>
 <entry dateCreated="2021-01-05T02:03:47Z" dateModified="2021-01-25T17:44:40Z" id="aǃṵuma_fbb4d3fe-053f-4d3b-b94b-8a68e83072ec" guid="fbb4d3fe-053f-4d3b-b94b-8a68e83072ec">
@@ -3333,141 +3503,103 @@
 <gloss lang="en"><text>few</text></gloss>
 </sense>
 </entry>
-<entry dateCreated="2021-01-31T22:09:51Z" dateModified="2021-01-31T22:11:36Z" id="ʘa̰a_e6f729a3-4ccd-4719-8c02-17b723f7b201" guid="e6f729a3-4ccd-4719-8c02-17b723f7b201">
+<entry dateCreated="2021-02-02T13:09:39Z" dateModified="2021-02-02T13:09:39Z" id="ǂum_fbde49d9-f8a1-4851-8cda-a8179b66ee38" guid="fbde49d9-f8a1-4851-8cda-a8179b66ee38">
 <lexical-unit>
-<form lang="qaa"><text>ʘa̰a</text></form>
+<form lang="qaa"><text>ǂum</text></form>
 </lexical-unit>
 <trait  name="morph-type" value="stem"/>
-<sense id="aa58ed4e-0b45-431d-8acc-14753d316dbb" order="0">
-<grammatical-info value="Noun classifier">
-</grammatical-info>
-<gloss lang="en"><text>singing</text></gloss>
-<definition>
-<form lang="en"><text>songs, music, singing, sung phrases, rhythmic noises, birdsong</text></form>
-</definition>
-<relation type="Classified Noun" ref="a70ab00f-45e5-45ac-895c-acaf197d825d"/>
-</sense>
-<sense id="424b7a5c-516d-4edd-a7ed-7358c3152bf6" order="1">
-<grammatical-info value="Noun classifier">
-</grammatical-info>
-<gloss lang="en"><text>dancing</text></gloss>
-<definition>
-<form lang="en"><text>dances, dancing, dance moves, rhythmic movements</text></form>
-</definition>
-</sense>
-</entry>
-<entry dateCreated="2021-01-31T22:12:02Z" dateModified="2021-01-31T22:12:21Z" id="ǂxoõ_f95a7de0-cc8f-407b-84a7-d8f95550887b" guid="f95a7de0-cc8f-407b-84a7-d8f95550887b">
-<lexical-unit>
-<form lang="qaa"><text>ǂxoõ</text></form>
-</lexical-unit>
-<trait  name="morph-type" value="stem"/>
-<sense id="189d852c-b88e-4d39-a10c-19f9f8ea21a4">
+<sense id="eb2450de-a6c9-4300-b329-fca8126917a8">
 <grammatical-info value="Noun">
 </grammatical-info>
-<gloss lang="en"><text>young.child</text></gloss>
-<definition>
-<form lang="en"><text>young child</text></form>
-</definition>
-<relation type="Classifier" ref="d777c666-c1ca-4e67-8a13-a5838469fea8"/>
+<gloss lang="en"><text>canteen</text></gloss>
 </sense>
 </entry>
-<entry dateCreated="2021-01-31T22:12:40Z" dateModified="2021-01-31T22:13:42Z" id="šǃaʼa_bd699cbf-ae04-46ea-a36b-d62ef1d26346" guid="bd699cbf-ae04-46ea-a36b-d62ef1d26346">
+<entry dateCreated="2021-02-02T13:10:04Z" dateModified="2021-02-02T13:10:04Z" id="ke_83710023-c957-49f5-96a8-b08bb111033b" guid="83710023-c957-49f5-96a8-b08bb111033b">
 <lexical-unit>
-<form lang="qaa"><text>šǃaʼa</text></form>
+<form lang="qaa"><text>ke</text></form>
 </lexical-unit>
 <trait  name="morph-type" value="stem"/>
-<sense id="a0def7cf-d013-4496-a74a-d34f4a5c4a6a">
+<sense id="7f66502a-167a-464c-a124-c90e79330d4a">
+<grammatical-info value="Noun classifier">
+</grammatical-info>
+<gloss lang="en"><text>containers.of.liquids</text></gloss>
+</sense>
+</entry>
+<entry dateCreated="2021-02-02T13:10:36Z" dateModified="2021-02-02T13:10:36Z" id="sʇooṉa_e6197851-559c-4652-8719-e0e76caf0a49" guid="e6197851-559c-4652-8719-e0e76caf0a49">
+<lexical-unit>
+<form lang="qaa"><text>sʇooṉa</text></form>
+</lexical-unit>
+<trait  name="morph-type" value="stem"/>
+<sense id="1a882091-dd1d-4711-95c5-3cb560adea0b">
 <grammatical-info value="Transitive verb">
 </grammatical-info>
-<gloss lang="en"><text>memorize</text></gloss>
-<definition>
-<form lang="en"><text>memorize, either by practice or through an intense experience resulting in a vivid memory</text></form>
-</definition>
+<gloss lang="en"><text>poison.tip</text></gloss>
 </sense>
 </entry>
-<entry dateCreated="2021-01-31T22:14:32Z" dateModified="2021-01-31T22:17:11Z" id="uǃuuji_fb7aa3b5-2b65-4302-aff8-a6ef420415e8" guid="fb7aa3b5-2b65-4302-aff8-a6ef420415e8">
+<entry dateCreated="2021-02-02T13:10:53Z" dateModified="2021-02-02T13:10:53Z" id="ṯuña_8dc1bff2-3d6f-47dc-8ff4-1f2fc1103368" guid="8dc1bff2-3d6f-47dc-8ff4-1f2fc1103368">
 <lexical-unit>
-<form lang="qaa"><text>uǃuuji</text></form>
+<form lang="qaa"><text>ṯuña</text></form>
 </lexical-unit>
 <trait  name="morph-type" value="stem"/>
-<sense id="a158e96c-47b2-4731-88de-f00be3ad676a" order="0">
-<grammatical-info value="Adverb">
-</grammatical-info>
-<gloss lang="en"><text>for.a.whole.day</text></gloss>
-<definition>
-<form lang="en"><text>for the duration / over the course of a whole day, starting in the morning and ending in the evening, possibly repeating over multiple days each occupied completely by the action</text></form>
-</definition>
-</sense>
-<sense id="64363150-bffd-4c40-bcac-db71862973b5" order="1">
+<sense id="28bc1a6b-e509-4de1-82b2-7e4d8a7b8196">
 <grammatical-info value="Noun">
 </grammatical-info>
-<gloss lang="en"><text>day.span</text></gloss>
-<definition>
-<form lang="en"><text>day, span of a day, time duration between sunrise and sunset</text></form>
-</definition>
-<relation type="Classifier" ref="6d3c7868-b597-4693-9a22-5049d6e58a28"/>
+<gloss lang="en"><text>arrow</text></gloss>
 </sense>
 </entry>
-<entry dateCreated="2021-01-31T22:17:35Z" dateModified="2021-01-31T22:17:35Z" id="ʼmʼm_3c5cd3a4-b8a9-4238-8580-18b89b3cefb4" guid="3c5cd3a4-b8a9-4238-8580-18b89b3cefb4">
+<entry dateCreated="2021-02-02T13:22:39Z" dateModified="2021-02-02T13:22:39Z" id="ɴǃui_d5449714-6dd2-452d-9513-de1e485d9a29" guid="d5449714-6dd2-452d-9513-de1e485d9a29">
 <lexical-unit>
-<form lang="qaa"><text>ʼmʼm</text></form>
+<form lang="qaa"><text>ɴǃui</text></form>
 </lexical-unit>
 <trait  name="morph-type" value="stem"/>
-<sense id="df408149-d793-4cd9-b21a-8991fbdd8508">
-<grammatical-info value="Intransitive verb">
+<sense id="9c2207bb-4b13-4637-ba48-d741d0f112c5">
+<grammatical-info value="Noun classifier">
 </grammatical-info>
-<gloss lang="en"><text>run</text></gloss>
+<gloss lang="en"><text>repeated.actions</text></gloss>
 </sense>
 </entry>
-<entry dateCreated="2021-01-31T22:21:23Z" dateModified="2021-01-31T22:22:14Z" id="ǁqʼoṯe_2f597665-4bab-4b39-9764-c2876609b70f" guid="2f597665-4bab-4b39-9764-c2876609b70f">
+<entry dateCreated="2021-02-02T13:31:05Z" dateModified="2021-02-02T13:31:05Z" id="isʇqʼatła_73a030a4-3854-4b66-bca3-f4d5fcf2cedc" guid="73a030a4-3854-4b66-bca3-f4d5fcf2cedc">
 <lexical-unit>
-<form lang="qaa"><text>ǁqʼoṯe</text></form>
+<form lang="qaa"><text>isʇqʼatła</text></form>
 </lexical-unit>
 <trait  name="morph-type" value="stem"/>
-<sense id="f976cb2e-6e1b-4aea-b573-d3183da13752">
-<grammatical-info value="Noun">
+<sense id="bfda6498-9312-4243-986e-1bbff80d90ff">
+<grammatical-info value="Transitive verb">
 </grammatical-info>
-<gloss lang="en"><text>game</text></gloss>
-<definition>
-<form lang="en"><text>game, animals to be hunted, especially larger herbivores</text></form>
-</definition>
-<relation type="Classifier" ref="9799d5bc-3336-40dd-8668-896e82f6ff5e"/>
+<gloss lang="en"><text>skin.for.meat</text></gloss>
 </sense>
 </entry>
-<entry dateCreated="2021-01-31T22:23:08Z" dateModified="2021-01-31T22:25:17Z" id="ñiĩ_158cd5fa-a287-495e-bb50-21c8993f4708" guid="158cd5fa-a287-495e-bb50-21c8993f4708">
+<entry dateCreated="2021-02-02T13:31:23Z" dateModified="2021-02-02T13:31:23Z" id="uŋa_c0510978-6876-422c-a703-f3517973d3c4" guid="c0510978-6876-422c-a703-f3517973d3c4">
 <lexical-unit>
-<form lang="qaa"><text>ñiĩ</text></form>
+<form lang="qaa"><text>uŋa</text></form>
 </lexical-unit>
 <trait  name="morph-type" value="stem"/>
-<sense id="9f2424d5-810c-4e6e-bf9d-231a64174a26">
+<sense id="f24211f5-59cf-4494-8678-f69984f906aa">
+<grammatical-info value="Adjective">
+</grammatical-info>
+<gloss lang="en"><text>none</text></gloss>
+</sense>
+</entry>
+<entry dateCreated="2021-02-02T13:36:11Z" dateModified="2021-02-02T13:36:11Z" id="aliʼa_4a1331ee-9628-43e9-b46c-746babdcf277" guid="4a1331ee-9628-43e9-b46c-746babdcf277">
+<lexical-unit>
+<form lang="qaa"><text>aliʼa</text></form>
+</lexical-unit>
+<trait  name="morph-type" value="stem"/>
+<sense id="01488f8d-1378-494e-ac3b-a5030061f320">
 <grammatical-info value="Adverb">
 </grammatical-info>
-<gloss lang="en"><text>yes.instead</text></gloss>
-<definition>
-<form lang="en"><text>instead, yes instead, but ... yes; marks that the clause holds despite or in opposition to an example previously given.</text></form>
-</definition>
-<example>
-<form lang="qaa"><text>Uǃuuji ʼmʼm ɴǁoi ǁo̰i ǁqʼoṯe, ṇam ṣǂa ñiĩ.</text></form>
-<translation type="Free translation">
-<form lang="en"><text>Prey can't run for a whole day, but a human can.</text></form>
-</translation>
-</example>
+<gloss lang="en"><text>merely</text></gloss>
 </sense>
 </entry>
-<entry dateCreated="2021-01-31T22:25:43Z" dateModified="2021-01-31T22:27:02Z" id="ṇam ... ñiĩ_b6d42fc5-d215-4ec7-bc4e-16a7b7d0c33d" guid="b6d42fc5-d215-4ec7-bc4e-16a7b7d0c33d">
+<entry dateCreated="2021-02-02T13:36:26Z" dateModified="2021-02-02T13:36:26Z" id="pṵutṣi_976500d0-fbd3-4020-80ed-a80a0f2884fe" guid="976500d0-fbd3-4020-80ed-a80a0f2884fe">
 <lexical-unit>
-<form lang="qaa"><text>ṇam ... ñiĩ</text></form>
+<form lang="qaa"><text>pṵutṣi</text></form>
 </lexical-unit>
-<trait  name="morph-type" value="phrase"/>
-<relation type="_component-lexeme" ref="">
-<trait  name="complex-form-type" value="Unspecified Complex Form"/>
-</relation>
-<relation type="_component-lexeme" ref="ñiĩ_158cd5fa-a287-495e-bb50-21c8993f4708" order="0">
-<trait  name="variant-type" value="Unspecified Variant"/>
-</relation>
-<sense id="1e949c10-8dd9-4c5c-80ee-4c18497d4834">
-<grammatical-info value="Coordinating connective">
+<trait  name="morph-type" value="stem"/>
+<sense id="4f66a24d-4e12-4fc9-a40e-1c33d4817288">
+<grammatical-info value="Noun">
 </grammatical-info>
+<gloss lang="en"><text>mongoose</text></gloss>
 </sense>
 </entry>
 </lift>

@@ -1,0 +1,570 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<document version="2">
+  <interlinear-text guid="4051a473-8627-4d60-b2c5-ad103289608d">
+    <item type="title" lang="en">Sun-Tongue and the Night</item>
+    <item type="title" lang="qaa">ǂṴʼulaã Ʇqʼa ǂa ǃam</item>
+    <item type="comment" lang="en"></item>
+    <paragraphs>
+      <paragraph guid="442dac25-d0ea-4770-a233-631281c33248">
+        <phrases>
+          <phrase guid="24f3750b-5899-4a9a-8e9d-8a9cdeba8ad7">
+            <item type="segnum" lang="en">1</item>
+            <words>
+              <word guid="d0294b70-9eb4-41ae-bc8d-1eea8d583949">
+                <item type="txt" lang="qaa">Ʇaula</item>
+                <item type="gls" lang="en">once.upon.a.time</item>
+                <morphemes>
+                  <morph type="stem" guid="d7f713e8-e8cf-11d3-9764-00c04f186933">
+                    <item type="msa" lang="en">adv</item>
+                  </morph>
+                </morphemes>
+              </word>
+              <word guid="7f296730-de7b-43de-8e48-0b5c7e83912b">
+                <item type="txt" lang="qaa">ʇqʼaãṭa</item>
+                <item type="gls" lang="en">at.nighttime</item>
+                <morphemes>
+                  <morph type="stem" guid="d7f713e8-e8cf-11d3-9764-00c04f186933">
+                    <item type="msa" lang="en">adv</item>
+                  </morph>
+                </morphemes>
+              </word>
+              <word>
+                <item type="punct" lang="qaa">,</item>
+              </word>
+              <word guid="e22728f7-266d-4165-aae8-670b6a79e703">
+                <item type="txt" lang="qaa">ǂxa̰a</item>
+                <item type="gls" lang="en">hurt</item>
+                <morphemes>
+                  <morph type="stem" guid="d7f713e8-e8cf-11d3-9764-00c04f186933">
+                    <item type="msa" lang="en">vt</item>
+                  </morph>
+                </morphemes>
+              </word>
+              <word guid="7c49875a-58d2-4997-996d-6a0e84ef7076">
+                <item type="txt" lang="qaa">ǁqʼoṯe</item>
+                <item type="gls" lang="en">game</item>
+                <morphemes>
+                  <morph type="stem" guid="d7f713e8-e8cf-11d3-9764-00c04f186933">
+                    <item type="msa" lang="en">n</item>
+                  </morph>
+                </morphemes>
+              </word>
+              <word guid="5e19c8fc-d6e0-4880-8f26-34facad5e156">
+                <item type="txt" lang="qaa">paala</item>
+                <item type="gls" lang="en">wail</item>
+                <morphemes>
+                  <morph type="stem" guid="d7f713e8-e8cf-11d3-9764-00c04f186933">
+                    <item type="msa" lang="en">n</item>
+                  </morph>
+                </morphemes>
+              </word>
+              <word guid="ea0e24e3-0047-473a-8b9e-6e815c7df18d">
+                <item type="txt" lang="qaa">ʘa̰a</item>
+                <item type="gls" lang="en">screams</item>
+                <morphemes>
+                  <morph type="stem" guid="d7f713e8-e8cf-11d3-9764-00c04f186933">
+                    <item type="msa" lang="en">nclf</item>
+                  </morph>
+                </morphemes>
+              </word>
+              <word guid="27177212-da13-445b-a996-e93f4cd1771b">
+                <item type="txt" lang="qaa">ʼa</item>
+                <item type="gls" lang="en">from</item>
+                <morphemes>
+                  <morph type="stem" guid="d7f713e8-e8cf-11d3-9764-00c04f186933">
+                    <item type="msa" lang="en">post</item>
+                  </morph>
+                </morphemes>
+              </word>
+              <word guid="a7ae9262-eb78-415e-b878-e55616a7703e">
+                <item type="txt" lang="qaa">uʇum</item>
+                <item type="gls" lang="en">stand.up</item>
+                <morphemes>
+                  <morph type="stem" guid="d7f713e8-e8cf-11d3-9764-00c04f186933">
+                    <item type="msa" lang="en">vi</item>
+                  </morph>
+                </morphemes>
+              </word>
+              <word guid="0cb6e4cc-d3c0-4a74-a36d-807d71690db8">
+                <item type="txt" lang="qaa">ǂṴʼulaã</item>
+                <item type="gls" lang="en">Suntongue</item>
+                <morphemes>
+                  <morph />
+                </morphemes>
+              </word>
+              <word guid="16d1dcd2-c7f2-4b16-9425-802ec7bd4473">
+                <item type="txt" lang="qaa">ǃam</item>
+                <item type="gls" lang="en">spirits</item>
+                <morphemes>
+                  <morph type="stem" guid="d7f713e8-e8cf-11d3-9764-00c04f186933">
+                    <item type="msa" lang="en">nclf</item>
+                  </morph>
+                </morphemes>
+              </word>
+              <word>
+                <item type="punct" lang="qaa">.</item>
+              </word>
+            </words>
+            <item type="gls" lang="en">One night, Sun-Tongue awoke because of the distant wail of a hurt beast.</item>
+          </phrase>
+        </phrases>
+      </paragraph>
+      <paragraph guid="c456a59b-2e50-4c01-b9e9-1c2c9e65041a">
+        <phrases>
+          <phrase guid="bd60bc33-b26a-4333-95c2-16f49068562a">
+            <item type="segnum" lang="en">2</item>
+            <words>
+              <word guid="16d1dcd2-c7f2-4b16-9425-802ec7bd4473">
+                <item type="txt" lang="qaa">ǃAm</item>
+                <item type="gls" lang="en">spirits</item>
+                <morphemes>
+                  <morph type="stem" guid="d7f713e8-e8cf-11d3-9764-00c04f186933">
+                    <item type="msa" lang="en">nclf</item>
+                  </morph>
+                </morphemes>
+              </word>
+              <word guid="c0bf2249-f972-4414-aea8-6dad8e11ac9c">
+                <item type="txt" lang="qaa">ʼa̰o</item>
+                <item type="gls" lang="en">fill.with.water</item>
+                <morphemes>
+                  <morph type="stem" guid="d7f713e8-e8cf-11d3-9764-00c04f186933">
+                    <item type="msa" lang="en">vt</item>
+                  </morph>
+                </morphemes>
+              </word>
+              <word guid="9b00e955-3d63-44cc-8c18-35eb1dac6c57">
+                <item type="txt" lang="qaa">ǂum</item>
+                <item type="gls" lang="en">canteen</item>
+                <morphemes>
+                  <morph type="stem" guid="d7f713e8-e8cf-11d3-9764-00c04f186933">
+                    <item type="msa" lang="en">n</item>
+                  </morph>
+                </morphemes>
+              </word>
+              <word guid="03d086ec-2594-493e-b095-5572542c6895">
+                <item type="txt" lang="qaa">ke</item>
+                <item type="gls" lang="en">containers.of.liquids</item>
+                <morphemes>
+                  <morph type="stem" guid="d7f713e8-e8cf-11d3-9764-00c04f186933">
+                    <item type="msa" lang="en">nclf</item>
+                  </morph>
+                </morphemes>
+              </word>
+              <word>
+                <item type="punct" lang="qaa">,</item>
+              </word>
+              <word guid="16d1dcd2-c7f2-4b16-9425-802ec7bd4473">
+                <item type="txt" lang="qaa">ǃam</item>
+                <item type="gls" lang="en">spirits</item>
+                <morphemes>
+                  <morph type="stem" guid="d7f713e8-e8cf-11d3-9764-00c04f186933">
+                    <item type="msa" lang="en">nclf</item>
+                  </morph>
+                </morphemes>
+              </word>
+              <word guid="3d14641d-eb4e-41c6-b089-06cb767d36e5">
+                <item type="txt" lang="qaa">ǂu</item>
+                <item type="gls" lang="en">and</item>
+                <morphemes>
+                  <morph type="stem" guid="d7f713e8-e8cf-11d3-9764-00c04f186933">
+                    <item type="msa" lang="en">coordconn</item>
+                  </morph>
+                </morphemes>
+              </word>
+              <word guid="adf025f5-41a9-4a6e-b743-25bf1cd2e396">
+                <item type="txt" lang="qaa">sʇooṉa</item>
+                <item type="gls" lang="en">poison.tip</item>
+                <morphemes>
+                  <morph type="stem" guid="d7f713e8-e8cf-11d3-9764-00c04f186933">
+                    <item type="msa" lang="en">vt</item>
+                  </morph>
+                </morphemes>
+              </word>
+              <word guid="621a3be5-690c-4d41-ab29-d23f2d8c4d0a">
+                <item type="txt" lang="qaa">ṯuña</item>
+                <item type="gls" lang="en">arrow</item>
+                <morphemes>
+                  <morph type="stem" guid="d7f713e8-e8cf-11d3-9764-00c04f186933">
+                    <item type="msa" lang="en">n</item>
+                  </morph>
+                </morphemes>
+              </word>
+              <word guid="61252f8b-2c9e-4aa5-aead-39c21503e297">
+                <item type="txt" lang="qaa">ǃxa</item>
+                <item type="gls" lang="en">blades</item>
+                <morphemes>
+                  <morph type="stem" guid="d7f713e8-e8cf-11d3-9764-00c04f186933">
+                    <item type="msa" lang="en">nclf</item>
+                  </morph>
+                </morphemes>
+              </word>
+              <word>
+                <item type="punct" lang="qaa">,</item>
+              </word>
+              <word guid="36e37186-8a4a-41fb-bfe7-2850daecf933">
+                <item type="txt" lang="qaa">ʼai</item>
+                <item type="gls" lang="en">and</item>
+                <morphemes>
+                  <morph type="stem" guid="d7f713e8-e8cf-11d3-9764-00c04f186933">
+                    <item type="msa" lang="en">adv</item>
+                  </morph>
+                </morphemes>
+              </word>
+              <word guid="a51722f1-2360-4a09-9379-c059fdb122f2">
+                <item type="txt" lang="qaa">ʘa̰a</item>
+                <item type="gls" lang="en">screams</item>
+                <morphemes>
+                  <morph type="stem" guid="d7f713e8-e8cf-11d3-9764-00c04f186933">
+                    <item type="msa" lang="en">nclf</item>
+                  </morph>
+                </morphemes>
+              </word>
+              <word guid="27177212-da13-445b-a996-e93f4cd1771b">
+                <item type="txt" lang="qaa">ʼa</item>
+                <item type="gls" lang="en">from</item>
+                <morphemes>
+                  <morph type="stem" guid="d7f713e8-e8cf-11d3-9764-00c04f186933">
+                    <item type="msa" lang="en">post</item>
+                  </morph>
+                </morphemes>
+              </word>
+              <word guid="a7ae9262-eb78-415e-b878-e55616a7703e">
+                <item type="txt" lang="qaa">uʇum</item>
+                <item type="gls" lang="en">stand.up</item>
+                <morphemes>
+                  <morph type="stem" guid="d7f713e8-e8cf-11d3-9764-00c04f186933">
+                    <item type="msa" lang="en">vi</item>
+                  </morph>
+                </morphemes>
+              </word>
+              <word guid="572bbc28-3945-4312-a6f8-737cf4ae0dbe">
+                <item type="txt" lang="qaa">ʼmʼm</item>
+                <item type="gls" lang="en">run</item>
+                <morphemes>
+                  <morph type="stem" guid="d7f713e8-e8cf-11d3-9764-00c04f186933">
+                    <item type="msa" lang="en">vi</item>
+                  </morph>
+                </morphemes>
+              </word>
+              <word guid="16d1dcd2-c7f2-4b16-9425-802ec7bd4473">
+                <item type="txt" lang="qaa">ǃam</item>
+                <item type="gls" lang="en">spirits</item>
+                <morphemes>
+                  <morph type="stem" guid="d7f713e8-e8cf-11d3-9764-00c04f186933">
+                    <item type="msa" lang="en">nclf</item>
+                  </morph>
+                </morphemes>
+              </word>
+              <word guid="514458d7-8b75-4c2d-8762-91e94304d236">
+                <item type="txt" lang="qaa">ǃaala</item>
+                <item type="gls" lang="en">under</item>
+                <morphemes>
+                  <morph type="stem" guid="d7f713e8-e8cf-11d3-9764-00c04f186933">
+                    <item type="msa" lang="en">post</item>
+                  </morph>
+                </morphemes>
+              </word>
+              <word>
+                <item type="punct" lang="qaa">.</item>
+              </word>
+            </words>
+            <item type="gls" lang="en">He filled up his canteen and tipped his arrows, and began tracking the sound by moonlight.</item>
+          </phrase>
+        </phrases>
+      </paragraph>
+      <paragraph guid="74e3cdba-1161-4a10-bf50-8399e4eeaf7f">
+        <phrases>
+          <phrase guid="b54d9968-47be-4ee2-8f97-e78b17e11fc2">
+            <item type="segnum" lang="en">3</item>
+            <words>
+              <word guid="097cb2dd-a475-446e-a071-9f780b29f264">
+                <item type="txt" lang="qaa">ǂʼA</item>
+                <item type="gls" lang="en">large.herbivore</item>
+                <morphemes>
+                  <morph type="stem" guid="d7f713e8-e8cf-11d3-9764-00c04f186933">
+                    <item type="msa" lang="en">nclf</item>
+                  </morph>
+                </morphemes>
+              </word>
+              <word guid="90b82387-0dac-44c8-92de-4632a60a0682">
+                <item type="txt" lang="qaa">ʼa</item>
+                <item type="gls" lang="en">from</item>
+                <morphemes>
+                  <morph type="stem" guid="d7f713e8-e8cf-11d3-9764-00c04f186933">
+                    <item type="msa" lang="en">post</item>
+                  </morph>
+                </morphemes>
+              </word>
+              <word guid="572bbc28-3945-4312-a6f8-737cf4ae0dbe">
+                <item type="txt" lang="qaa">ʼmʼm</item>
+                <item type="gls" lang="en">run</item>
+                <morphemes>
+                  <morph type="stem" guid="d7f713e8-e8cf-11d3-9764-00c04f186933">
+                    <item type="msa" lang="en">vi</item>
+                  </morph>
+                </morphemes>
+              </word>
+              <word guid="85fcc5e8-8334-4e05-b7b0-d7cbaba29f36">
+                <item type="txt" lang="qaa">ɴǃui</item>
+                <item type="gls" lang="en">repeated.actions</item>
+                <morphemes>
+                  <morph type="stem" guid="d7f713e8-e8cf-11d3-9764-00c04f186933">
+                    <item type="msa" lang="en">nclf</item>
+                  </morph>
+                </morphemes>
+              </word>
+              <word guid="75bb40e5-d8b1-4190-a6fe-68f9dfaed4aa">
+                <item type="txt" lang="qaa">tša</item>
+                <item type="gls" lang="en">while</item>
+                <morphemes>
+                  <morph type="stem" guid="d7f713e8-e8cf-11d3-9764-00c04f186933">
+                    <item type="msa" lang="en">coordconn</item>
+                  </morph>
+                </morphemes>
+              </word>
+              <word>
+                <item type="punct" lang="qaa">,</item>
+              </word>
+              <word guid="422c3fad-8767-467b-9765-1303eca27c3d">
+                <item type="txt" lang="qaa">ǃʼoã</item>
+                <item type="gls" lang="en">end</item>
+                <morphemes>
+                  <morph type="stem" guid="d7f713e8-e8cf-11d3-9764-00c04f186933">
+                    <item type="msa" lang="en">n</item>
+                  </morph>
+                </morphemes>
+              </word>
+              <word guid="ac79dfa0-b2c6-4caa-a028-64a223e81542">
+                <item type="txt" lang="qaa">iñi</item>
+                <item type="gls" lang="en">over</item>
+                <morphemes>
+                  <morph type="stem" guid="d7f713e8-e8cf-11d3-9764-00c04f186933">
+                    <item type="msa" lang="en">post</item>
+                  </morph>
+                </morphemes>
+              </word>
+              <word guid="2a71ff7f-89a9-46a4-bfd9-3783f9b2b460">
+                <item type="txt" lang="qaa">oǃʼo</item>
+                <item type="gls" lang="en">arrive.to</item>
+                <morphemes>
+                  <morph type="stem" guid="d7f713e8-e8cf-11d3-9764-00c04f186933">
+                    <item type="msa" lang="en">vi</item>
+                  </morph>
+                </morphemes>
+              </word>
+              <word>
+                <item type="punct" lang="qaa">.</item>
+              </word>
+            </words>
+            <item type="gls" lang="en">After he'd tracked it for long, he finally caught up to the animal.</item>
+          </phrase>
+        </phrases>
+      </paragraph>
+      <paragraph guid="a79f8f64-b7e0-4667-8405-2fb8990589ad">
+        <phrases>
+          <phrase guid="01c32326-5d9d-46bc-832d-22fbeb8f5961">
+            <item type="segnum" lang="en">4</item>
+            <words>
+              <word guid="3cf82aef-fd25-4d26-8c44-6d394b598cfa">
+                <item type="txt" lang="qaa">Ṇam</item>
+                <item type="gls" lang="en">but</item>
+                <morphemes>
+                  <morph type="stem" guid="d7f713e8-e8cf-11d3-9764-00c04f186933">
+                    <item type="msa" lang="en">coordconn</item>
+                  </morph>
+                </morphemes>
+              </word>
+              <word guid="36e37186-8a4a-41fb-bfe7-2850daecf933">
+                <item type="txt" lang="qaa">ʼai</item>
+                <item type="gls" lang="en">and</item>
+                <morphemes>
+                  <morph type="stem" guid="d7f713e8-e8cf-11d3-9764-00c04f186933">
+                    <item type="msa" lang="en">adv</item>
+                  </morph>
+                </morphemes>
+              </word>
+              <word>
+                <item type="punct" lang="qaa">,</item>
+              </word>
+              <word guid="a4a8b31d-5ce3-4277-9daa-cd0490f8db4b">
+                <item type="txt" lang="qaa">ǂṴʼulaã</item>
+                <item type="gls" lang="en">Suntongue</item>
+                <morphemes>
+                  <morph />
+                </morphemes>
+              </word>
+              <word guid="16d1dcd2-c7f2-4b16-9425-802ec7bd4473">
+                <item type="txt" lang="qaa">ǃam</item>
+                <item type="gls" lang="en">spirits</item>
+                <morphemes>
+                  <morph type="stem" guid="d7f713e8-e8cf-11d3-9764-00c04f186933">
+                    <item type="msa" lang="en">nclf</item>
+                  </morph>
+                </morphemes>
+              </word>
+              <word guid="9dcd4ec3-1b0f-4b68-9826-d77c3b0248f2">
+                <item type="txt" lang="qaa">łǁa</item>
+                <item type="gls" lang="en">see</item>
+                <morphemes>
+                  <morph type="stem" guid="d7f713e8-e8cf-11d3-9764-00c04f186933">
+                    <item type="msa" lang="en">vt</item>
+                  </morph>
+                </morphemes>
+              </word>
+              <word guid="eb456b63-3e4a-4853-b2e5-1ba0ca06e2b7">
+                <item type="txt" lang="qaa">isʇqʼatła</item>
+                <item type="gls" lang="en">skin.for.meat</item>
+                <morphemes>
+                  <morph type="stem" guid="d7f713e8-e8cf-11d3-9764-00c04f186933">
+                    <item type="msa" lang="en">vt</item>
+                  </morph>
+                </morphemes>
+              </word>
+              <word guid="5465478e-8f93-43cf-8925-d1d5d300b697">
+                <item type="txt" lang="qaa">ɴǁoi</item>
+                <item type="gls" lang="en">can</item>
+                <morphemes>
+                  <morph type="stem" guid="d7f713e8-e8cf-11d3-9764-00c04f186933">
+                    <item type="msa" lang="en">v</item>
+                  </morph>
+                </morphemes>
+              </word>
+              <word guid="097cb2dd-a475-446e-a071-9f780b29f264">
+                <item type="txt" lang="qaa">ǂʼa</item>
+                <item type="gls" lang="en">large.herbivore</item>
+                <morphemes>
+                  <morph type="stem" guid="d7f713e8-e8cf-11d3-9764-00c04f186933">
+                    <item type="msa" lang="en">nclf</item>
+                  </morph>
+                </morphemes>
+              </word>
+              <word guid="999239d7-b9ae-486e-9675-2bb84e40c09e">
+                <item type="txt" lang="qaa">uŋa</item>
+                <item type="gls" lang="en">none</item>
+                <morphemes>
+                  <morph type="stem" guid="d7f713e8-e8cf-11d3-9764-00c04f186933">
+                    <item type="msa" lang="en">adj</item>
+                  </morph>
+                </morphemes>
+              </word>
+              <word>
+                <item type="punct" lang="qaa">:</item>
+              </word>
+            </words>
+            <item type="gls" lang="en">However, Sun-Tongue discovered that there was no hurt animal which he could skin for meat:</item>
+          </phrase>
+        </phrases>
+      </paragraph>
+      <paragraph guid="45b3c9a8-099d-4a81-ac7a-f016bcd2d291">
+        <phrases>
+          <phrase guid="d13008e7-1e8a-46c0-849d-4328262433a8">
+            <item type="segnum" lang="en">5</item>
+            <words>
+              <word guid="eb81a1b2-e1df-4b94-a738-fb8ff2789edd">
+                <item type="txt" lang="qaa">aliʼa</item>
+                <item type="gls" lang="en">merely</item>
+                <morphemes>
+                  <morph type="stem" guid="d7f713e8-e8cf-11d3-9764-00c04f186933">
+                    <item type="msa" lang="en">adv</item>
+                  </morph>
+                </morphemes>
+              </word>
+              <word guid="e12dd10c-3074-4d4d-906f-1b3ce7df89a6">
+                <item type="txt" lang="qaa">šǃo</item>
+                <item type="gls" lang="en">be</item>
+                <morphemes>
+                  <morph type="stem" guid="d7f713e8-e8cf-11d3-9764-00c04f186933">
+                    <item type="msa" lang="en">cop</item>
+                  </morph>
+                </morphemes>
+              </word>
+              <word guid="770b8924-cea3-47bc-baa0-359da41e1c54">
+                <item type="txt" lang="qaa">pṵutṣi</item>
+                <item type="gls" lang="en">mongoose</item>
+                <morphemes>
+                  <morph type="stem" guid="d7f713e8-e8cf-11d3-9764-00c04f186933">
+                    <item type="msa" lang="en">n</item>
+                  </morph>
+                </morphemes>
+              </word>
+              <word guid="f54459f7-1434-4fdd-9933-98bd72f880c2">
+                <item type="txt" lang="qaa">iʇʼi</item>
+                <item type="gls" lang="en">small.animals</item>
+                <morphemes>
+                  <morph type="stem" guid="d7f713e8-e8cf-11d3-9764-00c04f186933">
+                    <item type="msa" lang="en">nclf</item>
+                  </morph>
+                </morphemes>
+              </word>
+              <word guid="0531c774-6acb-4c94-84aa-c21be7f753f5">
+                <item type="txt" lang="qaa">ǃo̰o</item>
+                <item type="gls" lang="en">one</item>
+                <morphemes>
+                  <morph type="stem" guid="d7f713e8-e8cf-11d3-9764-00c04f186933">
+                    <item type="msa" lang="en">cardnum</item>
+                  </morph>
+                </morphemes>
+              </word>
+              <word>
+                <item type="punct" lang="qaa">,</item>
+              </word>
+              <word guid="16d1dcd2-c7f2-4b16-9425-802ec7bd4473">
+                <item type="txt" lang="qaa">ǃam</item>
+                <item type="gls" lang="en">spirits</item>
+                <morphemes>
+                  <morph type="stem" guid="d7f713e8-e8cf-11d3-9764-00c04f186933">
+                    <item type="msa" lang="en">nclf</item>
+                  </morph>
+                </morphemes>
+              </word>
+              <word guid="4782de8a-619b-44ba-9899-2998e934e03a">
+                <item type="txt" lang="qaa">ǁṵuṇa</item>
+                <item type="gls" lang="en">about</item>
+                <morphemes>
+                  <morph type="stem" guid="d7f713e8-e8cf-11d3-9764-00c04f186933">
+                    <item type="msa" lang="en">post</item>
+                  </morph>
+                </morphemes>
+              </word>
+              <word guid="c38a5a79-0ad0-4df6-9ebe-752e93aca67a">
+                <item type="txt" lang="qaa">ṉa̰ã</item>
+                <item type="gls" lang="en">laugh</item>
+                <morphemes>
+                  <morph type="stem" guid="d7f713e8-e8cf-11d3-9764-00c04f186933">
+                    <item type="msa" lang="en">v</item>
+                  </morph>
+                </morphemes>
+              </word>
+              <word guid="c38a5a79-0ad0-4df6-9ebe-752e93aca67a">
+                <item type="txt" lang="qaa">ṉa̰ã</item>
+                <item type="gls" lang="en">laugh</item>
+                <morphemes>
+                  <morph type="stem" guid="d7f713e8-e8cf-11d3-9764-00c04f186933">
+                    <item type="msa" lang="en">v</item>
+                  </morph>
+                </morphemes>
+              </word>
+              <word guid="3d14641d-eb4e-41c6-b089-06cb767d36e5">
+                <item type="txt" lang="qaa">ǂu</item>
+                <item type="gls" lang="en">and</item>
+                <morphemes>
+                  <morph type="stem" guid="d7f713e8-e8cf-11d3-9764-00c04f186933">
+                    <item type="msa" lang="en">coordconn</item>
+                  </morph>
+                </morphemes>
+              </word>
+              <word>
+                <item type="punct" lang="qaa">.</item>
+              </word>
+            </words>
+            <item type="gls" lang="en">there was only a mongoose, snickering at him.</item>
+          </phrase>
+        </phrases>
+      </paragraph>
+    </paragraphs>
+    <languages>
+      <language lang="en" font="Charis SIL" />
+      <language lang="qaa" font="Charis SIL" vernacular="true" />
+    </languages>
+  </interlinear-text>
+</document>

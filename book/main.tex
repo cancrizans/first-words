@@ -31,6 +31,11 @@
 
 \usepackage{parskip}
 
+\usepackage{colortbl}
+
+\usepackage{forest}
+
+\usepackage{framed}
 
 
 \definecolor{CoverTeal}{RGB}{30, 212, 181}
@@ -53,9 +58,9 @@
 
 
 
-\renewcommand{\eachwordone}{\addfontfeature{Color=AccentText}\large}
-\renewcommand{\eachwordtwo}{\tt\scriptsize}
-\pretocmd{\glt}{\it}{}{}
+\renewcommand{\eachwordone}{\addfontfeature{Color=AccentText}\bfseries\small}
+\renewcommand{\eachwordtwo}{\tt\tiny}
+\pretocmd{\glt}{\it\small}{}{}
 
 
 
@@ -75,10 +80,17 @@
 \newcommand{\INTR}{\grammsc{INTR}}
 \newcommand{\INSTR}{\grammsc{INSTR}}
 
+
+
+\newcommand{\prose}[1]{\begin{center}\begin{minipage}{0.8\textwidth}\large #1\end{minipage}\end{center}}
+
+
+
 \newcommand{\cmnt}[1]{\textcolor{red}{#1}}
 
 
-\usepackage{colortbl}
+
+
 
 \newcommand{\voidcell}{\cellcolor[gray]{.9}}
 
@@ -859,7 +871,9 @@ and, as seen before, forcing the argument into ablative position marks either a 
 \glt It was Uǁa̰a that made Qʼoaʇṵu sleep / Qʼoaʇṵu slept because of Uǁa̰a
 \end{exe}
 
-\section{Copula}\label{sec:copula}
+\section{Copula}
+
+\label{sec:copula}
 
 \cmnt{Yeahh... I still have to write it.}
 
@@ -1075,11 +1089,25 @@ Binary & tr. & tr. & \makecell{Both Patient and\\Agent separately} & Consecution
 
 \chapter{Corpus}
 
+\section{Sun-Tongue and the Night}
+
+\prose{ Ʇaula ʇqʼaãṭa, ǂxa̰a ǁqʼoṯe paala ʘa̰a ʼa uʇum ǂṴʼulaã ǃam.
+ǃAm ʼa̰o ǂum ke, ǃam ǂu sʇooṉa ṯuña ǃxa, ʼai ʘa̰a ʼa uʇum ʼmʼm ǃam ǃaala.
+ǂʼA ʼa ʼmʼm ɴǃui tša, ǃʼoã iñi oǃʼo.
+Ṇam ʼai, ǂṴʼulaã ǃam łǁa isʇqʼatła ɴǁoi ǂʼa uŋa:
+aliʼa šǃo pṵutṣi iʇʼi ǃo̰o, ǃam ǁṵuṇa ṉa̰ã ṉa̰ã ǂu. }
+
+\prose{\emph{One night, Sun-Tongue awoke because of the distant wail of a hurt beast. He filled up his canteen and tipped his arrows, and began tracking the sound by moonlight. After he'd tracked it for long, he finally caught up to the animal. However, Sun-Tongue discovered that there was no hurt animal which he could skin for meat: there was only a mongoose, snickering at him.}}
+
+\cmnt{To finish story}
+
+\input{interlinears/suntongue_and_the_night.tex}
+
 \section{The North Wind and the Sun}
 
 \cmnt{This should be updated to the orthography changes.}
 
-\newcommand{\prose}[1]{\begin{center}\begin{minipage}{0.8\textwidth}\large #1\end{minipage}\end{center}}
+
 
 \prose{\qcn{Ʇaula Nǃòõ Uǃqʼa maã Jùu aje ǂu ełǁa iñi
 nʇum nui ʼèe sʇaʇau ǁùuṇa.
@@ -1101,7 +1129,76 @@ Nǃòõ Uǃqʼa maã łǁa sʇaʇau Jùu aʇe.}}
 
 \section{Basic Classifier Taxonomy}
 
-\cmnt{todopdeedoo}
+A basic, non-comprehensive hierarchy of noun classifiers for people:
+
+\forestset{
+  declare toks={tr}{},
+  clftree/.style={
+	for tree = {align=center},
+    delay={
+      for tree={
+        if tr={}{
+          content={%
+            \qcn{##1} 
+          }
+        }{
+          content={%
+            {\scalebox{1}{\qcn{##1}} \\ 
+		\emph{\parbox{2cm}{\centering\footnotesize\forestoption{tr}}}}
+          }
+        }
+      }
+    }
+  }
+}
+
+\begin{forest}
+	clftree
+	[ṉui,tr={persons, people}
+		[ǃam,tr={spirits, ancestors}]
+		[ʘuulu,tr={alive, warm-bodied}
+			[ji,tr={children}]
+			[ɴǂʼa,tr={adults}
+				[ku,tr={men}
+					[qʼai,tr={uninitiated young men, adolescents}]
+					[ñḛʼe,tr={older men}
+						[ɴǃoõ,tr={shamans, experienced elders}]
+					]
+				]
+				[tła,tr={women}
+					[mḛʼe,tr={young/childless woman}]
+					[ǁa̰a,tr={young/recent mothers}]
+					[ǃqʼum,tr={older women, mothers, grandmothers}]
+				]
+			]
+		]
+	]
+\end{forest}
+
+%
+%\begin{forest}
+%	clftree
+%	[{\cln{ṉui}{persons, people}}
+%		[{\cln{ǃam}{spirits, ancestors}}]
+%		[{\cln{..}{living, warm-bodied}}
+%			[{\cln{ji}{children}}]
+%			[{\cln{..}{adults}}
+%				[{\cln{ku}{men}}]
+%				[{\cln{tła}{women}}]
+%			]
+%		]
+%	]
+%\end{forest}
+%
+% \begin{forest}
+%  for tree={align=left}
+%[parent
+%  [{first\\child}]
+%  [{second\\child}]
+%  ]
+%  \end{forest}
+%
+%\cmnt{todopdeedoo}
 
 \section{Greetings and idioms}
 
