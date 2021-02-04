@@ -112,7 +112,8 @@ def FormatInterlinear(filename,mode="reddit"):
 			output += "*" +  translation + "*"
 		elif mode == "beamer":
 			output += original_run.strip() + "}{"
-			output += esc(pronunciator.pronunciate(original_run)) + "}{"
+#			output += esc(pronunciator.pronunciate(original_run)) + "}{"
+			output +=  " ".join(map(lambda gw : gw ,gloss_words)) + "}{"
 			output += esc(translation) + "}"
 		elif mode == "tex":
 			output += "\\gll " + " ".join(original_words) + "\\\\ \n"
@@ -134,10 +135,10 @@ if __name__ == "__main__":
 	parser = argparse.ArgumentParser()
 	parser.add_argument("file")
 	parser.add_argument("--mode", default="reddit")
+	parser.add_argument("--output", default="output.md")
 	args = parser.parse_args()
 
 
-
 	input_text_filename = args.file
-	with open('output.md','w',encoding="utf-8") as f:
+	with open(args.output,'w',encoding="utf-8") as f:
 		f.write(FormatInterlinear(input_text_filename,args.mode))
