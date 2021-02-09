@@ -63,9 +63,9 @@
 </definition>
 </sense>
 </entry>
-<entry dateCreated="2021-01-07T23:05:39Z" dateModified="2021-01-20T17:43:03Z" id="ɴǁotṣo_025bd734-b008-46b0-868e-42faa78430b0" guid="025bd734-b008-46b0-868e-42faa78430b0">
+<entry dateCreated="2021-01-07T23:05:39Z" dateModified="2021-02-07T11:32:11Z" id="ɴǁoṭro_025bd734-b008-46b0-868e-42faa78430b0" guid="025bd734-b008-46b0-868e-42faa78430b0">
 <lexical-unit>
-<form lang="qaa"><text>ɴǁotṣo</text></form>
+<form lang="qaa"><text>ɴǁoṭro</text></form>
 </lexical-unit>
 <trait  name="morph-type" value="stem"/>
 <sense id="47a5edb8-5118-4e21-849b-70f7d17365af">
@@ -74,9 +74,9 @@
 <gloss lang="en"><text>door</text></gloss>
 </sense>
 </entry>
-<entry dateCreated="2021-02-03T08:07:05Z" dateModified="2021-02-03T08:07:05Z" id="łǁʼa_02cc4346-9349-4828-a48c-01266ff2384b" guid="02cc4346-9349-4828-a48c-01266ff2384b">
+<entry dateCreated="2021-02-03T08:07:05Z" dateModified="2021-02-07T11:33:36Z" id="ɬǁʼa_02cc4346-9349-4828-a48c-01266ff2384b" guid="02cc4346-9349-4828-a48c-01266ff2384b">
 <lexical-unit>
-<form lang="qaa"><text>łǁʼa</text></form>
+<form lang="qaa"><text>ɬǁʼa</text></form>
 </lexical-unit>
 <trait  name="morph-type" value="stem"/>
 <sense id="995680ff-13f4-4623-87cb-d641a26bc5b2">
@@ -100,9 +100,9 @@
 <relation type="Classified Noun" ref="87046373-fc2e-4efc-8398-5d20cb777b95"/>
 </sense>
 </entry>
-<entry dateCreated="2020-12-28T10:35:16Z" dateModified="2021-01-25T14:15:49Z" id="utši_075b957c-a4f8-408b-a43f-15182521bbb0" guid="075b957c-a4f8-408b-a43f-15182521bbb0">
+<entry dateCreated="2020-12-28T10:35:16Z" dateModified="2021-02-07T11:31:10Z" id="uchi_075b957c-a4f8-408b-a43f-15182521bbb0" guid="075b957c-a4f8-408b-a43f-15182521bbb0">
 <lexical-unit>
-<form lang="qaa"><text>utši</text></form>
+<form lang="qaa"><text>uchi</text></form>
 </lexical-unit>
 <trait  name="morph-type" value="stem"/>
 <sense id="a9eb0010-db8e-47aa-bf1c-9ad3dab74f81">
@@ -344,9 +344,9 @@
 </definition>
 </sense>
 </entry>
-<entry dateCreated="2020-12-26T01:11:37Z" dateModified="2021-01-25T17:44:22Z" id="tłḭi_165e7909-e7fb-4ea5-be28-11e609627c8b" guid="165e7909-e7fb-4ea5-be28-11e609627c8b">
+<entry dateCreated="2020-12-26T01:11:37Z" dateModified="2021-02-07T11:33:36Z" id="tɬḭi_165e7909-e7fb-4ea5-be28-11e609627c8b" guid="165e7909-e7fb-4ea5-be28-11e609627c8b">
 <lexical-unit>
-<form lang="qaa"><text>tłḭi</text></form>
+<form lang="qaa"><text>tɬḭi</text></form>
 </lexical-unit>
 <trait  name="morph-type" value="stem"/>
 <sense id="36bec41b-93cc-4de1-b178-0ebd5baaff6f">
@@ -935,9 +935,9 @@
 <relation type="Classifier" ref="ca14cde0-71c7-4f8d-85a4-018a71fac6af"/>
 </sense>
 </entry>
-<entry dateCreated="2021-01-21T14:32:29Z" dateModified="2021-01-21T14:33:39Z" id="tłʼoi_3e706479-fa01-40da-b488-1888228cfee8" guid="3e706479-fa01-40da-b488-1888228cfee8">
+<entry dateCreated="2021-01-21T14:32:29Z" dateModified="2021-02-07T11:33:36Z" id="tɬʼoi_3e706479-fa01-40da-b488-1888228cfee8" guid="3e706479-fa01-40da-b488-1888228cfee8">
 <lexical-unit>
-<form lang="qaa"><text>tłʼoi</text></form>
+<form lang="qaa"><text>tɬʼoi</text></form>
 </lexical-unit>
 <trait  name="morph-type" value="stem"/>
 <sense id="cdd5c677-46d3-4ef4-8fcd-508a140e2a4d" order="0">
@@ -1036,9 +1036,9 @@
 </definition>
 </sense>
 </entry>
-<entry dateCreated="2020-12-27T15:13:43Z" dateModified="2021-01-25T17:44:22Z" id="tšḭitši_47753dac-24ec-4512-8161-1b6600ecca9d" guid="47753dac-24ec-4512-8161-1b6600ecca9d">
+<entry dateCreated="2020-12-27T15:13:43Z" dateModified="2021-02-07T11:31:10Z" id="chḭichi_47753dac-24ec-4512-8161-1b6600ecca9d" guid="47753dac-24ec-4512-8161-1b6600ecca9d">
 <lexical-unit>
-<form lang="qaa"><text>tšḭitši</text></form>
+<form lang="qaa"><text>chḭichi</text></form>
 </lexical-unit>
 <trait  name="morph-type" value="stem"/>
 <sense id="d76d75ea-ba87-435e-9279-057fd9524fbb">
@@ -1085,9 +1085,9 @@
 <gloss lang="en"><text>merely</text></gloss>
 </sense>
 </entry>
-<entry dateCreated="2021-01-28T12:43:24Z" dateModified="2021-01-28T12:43:24Z" id="tła̰ʼa_4b009d8c-13a7-4a4a-bbb9-4e2256d43db5" guid="4b009d8c-13a7-4a4a-bbb9-4e2256d43db5">
+<entry dateCreated="2021-01-28T12:43:24Z" dateModified="2021-02-07T11:33:36Z" id="tɬa̰ʼa_4b009d8c-13a7-4a4a-bbb9-4e2256d43db5" guid="4b009d8c-13a7-4a4a-bbb9-4e2256d43db5">
 <lexical-unit>
-<form lang="qaa"><text>tła̰ʼa</text></form>
+<form lang="qaa"><text>tɬa̰ʼa</text></form>
 </lexical-unit>
 <trait  name="morph-type" value="stem"/>
 <sense id="a522a960-985a-409f-a7f3-dd3076914cb7">
@@ -1258,9 +1258,9 @@
 <gloss lang="en"><text>hare</text></gloss>
 </sense>
 </entry>
-<entry dateCreated="2021-01-10T22:37:53Z" dateModified="2021-01-10T22:37:53Z" id="ałǁʼi_5180e69a-a534-4e3e-b309-de4cb8c6e622" guid="5180e69a-a534-4e3e-b309-de4cb8c6e622">
+<entry dateCreated="2021-01-10T22:37:53Z" dateModified="2021-02-07T11:33:36Z" id="aɬǁʼi_5180e69a-a534-4e3e-b309-de4cb8c6e622" guid="5180e69a-a534-4e3e-b309-de4cb8c6e622">
 <lexical-unit>
-<form lang="qaa"><text>ałǁʼi</text></form>
+<form lang="qaa"><text>aɬǁʼi</text></form>
 </lexical-unit>
 <trait  name="morph-type" value="stem"/>
 <sense id="55fe3964-7d4a-4250-aa5a-6174c36124ab">
@@ -1292,9 +1292,9 @@
 <gloss lang="en"><text>easily</text></gloss>
 </sense>
 </entry>
-<entry dateCreated="2021-01-05T02:00:31Z" dateModified="2021-01-25T14:15:49Z" id="ɴǂoitši_530aef6a-8f6f-4989-bbcb-a39922936221" guid="530aef6a-8f6f-4989-bbcb-a39922936221">
+<entry dateCreated="2021-01-05T02:00:31Z" dateModified="2021-02-07T11:31:10Z" id="ɴǂoichi_530aef6a-8f6f-4989-bbcb-a39922936221" guid="530aef6a-8f6f-4989-bbcb-a39922936221">
 <lexical-unit>
-<form lang="qaa"><text>ɴǂoitši</text></form>
+<form lang="qaa"><text>ɴǂoichi</text></form>
 </lexical-unit>
 <trait  name="morph-type" value="stem"/>
 <sense id="a2dab01b-60f3-4226-8145-fd2954380977">
@@ -1328,9 +1328,9 @@
 </definition>
 </sense>
 </entry>
-<entry dateCreated="2020-12-26T14:56:28Z" dateModified="2021-01-25T14:15:49Z" id="tša_5520408e-56d9-4394-a974-31733865c889" guid="5520408e-56d9-4394-a974-31733865c889">
+<entry dateCreated="2020-12-26T14:56:28Z" dateModified="2021-02-07T11:31:10Z" id="cha_5520408e-56d9-4394-a974-31733865c889" guid="5520408e-56d9-4394-a974-31733865c889">
 <lexical-unit>
-<form lang="qaa"><text>tša</text></form>
+<form lang="qaa"><text>cha</text></form>
 </lexical-unit>
 <trait  name="morph-type" value="stem"/>
 <pronunciation>
@@ -1386,9 +1386,9 @@
 </example>
 </sense>
 </entry>
-<entry dateCreated="2021-01-04T02:59:30Z" dateModified="2021-01-06T00:41:42Z" id="ǂootṣi_5948ea85-1c0e-4f96-bf52-03ffd506e9a0" guid="5948ea85-1c0e-4f96-bf52-03ffd506e9a0">
+<entry dateCreated="2021-01-04T02:59:30Z" dateModified="2021-02-07T11:32:11Z" id="ǂooṭri_5948ea85-1c0e-4f96-bf52-03ffd506e9a0" guid="5948ea85-1c0e-4f96-bf52-03ffd506e9a0">
 <lexical-unit>
-<form lang="qaa"><text>ǂootṣi</text></form>
+<form lang="qaa"><text>ǂooṭri</text></form>
 </lexical-unit>
 <trait  name="morph-type" value="stem"/>
 <sense id="718dcaee-0be9-4653-8863-f14b967e3ff3">
@@ -1487,6 +1487,20 @@
 </definition>
 </sense>
 </entry>
+<entry dateCreated="2021-02-04T23:28:39Z" dateModified="2021-02-04T23:29:06Z" id="ɴʇa_632097a0-aac7-480e-8aa5-04c9488a672c" guid="632097a0-aac7-480e-8aa5-04c9488a672c">
+<lexical-unit>
+<form lang="qaa"><text>ɴʇa</text></form>
+</lexical-unit>
+<trait  name="morph-type" value="stem"/>
+<sense id="9e7907c8-c051-4cff-a2b6-90763300c795">
+<grammatical-info value="Noun">
+</grammatical-info>
+<gloss lang="en"><text>child</text></gloss>
+<definition>
+<form lang="en"><text>child (as in progeny, son or daughter)</text></form>
+</definition>
+</sense>
+</entry>
 <entry dateCreated="2020-12-28T10:33:10Z" dateModified="2021-01-06T21:59:13Z" id="ǃa_64575d93-0b9e-4b8f-8f8a-40362b4bd02d" guid="64575d93-0b9e-4b8f-8f8a-40362b4bd02d">
 <lexical-unit>
 <form lang="qaa"><text>ǃa</text></form>
@@ -1527,9 +1541,9 @@
 <relation type="Classifier" ref="0ded4fde-8c3a-4942-a8c8-08630d0cd9a8"/>
 </sense>
 </entry>
-<entry dateCreated="2021-01-07T17:58:33Z" dateModified="2021-01-21T14:24:04Z" id="utłʼe_6abead2a-3864-4040-a511-161caedd9c75" guid="6abead2a-3864-4040-a511-161caedd9c75">
+<entry dateCreated="2021-01-07T17:58:33Z" dateModified="2021-02-07T11:33:36Z" id="utɬʼe_6abead2a-3864-4040-a511-161caedd9c75" guid="6abead2a-3864-4040-a511-161caedd9c75">
 <lexical-unit>
-<form lang="qaa"><text>utłʼe</text></form>
+<form lang="qaa"><text>utɬʼe</text></form>
 </lexical-unit>
 <trait  name="morph-type" value="stem"/>
 <sense id="307a235c-92d4-4ec1-acca-bbcc0846b56c" order="0">
@@ -1582,9 +1596,9 @@
 <gloss lang="en"><text>skin.for.meat</text></gloss>
 </sense>
 </entry>
-<entry dateCreated="2020-12-29T18:38:17Z" dateModified="2021-01-08T10:53:55Z" id="tła_75b88687-40a7-401b-9bae-9e4f03182681" guid="75b88687-40a7-401b-9bae-9e4f03182681">
+<entry dateCreated="2020-12-29T18:38:17Z" dateModified="2021-02-07T11:33:36Z" id="tɬa_75b88687-40a7-401b-9bae-9e4f03182681" guid="75b88687-40a7-401b-9bae-9e4f03182681">
 <lexical-unit>
-<form lang="qaa"><text>tła</text></form>
+<form lang="qaa"><text>tɬa</text></form>
 </lexical-unit>
 <trait  name="morph-type" value="stem"/>
 <sense id="39cd8ce3-3cf4-4f57-b6e7-047375f6460f">
@@ -1778,6 +1792,17 @@
 <definition>
 <form lang="en"><text>me and you</text></form>
 </definition>
+</sense>
+</entry>
+<entry dateCreated="2021-02-04T23:29:29Z" dateModified="2021-02-04T23:29:29Z" id="ṭʼṭʼaṇi_81dbf9aa-5faa-4606-888a-d85f66758cc3" guid="81dbf9aa-5faa-4606-888a-d85f66758cc3">
+<lexical-unit>
+<form lang="qaa"><text>ṭʼṭʼaṇi</text></form>
+</lexical-unit>
+<trait  name="morph-type" value="stem"/>
+<sense id="4fb57917-6b73-4291-8ad1-bf6aa0fb3741">
+<grammatical-info value="Transitive verb">
+</grammatical-info>
+<gloss lang="en"><text>recognize</text></gloss>
 </sense>
 </entry>
 <entry dateCreated="2021-01-04T02:57:24Z" dateModified="2021-01-04T02:57:24Z" id="pau_8200d55e-8c45-4627-a7df-b3223d2a0056" guid="8200d55e-8c45-4627-a7df-b3223d2a0056">
@@ -2144,9 +2169,9 @@
 </definition>
 </sense>
 </entry>
-<entry dateCreated="2021-02-02T13:36:26Z" dateModified="2021-02-02T13:36:26Z" id="pṵutṣi_976500d0-fbd3-4020-80ed-a80a0f2884fe" guid="976500d0-fbd3-4020-80ed-a80a0f2884fe">
+<entry dateCreated="2021-02-02T13:36:26Z" dateModified="2021-02-07T11:32:11Z" id="pṵuṭri_976500d0-fbd3-4020-80ed-a80a0f2884fe" guid="976500d0-fbd3-4020-80ed-a80a0f2884fe">
 <lexical-unit>
-<form lang="qaa"><text>pṵutṣi</text></form>
+<form lang="qaa"><text>pṵuṭri</text></form>
 </lexical-unit>
 <trait  name="morph-type" value="stem"/>
 <sense id="4f66a24d-4e12-4fc9-a40e-1c33d4817288">
@@ -2214,9 +2239,9 @@
 </example>
 </sense>
 </entry>
-<entry dateCreated="2021-01-04T13:49:27Z" dateModified="2021-01-25T17:46:36Z" id="ǃo̰otło_9dbfd3ab-7410-48b1-b126-cf4d7aa36f6c" guid="9dbfd3ab-7410-48b1-b126-cf4d7aa36f6c">
+<entry dateCreated="2021-01-04T13:49:27Z" dateModified="2021-02-07T11:33:36Z" id="ǃo̰otɬo_9dbfd3ab-7410-48b1-b126-cf4d7aa36f6c" guid="9dbfd3ab-7410-48b1-b126-cf4d7aa36f6c">
 <lexical-unit>
-<form lang="qaa"><text>ǃo̰otło</text></form>
+<form lang="qaa"><text>ǃo̰otɬo</text></form>
 </lexical-unit>
 <trait  name="morph-type" value="stem"/>
 <sense id="90a3bbb6-dfbf-4096-a59e-7b23d4f08cd5">
@@ -2302,9 +2327,9 @@
 <gloss lang="en"><text>but</text></gloss>
 </sense>
 </entry>
-<entry dateCreated="2021-01-12T17:31:15Z" dateModified="2021-01-12T17:33:00Z" id="łǁoi_a3263004-65a9-40cc-a186-36dbbb979d24" guid="a3263004-65a9-40cc-a186-36dbbb979d24">
+<entry dateCreated="2021-01-12T17:31:15Z" dateModified="2021-02-07T11:33:36Z" id="ɬǁoi_a3263004-65a9-40cc-a186-36dbbb979d24" guid="a3263004-65a9-40cc-a186-36dbbb979d24">
 <lexical-unit>
-<form lang="qaa"><text>łǁoi</text></form>
+<form lang="qaa"><text>ɬǁoi</text></form>
 </lexical-unit>
 <trait  name="morph-type" value="stem"/>
 <sense id="4b45bd94-b2b6-4310-bdbc-63f86d598aa7">
@@ -2342,9 +2367,9 @@
 <gloss lang="en"><text>vagabond</text></gloss>
 </sense>
 </entry>
-<entry dateCreated="2021-01-01T15:46:20Z" dateModified="2021-01-06T00:34:19Z" id="łǁauʼi_a75ab32e-5250-4f9d-a0c0-1205b7a1513b" guid="a75ab32e-5250-4f9d-a0c0-1205b7a1513b">
+<entry dateCreated="2021-01-01T15:46:20Z" dateModified="2021-02-07T11:33:36Z" id="ɬǁauʼi_a75ab32e-5250-4f9d-a0c0-1205b7a1513b" guid="a75ab32e-5250-4f9d-a0c0-1205b7a1513b">
 <lexical-unit>
-<form lang="qaa"><text>łǁauʼi</text></form>
+<form lang="qaa"><text>ɬǁauʼi</text></form>
 </lexical-unit>
 <trait  name="morph-type" value="stem"/>
 <sense id="fefaae6f-8d9e-4b21-b886-708a142d8a89">
@@ -2380,9 +2405,9 @@
 <gloss lang="en"><text>man</text></gloss>
 </sense>
 </entry>
-<entry dateCreated="2021-01-28T12:50:05Z" dateModified="2021-01-28T12:50:05Z" id="tši_aa0a7734-3c9b-4013-ad7f-6b21869028d3" guid="aa0a7734-3c9b-4013-ad7f-6b21869028d3">
+<entry dateCreated="2021-01-28T12:50:05Z" dateModified="2021-02-07T11:31:10Z" id="chi_aa0a7734-3c9b-4013-ad7f-6b21869028d3" guid="aa0a7734-3c9b-4013-ad7f-6b21869028d3">
 <lexical-unit>
-<form lang="qaa"><text>tši</text></form>
+<form lang="qaa"><text>chi</text></form>
 </lexical-unit>
 <trait  name="morph-type" value="stem"/>
 <sense id="bc014e7d-cd0a-429f-a469-caf750c28baa">
@@ -2504,9 +2529,9 @@
 <gloss lang="en"><text>flee</text></gloss>
 </sense>
 </entry>
-<entry dateCreated="2020-12-31T17:10:04Z" dateModified="2021-01-10T13:20:14Z" id="ʼutła_b6672438-392f-4a44-b9c8-7912f2b40e56" guid="b6672438-392f-4a44-b9c8-7912f2b40e56">
+<entry dateCreated="2020-12-31T17:10:04Z" dateModified="2021-02-07T11:33:36Z" id="ʼutɬa_b6672438-392f-4a44-b9c8-7912f2b40e56" guid="b6672438-392f-4a44-b9c8-7912f2b40e56">
 <lexical-unit>
-<form lang="qaa"><text>ʼutła</text></form>
+<form lang="qaa"><text>ʼutɬa</text></form>
 </lexical-unit>
 <trait  name="morph-type" value="stem"/>
 <sense id="e13729b5-e35c-403a-a9bf-4e51bce62506">
@@ -2557,9 +2582,9 @@
 <gloss lang="en"><text>night</text></gloss>
 </sense>
 </entry>
-<entry dateCreated="2020-12-28T23:59:47Z" dateModified="2021-01-06T00:25:13Z" id="tṣui_bb1dfb8b-d6d1-4f50-9847-0e98d097d2bf" guid="bb1dfb8b-d6d1-4f50-9847-0e98d097d2bf">
+<entry dateCreated="2020-12-28T23:59:47Z" dateModified="2021-02-07T11:32:11Z" id="ṭrui_bb1dfb8b-d6d1-4f50-9847-0e98d097d2bf" guid="bb1dfb8b-d6d1-4f50-9847-0e98d097d2bf">
 <lexical-unit>
-<form lang="qaa"><text>tṣui</text></form>
+<form lang="qaa"><text>ṭrui</text></form>
 </lexical-unit>
 <trait  name="morph-type" value="stem"/>
 <sense id="e0c89477-65d8-42bc-a78f-f3a65454a4b7">
@@ -2837,9 +2862,9 @@
 <gloss lang="en"><text>neck</text></gloss>
 </sense>
 </entry>
-<entry dateCreated="2021-01-28T08:08:03Z" dateModified="2021-01-28T08:08:22Z" id="łǁqʼa_d0b0523e-7414-40f1-88e1-a545692b7b24" guid="d0b0523e-7414-40f1-88e1-a545692b7b24">
+<entry dateCreated="2021-01-28T08:08:03Z" dateModified="2021-02-07T11:33:36Z" id="ɬǁqʼa_d0b0523e-7414-40f1-88e1-a545692b7b24" guid="d0b0523e-7414-40f1-88e1-a545692b7b24">
 <lexical-unit>
-<form lang="qaa"><text>łǁqʼa</text></form>
+<form lang="qaa"><text>ɬǁqʼa</text></form>
 </lexical-unit>
 <trait  name="morph-type" value="stem"/>
 <sense id="7d9d866a-b186-4556-9476-af407029b00e">
@@ -2849,9 +2874,9 @@
 <relation type="Classifier" ref="c0835c51-5359-4436-ba00-892bee80b162"/>
 </sense>
 </entry>
-<entry dateCreated="2020-12-25T18:17:19Z" dateModified="2021-01-20T23:16:46Z" id="ełǁa_d10937bd-b842-4940-8ed2-e5699858fe5b" guid="d10937bd-b842-4940-8ed2-e5699858fe5b">
+<entry dateCreated="2020-12-25T18:17:19Z" dateModified="2021-02-07T11:33:36Z" id="eɬǁa_d10937bd-b842-4940-8ed2-e5699858fe5b" guid="d10937bd-b842-4940-8ed2-e5699858fe5b">
 <lexical-unit>
-<form lang="qaa"><text>ełǁa</text></form>
+<form lang="qaa"><text>eɬǁa</text></form>
 </lexical-unit>
 <trait  name="morph-type" value="stem"/>
 <sense id="118339e6-31b8-45d1-95f9-ab8c6539fd73">
@@ -3231,8 +3256,8 @@
 <grammatical-info value="Noun">
 </grammatical-info>
 <gloss lang="en"><text>boy</text></gloss>
-<relation type="Classifier" ref="b4de7c68-af90-477c-ad1e-681b006996b5"/>
 <relation type="Classifier" ref="d777c666-c1ca-4e67-8a13-a5838469fea8"/>
+<relation type="Classifier" ref="b4de7c68-af90-477c-ad1e-681b006996b5"/>
 </sense>
 </entry>
 <entry dateCreated="2021-01-19T18:23:04Z" dateModified="2021-01-25T17:44:22Z" id="ʼḭi_ea625f31-8559-4660-b1d5-5487c4f7da49" guid="ea625f31-8559-4660-b1d5-5487c4f7da49">
@@ -3337,9 +3362,9 @@
 </definition>
 </sense>
 </entry>
-<entry dateCreated="2021-01-08T19:34:27Z" dateModified="2021-01-27T19:42:17Z" id="tšḛʼe_f64c8853-1f7d-4581-9784-d9f4b046d0fe" guid="f64c8853-1f7d-4581-9784-d9f4b046d0fe">
+<entry dateCreated="2021-01-08T19:34:27Z" dateModified="2021-02-07T11:31:10Z" id="chḛʼe_f64c8853-1f7d-4581-9784-d9f4b046d0fe" guid="f64c8853-1f7d-4581-9784-d9f4b046d0fe">
 <lexical-unit>
-<form lang="qaa"><text>tšḛʼe</text></form>
+<form lang="qaa"><text>chḛʼe</text></form>
 </lexical-unit>
 <trait  name="morph-type" value="stem"/>
 <sense id="55b3a382-c352-44ab-adb7-7cd5e2f1db91">
@@ -3424,9 +3449,9 @@
 </definition>
 </sense>
 </entry>
-<entry dateCreated="2020-12-27T15:18:58Z" dateModified="2021-01-06T22:13:35Z" id="łǁa_f879c042-6284-48ac-b1ed-0b922e0015c4" guid="f879c042-6284-48ac-b1ed-0b922e0015c4">
+<entry dateCreated="2020-12-27T15:18:58Z" dateModified="2021-02-07T11:33:36Z" id="ɬǁa_f879c042-6284-48ac-b1ed-0b922e0015c4" guid="f879c042-6284-48ac-b1ed-0b922e0015c4">
 <lexical-unit>
-<form lang="qaa"><text>łǁa</text></form>
+<form lang="qaa"><text>ɬǁa</text></form>
 </lexical-unit>
 <trait  name="morph-type" value="stem"/>
 <sense id="34d71637-fddf-4147-a1e1-a7abcb3067e0">
@@ -3468,9 +3493,9 @@
 <relation type="Classifier" ref="d777c666-c1ca-4e67-8a13-a5838469fea8"/>
 </sense>
 </entry>
-<entry dateCreated="2020-12-26T14:44:29Z" dateModified="2021-01-06T00:25:13Z" id="tṣe_f9a91716-6d0c-4ff9-bae0-9b7c558ade0f" guid="f9a91716-6d0c-4ff9-bae0-9b7c558ade0f">
+<entry dateCreated="2020-12-26T14:44:29Z" dateModified="2021-02-07T11:32:11Z" id="ṭre_f9a91716-6d0c-4ff9-bae0-9b7c558ade0f" guid="f9a91716-6d0c-4ff9-bae0-9b7c558ade0f">
 <lexical-unit>
-<form lang="qaa"><text>tṣe</text></form>
+<form lang="qaa"><text>ṭre</text></form>
 </lexical-unit>
 <trait  name="morph-type" value="stem"/>
 <sense id="5ab0715e-0ff1-4da7-9120-175812476361">
@@ -3615,9 +3640,9 @@
 <relation type="Classified Noun" ref="795e675a-3260-4b81-b93c-7993e87c5115"/>
 </sense>
 </entry>
-<entry dateCreated="2020-12-28T23:59:19Z" dateModified="2021-01-10T13:26:45Z" id="iłǁui_ff796f4e-ac19-4ee8-8571-5cec6503c876" guid="ff796f4e-ac19-4ee8-8571-5cec6503c876">
+<entry dateCreated="2020-12-28T23:59:19Z" dateModified="2021-02-07T11:33:36Z" id="iɬǁui_ff796f4e-ac19-4ee8-8571-5cec6503c876" guid="ff796f4e-ac19-4ee8-8571-5cec6503c876">
 <lexical-unit>
-<form lang="qaa"><text>iłǁui</text></form>
+<form lang="qaa"><text>iɬǁui</text></form>
 </lexical-unit>
 <trait  name="morph-type" value="stem"/>
 <sense id="0d210d34-82bc-40ac-8729-4f447f3d501f">
@@ -3636,31 +3661,6 @@
 <grammatical-info value="Cardinal numeral">
 </grammatical-info>
 <gloss lang="en"><text>few</text></gloss>
-</sense>
-</entry>
-<entry dateCreated="2021-02-04T23:28:39Z" dateModified="2021-02-04T23:29:06Z" id="ɴʇa_632097a0-aac7-480e-8aa5-04c9488a672c" guid="632097a0-aac7-480e-8aa5-04c9488a672c">
-<lexical-unit>
-<form lang="qaa"><text>ɴʇa</text></form>
-</lexical-unit>
-<trait  name="morph-type" value="stem"/>
-<sense id="9e7907c8-c051-4cff-a2b6-90763300c795">
-<grammatical-info value="Noun">
-</grammatical-info>
-<gloss lang="en"><text>child</text></gloss>
-<definition>
-<form lang="en"><text>child (as in progeny, son or daughter)</text></form>
-</definition>
-</sense>
-</entry>
-<entry dateCreated="2021-02-04T23:29:29Z" dateModified="2021-02-04T23:29:29Z" id="ṭʼṭʼaṇi_81dbf9aa-5faa-4606-888a-d85f66758cc3" guid="81dbf9aa-5faa-4606-888a-d85f66758cc3">
-<lexical-unit>
-<form lang="qaa"><text>ṭʼṭʼaṇi</text></form>
-</lexical-unit>
-<trait  name="morph-type" value="stem"/>
-<sense id="4fb57917-6b73-4291-8ad1-bf6aa0fb3741">
-<grammatical-info value="Transitive verb">
-</grammatical-info>
-<gloss lang="en"><text>recognize</text></gloss>
 </sense>
 </entry>
 </lift>

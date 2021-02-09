@@ -199,7 +199,7 @@ sorting_alphabet = "ʇʘǃǂǁʼaãàbčdeẽèiĩìjklłmnṇñŋoõòpqrsšṣ
 click_regex = re.compile(r"[ʘʇǃǂǁ]")
 
 def rank_click_befores(bef):
-	return ["","ɴ","s","š","ṣ","ł"].index(bef)
+	return ["","ɴ","s","š","ṣ","ł","ɬ"].index(bef)
 
 def rank_click_afters(aft):
 	return ["","ʼ","x","qʼ","ʛ"].index(aft)
