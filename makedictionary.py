@@ -226,7 +226,10 @@ def rank_consonant(c):
 
 vowel_regex = re.compile(r"[aeiouàèìòùṵḭḛ]|aʼa|eʼe|iʼi|oʼo|mʼm|aʼã|iʼĩ|oʼõ")
 
-
+duplication_replace = {
+	"ɴǂʼɴǂʼ":"ɴǂʼ",
+	"ṭʼṭʼ":"ṭʼ"
+}
 
 keyed_lexicon = {}
 
@@ -237,6 +240,10 @@ for entry in lexicon:
 	else:
 		print(entry.local)
 		raise ValueError
+
+	if(consonant in duplication_replace):
+		consonant = duplication_replace[consonant]
+
 
 	if not (consonant in keyed_lexicon):
 		keyed_lexicon[consonant] = []

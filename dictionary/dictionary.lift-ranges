@@ -85,6 +85,18 @@
 </description>
 <trait name="catalog-source-id" value="PersonalPronoun"/>
 </range-element>
+<range-element id="Interrogative pro-form" guid="e5e7d0cb-36c5-497d-831c-cb614e283d7c" parent="Pro-form">
+<label>
+<form lang="en"><text>Interrogative pro-form</text></form>
+</label>
+<abbrev>
+<form lang="en"><text>interrog</text></form>
+</abbrev>
+<description>
+<form lang="en"><text>An interrogative pro-form is a pro-form that is used in questions to stand for the item questioned.</text></form>
+</description>
+<trait name="catalog-source-id" value="InterrogativeProform"/>
+</range-element>
 <range-element id="Verb" guid="86ff66f6-0774-407a-a0dc-3eeaf873daf7">
 <label>
 <form lang="en"><text>Verb</text></form>
@@ -20401,6 +20413,18 @@
 <form lang="en"><text>A personal pronoun is a pronoun that expresses a distinction of person deixis.</text></form>
 </description>
 <trait name="catalog-source-id" value="PersonalPronoun"/>
+</range-element>
+<range-element id="Interrogative pro-form" guid="e5e7d0cb-36c5-497d-831c-cb614e283d7c" parent="Pro-form">
+<label>
+<form lang="en"><text>Interrogative pro-form</text></form>
+</label>
+<abbrev>
+<form lang="en"><text>interrog</text></form>
+</abbrev>
+<description>
+<form lang="en"><text>An interrogative pro-form is a pro-form that is used in questions to stand for the item questioned.</text></form>
+</description>
+<trait name="catalog-source-id" value="InterrogativeProform"/>
 </range-element>
 <range-element id="Verb" guid="86ff66f6-0774-407a-a0dc-3eeaf873daf7">
 <label>

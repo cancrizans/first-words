@@ -515,7 +515,7 @@
 <gloss lang="en"><text>gold</text></gloss>
 </sense>
 </entry>
-<entry dateCreated="2021-01-05T02:43:08Z" dateModified="2021-01-06T00:39:40Z" id="ǃooja_216f7fa0-684c-456f-8809-d3708aa1db6f" guid="216f7fa0-684c-456f-8809-d3708aa1db6f">
+<entry dateCreated="2021-01-05T02:43:08Z" dateModified="2021-02-24T08:29:48Z" id="ǃooja_216f7fa0-684c-456f-8809-d3708aa1db6f" guid="216f7fa0-684c-456f-8809-d3708aa1db6f">
 <lexical-unit>
 <form lang="qaa"><text>ǃooja</text></form>
 </lexical-unit>
@@ -523,7 +523,10 @@
 <sense id="6cfba801-3840-494c-9791-f2e57db59849">
 <grammatical-info value="Preverb">
 </grammatical-info>
-<gloss lang="en"><text>IMP.NEG</text></gloss>
+<gloss lang="en"><text>DEO.NEG</text></gloss>
+<definition>
+<form lang="en"><text>Negative Deontic marker -- the speaker wishes, desires, requests, plans or intends for the action not to happen.</text></form>
+</definition>
 </sense>
 </entry>
 <entry dateCreated="2021-01-02T20:44:57Z" dateModified="2021-01-20T17:50:12Z" id="ɴǃai_21aedc1e-337b-47aa-825b-a695223e8d3f" guid="21aedc1e-337b-47aa-825b-a695223e8d3f">
@@ -562,7 +565,7 @@
 <gloss lang="en"><text>woman</text></gloss>
 </sense>
 </entry>
-<entry dateCreated="2021-01-19T11:57:47Z" dateModified="2021-01-19T18:13:00Z" id="iʇaã_2325d68e-9f1a-4db3-870c-4e212879ad7d" guid="2325d68e-9f1a-4db3-870c-4e212879ad7d">
+<entry dateCreated="2021-01-19T11:57:47Z" dateModified="2021-02-24T08:26:54Z" id="iʇaã_2325d68e-9f1a-4db3-870c-4e212879ad7d" guid="2325d68e-9f1a-4db3-870c-4e212879ad7d">
 <lexical-unit>
 <form lang="qaa"><text>iʇaã</text></form>
 </lexical-unit>
@@ -589,8 +592,16 @@
 <form lang="en"><text>lie down, be on the ground</text></form>
 </definition>
 </sense>
+<sense id="91991819-6f21-4809-8111-a80a03fc0b31" order="2">
+<grammatical-info value="Transitive verb">
+</grammatical-info>
+<gloss lang="en"><text>bury</text></gloss>
+<definition>
+<form lang="en"><text>(a dead person) bury</text></form>
+</definition>
+</sense>
 </entry>
-<entry dateCreated="2021-01-06T22:27:05Z" dateModified="2021-01-06T22:28:57Z" id="mau_2603561e-5bfc-46ca-93ae-a4c88addecc1" guid="2603561e-5bfc-46ca-93ae-a4c88addecc1">
+<entry dateCreated="2021-01-06T22:27:05Z" dateModified="2021-02-24T21:56:02Z" id="mau_2603561e-5bfc-46ca-93ae-a4c88addecc1" guid="2603561e-5bfc-46ca-93ae-a4c88addecc1">
 <lexical-unit>
 <form lang="qaa"><text>mau</text></form>
 </lexical-unit>
@@ -609,6 +620,14 @@
 <gloss lang="en"><text>act.like</text></gloss>
 <definition>
 <form lang="en"><text>(O) act like (A), makes decision or behaves according to what is expected of (A)</text></form>
+</definition>
+</sense>
+<sense id="07245c7d-48ab-494a-9ddc-2b9172e9b626" order="2">
+<grammatical-info value="Intransitive verb">
+</grammatical-info>
+<gloss lang="en"><text>pretend</text></gloss>
+<definition>
+<form lang="en"><text>(following in SVC) pretend to ..., deceive oneself or others that you are ...</text></form>
 </definition>
 </sense>
 </entry>
@@ -643,15 +662,24 @@
 </example>
 </sense>
 </entry>
-<entry dateCreated="2021-01-19T18:22:28Z" dateModified="2021-01-25T17:44:40Z" id="ɴǂṵu_29087d54-b0ff-4204-a047-71f649aafb13" guid="29087d54-b0ff-4204-a047-71f649aafb13">
+<entry dateCreated="2021-01-19T18:22:28Z" dateModified="2021-02-24T08:36:38Z" id="ɴǂṵu_29087d54-b0ff-4204-a047-71f649aafb13" guid="29087d54-b0ff-4204-a047-71f649aafb13">
 <lexical-unit>
 <form lang="qaa"><text>ɴǂṵu</text></form>
 </lexical-unit>
 <trait  name="morph-type" value="stem"/>
-<sense id="ec63327d-d9f2-4d6e-a89c-2f1b0e5c1182">
+<sense id="ec63327d-d9f2-4d6e-a89c-2f1b0e5c1182" order="0">
 <grammatical-info value="Intransitive verb">
 </grammatical-info>
 <gloss lang="en"><text>die</text></gloss>
+</sense>
+<sense id="f8796bb8-d68f-46b8-a959-5541adefa939" order="1">
+<grammatical-info value="Noun">
+</grammatical-info>
+<gloss lang="en"><text>death</text></gloss>
+<definition>
+<form lang="en"><text>death, especially personified as "Lady Death"</text></form>
+</definition>
+<relation type="Classifier" ref="9f9cc01a-8ef7-439e-ac5e-058381142916"/>
 </sense>
 </entry>
 <entry dateCreated="2021-01-21T14:42:40Z" dateModified="2021-01-25T17:46:56Z" id="la̰a_29ee2086-a78f-4310-af18-226f7a4382f7" guid="29ee2086-a78f-4310-af18-226f7a4382f7">
@@ -668,6 +696,20 @@
 </definition>
 <relation type="Classified Noun" ref="92450ee7-038f-43ba-bf4e-5119db047289"/>
 <relation type="Classified Noun" ref="548e143b-5df9-4a3d-a4b0-09a5f974c810"/>
+</sense>
+</entry>
+<entry dateCreated="2021-02-23T13:07:49Z" dateModified="2021-02-23T13:08:43Z" id="ɴǂʼa_2a4a2e9a-c2dc-4340-b2fb-fbce16175d38" guid="2a4a2e9a-c2dc-4340-b2fb-fbce16175d38">
+<lexical-unit>
+<form lang="qaa"><text>ɴǂʼa</text></form>
+</lexical-unit>
+<trait  name="morph-type" value="stem"/>
+<sense id="7aa9aa8f-ee8f-4673-a85a-3071d46cb009">
+<grammatical-info value="Transitive verb">
+</grammatical-info>
+<gloss lang="en"><text>have.sex</text></gloss>
+<definition>
+<form lang="en"><text>have sex, mate, copulate; (P) is usually the woman or passive role, and (A) or (T) is the male or active.</text></form>
+</definition>
 </sense>
 </entry>
 <entry dateCreated="2021-01-09T11:12:16Z" dateModified="2021-01-10T13:25:31Z" id="po_2e171516-2603-4081-865d-ba4eeb3208dd" guid="2e171516-2603-4081-865d-ba4eeb3208dd">
@@ -984,7 +1026,7 @@
 <gloss lang="en"><text>jump</text></gloss>
 </sense>
 </entry>
-<entry dateCreated="2021-01-08T19:32:58Z" dateModified="2021-01-28T12:41:26Z" id="ɴǃa̰a_41b60446-262f-4dec-a29d-d7d41c899959" guid="41b60446-262f-4dec-a29d-d7d41c899959">
+<entry dateCreated="2021-01-08T19:32:58Z" dateModified="2021-02-24T08:37:25Z" id="ɴǃa̰a_41b60446-262f-4dec-a29d-d7d41c899959" guid="41b60446-262f-4dec-a29d-d7d41c899959">
 <lexical-unit>
 <form lang="qaa"><text>ɴǃa̰a</text></form>
 </lexical-unit>
@@ -993,6 +1035,9 @@
 <grammatical-info value="Noun">
 </grammatical-info>
 <gloss lang="en"><text>fire</text></gloss>
+<definition>
+<form lang="en"><text>fire, firepit</text></form>
+</definition>
 </sense>
 <sense id="375be9f5-5c23-40be-abb8-0b29eb05b117" order="1">
 <grammatical-info value="Transitive verb">
@@ -1014,6 +1059,20 @@
 <gloss lang="en"><text>1S.ACC</text></gloss>
 <definition>
 <form lang="en"><text>me (ACC), to me</text></form>
+</definition>
+</sense>
+</entry>
+<entry dateCreated="2021-02-24T08:31:52Z" dateModified="2021-02-24T08:32:19Z" id="moõ_457c0b40-df66-4417-9e7c-2851b3f138b2" guid="457c0b40-df66-4417-9e7c-2851b3f138b2">
+<lexical-unit>
+<form lang="qaa"><text>moõ</text></form>
+</lexical-unit>
+<trait  name="morph-type" value="stem"/>
+<sense id="d75c1a2e-8533-449f-bf57-ccedaadaae1d">
+<grammatical-info value="Interrogative pro-form">
+</grammatical-info>
+<gloss lang="en"><text>what?</text></gloss>
+<definition>
+<form lang="en"><text>what? which?</text></form>
 </definition>
 </sense>
 </entry>
@@ -1465,25 +1524,17 @@
 <relation type="Classified Noun" ref="f976cb2e-6e1b-4aea-b573-d3183da13752"/>
 </sense>
 </entry>
-<entry dateCreated="2020-12-25T18:15:09Z" dateModified="2021-01-06T21:58:10Z" id="ʼai_626e6b48-4735-4928-9b2e-d702100235e7" guid="626e6b48-4735-4928-9b2e-d702100235e7">
+<entry dateCreated="2020-12-25T18:15:09Z" dateModified="2021-02-24T21:51:51Z" id="ʼai_626e6b48-4735-4928-9b2e-d702100235e7" guid="626e6b48-4735-4928-9b2e-d702100235e7">
 <lexical-unit>
 <form lang="qaa"><text>ʼai</text></form>
 </lexical-unit>
 <trait  name="morph-type" value="stem"/>
-<sense id="aab38c66-df2f-4742-bf2b-eb9d0a7899b9" order="0">
+<sense id="aab38c66-df2f-4742-bf2b-eb9d0a7899b9">
 <grammatical-info value="Adverb">
 </grammatical-info>
 <gloss lang="en"><text>and</text></gloss>
 <definition>
 <form lang="en"><text>and (for clauses)</text></form>
-</definition>
-</sense>
-<sense id="a6e0e05d-d16c-4353-a302-883218c24ab8" order="1">
-<grammatical-info value="Adverb">
-</grammatical-info>
-<gloss lang="en"><text>back.then</text></gloss>
-<definition>
-<form lang="en"><text>Back then, in that time, once upon a time</text></form>
 </definition>
 </sense>
 </entry>
@@ -1501,7 +1552,7 @@
 </definition>
 </sense>
 </entry>
-<entry dateCreated="2020-12-28T10:33:10Z" dateModified="2021-01-06T21:59:13Z" id="ǃa_64575d93-0b9e-4b8f-8f8a-40362b4bd02d" guid="64575d93-0b9e-4b8f-8f8a-40362b4bd02d">
+<entry dateCreated="2020-12-28T10:33:10Z" dateModified="2021-02-24T08:40:28Z" id="ǃa_64575d93-0b9e-4b8f-8f8a-40362b4bd02d" guid="64575d93-0b9e-4b8f-8f8a-40362b4bd02d">
 <lexical-unit>
 <form lang="qaa"><text>ǃa</text></form>
 </lexical-unit>
@@ -1511,7 +1562,7 @@
 </grammatical-info>
 <gloss lang="en"><text>1S.ERG</text></gloss>
 <definition>
-<form lang="en"><text>I (ERG), me, to me</text></form>
+<form lang="en"><text>I (ERG), me, from me, because of mes</text></form>
 </definition>
 </sense>
 </entry>
@@ -1560,6 +1611,20 @@
 <gloss lang="en"><text>groove</text></gloss>
 <definition>
 <form lang="en"><text>groove, incision, indented strip</text></form>
+</definition>
+</sense>
+</entry>
+<entry dateCreated="2021-02-24T08:20:28Z" dateModified="2021-02-24T08:25:08Z" id="ṇe_6fb1e01b-1281-45ea-b138-6475eaaffb01" guid="6fb1e01b-1281-45ea-b138-6475eaaffb01">
+<lexical-unit>
+<form lang="qaa"><text>ṇe</text></form>
+</lexical-unit>
+<trait  name="morph-type" value="stem"/>
+<sense id="a7623f03-1db6-4d2e-874d-a1be3b7962c0">
+<grammatical-info value="Preverb">
+</grammatical-info>
+<gloss lang="en"><text>DEO</text></gloss>
+<definition>
+<form lang="en"><text>Positive DEO marker -- the speaker wishes, requests, desires or intends for the action to happen.</text></form>
 </definition>
 </sense>
 </entry>
@@ -1669,6 +1734,28 @@
 <grammatical-info value="Noun">
 </grammatical-info>
 <gloss lang="en"><text>wail</text></gloss>
+</sense>
+</entry>
+<entry dateCreated="2021-02-24T08:17:37Z" dateModified="2021-02-24T08:19:54Z" id="la̰ʼã_78d91749-1b1a-458b-97ae-2409689cd819" guid="78d91749-1b1a-458b-97ae-2409689cd819">
+<lexical-unit>
+<form lang="qaa"><text>la̰ʼã</text></form>
+</lexical-unit>
+<trait  name="morph-type" value="stem"/>
+<sense id="7636c19e-de10-4252-bbfa-f826e8ff4447" order="0">
+<grammatical-info value="Transitive verb">
+</grammatical-info>
+<gloss lang="en"><text>disgust</text></gloss>
+<definition>
+<form lang="en"><text>disgust, repulse, cause nausea to, cause to vomit, disturb, distress</text></form>
+</definition>
+</sense>
+<sense id="36f2d84b-2e3d-469c-8ce9-3ce2e3a93a40" order="1">
+<grammatical-info value="Intransitive verb">
+</grammatical-info>
+<gloss lang="en"><text>be.disgusted</text></gloss>
+<definition>
+<form lang="en"><text>be disgusted, nauseous, sick</text></form>
+</definition>
 </sense>
 </entry>
 <entry dateCreated="2020-12-26T00:42:12Z" dateModified="2020-12-30T15:15:15Z" id="ǂa_7926bc23-c0c1-412b-ae96-2dcc9e2bd571" guid="7926bc23-c0c1-412b-ae96-2dcc9e2bd571">
@@ -1898,7 +1985,7 @@
 <gloss lang="en"><text>four</text></gloss>
 </sense>
 </entry>
-<entry dateCreated="2020-12-25T16:11:22Z" dateModified="2021-01-27T19:31:06Z" id="ǂṵʼu_8582ae1a-caf7-46f9-8518-8bfb7a742c34" guid="8582ae1a-caf7-46f9-8518-8bfb7a742c34">
+<entry dateCreated="2020-12-25T16:11:22Z" dateModified="2021-02-24T22:05:35Z" id="ǂṵʼu_8582ae1a-caf7-46f9-8518-8bfb7a742c34" guid="8582ae1a-caf7-46f9-8518-8bfb7a742c34">
 <lexical-unit>
 <form lang="qaa"><text>ǂṵʼu</text></form>
 </lexical-unit>
@@ -1907,6 +1994,9 @@
 <grammatical-info value="Noun">
 </grammatical-info>
 <gloss lang="en"><text>sun</text></gloss>
+<definition>
+<form lang="en"><text>the sun, sunlight, daylight, the daytime sky</text></form>
+</definition>
 <relation type="Classifier" ref="1173ba4d-c7e5-4527-826b-6a2424c737bd"/>
 </sense>
 </entry>
@@ -2390,8 +2480,8 @@
 <grammatical-info value="Noun">
 </grammatical-info>
 <gloss lang="en"><text>tooth</text></gloss>
-<relation type="Classifier" ref="0ded4fde-8c3a-4942-a8c8-08630d0cd9a8"/>
 <relation type="Classifier" ref="91404622-4d79-4582-845f-00fddeb93b36"/>
+<relation type="Classifier" ref="0ded4fde-8c3a-4942-a8c8-08630d0cd9a8"/>
 </sense>
 </entry>
 <entry dateCreated="2021-01-28T12:51:03Z" dateModified="2021-01-28T12:51:03Z" id="ǂa̰m_a9cab276-8ae0-480e-9954-f88bd2ec1e06" guid="a9cab276-8ae0-480e-9954-f88bd2ec1e06">
@@ -2560,6 +2650,20 @@
 </grammatical-info>
 </sense>
 </entry>
+<entry dateCreated="2021-02-24T08:27:37Z" dateModified="2021-02-24T08:27:55Z" id="ǃope_b77dca48-8939-4968-8146-d44f9b206ab2" guid="b77dca48-8939-4968-8146-d44f9b206ab2">
+<lexical-unit>
+<form lang="qaa"><text>ǃope</text></form>
+</lexical-unit>
+<trait  name="morph-type" value="stem"/>
+<sense id="4f2de79f-fdd5-4e6a-9365-4f5076bc5910">
+<grammatical-info value="Transitive verb">
+</grammatical-info>
+<gloss lang="en"><text>kill</text></gloss>
+<definition>
+<form lang="en"><text>kill, slay, murder</text></form>
+</definition>
+</sense>
+</entry>
 <entry dateCreated="2020-12-31T17:07:53Z" dateModified="2021-01-25T17:46:56Z" id="iɴǁa̰a_b8c4d843-f317-44a7-abec-b01dd4b6eca6" guid="b8c4d843-f317-44a7-abec-b01dd4b6eca6">
 <lexical-unit>
 <form lang="qaa"><text>iɴǁa̰a</text></form>
@@ -2602,6 +2706,20 @@
 <grammatical-info value="Cardinal numeral">
 </grammatical-info>
 <gloss lang="en"><text>six</text></gloss>
+</sense>
+</entry>
+<entry dateCreated="2021-02-23T13:07:03Z" dateModified="2021-02-23T13:07:26Z" id="ɴǂʼɴǂʼa_bc245c49-d059-4169-845c-3e28a47d8d77" guid="bc245c49-d059-4169-845c-3e28a47d8d77">
+<lexical-unit>
+<form lang="qaa"><text>ɴǂʼɴǂʼa</text></form>
+</lexical-unit>
+<trait  name="morph-type" value="stem"/>
+<sense id="3129e47a-5b34-40aa-80cc-09e432081185">
+<grammatical-info value="Intransitive verb">
+</grammatical-info>
+<gloss lang="en"><text>have.sex</text></gloss>
+<definition>
+<form lang="en"><text>(of multiple people) have sex with eachother</text></form>
+</definition>
 </sense>
 </entry>
 <entry dateCreated="2021-01-05T02:43:49Z" dateModified="2021-01-25T17:46:56Z" id="aɴǂa̰i_bc2f0ec3-340d-431f-b1fd-25c03544a4ba" guid="bc2f0ec3-340d-431f-b1fd-25c03544a4ba">
@@ -3047,6 +3165,23 @@
 <relation type="Classifier" ref="fbeb121e-557c-4143-921b-803b1eb12232"/>
 </sense>
 </entry>
+<entry dateCreated="2021-02-24T08:33:31Z" dateModified="2021-02-24T08:33:48Z" id="moõ ǃoi_df9080d7-25e2-4d9c-8cc7-03737fda60e6" guid="df9080d7-25e2-4d9c-8cc7-03737fda60e6">
+<lexical-unit>
+<form lang="qaa"><text>moõ ǃoi</text></form>
+</lexical-unit>
+<trait  name="morph-type" value="phrase"/>
+<relation type="_component-lexeme" ref="">
+<trait  name="complex-form-type" value="Unspecified Complex Form"/>
+</relation>
+<sense id="aa2b96dc-e6d3-42a0-a6ac-a6de48cd6b23">
+<grammatical-info value="Interrogative pro-form">
+</grammatical-info>
+<gloss lang="en"><text>why?</text></gloss>
+<definition>
+<form lang="en"><text>Why? To which end or purpose?</text></form>
+</definition>
+</sense>
+</entry>
 <entry dateCreated="2021-01-28T12:50:30Z" dateModified="2021-01-28T12:50:30Z" id="ǃqʼoa_e062d7ee-1bf1-4854-b7bb-4e5db2256497" guid="e062d7ee-1bf1-4854-b7bb-4e5db2256497">
 <lexical-unit>
 <form lang="qaa"><text>ǃqʼoa</text></form>
@@ -3329,22 +3464,33 @@
 </definition>
 </sense>
 </entry>
-<entry dateCreated="2021-01-03T10:49:46Z" dateModified="2021-01-06T00:27:19Z" id="ʼa_ed4134d8-64f1-4d64-96fe-48397082e927" guid="ed4134d8-64f1-4d64-96fe-48397082e927">
+<entry dateCreated="2021-01-03T10:49:46Z" dateModified="2021-02-24T21:51:15Z" id="ʼa_ed4134d8-64f1-4d64-96fe-48397082e927" guid="ed4134d8-64f1-4d64-96fe-48397082e927">
 <lexical-unit>
 <form lang="qaa"><text>ʼa</text></form>
 </lexical-unit>
 <trait  name="morph-type" value="stem"/>
-<sense id="856cfc9a-152b-4a76-9b1e-6dc6713e5d1c" order="0">
-<grammatical-info value="Postposition">
-</grammatical-info>
-<gloss lang="en"><text>ERG</text></gloss>
-</sense>
-<sense id="cd7e48ea-d042-4adf-bbb4-24b013c4d5d4" order="1">
+<sense id="cd7e48ea-d042-4adf-bbb4-24b013c4d5d4" order="0">
 <grammatical-info value="Postposition">
 </grammatical-info>
 <gloss lang="en"><text>from</text></gloss>
 <definition>
 <form lang="en"><text>ABL, coming from, originating from, created by, moving away from</text></form>
+</definition>
+</sense>
+<sense id="43dd36fd-ba7f-4212-8655-dfb6c65d7224" order="1">
+<grammatical-info value="Postposition">
+</grammatical-info>
+<gloss lang="en"><text>because.of</text></gloss>
+<definition>
+<form lang="en"><text>causative marker, denotes causer of the action</text></form>
+</definition>
+</sense>
+<sense id="856cfc9a-152b-4a76-9b1e-6dc6713e5d1c" order="2">
+<grammatical-info value="Postposition">
+</grammatical-info>
+<gloss lang="en"><text>ERG</text></gloss>
+<definition>
+<form lang="en"><text>emphatic ergative marker</text></form>
 </definition>
 </sense>
 </entry>
@@ -3435,7 +3581,7 @@
 <gloss lang="en"><text>nine</text></gloss>
 </sense>
 </entry>
-<entry dateCreated="2021-02-03T08:08:30Z" dateModified="2021-02-03T08:09:21Z" id="mḛʼe_f7fec7be-af69-402d-ae72-d8eae6fe7d74" guid="f7fec7be-af69-402d-ae72-d8eae6fe7d74">
+<entry dateCreated="2021-02-03T08:08:30Z" dateModified="2021-02-24T22:02:21Z" id="mḛʼe_f7fec7be-af69-402d-ae72-d8eae6fe7d74" guid="f7fec7be-af69-402d-ae72-d8eae6fe7d74">
 <lexical-unit>
 <form lang="qaa"><text>mḛʼe</text></form>
 </lexical-unit>
@@ -3445,8 +3591,9 @@
 </grammatical-info>
 <gloss lang="en"><text>young.women</text></gloss>
 <definition>
-<form lang="en"><text>young childless women, girls who have started menstruating</text></form>
+<form lang="en"><text>young childless women, girls who have started menstruating but are yet to be married</text></form>
 </definition>
+<relation type="Classified Noun" ref="f8796bb8-d68f-46b8-a959-5541adefa939"/>
 </sense>
 </entry>
 <entry dateCreated="2020-12-27T15:18:58Z" dateModified="2021-02-07T11:33:36Z" id="ɬǁa_f879c042-6284-48ac-b1ed-0b922e0015c4" guid="f879c042-6284-48ac-b1ed-0b922e0015c4">
@@ -3661,6 +3808,23 @@
 <grammatical-info value="Cardinal numeral">
 </grammatical-info>
 <gloss lang="en"><text>few</text></gloss>
+</sense>
+</entry>
+<entry dateCreated="2021-02-24T21:58:28Z" dateModified="2021-02-24T21:59:21Z" id="ʼa ... ɴǁoi_493f4965-e9c4-49eb-a34a-d5dbce9aa49d" guid="493f4965-e9c4-49eb-a34a-d5dbce9aa49d">
+<lexical-unit>
+<form lang="qaa"><text>ʼa ... ɴǁoi</text></form>
+</lexical-unit>
+<trait  name="morph-type" value="phrase"/>
+<relation type="_component-lexeme" ref="">
+<trait  name="complex-form-type" value="Unspecified Complex Form"/>
+</relation>
+<sense id="54571c66-ff87-4639-97b6-df30649803c9">
+<grammatical-info value="Transitive verb">
+</grammatical-info>
+<gloss lang="en"><text>allow</text></gloss>
+<definition>
+<form lang="en"><text>allow, permit, facilitate, (A) allow (O) to ... (lit. because of (A), (O) can ...)</text></form>
+</definition>
 </sense>
 </entry>
 </lift>
