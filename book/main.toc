@@ -7,37 +7,38 @@
 \contentsline {subsection}{\numberline {1.2.2}Pulmonics}{14}{subsection.1.2.2}% 
 \contentsline {subsection}{\numberline {1.2.3}Clicks}{16}{subsection.1.2.3}% 
 \contentsline {section}{\numberline {1.3}Phonotactics}{21}{section.1.3}% 
-\contentsline {subsection}{\numberline {1.3.1}Back vowel constraint}{21}{subsection.1.3.1}% 
-\contentsline {subsection}{\numberline {1.3.2}U Unrounding}{22}{subsection.1.3.2}% 
-\contentsline {subsection}{\numberline {1.3.3}Syllable structure and articulatory constraints}{22}{subsection.1.3.3}% 
-\contentsline {subsection}{\numberline {1.3.4}Word structure and stress}{23}{subsection.1.3.4}% 
-\contentsline {subsection}{\numberline {1.3.5}Irregular words and reduplication}{24}{subsection.1.3.5}% 
-\contentsline {subsection}{\numberline {1.3.6}Sandhi Rules}{25}{subsection.1.3.6}% 
-\contentsline {subsection}{\numberline {1.3.7}Click-Pulmonic Harmony}{26}{subsection.1.3.7}% 
-\contentsline {section}{\numberline {1.4}Notes on Orthography}{27}{section.1.4}% 
-\contentsline {chapter}{\numberline {2}Grammar}{29}{chapter.2}% 
-\contentsline {section}{\numberline {2.1}The Noun Phrase}{29}{section.2.1}% 
-\contentsline {subsection}{\numberline {2.1.1}Possession and adjectives}{31}{subsection.2.1.1}% 
-\contentsline {subsection}{\numberline {2.1.2}Nominalisation}{32}{subsection.2.1.2}% 
-\contentsline {section}{\numberline {2.2}Alignment and Coordination}{32}{section.2.2}% 
-\contentsline {subsection}{\numberline {2.2.1}Secundativity and ditransitives}{34}{subsection.2.2.1}% 
-\contentsline {subsection}{\numberline {2.2.2}Causatives}{35}{subsection.2.2.2}% 
-\contentsline {section}{\numberline {2.3}Copula}{36}{section.2.3}% 
-\contentsline {section}{\numberline {2.4}Verbal voices}{36}{section.2.4}% 
-\contentsline {section}{\numberline {2.5}Pronouns}{38}{section.2.5}% 
-\contentsline {subsection}{\numberline {2.5.1}Personal Pronouns}{38}{subsection.2.5.1}% 
-\contentsline {subsubsection}{Classifiers are the 3rd person pronouns}{39}{section*.2}% 
-\contentsline {subsection}{\numberline {2.5.2}Demonstrative Pronouns}{39}{subsection.2.5.2}% 
-\contentsline {section}{\numberline {2.6}Relative Clauses}{39}{section.2.6}% 
-\contentsline {section}{\numberline {2.7}Serial Verb Constructions}{40}{section.2.7}% 
-\contentsline {section}{\numberline {2.8}Imperatives and Polarity}{43}{section.2.8}% 
-\contentsline {section}{\numberline {2.9}Interrogatives}{43}{section.2.9}% 
-\contentsline {section}{\numberline {2.10}Topic-Comment}{43}{section.2.10}% 
-\contentsline {chapter}{\numberline {3}Corpus}{45}{chapter.3}% 
-\contentsline {section}{\numberline {3.1}Sun-Tongue and the Night}{45}{section.3.1}% 
-\contentsline {section}{\numberline {3.2}The North Wind and the Sun}{46}{section.3.2}% 
-\contentsline {chapter}{\numberline {4}Lexicon}{49}{chapter.4}% 
-\contentsline {section}{\numberline {4.1}Basic Classifier Taxonomy}{49}{section.4.1}% 
-\contentsline {section}{\numberline {4.2}Greetings and idioms}{50}{section.4.2}% 
-\contentsline {section}{\numberline {4.3}Numerals}{51}{section.4.3}% 
-\contentsline {section}{\numberline {4.4}Dictionary}{52}{section.4.4}% 
+\contentsline {subsection}{\numberline {1.3.1}Back vowel constraint}{22}{subsection.1.3.1}% 
+\contentsline {subsection}{\numberline {1.3.2}U Unrounding}{23}{subsection.1.3.2}% 
+\contentsline {subsection}{\numberline {1.3.3}Syllable structure and articulatory constraints}{23}{subsection.1.3.3}% 
+\contentsline {subsection}{\numberline {1.3.4}Affricate and rhotic clicks}{24}{subsection.1.3.4}% 
+\contentsline {subsection}{\numberline {1.3.5}Word structure and stress}{25}{subsection.1.3.5}% 
+\contentsline {subsection}{\numberline {1.3.6}Irregular words and reduplication}{26}{subsection.1.3.6}% 
+\contentsline {subsection}{\numberline {1.3.7}Sandhi Rules}{26}{subsection.1.3.7}% 
+\contentsline {subsection}{\numberline {1.3.8}Click-Pulmonic Harmony}{27}{subsection.1.3.8}% 
+\contentsline {section}{\numberline {1.4}Notes on Orthography}{29}{section.1.4}% 
+\contentsline {chapter}{\numberline {2}Grammar}{31}{chapter.2}% 
+\contentsline {section}{\numberline {2.1}The Noun Phrase}{31}{section.2.1}% 
+\contentsline {subsection}{\numberline {2.1.1}Possession and adjectives}{33}{subsection.2.1.1}% 
+\contentsline {subsection}{\numberline {2.1.2}Nominalisation}{34}{subsection.2.1.2}% 
+\contentsline {section}{\numberline {2.2}Alignment and Coordination}{34}{section.2.2}% 
+\contentsline {subsection}{\numberline {2.2.1}Secundativity and ditransitives}{36}{subsection.2.2.1}% 
+\contentsline {subsection}{\numberline {2.2.2}Causatives}{37}{subsection.2.2.2}% 
+\contentsline {section}{\numberline {2.3}Copula}{38}{section.2.3}% 
+\contentsline {section}{\numberline {2.4}Verbal voices}{38}{section.2.4}% 
+\contentsline {section}{\numberline {2.5}Pronouns}{40}{section.2.5}% 
+\contentsline {subsection}{\numberline {2.5.1}Personal Pronouns}{40}{subsection.2.5.1}% 
+\contentsline {subsubsection}{Classifiers are the 3rd person pronouns}{41}{section*.2}% 
+\contentsline {subsection}{\numberline {2.5.2}Demonstrative Pronouns}{41}{subsection.2.5.2}% 
+\contentsline {section}{\numberline {2.6}Relative Clauses}{41}{section.2.6}% 
+\contentsline {section}{\numberline {2.7}Serial Verb Constructions}{42}{section.2.7}% 
+\contentsline {section}{\numberline {2.8}Imperatives and Polarity}{45}{section.2.8}% 
+\contentsline {section}{\numberline {2.9}Interrogatives}{45}{section.2.9}% 
+\contentsline {section}{\numberline {2.10}Topic-Comment}{45}{section.2.10}% 
+\contentsline {chapter}{\numberline {3}Corpus}{47}{chapter.3}% 
+\contentsline {section}{\numberline {3.1}Sun-Tongue and the Night}{47}{section.3.1}% 
+\contentsline {section}{\numberline {3.2}The North Wind and the Sun}{48}{section.3.2}% 
+\contentsline {chapter}{\numberline {4}Lexicon}{51}{chapter.4}% 
+\contentsline {section}{\numberline {4.1}Basic Classifier Taxonomy}{51}{section.4.1}% 
+\contentsline {section}{\numberline {4.2}Greetings and idioms}{52}{section.4.2}% 
+\contentsline {section}{\numberline {4.3}Numerals}{53}{section.4.3}% 
+\contentsline {section}{\numberline {4.4}Dictionary}{54}{section.4.4}% 
